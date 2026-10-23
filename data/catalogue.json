@@ -1,0 +1,3289 @@
+[
+ {
+  "product_id": "KIT-001",
+  "title": "3-Piece Stainless Steel Egg Separator Set",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Baking & Pastry",
+  "product_type": "egg_separator",
+  "price_pkr": 690,
+  "stock_qty": 11,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel 304",
+   "pieces": "3",
+   "dishwasher_safe": "Yes",
+   "size": "Approx. 9 cm diameter"
+  },
+  "description": "3-Piece Stainless Steel Egg Separator Set. Material: Stainless steel 304; Pieces: 3; Dishwasher safe: Yes; Size: Approx. 9 cm diameter. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-002",
+  "title": "Silicone Egg Yolk Separator, Food-Grade",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Baking & Pastry",
+  "product_type": "egg_separator",
+  "price_pkr": 380,
+  "stock_qty": 36,
+  "in_stock": true,
+  "attributes": {
+   "material": "Food-grade silicone",
+   "colour": "Yellow",
+   "dishwasher_safe": "Yes"
+  },
+  "description": "Silicone Egg Yolk Separator, Food-Grade. Material: Food-grade silicone; Colour: Yellow; Dishwasher safe: Yes."
+ },
+ {
+  "product_id": "KIT-003",
+  "title": "Adjustable Mandoline with 5 Thickness Settings",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "mandoline_slicer",
+  "price_pkr": 3450,
+  "stock_qty": 19,
+  "in_stock": true,
+  "attributes": {
+   "material": "ABS body, stainless steel blades",
+   "settings": "5 thickness levels, julienne insert",
+   "includes": "Hand guard"
+  },
+  "description": "Adjustable Mandoline with 5 Thickness Settings. Material: ABS body, stainless steel blades; Settings: 5 thickness levels, julienne insert; Includes: Hand guard. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-004",
+  "title": "Compact V-Blade Mandoline, 3 Inserts",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "mandoline_slicer",
+  "price_pkr": 1890,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "material": "PP plastic, stainless steel V-blade",
+   "inserts": "3"
+  },
+  "description": "Compact V-Blade Mandoline, 3 Inserts. Material: PP plastic, stainless steel V-blade; Inserts: 3."
+ },
+ {
+  "product_id": "KIT-005",
+  "title": "Heavy-Duty Zinc Alloy Garlic Press",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "garlic_press",
+  "price_pkr": 1150,
+  "stock_qty": 59,
+  "in_stock": true,
+  "attributes": {
+   "material": "Zinc alloy",
+   "finish": "Chrome",
+   "length": "18 cm"
+  },
+  "description": "Heavy-Duty Zinc Alloy Garlic Press. Material: Zinc alloy; Finish: Chrome; Length: 18 cm. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-006",
+  "title": "Rocker Garlic Crusher, Stainless Steel",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "garlic_press",
+  "price_pkr": 890,
+  "stock_qty": 32,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel",
+   "shape": "Curved rocker",
+   "length": "13 cm"
+  },
+  "description": "Rocker Garlic Crusher, Stainless Steel. Material: Stainless steel; Shape: Curved rocker; Length: 13 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-007",
+  "title": "Stainless Steel Bench Scraper with Measuring Edge",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Baking & Pastry",
+  "product_type": "bench_scraper",
+  "price_pkr": 650,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "material": "Stainless steel blade, wooden handle",
+   "blade": "15 x 11 cm",
+   "markings": "Inch and cm scale"
+  },
+  "description": "Stainless Steel Bench Scraper with Measuring Edge. Material: Stainless steel blade, wooden handle; Blade: 15 x 11 cm; Markings: Inch and cm scale. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-008",
+  "title": "Flexible Plastic Bowl Scraper, Set of 2",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Baking & Pastry",
+  "product_type": "bench_scraper",
+  "price_pkr": 290,
+  "stock_qty": 23,
+  "in_stock": true,
+  "attributes": {
+   "material": "Food-grade PP",
+   "pieces": "2",
+   "edge": "One curved, one straight"
+  },
+  "description": "Flexible Plastic Bowl Scraper, Set of 2. Material: Food-grade PP; Pieces: 2; Edge: One curved, one straight."
+ },
+ {
+  "product_id": "KIT-009",
+  "title": "5-Litre Salad Spinner with Pump Mechanism",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "salad_spinner",
+  "price_pkr": 2650,
+  "stock_qty": 51,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "5 L",
+   "material": "BPA-free plastic",
+   "mechanism": "Push pump with brake"
+  },
+  "description": "5-Litre Salad Spinner with Pump Mechanism. Capacity: 5 L; Material: BPA-free plastic; Mechanism: Push pump with brake."
+ },
+ {
+  "product_id": "KIT-010",
+  "title": "3-Litre Crank Salad Spinner",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "salad_spinner",
+  "price_pkr": 1490,
+  "stock_qty": 16,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "3 L",
+   "material": "PP plastic",
+   "mechanism": "Side crank handle"
+  },
+  "description": "3-Litre Crank Salad Spinner. Capacity: 3 L; Material: PP plastic; Mechanism: Side crank handle."
+ },
+ {
+  "product_id": "KIT-011",
+  "title": "Stainless Steel Spider Strainer, 16 cm",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "spider_strainer",
+  "price_pkr": 750,
+  "stock_qty": 60,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel wire mesh",
+   "basket": "16 cm",
+   "handle": "38 cm"
+  },
+  "description": "Stainless Steel Spider Strainer, 16 cm. Material: Stainless steel wire mesh; Basket: 16 cm; Handle: 38 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-012",
+  "title": "Brass Wire Skimmer with Bamboo Handle",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "spider_strainer",
+  "price_pkr": 980,
+  "stock_qty": 17,
+  "in_stock": true,
+  "attributes": {
+   "material": "Brass wire, bamboo handle",
+   "basket": "14 cm"
+  },
+  "description": "Brass Wire Skimmer with Bamboo Handle. Material: Brass wire, bamboo handle; Basket: 14 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-013",
+  "title": "Fine Mesh Conical Strainer (Chinois), 20 cm",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "fine_mesh_strainer",
+  "price_pkr": 1690,
+  "stock_qty": 23,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel 18/8",
+   "mesh": "Extra fine",
+   "diameter": "20 cm"
+  },
+  "description": "Fine Mesh Conical Strainer (Chinois), 20 cm. Material: Stainless steel 18/8; Mesh: Extra fine; Diameter: 20 cm."
+ },
+ {
+  "product_id": "KIT-014",
+  "title": "Double Mesh Strainer Set of 3",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "fine_mesh_strainer",
+  "price_pkr": 1250,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "material": "Stainless steel",
+   "sizes": "8, 14, 20 cm",
+   "pieces": "3"
+  },
+  "description": "Double Mesh Strainer Set of 3. Material: Stainless steel; Sizes: 8, 14, 20 cm; Pieces: 3."
+ },
+ {
+  "product_id": "KIT-015",
+  "title": "Cast Iron Tawa, 12 inch",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "tawa",
+  "price_pkr": 2350,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "material": "Pre-seasoned cast iron",
+   "diameter": "12 in",
+   "weight": "2.1 kg"
+  },
+  "description": "Cast Iron Tawa, 12 inch. Material: Pre-seasoned cast iron; Diameter: 12 in; Weight: 2.1 kg."
+ },
+ {
+  "product_id": "KIT-016",
+  "title": "Non-Stick Concave Tawa, 11 inch",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "tawa",
+  "price_pkr": 1850,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "material": "Aluminium, 3-layer non-stick coating",
+   "diameter": "11 in",
+   "induction": "No"
+  },
+  "description": "Non-Stick Concave Tawa, 11 inch. Material: Aluminium, 3-layer non-stick coating; Diameter: 11 in; Induction: No."
+ },
+ {
+  "product_id": "KIT-017",
+  "title": "Granite-Coated Flat Tawa, 12 inch, Induction Base",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "tawa",
+  "price_pkr": 3290,
+  "stock_qty": 3,
+  "in_stock": true,
+  "attributes": {
+   "material": "Aluminium, granite coating",
+   "diameter": "12 in",
+   "induction": "Yes"
+  },
+  "description": "Granite-Coated Flat Tawa, 12 inch, Induction Base. Material: Aluminium, granite coating; Diameter: 12 in; Induction: Yes."
+ },
+ {
+  "product_id": "KIT-018",
+  "title": "Iron Karahi with Two Handles, 10 inch",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "karahi",
+  "price_pkr": 2150,
+  "stock_qty": 19,
+  "in_stock": true,
+  "attributes": {
+   "material": "Black iron",
+   "diameter": "10 in",
+   "handles": "2 riveted"
+  },
+  "description": "Iron Karahi with Two Handles, 10 inch. Material: Black iron; Diameter: 10 in; Handles: 2 riveted."
+ },
+ {
+  "product_id": "KIT-019",
+  "title": "Non-Stick Karahi with Glass Lid, 26 cm",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "karahi",
+  "price_pkr": 4250,
+  "stock_qty": 9,
+  "in_stock": true,
+  "attributes": {
+   "material": "Aluminium, non-stick",
+   "diameter": "26 cm",
+   "lid": "Tempered glass"
+  },
+  "description": "Non-Stick Karahi with Glass Lid, 26 cm. Material: Aluminium, non-stick; Diameter: 26 cm; Lid: Tempered glass."
+ },
+ {
+  "product_id": "KIT-020",
+  "title": "Aluminium Pressure Cooker, 5 Litre",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "pressure_cooker",
+  "price_pkr": 5950,
+  "stock_qty": 20,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "5 L",
+   "material": "Hard aluminium",
+   "safety": "Weight valve + safety plug"
+  },
+  "description": "Aluminium Pressure Cooker, 5 Litre. Capacity: 5 L; Material: Hard aluminium; Safety: Weight valve + safety plug. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-021",
+  "title": "Stainless Steel Pressure Cooker, 7 Litre, Induction Base",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "pressure_cooker",
+  "price_pkr": 11900,
+  "stock_qty": 3,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "7 L",
+   "material": "Stainless steel 304, tri-ply base",
+   "induction": "Yes"
+  },
+  "description": "Stainless Steel Pressure Cooker, 7 Litre, Induction Base. Capacity: 7 L; Material: Stainless steel 304, tri-ply base; Induction: Yes."
+ },
+ {
+  "product_id": "KIT-022",
+  "title": "Mini Pressure Cooker, 3 Litre",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Cookware",
+  "product_type": "pressure_cooker",
+  "price_pkr": 4350,
+  "stock_qty": 42,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "3 L",
+   "material": "Hard aluminium",
+   "safety": "Gasket release window"
+  },
+  "description": "Mini Pressure Cooker, 3 Litre. Capacity: 3 L; Material: Hard aluminium; Safety: Gasket release window. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-023",
+  "title": "Masala Dabba, 7 Bowls with Spoon, Stainless Steel",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Storage Jars",
+  "product_type": "masala_dabba",
+  "price_pkr": 2450,
+  "stock_qty": 60,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel",
+   "bowls": "7",
+   "includes": "Small spoon, see-through lid"
+  },
+  "description": "Masala Dabba, 7 Bowls with Spoon, Stainless Steel. Material: Stainless steel; Bowls: 7; Includes: Small spoon, see-through lid."
+ },
+ {
+  "product_id": "KIT-024",
+  "title": "Wooden Masala Box with 9 Glass Jars",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Storage Jars",
+  "product_type": "masala_dabba",
+  "price_pkr": 3650,
+  "stock_qty": 3,
+  "in_stock": true,
+  "attributes": {
+   "material": "Acacia wood, glass",
+   "jars": "9",
+   "lid": "Sliding wooden lid"
+  },
+  "description": "Wooden Masala Box with 9 Glass Jars. Material: Acacia wood, glass; Jars: 9; Lid: Sliding wooden lid."
+ },
+ {
+  "product_id": "KIT-025",
+  "title": "Wooden Hand Churner (Madhani), 45 cm",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "madhani",
+  "price_pkr": 650,
+  "stock_qty": 38,
+  "in_stock": true,
+  "attributes": {
+   "material": "Sheesham wood",
+   "length": "45 cm",
+   "head": "Star-shaped"
+  },
+  "description": "Wooden Hand Churner (Madhani), 45 cm. Material: Sheesham wood; Length: 45 cm; Head: Star-shaped. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-026",
+  "title": "Steel Chimta, Flat 14 inch",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "kitchen_tongs",
+  "price_pkr": 390,
+  "stock_qty": 10,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel",
+   "length": "14 in",
+   "style": "Flat traditional"
+  },
+  "description": "Steel Chimta, Flat 14 inch. Material: Stainless steel; Length: 14 in; Style: Flat traditional. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-027",
+  "title": "Silicone-Tipped Locking Tongs, Set of 2",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "kitchen_tongs",
+  "price_pkr": 1150,
+  "stock_qty": 59,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel, silicone tips",
+   "sizes": "9 and 12 in",
+   "lock": "Pull ring"
+  },
+  "description": "Silicone-Tipped Locking Tongs, Set of 2. Material: Stainless steel, silicone tips; Sizes: 9 and 12 in; Lock: Pull ring. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-028",
+  "title": "Marble Mortar and Pestle, 12 cm",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "mortar_pestle",
+  "price_pkr": 1950,
+  "stock_qty": 2,
+  "in_stock": true,
+  "attributes": {
+   "material": "Polished marble",
+   "diameter": "12 cm",
+   "weight": "1.6 kg"
+  },
+  "description": "Marble Mortar and Pestle, 12 cm. Material: Polished marble; Diameter: 12 cm; Weight: 1.6 kg."
+ },
+ {
+  "product_id": "KIT-029",
+  "title": "Brass Hamam Dasta, Medium",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "mortar_pestle",
+  "price_pkr": 3850,
+  "stock_qty": 29,
+  "in_stock": true,
+  "attributes": {
+   "material": "Solid brass",
+   "height": "10 cm",
+   "weight": "1.4 kg"
+  },
+  "description": "Brass Hamam Dasta, Medium. Material: Solid brass; Height: 10 cm; Weight: 1.4 kg."
+ },
+ {
+  "product_id": "KIT-030",
+  "title": "Fine Rasp Grater with Soft Grip",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "rasp_grater",
+  "price_pkr": 1250,
+  "stock_qty": 27,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel photo-etched blade",
+   "length": "30 cm",
+   "includes": "Blade cover"
+  },
+  "description": "Fine Rasp Grater with Soft Grip. Material: Stainless steel photo-etched blade; Length: 30 cm; Includes: Blade cover. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-031",
+  "title": "4-Sided Box Grater",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "rasp_grater",
+  "price_pkr": 890,
+  "stock_qty": 56,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel",
+   "sides": "4 (fine, medium, coarse, slicer)",
+   "height": "24 cm"
+  },
+  "description": "4-Sided Box Grater. Material: Stainless steel; Sides: 4 (fine, medium, coarse, slicer); Height: 24 cm. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-032",
+  "title": "Under-Cabinet Jar Opener, Adjustable",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "jar_opener",
+  "price_pkr": 990,
+  "stock_qty": 60,
+  "in_stock": true,
+  "attributes": {
+   "material": "ABS plastic, steel teeth",
+   "mounting": "Screw-mount",
+   "fits": "2-10 cm lids"
+  },
+  "description": "Under-Cabinet Jar Opener, Adjustable. Material: ABS plastic, steel teeth; Mounting: Screw-mount; Fits: 2-10 cm lids. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-033",
+  "title": "Rubber Grip Lid Opener Pads, Set of 4",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "jar_opener",
+  "price_pkr": 350,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "material": "Silicone rubber",
+   "pieces": "4",
+   "diameter": "13 cm"
+  },
+  "description": "Rubber Grip Lid Opener Pads, Set of 4. Material: Silicone rubber; Pieces: 4; Diameter: 13 cm. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-034",
+  "title": "Glass Oil Dispenser Bottle, 500 ml with Drip-Free Spout",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Storage Jars",
+  "product_type": "oil_dispenser",
+  "price_pkr": 790,
+  "stock_qty": 56,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "500 ml",
+   "material": "Borosilicate glass, steel spout"
+  },
+  "description": "Glass Oil Dispenser Bottle, 500 ml with Drip-Free Spout. Capacity: 500 ml; Material: Borosilicate glass, steel spout. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-035",
+  "title": "Oil Mister Spray Bottle, 200 ml",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Storage Jars",
+  "product_type": "oil_dispenser",
+  "price_pkr": 1150,
+  "stock_qty": 49,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "200 ml",
+   "material": "Glass, pump spray nozzle",
+   "output": "Fine mist"
+  },
+  "description": "Oil Mister Spray Bottle, 200 ml. Capacity: 200 ml; Material: Glass, pump spray nozzle; Output: Fine mist. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-036",
+  "title": "Digital Kitchen Scale, 5 kg / 1 g",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Measuring",
+  "product_type": "kitchen_scale",
+  "price_pkr": 1650,
+  "stock_qty": 38,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "5 kg",
+   "accuracy": "1 g",
+   "display": "LCD",
+   "power": "2 x AAA"
+  },
+  "description": "Digital Kitchen Scale, 5 kg / 1 g. Capacity: 5 kg; Accuracy: 1 g; Display: LCD; Power: 2 x AAA."
+ },
+ {
+  "product_id": "KIT-037",
+  "title": "Glass-Top Digital Scale, 10 kg, Tare Function",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Measuring",
+  "product_type": "kitchen_scale",
+  "price_pkr": 2450,
+  "stock_qty": 8,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "10 kg",
+   "accuracy": "1 g",
+   "surface": "Tempered glass",
+   "power": "USB rechargeable"
+  },
+  "description": "Glass-Top Digital Scale, 10 kg, Tare Function. Capacity: 10 kg; Accuracy: 1 g; Surface: Tempered glass; Power: USB rechargeable. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-038",
+  "title": "Instant-Read Probe Thermometer",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Measuring",
+  "product_type": "food_thermometer",
+  "price_pkr": 1890,
+  "stock_qty": 36,
+  "in_stock": true,
+  "attributes": {
+   "range": "-50 to 300 C",
+   "response": "3 seconds",
+   "probe": "Foldable 11 cm"
+  },
+  "description": "Instant-Read Probe Thermometer. Range: -50 to 300 C; Response: 3 seconds; Probe: Foldable 11 cm. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-039",
+  "title": "5-Blade Herb Scissors with Cleaning Comb",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "herb_scissors",
+  "price_pkr": 690,
+  "stock_qty": 22,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel blades",
+   "blades": "5",
+   "includes": "Cleaning comb"
+  },
+  "description": "5-Blade Herb Scissors with Cleaning Comb. Material: Stainless steel blades; Blades: 5; Includes: Cleaning comb."
+ },
+ {
+  "product_id": "KIT-040",
+  "title": "Handheld Vegetable Spiralizer, 4 Blades",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "spiralizer",
+  "price_pkr": 1190,
+  "stock_qty": 7,
+  "in_stock": true,
+  "attributes": {
+   "material": "PP plastic, steel blades",
+   "blades": "4 interchangeable"
+  },
+  "description": "Handheld Vegetable Spiralizer, 4 Blades. Material: PP plastic, steel blades; Blades: 4 interchangeable. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-041",
+  "title": "Cast Aluminium Lemon Squeezer",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "citrus_squeezer",
+  "price_pkr": 790,
+  "stock_qty": 18,
+  "in_stock": true,
+  "attributes": {
+   "material": "Enamel-coated aluminium",
+   "type": "Hand press"
+  },
+  "description": "Cast Aluminium Lemon Squeezer. Material: Enamel-coated aluminium; Type: Hand press. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-042",
+  "title": "Electric Citrus Juicer, 40 W",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "citrus_squeezer",
+  "price_pkr": 3990,
+  "stock_qty": 18,
+  "in_stock": true,
+  "attributes": {
+   "power": "40 W",
+   "capacity": "700 ml",
+   "cones": "2 sizes"
+  },
+  "description": "Electric Citrus Juicer, 40 W. Power: 40 W; Capacity: 700 ml; Cones: 2 sizes. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-043",
+  "title": "Insulated Hot Pot Casserole, 2.5 Litre",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Serveware",
+  "product_type": "hot_pot",
+  "price_pkr": 1890,
+  "stock_qty": 58,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "2.5 L",
+   "material": "Stainless steel inner, PU insulation",
+   "lid": "Locking"
+  },
+  "description": "Insulated Hot Pot Casserole, 2.5 Litre. Capacity: 2.5 L; Material: Stainless steel inner, PU insulation; Lid: Locking. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-044",
+  "title": "Insulated Roti Box with Cotton Lining",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Serveware",
+  "product_type": "hot_pot",
+  "price_pkr": 1350,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "capacity": "Approx. 15 rotis",
+   "material": "Plastic outer, cotton lining",
+   "lid": "Clip lid"
+  },
+  "description": "Insulated Roti Box with Cotton Lining. Capacity: Approx. 15 rotis; Material: Plastic outer, cotton lining; Lid: Clip lid. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-045",
+  "title": "Stainless Steel Parat, 16 inch",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "parat",
+  "price_pkr": 1790,
+  "stock_qty": 14,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel",
+   "diameter": "16 in",
+   "depth": "8 cm"
+  },
+  "description": "Stainless Steel Parat, 16 inch. Material: Stainless steel; Diameter: 16 in; Depth: 8 cm."
+ },
+ {
+  "product_id": "KIT-046",
+  "title": "Wooden Chakla Belan Set, 10 inch",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "chakla_belan",
+  "price_pkr": 1290,
+  "stock_qty": 30,
+  "in_stock": true,
+  "attributes": {
+   "material": "Sheesham wood",
+   "board": "10 in diameter",
+   "pin": "30 cm"
+  },
+  "description": "Wooden Chakla Belan Set, 10 inch. Material: Sheesham wood; Board: 10 in diameter; Pin: 30 cm."
+ },
+ {
+  "product_id": "KIT-047",
+  "title": "Pizza Cutter Wheel with Finger Guard",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Baking & Pastry",
+  "product_type": "pizza_cutter",
+  "price_pkr": 590,
+  "stock_qty": 50,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel wheel, ABS handle",
+   "wheel": "9 cm"
+  },
+  "description": "Pizza Cutter Wheel with Finger Guard. Material: Stainless steel wheel, ABS handle; Wheel: 9 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-048",
+  "title": "8-Blade Apple Slicer and Corer",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "apple_corer",
+  "price_pkr": 650,
+  "stock_qty": 3,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel blades, ABS frame",
+   "blades": "8"
+  },
+  "description": "8-Blade Apple Slicer and Corer. Material: Stainless steel blades, ABS frame; Blades: 8."
+ },
+ {
+  "product_id": "KIT-049",
+  "title": "Splatter Guard Screen, 33 cm",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "splatter_screen",
+  "price_pkr": 990,
+  "stock_qty": 22,
+  "in_stock": true,
+  "attributes": {
+   "material": "Fine stainless steel mesh",
+   "diameter": "33 cm",
+   "handle": "Folding"
+  },
+  "description": "Splatter Guard Screen, 33 cm. Material: Fine stainless steel mesh; Diameter: 33 cm; Handle: Folding. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-050",
+  "title": "Silicone Baking Mat, Half-Sheet Size",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Baking & Pastry",
+  "product_type": "baking_mat",
+  "price_pkr": 950,
+  "stock_qty": 30,
+  "in_stock": true,
+  "attributes": {
+   "material": "Fibreglass-reinforced silicone",
+   "size": "42 x 29 cm",
+   "heat": "Up to 250 C"
+  },
+  "description": "Silicone Baking Mat, Half-Sheet Size. Material: Fibreglass-reinforced silicone; Size: 42 x 29 cm; Heat: Up to 250 C. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-051",
+  "title": "Measuring Cups and Spoons Set, 10 Pieces",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Measuring",
+  "product_type": "measuring_set",
+  "price_pkr": 990,
+  "stock_qty": 54,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel",
+   "pieces": "5 cups + 5 spoons",
+   "markings": "Engraved ml and cup"
+  },
+  "description": "Measuring Cups and Spoons Set, 10 Pieces. Material: Stainless steel; Pieces: 5 cups + 5 spoons; Markings: Engraved ml and cup. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-052",
+  "title": "Stainless Steel Tea Strainer, 8 cm",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Serveware",
+  "product_type": "tea_strainer",
+  "price_pkr": 290,
+  "stock_qty": 27,
+  "in_stock": true,
+  "attributes": {
+   "material": "Stainless steel mesh",
+   "diameter": "8 cm",
+   "handle": "Hook rest"
+  },
+  "description": "Stainless Steel Tea Strainer, 8 cm. Material: Stainless steel mesh; Diameter: 8 cm; Handle: Hook rest. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-053",
+  "title": "Glass Boil-Over Preventer Disc",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Cookware Tools",
+  "product_type": "boil_over_disc",
+  "price_pkr": 450,
+  "stock_qty": 27,
+  "in_stock": true,
+  "attributes": {
+   "material": "Heat-resistant glass",
+   "diameter": "7 cm"
+  },
+  "description": "Glass Boil-Over Preventer Disc. Material: Heat-resistant glass; Diameter: 7 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "KIT-054",
+  "title": "Electric Hand Mixer, 5 Speeds, 250 W",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Small Appliances",
+  "product_type": "hand_mixer",
+  "price_pkr": 4450,
+  "stock_qty": 23,
+  "in_stock": true,
+  "attributes": {
+   "power": "250 W",
+   "speeds": "5 + turbo",
+   "attachments": "2 beaters, 2 dough hooks"
+  },
+  "description": "Electric Hand Mixer, 5 Speeds, 250 W. Power: 250 W; Speeds: 5 + turbo; Attachments: 2 beaters, 2 dough hooks. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-055",
+  "title": "Compact Hand Mixer, 3 Speeds, 150 W",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Small Appliances",
+  "product_type": "hand_mixer",
+  "price_pkr": 2790,
+  "stock_qty": 32,
+  "in_stock": true,
+  "attributes": {
+   "power": "150 W",
+   "speeds": "3",
+   "attachments": "2 beaters"
+  },
+  "description": "Compact Hand Mixer, 3 Speeds, 150 W. Power: 150 W; Speeds: 3; Attachments: 2 beaters."
+ },
+ {
+  "product_id": "KIT-056",
+  "title": "Pull-String Manual Chopper, 500 ml",
+  "brand": "Zaiqa Kitchen",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "manual_chopper",
+  "price_pkr": 950,
+  "stock_qty": 30,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "500 ml",
+   "blades": "3 stainless steel",
+   "mechanism": "Pull cord"
+  },
+  "description": "Pull-String Manual Chopper, 500 ml. Capacity: 500 ml; Blades: 3 stainless steel; Mechanism: Pull cord. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-057",
+  "title": "Pull-String Chopper, 900 ml, 5 Blades",
+  "brand": "Handi House",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "manual_chopper",
+  "price_pkr": 1450,
+  "stock_qty": 54,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "900 ml",
+   "blades": "5 stainless steel",
+   "mechanism": "Pull cord"
+  },
+  "description": "Pull-String Chopper, 900 ml, 5 Blades. Capacity: 900 ml; Blades: 5 stainless steel; Mechanism: Pull cord. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "KIT-058",
+  "title": "3-Stage Manual Knife Sharpener",
+  "brand": "Rasoi Basics",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "knife_sharpener",
+  "price_pkr": 990,
+  "stock_qty": 45,
+  "in_stock": true,
+  "attributes": {
+   "stages": "Diamond, ceramic, tungsten",
+   "base": "Non-slip"
+  },
+  "description": "3-Stage Manual Knife Sharpener. Stages: Diamond, ceramic, tungsten; Base: Non-slip. Quality checked before dispatch."
+ },
+ {
+  "product_id": "KIT-059",
+  "title": "Whetstone 1000/6000 Grit with Bamboo Base",
+  "brand": "Chamak Steel",
+  "category": "Kitchenware",
+  "subcategory": "Prep Tools",
+  "product_type": "knife_sharpener",
+  "price_pkr": 2450,
+  "stock_qty": 9,
+  "in_stock": true,
+  "attributes": {
+   "grit": "1000 / 6000",
+   "material": "Corundum",
+   "includes": "Bamboo base, angle guide"
+  },
+  "description": "Whetstone 1000/6000 Grit with Bamboo Base. Grit: 1000 / 6000; Material: Corundum; Includes: Bamboo base, angle guide. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-001",
+  "title": "Electronic Wall Scanner, 4-in-1",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Measuring & Detection",
+  "product_type": "stud_finder",
+  "price_pkr": 3450,
+  "stock_qty": 51,
+  "in_stock": true,
+  "attributes": {
+   "modes": "Wood, metal, AC wire, deep scan",
+   "display": "LCD",
+   "power": "9 V battery"
+  },
+  "description": "Electronic Wall Scanner, 4-in-1. Modes: Wood, metal, AC wire, deep scan; Display: LCD; Power: 9 V battery."
+ },
+ {
+  "product_id": "TOL-002",
+  "title": "Aluminium Spirit Level, 24 inch, 3 Vials",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Measuring & Detection",
+  "product_type": "spirit_level",
+  "price_pkr": 1250,
+  "stock_qty": 7,
+  "in_stock": true,
+  "attributes": {
+   "length": "24 in",
+   "vials": "3",
+   "material": "Aluminium"
+  },
+  "description": "Aluminium Spirit Level, 24 inch, 3 Vials. Length: 24 in; Vials: 3; Material: Aluminium. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-003",
+  "title": "Magnetic Torpedo Level, 9 inch",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Measuring & Detection",
+  "product_type": "spirit_level",
+  "price_pkr": 650,
+  "stock_qty": 59,
+  "in_stock": true,
+  "attributes": {
+   "length": "9 in",
+   "vials": "3",
+   "base": "Magnetic"
+  },
+  "description": "Magnetic Torpedo Level, 9 inch. Length: 9 in; Vials: 3; Base: Magnetic."
+ },
+ {
+  "product_id": "TOL-004",
+  "title": "12 V Cordless Drill Driver with 2 Batteries",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Power Tools",
+  "product_type": "cordless_drill",
+  "price_pkr": 11500,
+  "stock_qty": 46,
+  "in_stock": true,
+  "attributes": {
+   "voltage": "12 V",
+   "batteries": "2 x 1.5 Ah Li-ion",
+   "chuck": "10 mm",
+   "torque": "25 Nm"
+  },
+  "description": "12 V Cordless Drill Driver with 2 Batteries. Voltage: 12 V; Batteries: 2 x 1.5 Ah Li-ion; Chuck: 10 mm; Torque: 25 Nm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "TOL-005",
+  "title": "20 V Cordless Hammer Drill Kit",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Power Tools",
+  "product_type": "cordless_drill",
+  "price_pkr": 19900,
+  "stock_qty": 26,
+  "in_stock": true,
+  "attributes": {
+   "voltage": "20 V",
+   "batteries": "2 x 2.0 Ah Li-ion",
+   "chuck": "13 mm",
+   "modes": "Drill, hammer, screw"
+  },
+  "description": "20 V Cordless Hammer Drill Kit. Voltage: 20 V; Batteries: 2 x 2.0 Ah Li-ion; Chuck: 13 mm; Modes: Drill, hammer, screw."
+ },
+ {
+  "product_id": "TOL-006",
+  "title": "Precision Screwdriver Set, 32 Bits",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "precision_screwdriver",
+  "price_pkr": 1450,
+  "stock_qty": 20,
+  "in_stock": true,
+  "attributes": {
+   "bits": "32 (Phillips, Torx, Pentalobe, Tri-wing)",
+   "handle": "Aluminium, magnetic"
+  },
+  "description": "Precision Screwdriver Set, 32 Bits. Bits: 32 (Phillips, Torx, Pentalobe, Tri-wing); Handle: Aluminium, magnetic. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-007",
+  "title": "Mini Screwdriver Kit, 6 Pieces",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "precision_screwdriver",
+  "price_pkr": 450,
+  "stock_qty": 13,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "6",
+   "tips": "Phillips and flat"
+  },
+  "description": "Mini Screwdriver Kit, 6 Pieces. Pieces: 6; Tips: Phillips and flat. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-008",
+  "title": "Digital Multimeter, Auto-Ranging",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "multimeter",
+  "price_pkr": 2950,
+  "stock_qty": 28,
+  "in_stock": true,
+  "attributes": {
+   "measures": "AC/DC voltage, current, resistance, continuity",
+   "display": "LCD backlit"
+  },
+  "description": "Digital Multimeter, Auto-Ranging. Measures: AC/DC voltage, current, resistance, continuity; Display: LCD backlit. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-009",
+  "title": "Non-Contact Voltage Detector Pen",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "voltage_tester",
+  "price_pkr": 990,
+  "stock_qty": 29,
+  "in_stock": true,
+  "attributes": {
+   "range": "12-1000 V AC",
+   "alert": "Beep and LED"
+  },
+  "description": "Non-Contact Voltage Detector Pen. Range: 12-1000 V AC; Alert: Beep and LED. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-010",
+  "title": "Measuring Tape, 5 m, Auto-Lock",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Measuring & Detection",
+  "product_type": "measuring_tape",
+  "price_pkr": 590,
+  "stock_qty": 49,
+  "in_stock": true,
+  "attributes": {
+   "length": "5 m",
+   "blade": "19 mm steel",
+   "lock": "Auto"
+  },
+  "description": "Measuring Tape, 5 m, Auto-Lock. Length: 5 m; Blade: 19 mm steel; Lock: Auto."
+ },
+ {
+  "product_id": "TOL-011",
+  "title": "Measuring Tape, 10 m, Rubber Case",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Measuring & Detection",
+  "product_type": "measuring_tape",
+  "price_pkr": 990,
+  "stock_qty": 29,
+  "in_stock": true,
+  "attributes": {
+   "length": "10 m",
+   "blade": "25 mm steel",
+   "case": "Shock-absorbing rubber"
+  },
+  "description": "Measuring Tape, 10 m, Rubber Case. Length: 10 m; Blade: 25 mm steel; Case: Shock-absorbing rubber."
+ },
+ {
+  "product_id": "TOL-012",
+  "title": "Laser Distance Meter, 40 m",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Measuring & Detection",
+  "product_type": "laser_distance",
+  "price_pkr": 4950,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "range": "0.05-40 m",
+   "accuracy": "+/- 2 mm",
+   "functions": "Area, volume, Pythagoras"
+  },
+  "description": "Laser Distance Meter, 40 m. Range: 0.05-40 m; Accuracy: +/- 2 mm; Functions: Area, volume, Pythagoras."
+ },
+ {
+  "product_id": "TOL-013",
+  "title": "Hot Glue Gun, 40 W, with 10 Sticks",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "glue_gun",
+  "price_pkr": 1150,
+  "stock_qty": 59,
+  "in_stock": true,
+  "attributes": {
+   "power": "40 W",
+   "sticks": "10 x 7 mm",
+   "stand": "Built-in"
+  },
+  "description": "Hot Glue Gun, 40 W, with 10 Sticks. Power: 40 W; Sticks: 10 x 7 mm; Stand: Built-in. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-014",
+  "title": "Heavy-Duty Caulking Gun",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "caulking_gun",
+  "price_pkr": 890,
+  "stock_qty": 60,
+  "in_stock": true,
+  "attributes": {
+   "material": "Steel frame",
+   "ratio": "12:1 thrust",
+   "fits": "Standard 300 ml cartridges"
+  },
+  "description": "Heavy-Duty Caulking Gun. Material: Steel frame; Ratio: 12:1 thrust; Fits: Standard 300 ml cartridges. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-015",
+  "title": "Pipe Wrench, 14 inch",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Plumbing",
+  "product_type": "pipe_wrench",
+  "price_pkr": 1650,
+  "stock_qty": 31,
+  "in_stock": true,
+  "attributes": {
+   "length": "14 in",
+   "material": "Drop-forged steel",
+   "jaw": "Up to 2 in"
+  },
+  "description": "Pipe Wrench, 14 inch. Length: 14 in; Material: Drop-forged steel; Jaw: Up to 2 in."
+ },
+ {
+  "product_id": "TOL-016",
+  "title": "Rubber Cup Plunger with Wooden Handle",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Plumbing",
+  "product_type": "plunger",
+  "price_pkr": 590,
+  "stock_qty": 27,
+  "in_stock": true,
+  "attributes": {
+   "cup": "14 cm rubber",
+   "handle": "45 cm wood"
+  },
+  "description": "Rubber Cup Plunger with Wooden Handle. Cup: 14 cm rubber; Handle: 45 cm wood. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-017",
+  "title": "Flange Plunger, Heavy-Duty",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Plumbing",
+  "product_type": "plunger",
+  "price_pkr": 990,
+  "stock_qty": 3,
+  "in_stock": true,
+  "attributes": {
+   "cup": "Flange rubber, 15 cm",
+   "handle": "50 cm plastic"
+  },
+  "description": "Flange Plunger, Heavy-Duty. Cup: Flange rubber, 15 cm; Handle: 50 cm plastic."
+ },
+ {
+  "product_id": "TOL-018",
+  "title": "Drain Auger, 5 m Steel Cable",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Plumbing",
+  "product_type": "drain_auger",
+  "price_pkr": 1890,
+  "stock_qty": 53,
+  "in_stock": true,
+  "attributes": {
+   "length": "5 m",
+   "cable": "6 mm spring steel",
+   "handle": "Crank drum"
+  },
+  "description": "Drain Auger, 5 m Steel Cable. Length: 5 m; Cable: 6 mm spring steel; Handle: Crank drum. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-019",
+  "title": "Automatic Wire Stripper and Crimper",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "wire_stripper",
+  "price_pkr": 1350,
+  "stock_qty": 15,
+  "in_stock": true,
+  "attributes": {
+   "gauge": "10-24 AWG",
+   "functions": "Strip, cut, crimp"
+  },
+  "description": "Automatic Wire Stripper and Crimper. Gauge: 10-24 AWG; Functions: Strip, cut, crimp."
+ },
+ {
+  "product_id": "TOL-020",
+  "title": "Hex Key Set, 9 Pieces, Ball End",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "allen_key_set",
+  "price_pkr": 690,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "sizes": "1.5-10 mm",
+   "pieces": "9",
+   "material": "Chrome vanadium"
+  },
+  "description": "Hex Key Set, 9 Pieces, Ball End. Sizes: 1.5-10 mm; Pieces: 9; Material: Chrome vanadium."
+ },
+ {
+  "product_id": "TOL-021",
+  "title": "Pliers Set, 3 Pieces",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "pliers_set",
+  "price_pkr": 1490,
+  "stock_qty": 2,
+  "in_stock": true,
+  "attributes": {
+   "includes": "Combination, long-nose, diagonal cutter",
+   "handles": "Insulated"
+  },
+  "description": "Pliers Set, 3 Pieces. Includes: Combination, long-nose, diagonal cutter; Handles: Insulated. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-022",
+  "title": "Claw Hammer, 16 oz, Fibreglass Handle",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "hammer",
+  "price_pkr": 990,
+  "stock_qty": 31,
+  "in_stock": true,
+  "attributes": {
+   "head": "16 oz forged steel",
+   "handle": "Fibreglass, rubber grip"
+  },
+  "description": "Claw Hammer, 16 oz, Fibreglass Handle. Head: 16 oz forged steel; Handle: Fibreglass, rubber grip. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-023",
+  "title": "Rubber Mallet, 16 oz",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "rubber_mallet",
+  "price_pkr": 650,
+  "stock_qty": 54,
+  "in_stock": true,
+  "attributes": {
+   "head": "Black rubber, 16 oz",
+   "handle": "Wood"
+  },
+  "description": "Rubber Mallet, 16 oz. Head: Black rubber, 16 oz; Handle: Wood. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-024",
+  "title": "Aluminium Step Ladder, 5 Steps",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Ladders",
+  "product_type": "step_ladder",
+  "price_pkr": 8950,
+  "stock_qty": 47,
+  "in_stock": true,
+  "attributes": {
+   "steps": "5",
+   "height": "1.5 m",
+   "load": "150 kg",
+   "material": "Aluminium"
+  },
+  "description": "Aluminium Step Ladder, 5 Steps. Steps: 5; Height: 1.5 m; Load: 150 kg; Material: Aluminium."
+ },
+ {
+  "product_id": "TOL-025",
+  "title": "Steel Step Ladder, 3 Steps, Foldable",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Ladders",
+  "product_type": "step_ladder",
+  "price_pkr": 4950,
+  "stock_qty": 58,
+  "in_stock": true,
+  "attributes": {
+   "steps": "3",
+   "height": "0.9 m",
+   "load": "120 kg",
+   "material": "Powder-coated steel"
+  },
+  "description": "Steel Step Ladder, 3 Steps, Foldable. Steps: 3; Height: 0.9 m; Load: 120 kg; Material: Powder-coated steel. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-026",
+  "title": "Rechargeable LED Emergency Light, 60 LEDs",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "emergency_light",
+  "price_pkr": 2450,
+  "stock_qty": 59,
+  "in_stock": true,
+  "attributes": {
+   "leds": "60 SMD",
+   "battery": "Lead-acid 4 V",
+   "runtime": "Up to 8 hours",
+   "charging": "AC mains"
+  },
+  "description": "Rechargeable LED Emergency Light, 60 LEDs. Leds: 60 SMD; Battery: Lead-acid 4 V; Runtime: Up to 8 hours; Charging: AC mains. Durable build and easy to clean."
+ },
+ {
+  "product_id": "TOL-027",
+  "title": "Rechargeable LED Bulb, 12 W, B22",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "emergency_light",
+  "price_pkr": 990,
+  "stock_qty": 47,
+  "in_stock": true,
+  "attributes": {
+   "power": "12 W",
+   "battery": "Li-ion 2000 mAh",
+   "runtime": "Up to 4 hours",
+   "base": "B22"
+  },
+  "description": "Rechargeable LED Bulb, 12 W, B22. Power: 12 W; Battery: Li-ion 2000 mAh; Runtime: Up to 4 hours; Base: B22."
+ },
+ {
+  "product_id": "TOL-028",
+  "title": "Extension Board, 4 Sockets with Surge Protector",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "extension_board",
+  "price_pkr": 1890,
+  "stock_qty": 51,
+  "in_stock": true,
+  "attributes": {
+   "sockets": "4 universal",
+   "cable": "3 m",
+   "protection": "Surge + overload switch"
+  },
+  "description": "Extension Board, 4 Sockets with Surge Protector. Sockets: 4 universal; Cable: 3 m; Protection: Surge + overload switch. Durable build and easy to clean."
+ },
+ {
+  "product_id": "TOL-029",
+  "title": "LED Headlamp, USB Rechargeable",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "headlamp",
+  "price_pkr": 1250,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "brightness": "300 lumens",
+   "battery": "1200 mAh",
+   "modes": "3"
+  },
+  "description": "LED Headlamp, USB Rechargeable. Brightness: 300 lumens; Battery: 1200 mAh; Modes: 3. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-030",
+  "title": "Retractable Utility Knife with 5 Blades",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "utility_knife",
+  "price_pkr": 450,
+  "stock_qty": 31,
+  "in_stock": true,
+  "attributes": {
+   "blade": "18 mm snap-off",
+   "spares": "5",
+   "lock": "Auto-lock slider"
+  },
+  "description": "Retractable Utility Knife with 5 Blades. Blade: 18 mm snap-off; Spares: 5; Lock: Auto-lock slider. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-031",
+  "title": "Hacksaw Frame with 2 Blades",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "hacksaw",
+  "price_pkr": 790,
+  "stock_qty": 5,
+  "in_stock": true,
+  "attributes": {
+   "blade": "12 in, 24 TPI",
+   "frame": "Adjustable steel"
+  },
+  "description": "Hacksaw Frame with 2 Blades. Blade: 12 in, 24 TPI; Frame: Adjustable steel. Durable build and easy to clean."
+ },
+ {
+  "product_id": "TOL-032",
+  "title": "Quick-Grip Bar Clamps, Set of 2",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "clamp",
+  "price_pkr": 1350,
+  "stock_qty": 22,
+  "in_stock": true,
+  "attributes": {
+   "opening": "15 cm",
+   "pieces": "2",
+   "release": "One-hand trigger"
+  },
+  "description": "Quick-Grip Bar Clamps, Set of 2. Opening: 15 cm; Pieces: 2; Release: One-hand trigger. Durable build and easy to clean."
+ },
+ {
+  "product_id": "TOL-033",
+  "title": "Sanding Block with Assorted Sandpaper, 12 Sheets",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Painting & Finishing",
+  "product_type": "sanding_block",
+  "price_pkr": 590,
+  "stock_qty": 50,
+  "in_stock": true,
+  "attributes": {
+   "grits": "80, 120, 240",
+   "sheets": "12",
+   "block": "Foam"
+  },
+  "description": "Sanding Block with Assorted Sandpaper, 12 Sheets. Grits: 80, 120, 240; Sheets: 12; Block: Foam. Durable build and easy to clean."
+ },
+ {
+  "product_id": "TOL-034",
+  "title": "Paint Roller Kit, 9 inch with Tray",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Painting & Finishing",
+  "product_type": "paint_roller",
+  "price_pkr": 990,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "roller": "9 in microfibre",
+   "includes": "Tray, extension adapter"
+  },
+  "description": "Paint Roller Kit, 9 inch with Tray. Roller: 9 in microfibre; Includes: Tray, extension adapter. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-035",
+  "title": "Plastic Toolbox, 16 inch with Removable Tray",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Tool Storage",
+  "product_type": "toolbox",
+  "price_pkr": 1650,
+  "stock_qty": 2,
+  "in_stock": true,
+  "attributes": {
+   "size": "16 in",
+   "tray": "Removable",
+   "latch": "Metal"
+  },
+  "description": "Plastic Toolbox, 16 inch with Removable Tray. Size: 16 in; Tray: Removable; Latch: Metal. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-036",
+  "title": "Wall Plug and Screw Kit, 200 Pieces",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Fixings",
+  "product_type": "wall_anchor_kit",
+  "price_pkr": 690,
+  "stock_qty": 22,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "200",
+   "sizes": "6 mm and 8 mm plugs, matching screws"
+  },
+  "description": "Wall Plug and Screw Kit, 200 Pieces. Pieces: 200; Sizes: 6 mm and 8 mm plugs, matching screws. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-037",
+  "title": "Telescopic Magnetic Pickup Tool with LED",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "pickup_tool",
+  "price_pkr": 590,
+  "stock_qty": 46,
+  "in_stock": true,
+  "attributes": {
+   "length": "16-80 cm",
+   "magnet": "3.6 kg pull",
+   "light": "LED"
+  },
+  "description": "Telescopic Magnetic Pickup Tool with LED. Length: 16-80 cm; Magnet: 3.6 kg pull; Light: LED. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "TOL-038",
+  "title": "Soldering Iron Kit, 60 W, Adjustable",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Electrical",
+  "product_type": "soldering_iron",
+  "price_pkr": 1950,
+  "stock_qty": 28,
+  "in_stock": true,
+  "attributes": {
+   "power": "60 W",
+   "temperature": "200-450 C",
+   "includes": "5 tips, stand, solder wire"
+  },
+  "description": "Soldering Iron Kit, 60 W, Adjustable. Power: 60 W; Temperature: 200-450 C; Includes: 5 tips, stand, solder wire. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-039",
+  "title": "3.6 V Cordless Screwdriver, USB",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Power Tools",
+  "product_type": "cordless_screwdriver",
+  "price_pkr": 3650,
+  "stock_qty": 42,
+  "in_stock": true,
+  "attributes": {
+   "voltage": "3.6 V",
+   "battery": "Li-ion 1500 mAh",
+   "bits": "10"
+  },
+  "description": "3.6 V Cordless Screwdriver, USB. Voltage: 3.6 V; Battery: Li-ion 1500 mAh; Bits: 10. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-040",
+  "title": "Heavy-Duty Staple Gun with 600 Staples",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Hand Tools",
+  "product_type": "staple_gun",
+  "price_pkr": 1250,
+  "stock_qty": 28,
+  "in_stock": true,
+  "attributes": {
+   "staples": "600 (6-10 mm)",
+   "body": "Steel"
+  },
+  "description": "Heavy-Duty Staple Gun with 600 Staples. Staples: 600 (6-10 mm); Body: Steel. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-041",
+  "title": "PTFE Thread Seal Tape, Pack of 5",
+  "brand": "Ustaad Pro",
+  "category": "Tools",
+  "subcategory": "Plumbing",
+  "product_type": "ptfe_tape",
+  "price_pkr": 250,
+  "stock_qty": 13,
+  "in_stock": true,
+  "attributes": {
+   "width": "12 mm",
+   "length": "10 m per roll",
+   "rolls": "5"
+  },
+  "description": "PTFE Thread Seal Tape, Pack of 5. Width: 12 mm; Length: 10 m per roll; Rolls: 5."
+ },
+ {
+  "product_id": "TOL-042",
+  "title": "Tile Levelling Clips and Wedges, 100 Sets",
+  "brand": "Kaarigar",
+  "category": "Tools",
+  "subcategory": "Fixings",
+  "product_type": "tile_spacer",
+  "price_pkr": 1350,
+  "stock_qty": 10,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "100 clips + 100 wedges",
+   "thickness": "1.5 mm"
+  },
+  "description": "Tile Levelling Clips and Wedges, 100 Sets. Pieces: 100 clips + 100 wedges; Thickness: 1.5 mm."
+ },
+ {
+  "product_id": "TOL-043",
+  "title": "Nylon Cable Ties, 200 Pieces, Assorted",
+  "brand": "Fixit PK",
+  "category": "Tools",
+  "subcategory": "Fixings",
+  "product_type": "cable_tie",
+  "price_pkr": 390,
+  "stock_qty": 34,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "200",
+   "lengths": "10, 15, 20 cm"
+  },
+  "description": "Nylon Cable Ties, 200 Pieces, Assorted. Pieces: 200; Lengths: 10, 15, 20 cm. Quality checked before dispatch."
+ },
+ {
+  "product_id": "TOL-044",
+  "title": "Drill Bit Set, 13 Pieces, Masonry and Wood",
+  "brand": "Mazboot Tools",
+  "category": "Tools",
+  "subcategory": "Power Tools",
+  "product_type": "drill_bits",
+  "price_pkr": 1450,
+  "stock_qty": 25,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "13",
+   "types": "Masonry, wood, metal",
+   "case": "Plastic"
+  },
+  "description": "Drill Bit Set, 13 Pieces, Masonry and Wood. Pieces: 13; Types: Masonry, wood, metal; Case: Plastic. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-001",
+  "title": "2-Tier Pull-Out Under-Sink Organizer",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "under_sink_organizer",
+  "price_pkr": 3450,
+  "stock_qty": 33,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "2",
+   "material": "Powder-coated steel",
+   "size": "40 x 26 x 38 cm"
+  },
+  "description": "2-Tier Pull-Out Under-Sink Organizer. Tiers: 2; Material: Powder-coated steel; Size: 40 x 26 x 38 cm."
+ },
+ {
+  "product_id": "ORG-002",
+  "title": "Expandable Under-Sink Shelf",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "under_sink_organizer",
+  "price_pkr": 2650,
+  "stock_qty": 31,
+  "in_stock": true,
+  "attributes": {
+   "width": "Adjustable 38-68 cm",
+   "material": "Steel and PP",
+   "panels": "Removable"
+  },
+  "description": "Expandable Under-Sink Shelf. Width: Adjustable 38-68 cm; Material: Steel and PP; Panels: Removable. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-003",
+  "title": "Adjustable Bamboo Drawer Dividers, Set of 4",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Drawer Storage",
+  "product_type": "drawer_divider",
+  "price_pkr": 2950,
+  "stock_qty": 20,
+  "in_stock": true,
+  "attributes": {
+   "material": "Bamboo",
+   "length": "Spring-loaded 44-55 cm",
+   "pieces": "4"
+  },
+  "description": "Adjustable Bamboo Drawer Dividers, Set of 4. Material: Bamboo; Length: Spring-loaded 44-55 cm; Pieces: 4. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-004",
+  "title": "Plastic Drawer Organizer Trays, 8 Pieces",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Drawer Storage",
+  "product_type": "drawer_divider",
+  "price_pkr": 1490,
+  "stock_qty": 11,
+  "in_stock": true,
+  "attributes": {
+   "material": "PP plastic",
+   "pieces": "8 (mixed sizes)",
+   "base": "Non-slip pads"
+  },
+  "description": "Plastic Drawer Organizer Trays, 8 Pieces. Material: PP plastic; Pieces: 8 (mixed sizes); Base: Non-slip pads."
+ },
+ {
+  "product_id": "ORG-005",
+  "title": "Lazy Susan Turntable, 30 cm",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "lazy_susan",
+  "price_pkr": 1290,
+  "stock_qty": 20,
+  "in_stock": true,
+  "attributes": {
+   "diameter": "30 cm",
+   "material": "Clear acrylic",
+   "rotation": "360 degrees"
+  },
+  "description": "Lazy Susan Turntable, 30 cm. Diameter: 30 cm; Material: Clear acrylic; Rotation: 360 degrees. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-006",
+  "title": "2-Tier Lazy Susan, Bamboo",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "lazy_susan",
+  "price_pkr": 2450,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "tiers": "2",
+   "material": "Bamboo",
+   "diameter": "25 cm"
+  },
+  "description": "2-Tier Lazy Susan, Bamboo. Tiers: 2; Material: Bamboo; Diameter: 25 cm."
+ },
+ {
+  "product_id": "ORG-007",
+  "title": "Vacuum Storage Bags, Set of 6 with Hand Pump",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "vacuum_bags",
+  "price_pkr": 2150,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "pieces": "6 (2 jumbo, 2 large, 2 medium)",
+   "pump": "Hand pump",
+   "valve": "Double-zip seal"
+  },
+  "description": "Vacuum Storage Bags, Set of 6 with Hand Pump. Pieces: 6 (2 jumbo, 2 large, 2 medium); Pump: Hand pump; Valve: Double-zip seal. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-008",
+  "title": "Jumbo Vacuum Bags, Set of 3",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "vacuum_bags",
+  "price_pkr": 1390,
+  "stock_qty": 29,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "3 jumbo",
+   "size": "100 x 80 cm"
+  },
+  "description": "Jumbo Vacuum Bags, Set of 3. Pieces: 3 jumbo; Size: 100 x 80 cm. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-009",
+  "title": "Over-the-Door Shoe Organizer, 24 Pockets",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "over_door_organizer",
+  "price_pkr": 1450,
+  "stock_qty": 15,
+  "in_stock": true,
+  "attributes": {
+   "pockets": "24 clear PVC",
+   "hooks": "3 metal"
+  },
+  "description": "Over-the-Door Shoe Organizer, 24 Pockets. Pockets: 24 clear PVC; Hooks: 3 metal. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-010",
+  "title": "Over-Door Hook Rack, 6 Hooks",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "over_door_organizer",
+  "price_pkr": 790,
+  "stock_qty": 21,
+  "in_stock": true,
+  "attributes": {
+   "hooks": "6 double",
+   "material": "Steel",
+   "finish": "Matte black"
+  },
+  "description": "Over-Door Hook Rack, 6 Hooks. Hooks: 6 double; Material: Steel; Finish: Matte black. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-011",
+  "title": "Cable Management Box, Large",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Desk & Office",
+  "product_type": "cable_box",
+  "price_pkr": 1650,
+  "stock_qty": 24,
+  "in_stock": true,
+  "attributes": {
+   "size": "40 x 16 x 13 cm",
+   "material": "ABS",
+   "openings": "2 side slots"
+  },
+  "description": "Cable Management Box, Large. Size: 40 x 16 x 13 cm; Material: ABS; Openings: 2 side slots."
+ },
+ {
+  "product_id": "ORG-012",
+  "title": "Adhesive Cable Clips, 30 Pieces",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Desk & Office",
+  "product_type": "cable_box",
+  "price_pkr": 450,
+  "stock_qty": 10,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "30",
+   "adhesive": "3M-type tape",
+   "slots": "1-5 per clip"
+  },
+  "description": "Adhesive Cable Clips, 30 Pieces. Pieces: 30; Adhesive: 3M-type tape; Slots: 1-5 per clip."
+ },
+ {
+  "product_id": "ORG-013",
+  "title": "Wall-Mounted Spice Rack, 3 Tiers",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "spice_rack",
+  "price_pkr": 1890,
+  "stock_qty": 14,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "3",
+   "material": "Steel wire",
+   "mounting": "Screws included"
+  },
+  "description": "Wall-Mounted Spice Rack, 3 Tiers. Tiers: 3; Material: Steel wire; Mounting: Screws included. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-014",
+  "title": "Clear Fridge Organizer Bins, Set of 4",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "fridge_bins",
+  "price_pkr": 1950,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "pieces": "4",
+   "material": "BPA-free PET",
+   "handles": "Built-in"
+  },
+  "description": "Clear Fridge Organizer Bins, Set of 4. Pieces: 4; Material: BPA-free PET; Handles: Built-in. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-015",
+  "title": "Egg Holder Drawer for Fridge, 21 Eggs",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "egg_holder",
+  "price_pkr": 1250,
+  "stock_qty": 26,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "21 eggs",
+   "material": "PET",
+   "fitting": "Pull-out drawer"
+  },
+  "description": "Egg Holder Drawer for Fridge, 21 Eggs. Capacity: 21 eggs; Material: PET; Fitting: Pull-out drawer. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-016",
+  "title": "Under-Bed Storage Bag with Zip, Set of 2",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Bedroom Storage",
+  "product_type": "under_bed_storage",
+  "price_pkr": 1590,
+  "stock_qty": 6,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "2",
+   "size": "100 x 50 x 15 cm",
+   "window": "Clear PVC"
+  },
+  "description": "Under-Bed Storage Bag with Zip, Set of 2. Pieces: 2; Size: 100 x 50 x 15 cm; Window: Clear PVC."
+ },
+ {
+  "product_id": "ORG-017",
+  "title": "Rolling Under-Bed Drawer, Plastic",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Bedroom Storage",
+  "product_type": "under_bed_storage",
+  "price_pkr": 2950,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "size": "80 x 45 x 16 cm",
+   "wheels": "4 castors",
+   "lid": "Hinged"
+  },
+  "description": "Rolling Under-Bed Drawer, Plastic. Size: 80 x 45 x 16 cm; Wheels: 4 castors; Lid: Hinged. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-018",
+  "title": "Hanging Jewellery Organizer, 72 Pockets",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Bedroom Storage",
+  "product_type": "jewelry_organizer",
+  "price_pkr": 990,
+  "stock_qty": 53,
+  "in_stock": true,
+  "attributes": {
+   "pockets": "72 clear",
+   "hooks": "18",
+   "hanger": "Rotating metal"
+  },
+  "description": "Hanging Jewellery Organizer, 72 Pockets. Pockets: 72 clear; Hooks: 18; Hanger: Rotating metal."
+ },
+ {
+  "product_id": "ORG-019",
+  "title": "Hanging Closet Shelves, 6 Sections",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "closet_shelves",
+  "price_pkr": 1350,
+  "stock_qty": 22,
+  "in_stock": true,
+  "attributes": {
+   "sections": "6",
+   "material": "Non-woven fabric",
+   "attach": "Velcro straps"
+  },
+  "description": "Hanging Closet Shelves, 6 Sections. Sections: 6; Material: Non-woven fabric; Attach: Velcro straps. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-020",
+  "title": "Velvet Hangers, Pack of 20",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "hangers",
+  "price_pkr": 1890,
+  "stock_qty": 5,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "20",
+   "material": "Velvet-flocked ABS",
+   "hook": "360-degree"
+  },
+  "description": "Velvet Hangers, Pack of 20. Pieces: 20; Material: Velvet-flocked ABS; Hook: 360-degree. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-021",
+  "title": "Pot Lid Rack, 5 Slots",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "pot_lid_rack",
+  "price_pkr": 1190,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "slots": "5 adjustable",
+   "material": "Steel",
+   "mounting": "Counter or wall"
+  },
+  "description": "Pot Lid Rack, 5 Slots. Slots: 5 adjustable; Material: Steel; Mounting: Counter or wall. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-022",
+  "title": "Expandable Cutlery Tray, Bamboo",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Drawer Storage",
+  "product_type": "cutlery_tray",
+  "price_pkr": 2250,
+  "stock_qty": 8,
+  "in_stock": true,
+  "attributes": {
+   "compartments": "5-7",
+   "material": "Bamboo",
+   "width": "Expands 33-55 cm"
+  },
+  "description": "Expandable Cutlery Tray, Bamboo. Compartments: 5-7; Material: Bamboo; Width: Expands 33-55 cm."
+ },
+ {
+  "product_id": "ORG-023",
+  "title": "Corner Shower Caddy, 2 Tiers, Adhesive",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Bathroom Storage",
+  "product_type": "shower_caddy",
+  "price_pkr": 1450,
+  "stock_qty": 57,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "2",
+   "material": "Stainless steel",
+   "mounting": "Adhesive, no drilling"
+  },
+  "description": "Corner Shower Caddy, 2 Tiers, Adhesive. Tiers: 2; Material: Stainless steel; Mounting: Adhesive, no drilling."
+ },
+ {
+  "product_id": "ORG-024",
+  "title": "Tension Pole Shower Caddy, 4 Shelves",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Bathroom Storage",
+  "product_type": "shower_caddy",
+  "price_pkr": 4250,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "shelves": "4",
+   "height": "Adjustable 1.6-2.7 m",
+   "material": "Aluminium"
+  },
+  "description": "Tension Pole Shower Caddy, 4 Shelves. Shelves: 4; Height: Adjustable 1.6-2.7 m; Material: Aluminium. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-025",
+  "title": "Wall Key Holder with Mail Shelf",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Entryway",
+  "product_type": "key_holder",
+  "price_pkr": 1290,
+  "stock_qty": 31,
+  "in_stock": true,
+  "attributes": {
+   "hooks": "5",
+   "material": "MDF",
+   "shelf": "Letter slot"
+  },
+  "description": "Wall Key Holder with Mail Shelf. Hooks: 5; Material: MDF; Shelf: Letter slot. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-026",
+  "title": "Stackable Shoe Rack, 4 Tiers",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Entryway",
+  "product_type": "shoe_rack",
+  "price_pkr": 2450,
+  "stock_qty": 46,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "4",
+   "capacity": "12 pairs",
+   "material": "Steel tube, PP joints"
+  },
+  "description": "Stackable Shoe Rack, 4 Tiers. Tiers: 4; Capacity: 12 pairs; Material: Steel tube, PP joints. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-027",
+  "title": "Bamboo Shoe Rack, 2 Tiers",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Entryway",
+  "product_type": "shoe_rack",
+  "price_pkr": 2950,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "2",
+   "capacity": "6 pairs",
+   "material": "Bamboo"
+  },
+  "description": "Bamboo Shoe Rack, 2 Tiers. Tiers: 2; Capacity: 6 pairs; Material: Bamboo. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-028",
+  "title": "Collapsible Fabric Storage Cubes, Set of 3",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Bedroom Storage",
+  "product_type": "storage_cubes",
+  "price_pkr": 1650,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "pieces": "3",
+   "size": "28 x 28 x 28 cm",
+   "handles": "2 per cube"
+  },
+  "description": "Collapsible Fabric Storage Cubes, Set of 3. Pieces: 3; Size: 28 x 28 x 28 cm; Handles: 2 per cube. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-029",
+  "title": "Mesh Desk Organizer, 5 Compartments",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Desk & Office",
+  "product_type": "desk_organizer",
+  "price_pkr": 990,
+  "stock_qty": 60,
+  "in_stock": true,
+  "attributes": {
+   "compartments": "5 + 1 drawer",
+   "material": "Steel mesh"
+  },
+  "description": "Mesh Desk Organizer, 5 Compartments. Compartments: 5 + 1 drawer; Material: Steel mesh."
+ },
+ {
+  "product_id": "ORG-030",
+  "title": "Magazine File Holders, Set of 3",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Desk & Office",
+  "product_type": "file_holder",
+  "price_pkr": 890,
+  "stock_qty": 10,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "3",
+   "size": "A4",
+   "material": "Kraft cardboard"
+  },
+  "description": "Magazine File Holders, Set of 3. Pieces: 3; Size: A4; Material: Kraft cardboard. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-031",
+  "title": "Airtight Food Storage Containers, Set of 6",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "food_containers",
+  "price_pkr": 2950,
+  "stock_qty": 11,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "6",
+   "sizes": "0.5 to 2.4 L",
+   "lid": "Locking silicone seal"
+  },
+  "description": "Airtight Food Storage Containers, Set of 6. Pieces: 6; Sizes: 0.5 to 2.4 L; Lid: Locking silicone seal."
+ },
+ {
+  "product_id": "ORG-032",
+  "title": "Glass Storage Jars with Bamboo Lids, Set of 3",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "food_containers",
+  "price_pkr": 1890,
+  "stock_qty": 33,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "3",
+   "capacity": "800 ml each",
+   "material": "Borosilicate glass"
+  },
+  "description": "Glass Storage Jars with Bamboo Lids, Set of 3. Pieces: 3; Capacity: 800 ml each; Material: Borosilicate glass."
+ },
+ {
+  "product_id": "ORG-033",
+  "title": "2-Tier Dish Drying Rack with Drainboard",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "dish_rack",
+  "price_pkr": 3250,
+  "stock_qty": 56,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "2",
+   "material": "Rust-proof steel",
+   "includes": "Cutlery holder, drainboard"
+  },
+  "description": "2-Tier Dish Drying Rack with Drainboard. Tiers: 2; Material: Rust-proof steel; Includes: Cutlery holder, drainboard."
+ },
+ {
+  "product_id": "ORG-034",
+  "title": "Over-the-Sink Roll-Up Drying Rack",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "dish_rack",
+  "price_pkr": 1450,
+  "stock_qty": 9,
+  "in_stock": true,
+  "attributes": {
+   "size": "52 x 32 cm",
+   "material": "Silicone-coated steel",
+   "folds": "Rolls up"
+  },
+  "description": "Over-the-Sink Roll-Up Drying Rack. Size: 52 x 32 cm; Material: Silicone-coated steel; Folds: Rolls up. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-035",
+  "title": "Wall-Mounted Plastic Bag Holder",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "bag_dispenser",
+  "price_pkr": 590,
+  "stock_qty": 19,
+  "in_stock": true,
+  "attributes": {
+   "material": "Steel wire frame, fabric",
+   "mounting": "Screw or adhesive"
+  },
+  "description": "Wall-Mounted Plastic Bag Holder. Material: Steel wire frame, fabric; Mounting: Screw or adhesive. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-036",
+  "title": "Rotating Belt and Tie Hanger, 20 Hooks",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Wardrobe Storage",
+  "product_type": "tie_belt_hanger",
+  "price_pkr": 690,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "hooks": "20",
+   "material": "Steel",
+   "rotation": "360 degrees"
+  },
+  "description": "Rotating Belt and Tie Hanger, 20 Hooks. Hooks: 20; Material: Steel; Rotation: 360 degrees."
+ },
+ {
+  "product_id": "ORG-037",
+  "title": "Acrylic Makeup Organizer with 3 Drawers",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Bathroom Storage",
+  "product_type": "makeup_organizer",
+  "price_pkr": 2650,
+  "stock_qty": 16,
+  "in_stock": true,
+  "attributes": {
+   "drawers": "3",
+   "material": "Clear acrylic",
+   "top": "Brush slots"
+  },
+  "description": "Acrylic Makeup Organizer with 3 Drawers. Drawers: 3; Material: Clear acrylic; Top: Brush slots. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-038",
+  "title": "Expandable 3-Tier Pantry Shelf Riser",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "pantry_riser",
+  "price_pkr": 1490,
+  "stock_qty": 55,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "3",
+   "width": "Expands 38-68 cm",
+   "material": "PP"
+  },
+  "description": "Expandable 3-Tier Pantry Shelf Riser. Tiers: 3; Width: Expands 38-68 cm; Material: PP. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-039",
+  "title": "Foldable Clothes Drying Stand, Steel",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Laundry",
+  "product_type": "drying_stand",
+  "price_pkr": 3950,
+  "stock_qty": 7,
+  "in_stock": true,
+  "attributes": {
+   "length": "1.6 m line space 18 m",
+   "material": "Stainless steel",
+   "folds": "Flat"
+  },
+  "description": "Foldable Clothes Drying Stand, Steel. Length: 1.6 m line space 18 m; Material: Stainless steel; Folds: Flat. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-040",
+  "title": "Wall-Mounted Retractable Clothesline, 4 Lines",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Laundry",
+  "product_type": "drying_stand",
+  "price_pkr": 2250,
+  "stock_qty": 47,
+  "in_stock": true,
+  "attributes": {
+   "lines": "4",
+   "length": "Up to 4 m",
+   "case": "ABS"
+  },
+  "description": "Wall-Mounted Retractable Clothesline, 4 Lines. Lines: 4; Length: Up to 4 m; Case: ABS. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-041",
+  "title": "Collapsible Laundry Basket, 60 Litre",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Laundry",
+  "product_type": "laundry_basket",
+  "price_pkr": 1190,
+  "stock_qty": 60,
+  "in_stock": true,
+  "attributes": {
+   "capacity": "60 L",
+   "material": "Oxford fabric",
+   "handles": "2 padded"
+  },
+  "description": "Collapsible Laundry Basket, 60 Litre. Capacity: 60 L; Material: Oxford fabric; Handles: 2 padded."
+ },
+ {
+  "product_id": "ORG-042",
+  "title": "Wall Pegboard Kit with 10 Accessories",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Desk & Office",
+  "product_type": "pegboard",
+  "price_pkr": 3450,
+  "stock_qty": 39,
+  "in_stock": true,
+  "attributes": {
+   "size": "60 x 40 cm",
+   "material": "Metal",
+   "accessories": "Hooks, shelf, cups"
+  },
+  "description": "Wall Pegboard Kit with 10 Accessories. Size: 60 x 40 cm; Material: Metal; Accessories: Hooks, shelf, cups. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-043",
+  "title": "Foldable Drawer Organizer, 24 Cells",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Drawer Storage",
+  "product_type": "sock_organizer",
+  "price_pkr": 690,
+  "stock_qty": 28,
+  "in_stock": true,
+  "attributes": {
+   "cells": "24",
+   "material": "Non-woven fabric"
+  },
+  "description": "Foldable Drawer Organizer, 24 Cells. Cells: 24; Material: Non-woven fabric."
+ },
+ {
+  "product_id": "ORG-044",
+  "title": "Medicine Storage Box with Handle, 3 Layers",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Bathroom Storage",
+  "product_type": "medicine_box",
+  "price_pkr": 1450,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "layers": "3 (tray, 2 compartments)",
+   "material": "PP plastic",
+   "lock": "Clip latch"
+  },
+  "description": "Medicine Storage Box with Handle, 3 Layers. Layers: 3 (tray, 2 compartments); Material: PP plastic; Lock: Clip latch. Quality checked before dispatch."
+ },
+ {
+  "product_id": "ORG-045",
+  "title": "Weekly Pill Organizer, 7 Days x 2",
+  "brand": "Saaf Ghar",
+  "category": "Organizers",
+  "subcategory": "Bathroom Storage",
+  "product_type": "medicine_box",
+  "price_pkr": 450,
+  "stock_qty": 47,
+  "in_stock": true,
+  "attributes": {
+   "compartments": "14 (AM / PM)",
+   "material": "BPA-free PP"
+  },
+  "description": "Weekly Pill Organizer, 7 Days x 2. Compartments: 14 (AM / PM); Material: BPA-free PP. Durable build and easy to clean."
+ },
+ {
+  "product_id": "ORG-046",
+  "title": "Mug Tree Stand, 6 Hooks",
+  "brand": "Jagah Smart",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "mug_tree",
+  "price_pkr": 890,
+  "stock_qty": 39,
+  "in_stock": true,
+  "attributes": {
+   "hooks": "6",
+   "material": "Stainless steel",
+   "base": "Weighted"
+  },
+  "description": "Mug Tree Stand, 6 Hooks. Hooks: 6; Material: Stainless steel; Base: Weighted. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "ORG-047",
+  "title": "Ironing Board with Iron Rest, Adjustable Height",
+  "brand": "Sahulat Basics",
+  "category": "Organizers",
+  "subcategory": "Laundry",
+  "product_type": "ironing_board",
+  "price_pkr": 4450,
+  "stock_qty": 10,
+  "in_stock": true,
+  "attributes": {
+   "surface": "110 x 33 cm",
+   "height": "Adjustable 70-90 cm",
+   "cover": "Cotton, heat-reflective"
+  },
+  "description": "Ironing Board with Iron Rest, Adjustable Height. Surface: 110 x 33 cm; Height: Adjustable 70-90 cm; Cover: Cotton, heat-reflective."
+ },
+ {
+  "product_id": "ORG-048",
+  "title": "3-Tier Rolling Utility Cart",
+  "brand": "Tarteeb",
+  "category": "Organizers",
+  "subcategory": "Kitchen Storage",
+  "product_type": "rolling_cart",
+  "price_pkr": 3950,
+  "stock_qty": 37,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "3",
+   "material": "Metal",
+   "wheels": "4 lockable castors"
+  },
+  "description": "3-Tier Rolling Utility Cart. Tiers: 3; Material: Metal; Wheels: 4 lockable castors. Quality checked before dispatch."
+ },
+ {
+  "product_id": "FUR-001",
+  "title": "Cane Mooda Stool, Natural",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "mooda",
+  "price_pkr": 3250,
+  "stock_qty": 21,
+  "in_stock": true,
+  "attributes": {
+   "material": "Cane and reed",
+   "height": "45 cm",
+   "diameter": "40 cm"
+  },
+  "description": "Cane Mooda Stool, Natural. Material: Cane and reed; Height: 45 cm; Diameter: 40 cm."
+ },
+ {
+  "product_id": "FUR-002",
+  "title": "Mooda Stool Pair with Cushion Tops",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "mooda",
+  "price_pkr": 7450,
+  "stock_qty": 4,
+  "in_stock": true,
+  "attributes": {
+   "material": "Cane, cotton cushion",
+   "pieces": "2",
+   "height": "42 cm"
+  },
+  "description": "Mooda Stool Pair with Cushion Tops. Material: Cane, cotton cushion; Pieces: 2; Height: 42 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-003",
+  "title": "Woven Rope Charpai, Sheesham Frame",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "charpai",
+  "price_pkr": 18500,
+  "stock_qty": 46,
+  "in_stock": true,
+  "attributes": {
+   "material": "Sheesham legs, nylon rope weave",
+   "size": "190 x 90 cm"
+  },
+  "description": "Woven Rope Charpai, Sheesham Frame. Material: Sheesham legs, nylon rope weave; Size: 190 x 90 cm."
+ },
+ {
+  "product_id": "FUR-004",
+  "title": "Storage Ottoman, Fabric, 76 cm",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "storage_ottoman",
+  "price_pkr": 8950,
+  "stock_qty": 37,
+  "in_stock": true,
+  "attributes": {
+   "size": "76 x 38 x 38 cm",
+   "material": "Linen-look fabric, MDF",
+   "lid": "Hinged"
+  },
+  "description": "Storage Ottoman, Fabric, 76 cm. Size: 76 x 38 x 38 cm; Material: Linen-look fabric, MDF; Lid: Hinged."
+ },
+ {
+  "product_id": "FUR-005",
+  "title": "Round Pouf Ottoman with Hidden Storage",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "storage_ottoman",
+  "price_pkr": 5450,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "diameter": "40 cm",
+   "material": "Faux leather",
+   "lid": "Lift-off"
+  },
+  "description": "Round Pouf Ottoman with Hidden Storage. Diameter: 40 cm; Material: Faux leather; Lid: Lift-off. Quality checked before dispatch."
+ },
+ {
+  "product_id": "FUR-006",
+  "title": "Nesting Side Tables, Set of 3",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Tables",
+  "product_type": "nesting_tables",
+  "price_pkr": 12500,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "3",
+   "material": "MDF top, metal legs",
+   "finish": "Walnut"
+  },
+  "description": "Nesting Side Tables, Set of 3. Pieces: 3; Material: MDF top, metal legs; Finish: Walnut."
+ },
+ {
+  "product_id": "FUR-007",
+  "title": "Bean Bag Chair, XL, with Filling",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "bean_bag",
+  "price_pkr": 9500,
+  "stock_qty": 11,
+  "in_stock": true,
+  "attributes": {
+   "size": "XL",
+   "cover": "Faux leather",
+   "filling": "Polystyrene beads, included"
+  },
+  "description": "Bean Bag Chair, XL, with Filling. Size: XL; Cover: Faux leather; Filling: Polystyrene beads, included. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-008",
+  "title": "Bean Bag Cover Only, Large",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "bean_bag",
+  "price_pkr": 3950,
+  "stock_qty": 28,
+  "in_stock": true,
+  "attributes": {
+   "size": "Large",
+   "cover": "Cotton canvas",
+   "filling": "Not included"
+  },
+  "description": "Bean Bag Cover Only, Large. Size: Large; Cover: Cotton canvas; Filling: Not included. Quality checked before dispatch."
+ },
+ {
+  "product_id": "FUR-009",
+  "title": "Slim Shoe Cabinet, 2 Flip Drawers",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Storage Furniture",
+  "product_type": "shoe_cabinet",
+  "price_pkr": 14900,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "depth": "24 cm",
+   "capacity": "Up to 16 pairs",
+   "material": "Engineered wood"
+  },
+  "description": "Slim Shoe Cabinet, 2 Flip Drawers. Depth: 24 cm; Capacity: Up to 16 pairs; Material: Engineered wood. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-010",
+  "title": "Compact Study Desk, 100 cm, with Drawer",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Desks",
+  "product_type": "study_desk",
+  "price_pkr": 15500,
+  "stock_qty": 50,
+  "in_stock": true,
+  "attributes": {
+   "size": "100 x 50 x 75 cm",
+   "material": "Engineered wood",
+   "drawer": "1"
+  },
+  "description": "Compact Study Desk, 100 cm, with Drawer. Size: 100 x 50 x 75 cm; Material: Engineered wood; Drawer: 1. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-011",
+  "title": "Wall-Mounted Fold-Down Desk",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Desks",
+  "product_type": "study_desk",
+  "price_pkr": 9950,
+  "stock_qty": 21,
+  "in_stock": true,
+  "attributes": {
+   "size": "80 x 45 cm open",
+   "depth_closed": "10 cm",
+   "material": "MDF"
+  },
+  "description": "Wall-Mounted Fold-Down Desk. Size: 80 x 45 cm open; Depth closed: 10 cm; Material: MDF. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-012",
+  "title": "Ergonomic Mesh Office Chair, Lumbar Support",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "office_chair",
+  "price_pkr": 32500,
+  "stock_qty": 22,
+  "in_stock": true,
+  "attributes": {
+   "back": "Mesh with adjustable lumbar",
+   "arms": "3D adjustable",
+   "base": "Nylon, 5 castors"
+  },
+  "description": "Ergonomic Mesh Office Chair, Lumbar Support. Back: Mesh with adjustable lumbar; Arms: 3D adjustable; Base: Nylon, 5 castors. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-013",
+  "title": "Basic Revolving Chair, Mid-Back",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "office_chair",
+  "price_pkr": 13900,
+  "stock_qty": 37,
+  "in_stock": true,
+  "attributes": {
+   "back": "Mesh mid-back",
+   "arms": "Fixed",
+   "height": "Gas-lift adjustable"
+  },
+  "description": "Basic Revolving Chair, Mid-Back. Back: Mesh mid-back; Arms: Fixed; Height: Gas-lift adjustable. Quality checked before dispatch."
+ },
+ {
+  "product_id": "FUR-014",
+  "title": "Ladder Bookshelf, 5 Tiers",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Storage Furniture",
+  "product_type": "ladder_shelf",
+  "price_pkr": 11500,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "tiers": "5",
+   "height": "175 cm",
+   "material": "Engineered wood, metal frame"
+  },
+  "description": "Ladder Bookshelf, 5 Tiers. Tiers: 5; Height: 175 cm; Material: Engineered wood, metal frame."
+ },
+ {
+  "product_id": "FUR-015",
+  "title": "TV Console, 140 cm, 2 Doors",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Living Room",
+  "product_type": "tv_console",
+  "price_pkr": 21500,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "width": "140 cm",
+   "max_tv": "Up to 60 in",
+   "material": "Engineered wood"
+  },
+  "description": "TV Console, 140 cm, 2 Doors. Width: 140 cm; Max tv: Up to 60 in; Material: Engineered wood."
+ },
+ {
+  "product_id": "FUR-016",
+  "title": "Drop-Leaf Dining Table, Seats 2-4",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Tables",
+  "product_type": "drop_leaf_table",
+  "price_pkr": 19900,
+  "stock_qty": 29,
+  "in_stock": true,
+  "attributes": {
+   "size_open": "120 x 75 cm",
+   "size_folded": "75 x 40 cm",
+   "material": "Rubberwood"
+  },
+  "description": "Drop-Leaf Dining Table, Seats 2-4. Size open: 120 x 75 cm; Size folded: 75 x 40 cm; Material: Rubberwood. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-017",
+  "title": "Adjustable Bar Stool, Pair",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "bar_stool",
+  "price_pkr": 16500,
+  "stock_qty": 34,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "2",
+   "height": "60-80 cm gas lift",
+   "seat": "Faux leather"
+  },
+  "description": "Adjustable Bar Stool, Pair. Pieces: 2; Height: 60-80 cm gas lift; Seat: Faux leather. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-018",
+  "title": "Folding Steel Chair, Padded Seat",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "folding_chair",
+  "price_pkr": 3950,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "material": "Steel frame, padded PU seat",
+   "load": "100 kg"
+  },
+  "description": "Folding Steel Chair, Padded Seat. Material: Steel frame, padded PU seat; Load: 100 kg. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-019",
+  "title": "Laptop Bed Table with Foldable Legs",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Desks",
+  "product_type": "lap_desk",
+  "price_pkr": 2950,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "size": "60 x 40 cm",
+   "legs": "Foldable",
+   "material": "MDF top"
+  },
+  "description": "Laptop Bed Table with Foldable Legs. Size: 60 x 40 cm; Legs: Foldable; Material: MDF top. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-020",
+  "title": "Adjustable Laptop Table with Tilting Top",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Desks",
+  "product_type": "lap_desk",
+  "price_pkr": 4950,
+  "stock_qty": 8,
+  "in_stock": true,
+  "attributes": {
+   "height": "Adjustable",
+   "top": "Tilts 0-30 degrees",
+   "material": "Aluminium legs, MDF top"
+  },
+  "description": "Adjustable Laptop Table with Tilting Top. Height: Adjustable; Top: Tilts 0-30 degrees; Material: Aluminium legs, MDF top. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-021",
+  "title": "Sofa Cum Bed, 3-Seater, Fabric",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Living Room",
+  "product_type": "sofa_cum_bed",
+  "price_pkr": 64500,
+  "stock_qty": 16,
+  "in_stock": true,
+  "attributes": {
+   "seats": "3",
+   "bed_size": "180 x 120 cm",
+   "mechanism": "Click-clack"
+  },
+  "description": "Sofa Cum Bed, 3-Seater, Fabric. Seats: 3; Bed size: 180 x 120 cm; Mechanism: Click-clack. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-022",
+  "title": "Bedside Table with 2 Drawers",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Bedroom",
+  "product_type": "bedside_table",
+  "price_pkr": 7950,
+  "stock_qty": 49,
+  "in_stock": true,
+  "attributes": {
+   "size": "40 x 35 x 50 cm",
+   "drawers": "2",
+   "material": "Engineered wood"
+  },
+  "description": "Bedside Table with 2 Drawers. Size: 40 x 35 x 50 cm; Drawers: 2; Material: Engineered wood. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-023",
+  "title": "Sheesham Wood Bedside Table, Open Shelf",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Bedroom",
+  "product_type": "bedside_table",
+  "price_pkr": 12500,
+  "stock_qty": 12,
+  "in_stock": true,
+  "attributes": {
+   "size": "45 x 40 x 55 cm",
+   "material": "Solid sheesham",
+   "shelves": "1 open"
+  },
+  "description": "Sheesham Wood Bedside Table, Open Shelf. Size: 45 x 40 x 55 cm; Material: Solid sheesham; Shelves: 1 open."
+ },
+ {
+  "product_id": "FUR-024",
+  "title": "Dressing Table with Mirror and Stool",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Bedroom",
+  "product_type": "dressing_table",
+  "price_pkr": 24500,
+  "stock_qty": 26,
+  "in_stock": true,
+  "attributes": {
+   "includes": "Mirror, stool",
+   "drawers": "3",
+   "material": "Engineered wood"
+  },
+  "description": "Dressing Table with Mirror and Stool. Includes: Mirror, stool; Drawers: 3; Material: Engineered wood. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-025",
+  "title": "Coat Stand with 8 Hooks",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Entryway",
+  "product_type": "coat_stand",
+  "price_pkr": 4450,
+  "stock_qty": 51,
+  "in_stock": true,
+  "attributes": {
+   "hooks": "8",
+   "height": "175 cm",
+   "material": "Metal, marble-look base"
+  },
+  "description": "Coat Stand with 8 Hooks. Hooks: 8; Height: 175 cm; Material: Metal, marble-look base."
+ },
+ {
+  "product_id": "FUR-026",
+  "title": "Folding Room Divider, 3 Panels",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Living Room",
+  "product_type": "room_divider",
+  "price_pkr": 10500,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "panels": "3",
+   "height": "170 cm",
+   "material": "Wooden frame, fabric panels"
+  },
+  "description": "Folding Room Divider, 3 Panels. Panels: 3; Height: 170 cm; Material: Wooden frame, fabric panels. Quality checked before dispatch."
+ },
+ {
+  "product_id": "FUR-027",
+  "title": "Plant Stand, 3 Tiers, Metal",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Living Room",
+  "product_type": "plant_stand",
+  "price_pkr": 3450,
+  "stock_qty": 16,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "3",
+   "height": "80 cm",
+   "material": "Powder-coated iron"
+  },
+  "description": "Plant Stand, 3 Tiers, Metal. Tiers: 3; Height: 80 cm; Material: Powder-coated iron."
+ },
+ {
+  "product_id": "FUR-028",
+  "title": "Two-Step Folding Step Stool",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Kitchen Furniture",
+  "product_type": "step_stool",
+  "price_pkr": 2950,
+  "stock_qty": 10,
+  "in_stock": true,
+  "attributes": {
+   "steps": "2",
+   "height": "48 cm",
+   "load": "150 kg",
+   "material": "PP plastic"
+  },
+  "description": "Two-Step Folding Step Stool. Steps: 2; Height: 48 cm; Load: 150 kg; Material: PP plastic."
+ },
+ {
+  "product_id": "FUR-029",
+  "title": "Corner Shelf Unit, 5 Tiers",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Storage Furniture",
+  "product_type": "corner_shelf",
+  "price_pkr": 6950,
+  "stock_qty": 23,
+  "in_stock": true,
+  "attributes": {
+   "tiers": "5",
+   "height": "150 cm",
+   "material": "Engineered wood"
+  },
+  "description": "Corner Shelf Unit, 5 Tiers. Tiers: 5; Height: 150 cm; Material: Engineered wood."
+ },
+ {
+  "product_id": "FUR-030",
+  "title": "Wooden Rocking Chair",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "rocking_chair",
+  "price_pkr": 22500,
+  "stock_qty": 29,
+  "in_stock": true,
+  "attributes": {
+   "material": "Sheesham wood",
+   "seat": "Cane weave"
+  },
+  "description": "Wooden Rocking Chair. Material: Sheesham wood; Seat: Cane weave. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-031",
+  "title": "Portable Fabric Wardrobe, 3 Sections",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Storage Furniture",
+  "product_type": "fabric_wardrobe",
+  "price_pkr": 5950,
+  "stock_qty": 18,
+  "in_stock": true,
+  "attributes": {
+   "size": "130 x 45 x 170 cm",
+   "material": "Non-woven fabric, steel tube frame"
+  },
+  "description": "Portable Fabric Wardrobe, 3 Sections. Size: 130 x 45 x 170 cm; Material: Non-woven fabric, steel tube frame. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-032",
+  "title": "Foldable Prayer Chair with Backrest",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "prayer_chair",
+  "price_pkr": 6450,
+  "stock_qty": 47,
+  "in_stock": true,
+  "attributes": {
+   "material": "Steel frame, padded seat",
+   "height": "Seat 45 cm",
+   "folds": "Yes"
+  },
+  "description": "Foldable Prayer Chair with Backrest. Material: Steel frame, padded seat; Height: Seat 45 cm; Folds: Yes."
+ },
+ {
+  "product_id": "FUR-033",
+  "title": "Standing Desk Converter, Height-Adjustable",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Desks",
+  "product_type": "standing_desk_converter",
+  "price_pkr": 19500,
+  "stock_qty": 56,
+  "in_stock": true,
+  "attributes": {
+   "width": "80 cm",
+   "height": "Adjustable 15-50 cm",
+   "mechanism": "Gas spring"
+  },
+  "description": "Standing Desk Converter, Height-Adjustable. Width: 80 cm; Height: Adjustable 15-50 cm; Mechanism: Gas spring. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-034",
+  "title": "Monitor Riser Stand with Drawer",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Desks",
+  "product_type": "monitor_riser",
+  "price_pkr": 2950,
+  "stock_qty": 18,
+  "in_stock": true,
+  "attributes": {
+   "size": "54 x 24 cm",
+   "height": "10 cm",
+   "material": "Metal mesh"
+  },
+  "description": "Monitor Riser Stand with Drawer. Size: 54 x 24 cm; Height: 10 cm; Material: Metal mesh."
+ },
+ {
+  "product_id": "FUR-035",
+  "title": "Floor Cushion Gaddi Set with Bolster",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "floor_cushion",
+  "price_pkr": 4950,
+  "stock_qty": 2,
+  "in_stock": true,
+  "attributes": {
+   "includes": "Gaddi + 1 gol takiya",
+   "cover": "Cotton, removable"
+  },
+  "description": "Floor Cushion Gaddi Set with Bolster. Includes: Gaddi + 1 gol takiya; Cover: Cotton, removable."
+ },
+ {
+  "product_id": "FUR-036",
+  "title": "Wooden Folding Rehal, Carved",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Living Room",
+  "product_type": "rehal",
+  "price_pkr": 1450,
+  "stock_qty": 2,
+  "in_stock": true,
+  "attributes": {
+   "material": "Sheesham wood",
+   "size": "30 cm open",
+   "finish": "Hand-carved"
+  },
+  "description": "Wooden Folding Rehal, Carved. Material: Sheesham wood; Size: 30 cm open; Finish: Hand-carved. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-037",
+  "title": "Under-Desk Footrest, Adjustable Angle",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "footrest",
+  "price_pkr": 2450,
+  "stock_qty": 51,
+  "in_stock": true,
+  "attributes": {
+   "surface": "Textured",
+   "angle": "Adjustable",
+   "material": "PP plastic"
+  },
+  "description": "Under-Desk Footrest, Adjustable Angle. Surface: Textured; Angle: Adjustable; Material: PP plastic. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-038",
+  "title": "Narrow Console Table, 100 cm",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Entryway",
+  "product_type": "console_table",
+  "price_pkr": 11500,
+  "stock_qty": 41,
+  "in_stock": true,
+  "attributes": {
+   "size": "100 x 30 x 78 cm",
+   "material": "Engineered wood, metal legs"
+  },
+  "description": "Narrow Console Table, 100 cm. Size: 100 x 30 x 78 cm; Material: Engineered wood, metal legs. Sturdy construction with a neat finish."
+ },
+ {
+  "product_id": "FUR-039",
+  "title": "Single-Seat Recliner, Fabric",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "product_type": "recliner",
+  "price_pkr": 54500,
+  "stock_qty": 30,
+  "in_stock": true,
+  "attributes": {
+   "mechanism": "Manual lever",
+   "material": "Fabric, solid wood frame"
+  },
+  "description": "Single-Seat Recliner, Fabric. Mechanism: Manual lever; Material: Fabric, solid wood frame."
+ },
+ {
+  "product_id": "FUR-040",
+  "title": "Kids Table and 2 Chairs Set",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Tables",
+  "product_type": "kids_table",
+  "price_pkr": 8950,
+  "stock_qty": 14,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "3",
+   "material": "PP plastic",
+   "table_height": "48 cm"
+  },
+  "description": "Kids Table and 2 Chairs Set. Pieces: 3; Material: PP plastic; Table height: 48 cm. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-041",
+  "title": "Floating Wall Shelves, Set of 3",
+  "brand": "Lakri Works",
+  "category": "Furniture",
+  "subcategory": "Storage Furniture",
+  "product_type": "wall_shelf",
+  "price_pkr": 2950,
+  "stock_qty": 7,
+  "in_stock": true,
+  "attributes": {
+   "pieces": "3",
+   "lengths": "40, 50, 60 cm",
+   "mounting": "Hidden brackets"
+  },
+  "description": "Floating Wall Shelves, Set of 3. Pieces: 3; Lengths: 40, 50, 60 cm; Mounting: Hidden brackets."
+ },
+ {
+  "product_id": "FUR-042",
+  "title": "Metal Bunk Bed, Single over Single",
+  "brand": "Baithak Living",
+  "category": "Furniture",
+  "subcategory": "Bedroom",
+  "product_type": "bunk_bed",
+  "price_pkr": 46500,
+  "stock_qty": 33,
+  "in_stock": true,
+  "attributes": {
+   "size": "190 x 90 cm each",
+   "material": "Steel tube",
+   "ladder": "Built-in"
+  },
+  "description": "Metal Bunk Bed, Single over Single. Size: 190 x 90 cm each; Material: Steel tube; Ladder: Built-in."
+ },
+ {
+  "product_id": "FUR-043",
+  "title": "Entryway Bench with Shoe Shelf",
+  "brand": "Sheesham Craft",
+  "category": "Furniture",
+  "subcategory": "Entryway",
+  "product_type": "bench",
+  "price_pkr": 9450,
+  "stock_qty": 23,
+  "in_stock": true,
+  "attributes": {
+   "size": "80 x 30 x 48 cm",
+   "material": "Engineered wood",
+   "shelf": "Lower shoe shelf"
+  },
+  "description": "Entryway Bench with Shoe Shelf. Size: 80 x 30 x 48 cm; Material: Engineered wood; Shelf: Lower shoe shelf. Durable build and easy to clean."
+ },
+ {
+  "product_id": "FUR-044",
+  "title": "Bookcase, 5 Shelves, 180 cm",
+  "brand": "Aaram Furnishings",
+  "category": "Furniture",
+  "subcategory": "Storage Furniture",
+  "product_type": "bookcase",
+  "price_pkr": 16500,
+  "stock_qty": 0,
+  "in_stock": false,
+  "attributes": {
+   "shelves": "5",
+   "height": "180 cm",
+   "material": "Engineered wood"
+  },
+  "description": "Bookcase, 5 Shelves, 180 cm. Shelves: 5; Height: 180 cm; Material: Engineered wood. Durable build and easy to clean."
+ }
+]
