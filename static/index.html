@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sahulat Home</title>
+  <meta name="description" content="Demo household-goods store with search that understands what you need a product for.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="bar">
+      <a class="wordmark" href="#/" aria-label="Sahulat Home, home page">
+        <span class="wm-ur" lang="ur" dir="rtl">سہولت</span>
+        <span class="wm-en">Sahulat Home</span>
+      </a>
+      <nav class="cats" aria-label="Categories" id="cat-nav"></nav>
+      <button class="visit-btn" id="visit-btn" type="button" aria-haspopup="dialog" aria-controls="visit-panel">
+        This visit <span class="count" id="visit-count">0</span>
+      </button>
+    </div>
+    <form class="mini-search" id="mini-search" role="search" hidden>
+      <label class="sr" for="mini-q">Describe what you need</label>
+      <input id="mini-q" name="q" type="search" autocomplete="off" placeholder="Describe what you need">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p>Demo store for a university project (DATA722). Every product, brand, price and stock level is invented.</p>
+  </footer>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="visit-panel" id="visit-panel" role="dialog" aria-modal="true" aria-labelledby="visit-title" hidden>
+    <div class="vp-head">
+      <h2 id="visit-title">What search knows about this visit</h2>
+      <button type="button" class="vp-close" id="visit-close" aria-label="Close">Close</button>
+    </div>
+    <p class="vp-note">Kept in this browser tab only and cleared when you close it. Nothing about your visit is stored on our servers. Only a rough summary (categories, product types, price range) is ever sent with a search, never who you are.</p>
+    <div id="visit-body"></div>
+    <button type="button" class="ghost" id="visit-clear">Clear this visit</button>
+  </aside>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

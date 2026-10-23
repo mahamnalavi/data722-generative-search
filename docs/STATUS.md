@@ -8,13 +8,14 @@ Due: **31 Oct 2026**. Last updated: 24 Oct.
 - Synthetic catalogue v1: 195 products (`data/catalogue.csv`, `data/catalogue.json`)
 - GitHub linked; Claude can push to the repo
 - AI providers chosen: Groq (chat) + Gemini (embeddings, judge), OpenAI as backup
+- Keys tested in Colab: Groq gpt-oss-120b OK; Gemini embeddings OK (gemini-embedding-001, 3072 dims; gemini-embedding-2 also available)
+- Website v0 built and tested locally: store pages, keyword (BM25) search, This-visit panel
 
 ## In progress / waiting
-- [ ] Get a Gemini API key; store the Groq and Gemini keys in Colab secrets; check free-tier limits (student, Task 3)
+- [ ] Deploy v0 to Vercel (student, Task 4)
+- [ ] Screenshot of Groq organization limits (student, optional)
 
 ## Next (Claude)
-- Store website v0: category pages and product pages, with a session tracker in the browser
-- Keyword (BM25) baseline search plus a search box
 - Evaluation query set (~100), with a 30/70 dev/test split
 - Colab notebook part 1: load catalogue, audit, generate definitions, embeddings
 

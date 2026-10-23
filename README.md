@@ -10,5 +10,7 @@ A demo online store for household goods (a fictional Pakistani store, all data s
 | `data/` | Synthetic catalogue (`catalogue.csv` / `.json`) and the script that builds it |
 | `docs/DECISIONS.md` | Decisions log: what we tried, chose and rejected, and why |
 | `docs/STATUS.md` | Current project status and next steps |
-| `app/` | The website and search API (FastAPI), deployed on Vercel *(coming next)* |
+| `app.py` | The web app and search API (FastAPI), deployed on Vercel |
+| `search/` | The search engine, shared by the app and the notebook |
+| `static/` | Website files (HTML, CSS, JavaScript) |
 | `notebook/` | Google Colab notebook: definitions, embeddings, evaluation *(coming next)* |
