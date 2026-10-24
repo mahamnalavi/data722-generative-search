@@ -9,15 +9,18 @@ Due: **31 Oct 2026**. Last updated: 24 Oct.
 - GitHub linked; Claude can push to the repo
 - AI providers chosen: Groq (chat) + Gemini (embeddings, judge), OpenAI as backup
 - Keys tested in Colab: Groq gpt-oss-120b OK; Gemini embeddings OK (gemini-embedding-001, 3072 dims; gemini-embedding-2 also available)
-- Website v0 built and tested locally: store pages, keyword (BM25) search, This-visit panel
+- Website v0 live on Vercel (/api/health OK, 195 products)
+- Groq limits verified (decision 13)
+- Notebook 01 (definitions and embeddings) written and test-run offline
 
 ## In progress / waiting
-- [ ] Deploy v0 to Vercel (student, Task 4)
-- [ ] Screenshot of Groq organization limits (student, optional)
+- [ ] Find the permanent public web address and check it in a private window (student, Task 4b)
+- [ ] Create a GitHub token; run Notebook 01 (student, Task 5)
 
 ## Next (Claude)
 - Evaluation query set (~100), with a 30/70 dev/test split
-- Colab notebook part 1: load catalogue, audit, generate definitions, embeddings
+- Website v1: meaning-based search using the saved embeddings (after Notebook 01 runs)
+- Notebook 02: evaluation ladder on the dev split
 
 ## Phase 1 metrics that must appear in the evaluation
 1. Keyword-search miss rate (the problem measure)
