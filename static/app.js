@@ -34,8 +34,10 @@
   ];
 
   const main = document.getElementById("main");
-  const miniForm = document.getElementById("mini-search");
-  const miniQ = document.getElementById("mini-q");
+  const topForm = document.getElementById("top-search");
+  const topQ = document.getElementById("top-q");
+  const FEATURED_TYPES = ["egg_separator", "pressure_cooker", "emergency_light", "cordless_drill",
+    "shower_caddy", "spice_rack", "office_chair", "prayer_chair"];
   let products = [];
   let byId = {};
 
@@ -47,9 +49,11 @@
       : p.stock_qty <= 5 ? `<span class="stock low">Only ${p.stock_qty} left</span>`
       : '<span class="stock">In stock</span>';
 
+  const art = (p) => (window.illustrationFor && window.illustrationFor(p)) || ICONS[p.category] || "";
+
   function card(p) {
     return `<a class="card" href="#/p/${esc(p.product_id)}">
-      <div class="thumb t-${esc(p.category)}">${ICONS[p.category] || ""}</div>
+      <div class="thumb t-${esc(p.category)}">${art(p)}</div>
       <div class="card-body">
         <span class="card-title">${esc(p.title)}</span>
         <span class="card-brand">${esc(p.brand)}</span>
@@ -124,23 +128,31 @@
 
   function renderHome() {
     currentCategory = null;
+    const featured = FEATURED_TYPES.map((t) => products.find((p) => p.product_type === t && p.in_stock)).filter(Boolean);
     main.innerHTML = `
-      <section class="hero">
-        <h1>Describe the job. We'll find the thing.</h1>
-        <p>You don't need to know what it's called. Say what you need it for, in English, Urdu or Roman Urdu.</p>
-        <form class="hero-form" id="hero-form" role="search">
-          <label class="sr" for="hero-q">Describe what you need</label>
-          <input id="hero-q" type="search" autocomplete="off" placeholder="e.g. something to keep spices tidy in a small kitchen">
+      <section class="promo">
+        <h1>Everything for the home, from tawa to toolbox.</h1>
+        <p>Kitchenware, tools, storage and furniture for Pakistani homes.</p>
+        <div class="promo-links">${CATEGORIES.map((c) => `<a href="#/c/${c}">${c}</a>`).join("")}</div>
+      </section>
+      <div class="cat-grid">${CATEGORIES.map((c) => `
+        <a class="cat-tile" href="#/c/${c}">${ICONS[c]}<h3>${c}</h3>
+          <p>${CAT_BLURB[c]}. ${products.filter((p) => p.category === c).length} products.</p></a>`).join("")}
+      </div>
+      <section class="ai-band" aria-labelledby="ai-title">
+        <span class="ai-tag">AI search</span>
+        <h2 id="ai-title">Don't know what it's called? Describe what it's for.</h2>
+        <p>Search understands needs as well as product names, in English, Urdu or Roman Urdu. It only suggests products from this store, and says so when nothing fits.</p>
+        <form class="ai-form" id="ai-form" role="search">
+          <label class="sr" for="ai-q">Describe what you need</label>
+          <input id="ai-q" type="search" autocomplete="off" placeholder="e.g. something to keep spices tidy in a small kitchen">
           <button type="submit">Search</button>
         </form>
         <div class="examples"><span>Try:</span>${EXAMPLES.map((e) => `<button type="button" data-q="${esc(e)}">${esc(e)}</button>`).join("")}</div>
       </section>
-      <h2 class="section">Shop by category</h2>
-      <div class="cat-grid">${CATEGORIES.map((c) => `
-        <a class="cat-tile" href="#/c/${c}">${ICONS[c]}<h3>${c}</h3>
-          <p>${CAT_BLURB[c]}. ${products.filter((p) => p.category === c).length} products.</p></a>`).join("")}
-      </div>`;
-    document.getElementById("hero-form").addEventListener("submit", (e) => { e.preventDefault(); go(document.getElementById("hero-q").value); });
+      <div class="row-head"><h2>Featured products</h2></div>
+      <div class="grid">${featured.map(card).join("")}</div>`;
+    document.getElementById("ai-form").addEventListener("submit", (e) => { e.preventDefault(); go(document.getElementById("ai-q").value); });
     main.querySelectorAll(".examples button").forEach((b) => b.addEventListener("click", () => go(b.dataset.q)));
   }
 
@@ -184,13 +196,16 @@
     main.innerHTML = `
       <nav class="crumbs" aria-label="Breadcrumb"><a href="#/c/${esc(p.category)}">${esc(p.category)}</a> / ${esc(p.subcategory)}</nav>
       <div class="pdp">
-        <div class="thumb t-${esc(p.category)}">${ICONS[p.category]}</div>
+        <div class="thumb t-${esc(p.category)}">${art(p)}</div>
         <div>
           <h1>${esc(p.title)}</h1>
           <span class="card-brand">${esc(p.brand)}</span>
           <span class="price">${rs(p.price_pkr)}</span>${stockLabel(p)}
           <dl class="specs">${specs}</dl>
           <p class="desc">${esc(p.description)}</p>
+          ${p.what_its_for && p.what_its_for.length ? `<section class="wif" aria-labelledby="wif-h"><h2 id="wif-h">What it's for</h2>
+            <ul>${p.what_its_for.map((u) => `<li>${esc(u)}</li>`).join("")}</ul>
+            <small>Summarised by AI from the product details. Check the specs before buying.</small></section>` : ""}
         </div>
       </div>
       ${others.length ? `<section class="variants"><h2 class="section">Other options</h2><div class="grid">${others.map(card).join("")}</div></section>` : ""}`;
@@ -198,13 +213,13 @@
 
   async function renderSearch(q, from) {
     currentCategory = from || null;
-    miniQ.value = q;
+    topQ.value = q;
     main.innerHTML = `<div class="page-head"><div><h1>Results for “${esc(q)}”</h1><p class="meta" id="s-meta" aria-live="polite">Searching…</p></div></div><div id="s-body"></div>`;
     let data;
     try {
       const res = await fetch("/api/search", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: q, mode: "keyword", context: visitSummary(from) }),
+        body: JSON.stringify({ query: q, mode: "hybrid", context: visitSummary(from) }),
       });
       if (!res.ok) throw new Error(`The search service replied with error ${res.status}.`);
       data = await res.json();
@@ -215,12 +230,26 @@
     }
     track("searches", { q, from: from || null });
     const n = data.results.length;
+    const how = data.mode === "hybrid" ? "matched by meaning and keywords" : "matched by keywords";
     document.getElementById("s-meta").textContent =
-      `${n} ${n === 1 ? "match" : "matches"} in ${data.latency_ms} ms${from ? `, searched from the ${from} page` : ""}`;
-    const note = `<p class="notice">This early version matches the words you type against product names and descriptions. It doesn't yet understand what you mean, so describing a use may miss the right product.</p>`;
-    document.getElementById("s-body").innerHTML = n
-      ? note + `<div class="grid">${data.results.map(card).join("")}</div>`
-      : note + `<div class="empty"><h2>No product matched those words</h2><p>Try the product's name if you know it, or browse a category.</p></div>`;
+      `${n} ${n === 1 ? "result" : "results"}, ${how}, in ${data.latency_ms} ms${from ? `. Searched from the ${from} page` : ""}`;
+
+    const parts = [];
+    if (data.fallback) parts.push(`<p class="notice warn">AI search is unavailable right now (${esc(data.fallback)}), so these are plain keyword matches. Describing a use may miss the right product.</p>`);
+    const c = data.constraints || {};
+    const cons = [];
+    if (c.max_price) cons.push(`under ${rs(c.max_price)}`);
+    if (c.in_stock) cons.push("in stock");
+    if (cons.length) parts.push(`<p class="notice">Showing only items ${cons.join(" and ")}${data.removed_by_constraints ? `. ${data.removed_by_constraints} other matches were left out because they don't fit` : ""}.</p>`);
+    if (!n) {
+      parts.push(`<div class="empty"><h2>Nothing in our catalogue fits${cons.length ? " those limits" : ""}</h2><p>Try different words, ${cons.length ? "a higher budget, " : ""}or browse a category.</p></div>`);
+    } else if (data.no_close_match) {
+      parts.push(`<div class="notice warn"><strong>No close match in our catalogue.</strong> These are the nearest items, but they may not do what you described.</div>`);
+      parts.push(`<div class="grid">${data.results.map(card).join("")}</div>`);
+    } else {
+      parts.push(`<div class="grid">${data.results.map(card).join("")}</div>`);
+    }
+    document.getElementById("s-body").innerHTML = parts.join("");
   }
 
   function renderNotFound() {
@@ -233,21 +262,20 @@
     if (!q) return;
     location.hash = `#/search?q=${encodeURIComponent(q)}${currentCategory ? `&from=${encodeURIComponent(currentCategory)}` : ""}`;
   }
-  miniForm.addEventListener("submit", (e) => { e.preventDefault(); go(miniQ.value); });
+  topForm.addEventListener("submit", (e) => { e.preventDefault(); go(topQ.value); });
 
   function route() {
     const h = location.hash.slice(1) || "/";
     const [path, qs] = h.split("?");
     const params = new URLSearchParams(qs || "");
     const parts = path.split("/").filter(Boolean).map(decodeURIComponent);
-    miniForm.hidden = parts.length === 0;
     if (parts.length === 0) renderHome();
     else if (parts[0] === "c") renderCategory(parts[1]);
     else if (parts[0] === "p") renderProduct(parts[1]);
     else if (parts[0] === "search") renderSearch(params.get("q") || "", params.get("from"));
     else renderNotFound();
     document.querySelectorAll("#cat-nav a").forEach((a) => a.setAttribute("aria-current", a.dataset.cat === currentCategory && parts[0] === "c" ? "page" : "false"));
-    if (parts[0] !== "search") miniQ.value = "";
+    if (parts[0] !== "search") topQ.value = "";
     window.scrollTo(0, 0);
   }
 

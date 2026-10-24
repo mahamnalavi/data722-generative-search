@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sahulat Home</title>
-  <meta name="description" content="Demo household-goods store with search that understands what you need a product for.">
+  <meta name="description" content="Demo household-goods store. Its search also understands what you need a product for.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,16 +19,16 @@
         <span class="wm-ur" lang="ur" dir="rtl">سہولت</span>
         <span class="wm-en">Sahulat Home</span>
       </a>
-      <nav class="cats" aria-label="Categories" id="cat-nav"></nav>
+      <form class="top-search" id="top-search" role="search">
+        <label class="sr" for="top-q">Search products</label>
+        <input id="top-q" name="q" type="search" autocomplete="off" placeholder="Search products, or describe what you need">
+        <button type="submit">Search</button>
+      </form>
       <button class="visit-btn" id="visit-btn" type="button" aria-haspopup="dialog" aria-controls="visit-panel">
         This visit <span class="count" id="visit-count">0</span>
       </button>
     </div>
-    <form class="mini-search" id="mini-search" role="search" hidden>
-      <label class="sr" for="mini-q">Describe what you need</label>
-      <input id="mini-q" name="q" type="search" autocomplete="off" placeholder="Describe what you need">
-      <button type="submit">Search</button>
-    </form>
+    <nav class="cats" aria-label="Categories" id="cat-nav"></nav>
   </header>
 
   <main id="main" tabindex="-1"></main>
@@ -48,6 +48,7 @@
     <button type="button" class="ghost" id="visit-clear">Clear this visit</button>
   </aside>
 
+  <script src="/static/illustrations.js"></script>
   <script src="/static/app.js"></script>
 </body>
 </html>

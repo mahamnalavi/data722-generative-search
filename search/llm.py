@@ -131,31 +131,33 @@ class GeminiEmbedder:
         self.client = genai.Client(api_key=api_key or os.environ.get("GEMINI_API_KEY"))
         self.model, self.dims = model, dims
 
-    def embed(self, texts: list[str], kind: str = "document", task="embed", batch_size: int = 20) -> list[list[float]]:
-        """kind='document' for products, 'query' for shopper searches (Gemini tunes each differently)."""
+    def embed(self, texts: list[str], kind: str = "document", task="embed", batch_size: int = 20,
+              retries: int = 6) -> list[list[float]]:
+        """kind='document' for products, 'query' for shopper searches (Gemini tunes each differently).
+        retries=1 fails fast (the website uses this, then falls back to keyword search)."""
         from google.genai import types
         task_type = "RETRIEVAL_DOCUMENT" if kind == "document" else "RETRIEVAL_QUERY"
         cfg = types.EmbedContentConfig(task_type=task_type, output_dimensionality=self.dims)
         vectors = []
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
-            for attempt in range(6):
+            for attempt in range(retries):
                 t0 = time.time()
                 try:
                     res = self.client.models.embed_content(model=self.model, contents=batch, config=cfg)
                     break
                 except Exception as e:
-                    if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                    if ("429" in str(e) or "RESOURCE_EXHAUSTED" in str(e)) and attempt < retries - 1:
                         print(f"  Gemini rate limit; waiting 30s (attempt {attempt + 1})")
                         time.sleep(30)
                         continue
                     if len(batch) > 1:   # some models accept one text per request: fall back to singles
-                        vectors.extend(self.embed(batch, kind=kind, task=task, batch_size=1))
+                        vectors.extend(self.embed(batch, kind=kind, task=task, batch_size=1, retries=retries))
                         res = None
                         break
                     raise
             else:
-                raise RuntimeError("Gemini kept rate-limiting after 6 attempts")
+                raise RuntimeError(f"Gemini kept rate-limiting after {retries} attempts")
             if res is None:
                 continue
             secs = time.time() - t0

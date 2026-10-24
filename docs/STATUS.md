@@ -12,6 +12,7 @@ Due: **31 Oct 2026**. Last updated: 24 Oct.
 - Website v0 live on Vercel (/api/health OK, 195 products)
 - Groq limits verified (decision 13)
 - Notebook 01 (definitions and embeddings) written and test-run offline
+- Website v1: regular storefront, hybrid search with safe keyword fallback, illustrations, "What it's for" box (off until the hand-check)
 
 ## In progress / waiting
 - [ ] Find the permanent public web address and check it in a private window (student, Task 4b)
@@ -19,7 +20,7 @@ Due: **31 Oct 2026**. Last updated: 24 Oct.
 
 ## Next (Claude)
 - Evaluation query set (~100), with a 30/70 dev/test split
-- Website v1: meaning-based search using the saved embeddings (after Notebook 01 runs)
+- Turn on meaning-based search on the live site (needs Notebook 01 outputs and GEMINI_API_KEY in Vercel)
 - Notebook 02: evaluation ladder on the dev split
 
 ## Phase 1 metrics that must appear in the evaluation
