@@ -2,6 +2,8 @@
 
 Due: **31 Oct 2026**. Last updated: 24 Oct.
 
+Step-by-step run instructions (kept outside the notebooks): the "Sahulat Home: run guide" doc, https://claude.ai/artifact/JfYv6EP9mMduLXfMyUf4Az
+
 ## Done
 - Phase 1 reviewed; Phase 2 plan agreed
 - GitHub repo created: `mahamnalavi/data722-generative-search`
