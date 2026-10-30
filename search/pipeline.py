@@ -34,6 +34,8 @@ PARAMS = {
     "w_semantic": 1.0,
     "no_match_similarity": 0.60,   # below this best similarity (and no strong keyword hit) -> "no close match"
     "strong_keyword_score": 8.0,   # BM25 score treated as a confident name match
+    "confidence_after_filters": True,   # judge "no close match" only on products that pass budget/stock
+                                        # (False = old behaviour, kept to show the 30 Oct fix before/after)
     "semantic_pool": 50,           # how many semantic candidates go into the merge
     "strip_constraint_words": True,   # False reproduces the 24 Oct budget-word bug (for the before/after)
     # Context (page + this visit): a small, bounded boost on top of rank. Tuned on dev in Notebook 02.
@@ -107,20 +109,24 @@ def retrieve(query: str, mode: str, query_vec=None, params: dict | None = None, 
     if mode == "keyword":
         hits = _keyword(query, pool)
         diag["top_keyword"] = hits[0][1] if hits else 0.0
+        diag["_kw"] = dict(hits)
         return hits, diag
     if query_vec is None:
         raise ValueError("semantic modes need a query embedding")
     if mode == "semantic_catalogue":
         hits = rank(query_vec, load_index(CAT_INDEX), pool)
         diag["top_similarity"] = hits[0][1] if hits else 0.0
+        diag["_sim"] = dict(hits)
         return hits, diag
     sem = rank(query_vec, load_index(DEF_INDEX), max(pool, P["semantic_pool"]))
     diag["top_similarity"] = sem[0][1] if sem else 0.0
+    diag["_sim"] = dict(sem)
     if mode == "semantic_definitions":
         return sem[:pool], diag
     if mode == "hybrid":
         kw = _keyword(query, pool)
         diag["top_keyword"] = kw[0][1] if kw else 0.0
+        diag["_kw"] = dict(kw)
         fused = {}
         for r, (pid, _) in enumerate(kw, start=1):
             fused[pid] = fused.get(pid, 0) + P["w_keyword"] / (P["rrf_k"] + r)
@@ -200,11 +206,23 @@ def run(query: str, mode: str = "hybrid", query_vec=None, context: dict | None =
     removed = len(hits) - len(kept)
     kept, ctx_diag = apply_context(kept, context, P)
 
-    strong_kw = diag.get("top_keyword", 0.0) >= P["strong_keyword_score"]
+    sim_map, kw_map = diag.pop("_sim", {}), diag.pop("_kw", {})
+    if P["confidence_after_filters"]:
+        # Confidence is judged only on products the shopper can actually be shown. Before 30 Oct it used
+        # the best scores BEFORE the budget/stock filter, so "office chair under Rs 10000" looked confident
+        # because of the Rs 32,500 office chair the filter had just removed (found in Notebook 02, section 7).
+        kept_ids = {pid for pid, _ in kept}
+        top_sim = max((v for pid, v in sim_map.items() if pid in kept_ids), default=0.0)
+        top_kw = max((v for pid, v in kw_map.items() if pid in kept_ids), default=0.0)
+    else:
+        top_sim, top_kw = diag.get("top_similarity", 0.0), diag.get("top_keyword", 0.0)
+    diag["top_similarity_shown"] = top_sim
+    diag["top_keyword_shown"] = top_kw
+    strong_kw = top_kw >= P["strong_keyword_score"]
     if mode == "keyword":
         no_close_match = not kept
     else:
-        no_close_match = (diag.get("top_similarity", 0.0) < P["no_match_similarity"]) and not strong_kw
+        no_close_match = (top_sim < P["no_match_similarity"]) and not strong_kw
     if not kept:
         no_close_match = True
 

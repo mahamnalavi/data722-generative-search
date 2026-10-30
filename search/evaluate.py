@@ -34,6 +34,7 @@ def run_queries(rows, mode, qvecs=None, params=None, k=10):
                     "no_close_match": res["no_close_match"],
                     "top_similarity": res["diagnostics"].get("top_similarity"),
                     "top_keyword": res["diagnostics"].get("top_keyword"),
+                    "top_similarity_shown": res["diagnostics"].get("top_similarity_shown"),
                     "ms": (time.perf_counter() - t0) * 1000})
     return out
 
