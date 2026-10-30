@@ -1,0 +1,34 @@
+[
+ {
+  "split": "dev",
+  "version": "before fix",
+  "hit@5": 0.935,
+  "correct_no_match": 0.5,
+  "false_no_match": 0.0,
+  "confidently_wrong": 0.2
+ },
+ {
+  "split": "dev",
+  "version": "after fix",
+  "hit@5": 0.935,
+  "correct_no_match": 0.5,
+  "false_no_match": 0.0,
+  "confidently_wrong": 0.2
+ },
+ {
+  "split": "test",
+  "version": "before fix",
+  "hit@5": 1.0,
+  "correct_no_match": 0.111,
+  "false_no_match": 0.014,
+  "confidently_wrong": 0.215
+ },
+ {
+  "split": "test",
+  "version": "after fix",
+  "hit@5": 1.0,
+  "correct_no_match": 0.111,
+  "false_no_match": 0.014,
+  "confidently_wrong": 0.215
+ }
+]
