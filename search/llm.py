@@ -88,11 +88,11 @@ class GroqChat:
                 return
             time.sleep(max(0.5, 60 - (now - self.window[0][0]) + 0.5))
 
-    def chat(self, messages, task="chat", json_mode=False, max_tokens=1500, effort="low", n_items=1):
-        """Send messages, return (text, usage dict). Retries up to 6 times on rate limits."""
+    def chat(self, messages, task="chat", json_mode=False, max_tokens=1500, effort="low", n_items=1, attempts=6):
+        """Send messages, return (text, usage dict). Retries on rate limits (attempts=1: fail fast, used live)."""
         import groq
         expected = int(sum(len(m["content"]) for m in messages) / 3.5) + max_tokens // 3
-        for attempt in range(6):
+        for attempt in range(attempts):
             self._wait_for_budget(expected)
             t0 = time.time()
             try:
@@ -102,6 +102,8 @@ class GroqChat:
                     kwargs["response_format"] = {"type": "json_object"}
                 r = self.client.chat.completions.create(**kwargs)
             except groq.RateLimitError as e:
+                if attempt == attempts - 1:
+                    break
                 wait = float(getattr(e, "response", None) and e.response.headers.get("retry-after") or 20)
                 print(f"  rate limit reached; waiting {wait:.0f}s (attempt {attempt + 1})")
                 time.sleep(wait + 1)
@@ -111,7 +113,7 @@ class GroqChat:
             self.window.append((time.time(), u.total_tokens))
             USAGE.add(task, self.model, u.prompt_tokens, u.completion_tokens, secs, n_items)
             return (r.choices[0].message.content or ""), {"in": u.prompt_tokens, "out": u.completion_tokens, "seconds": secs}
-        raise RuntimeError("Groq kept rate-limiting after 6 attempts; try again in a few minutes")
+        raise RuntimeError(f"Groq rate limit (after {attempts} attempt(s)); try again in a few minutes")
 
     def chat_json(self, messages, **kw):
         """Ask for JSON. If the model rejects JSON mode, ask again without it and parse the reply."""

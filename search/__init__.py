@@ -12,7 +12,7 @@ from pathlib import Path
 from .catalogue import load_catalogue, product_text, products_by_id
 from .keyword import BM25Index
 
-VERSION = "v1-hybrid"
+VERSION = "v2-context-chat"
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 

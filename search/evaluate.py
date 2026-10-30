@@ -130,3 +130,102 @@ def tune_no_match(rows, qvecs, mode="hybrid", params=None, grid=None, kw_grid=(6
 def _rate(flags):
     flags = list(flags)
     return round(sum(bool(f) for f in flags) / len(flags), 3) if flags else None
+
+
+# ---------------- context (page + this visit) ----------------
+# Synthetic sessions. Honest caveat: they can only show the personalisation the
+# generator built in, so they test whether context HELPS or HARMS retrieval,
+# not whether real shoppers benefit.
+CATS = ["Kitchenware", "Tools", "Organizers", "Furniture"]
+
+
+def make_sessions(row, catalogue):
+    """Return {'helpful': ctx, 'misleading': ctx, 'target': product_id} for an answerable query.
+
+    helpful:    opened from the target product's category page; viewed 2 other products in that
+                category (not the target's type); browsing prices centred on the target's price.
+    misleading: opened from a different category page, viewing and pricing in that category.
+    The target is one of the correct products (for multi-variant types, a fixed random variant:
+    the one this shopper's price range points to)."""
+    import random as _r
+    rng = _r.Random("session-" + row["qid"])
+    by_id = {p["product_id"]: p for p in catalogue}
+    target = by_id[rng.choice(sorted(row["relevant_ids"]))]
+    def ctx(cat, price):
+        pool = [p for p in catalogue if p["category"] == cat and p["product_type"] not in row["relevant_types"]]
+        viewed = rng.sample(pool, 2)
+        return {"page_category": cat, "categories_browsed": {cat: 3},
+                "product_types_viewed": [p["product_type"] for p in viewed],
+                "price_band": {"min": price, "max": price, "median": price}}
+    other = CATS[(CATS.index(target["category"]) + 1 + rng.randrange(3)) % 4]
+    other_price = rng.choice([p["price_pkr"] for p in catalogue if p["category"] == other])
+    return {"helpful": ctx(target["category"], target["price_pkr"]),
+            "misleading": ctx(other, other_price), "target": target["product_id"]}
+
+
+def run_with_context(rows, mode, qvecs, catalogue, params=None, k=10):
+    """Run each answerable query three ways: no context, helpful session, misleading session."""
+    out = {"none": [], "helpful": [], "misleading": [], "targets": {}}
+    for r in rows:
+        if r["expects_no_match"]:
+            continue
+        sess = make_sessions(r, catalogue)
+        out["targets"][r["qid"]] = sess["target"]
+        for kind in ("none", "helpful", "misleading"):
+            res = pipeline.run(r["query"], mode=mode, query_vec=None if mode == "keyword" else qvecs[r["qid"]],
+                               context=None if kind == "none" else sess[kind], k=k, params=params)
+            out[kind].append({"qid": r["qid"], "ids": [p["product_id"] for p in res["results"]]})
+    return out
+
+
+def context_metrics(rows, ctx_runs, catalogue):
+    """Hit@1/5 with no / helpful / misleading context, context-override errors, price personalisation."""
+    by_q = {r["qid"]: r for r in rows}
+    by_id = {p["product_id"]: p for p in catalogue}
+    def hit(runs, k):
+        return _rate([any(i in set(by_q[x["qid"]]["relevant_ids"]) for i in x["ids"][:k]) for x in runs])
+    m = {}
+    for kind in ("none", "helpful", "misleading"):
+        m[f"hit@1_{kind}"] = hit(ctx_runs[kind], 1)
+        m[f"hit@5_{kind}"] = hit(ctx_runs[kind], 5)
+    # Phase 1 metric: context pushes a correct result out of the top 5
+    override = 0
+    for a, b in zip(ctx_runs["none"], ctx_runs["misleading"]):
+        rel = set(by_q[a["qid"]]["relevant_ids"])
+        if any(i in rel for i in a["ids"][:5]) and not any(i in rel for i in b["ids"][:5]):
+            override += 1
+    m["context_override_errors"] = f"{override}/{len(ctx_runs['none'])}"
+    # price personalisation: for products sold in several price variants, does the variant matching
+    # this visit's price range come first among the correct variants?
+    pers = {"none": [], "helpful": []}
+    for kind in pers:
+        for x in ctx_runs[kind]:
+            q = by_q[x["qid"]]
+            rel_shown = [i for i in x["ids"] if i in set(q["relevant_ids"])]
+            same_type = [i for i in q["relevant_ids"] if by_id[i]["product_type"] == by_id[ctx_runs["targets"][x["qid"]]]["product_type"]]
+            if len(same_type) < 2 or not rel_shown:
+                continue
+            pers[kind].append(rel_shown[0] == ctx_runs["targets"][x["qid"]])
+    m["price_variant_first_none"] = _rate(pers["none"])
+    m["price_variant_first_helpful"] = _rate(pers["helpful"])
+    m["price_variant_queries"] = len(pers["helpful"])
+    return m
+
+
+def tune_context(rows, qvecs, catalogue, params,
+                 grid_page=(0.0, 0.003, 0.006), grid_type=(0.0, 0.004, 0.008), grid_price=(0.0, 0.010)):
+    """Pick each context weight on DEV. Objective = Hit@1 with a helpful session
+    + Hit@5 with a misleading session (help when right, don't lose correct results when wrong)
+    + half the price-personalisation rate. Ties -> the weaker (safer) setting."""
+    table = []
+    for bp in grid_page:
+        for bt in grid_type:
+            for bpr in grid_price:
+                p = {**params, "ctx_scale": 1.0, "b_page": bp, "b_cat_browsed": bp / 2, "b_type": bt, "b_price": bpr}
+                m = context_metrics(rows, run_with_context(rows, "hybrid", qvecs, catalogue, params=p), catalogue)
+                obj = (m["hit@1_helpful"] or 0) + (m["hit@5_misleading"] or 0) + 0.5 * (m["price_variant_first_helpful"] or 0)
+                table.append({"b_page": bp, "b_type": bt, "b_price": bpr, "objective": round(obj, 3), **m})
+    best = max(table, key=lambda t: (t["objective"], -(t["b_page"] + t["b_type"] + t["b_price"])))
+    chosen = {"ctx_scale": 1.0, "b_page": best["b_page"], "b_cat_browsed": best["b_page"] / 2,
+              "b_type": best["b_type"], "b_price": best["b_price"]}
+    return chosen, table

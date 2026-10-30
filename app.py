@@ -7,12 +7,15 @@ API endpoints (the "API" concept in this project):
   GET  /api/health     -> is the app up, which search is active, how many products
   GET  /api/catalogue  -> all products (the website draws its pages from this)
   POST /api/search     -> run a search; body: {"query": "...", "mode": "hybrid", "context": {...}}
+  POST /api/chat       -> one "Ask Sahulat" turn; body: {"messages": [{"role": "user", "content": "..."}], "context": {...}}
 
 Secrets (set in Vercel > Settings > Environment Variables, never in code):
   GEMINI_API_KEY  -> meaning-based search (without it, the site falls back to keyword search)
+  GROQ_API_KEY    -> the chat assistant (without it, the chat shows plain search results)
 """
 
 import json
+import os
 from functools import lru_cache
 from pathlib import Path
 
@@ -22,6 +25,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 import search as engine
+from search import chat as chat_engine
 from search.pipeline import MODES
 
 ROOT = Path(__file__).resolve().parent
@@ -40,6 +44,21 @@ class SearchRequest(BaseModel):
     k: int = Field(12, ge=1, le=24)
 
 
+class ChatRequest(BaseModel):
+    messages: list[dict] = Field(..., min_length=1, max_length=12)
+    context: dict | None = None
+
+
+@lru_cache(maxsize=1)
+def _chat_llm():
+    if not os.environ.get("GROQ_API_KEY"):
+        return None
+    from search.llm import GroqChat
+    # No local pacing on the live site (each server instance would pace alone); fail fast instead
+    # and show search results, so a shopper never waits on a rate limit.
+    return GroqChat(tokens_per_min=10**9)
+
+
 @lru_cache(maxsize=1)
 def _definitions() -> dict:
     path = ROOT / "data" / "definitions_v2.json"
@@ -51,7 +70,8 @@ def _definitions() -> dict:
 @app.get("/api/health")
 def health():
     return {"status": "ok", "version": engine.VERSION, "products": len(engine.load_catalogue()),
-            "meaning_search": "on" if engine.semantic_ready() else "off (keyword fallback)"}
+            "meaning_search": "on" if engine.semantic_ready() else "off (keyword fallback)",
+            "chat_assistant": "on" if os.environ.get("GROQ_API_KEY") else "off (search results only)"}
 
 
 @app.get("/api/catalogue")
@@ -69,6 +89,16 @@ def run_search(req: SearchRequest):
     if req.mode not in MODES:
         raise HTTPException(status_code=400, detail=f"mode must be one of {MODES}")
     return engine.search(req.query, mode=req.mode, context=req.context, k=req.k)
+
+
+@app.post("/api/chat")
+def run_chat(req: ChatRequest):
+    msgs = [{"role": m.get("role"), "content": str(m.get("content", ""))[:300]}
+            for m in req.messages if m.get("role") in ("user", "assistant") and str(m.get("content", "")).strip()][-6:]
+    if not msgs or msgs[-1]["role"] != "user":
+        raise HTTPException(status_code=400, detail="the last message must be from the shopper")
+    embed_fn = (lambda texts: [list(engine.embed_query(t)) for t in texts]) if engine.semantic_ready() else None
+    return chat_engine.respond(msgs, context=req.context, embed_fn=embed_fn, llm=_chat_llm(), live=True)
 
 
 @app.get("/", include_in_schema=False)

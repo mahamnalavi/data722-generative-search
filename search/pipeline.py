@@ -18,8 +18,11 @@ Exact name searches ("pressure cooker") stay strong through the keyword list, wh
 utility searches ("stop milk boiling over") are carried by the semantic list.
 """
 
+import json
+import math
 import re
 import time
+from pathlib import Path
 
 from .catalogue import load_catalogue, products_by_id
 from .semantic import load_index, rank
@@ -32,7 +35,21 @@ PARAMS = {
     "no_match_similarity": 0.60,   # below this best similarity (and no strong keyword hit) -> "no close match"
     "strong_keyword_score": 8.0,   # BM25 score treated as a confident name match
     "semantic_pool": 50,           # how many semantic candidates go into the merge
+    "strip_constraint_words": True,   # False reproduces the 24 Oct budget-word bug (for the before/after)
+    # Context (page + this visit): a small, bounded boost on top of rank. Tuned on dev in Notebook 02.
+    "ctx_scale": 1.0,              # 0 switches context off
+    "ctx_depth": 20,               # only the top 20 can be re-ordered; nothing is pulled up from further down
+    "ctx_k": 10,
+    "b_page": 0.006,               # product is in the category page the search was made from
+    "b_cat_browsed": 0.003,        # product is in the category browsed most this visit
+    "b_type": 0.008,               # same product type as one viewed this visit
+    "b_price": 0.010,              # the price variant closest to this visit's typical price (among variants of one type)
 }
+
+# Settings tuned on the dev split (Notebook 02), reviewed, then copied to data/live_params.json.
+_LIVE = Path(__file__).resolve().parent.parent / "data" / "live_params.json"
+if _LIVE.exists():
+    PARAMS.update(json.loads(_LIVE.read_text()))
 
 DEF_INDEX = "emb_definitions_v2"
 CAT_INDEX = "emb_catalogue"
@@ -63,7 +80,7 @@ def parse_constraints(query: str) -> dict:
                 value *= 1000
             if value >= 50:            # ignore numbers like "3 tiers" that sneak through
                 out["max_price"] = int(value)
-                clean = clean[:m.start()] + " " + clean[m.end():]
+                clean = pat.sub(" ", clean)   # remove every budget phrase, not just the first
                 break
     out["clean_query"] = re.sub(r"\s+", " ", clean).strip(" ,.-") or query
     return out
@@ -113,17 +130,75 @@ def retrieve(query: str, mode: str, query_vec=None, params: dict | None = None, 
     raise ValueError(f"unknown mode {mode!r}; choose from {MODES}")
 
 
+# ---------------- 5. context: page + this visit (soft boost) ----------------
+def apply_context(ranked, context, P):
+    """Re-order the top results slightly using the page and this visit's browsing.
+
+    Rules that keep this safe (decision 4 and the brief's "never overrides an explicit request"):
+      - runs AFTER the hard budget/stock filter, so it can never bring back an excluded item;
+      - only the top `ctx_depth` results can move, by at most a few places (boost is small vs rank gaps);
+      - the price boost applies only between price variants of the same product type.
+    Base score = 1/(ctx_k + rank). At ctx_scale 1, the largest total boost (0.027) is about
+    the gap between ranks 1 and 6, so context can lift a relevant item a few places but
+    cannot turn an unrelated product into the top answer from deep in the list.
+    """
+    if not context or not P["ctx_scale"]:
+        return ranked, {"context_used": False}
+    by_id = products_by_id()
+    head, tail = ranked[:P["ctx_depth"]], ranked[P["ctx_depth"]:]
+    page = context.get("page_category")
+    cats = context.get("categories_browsed") or {}
+    top_cat = max(cats, key=cats.get) if cats else None
+    types = set(context.get("product_types_viewed") or [])
+    band = context.get("price_band") or {}
+    median = band.get("median")
+    # among price variants of the same type in the top results, the one closest to this visit's
+    # typical price is the "preferred" variant
+    preferred = set()
+    if median:
+        groups = {}
+        for pid, _ in head:
+            groups.setdefault(by_id[pid]["product_type"], []).append(pid)
+        for pids in groups.values():
+            if len(pids) > 1:
+                preferred.add(min(pids, key=lambda i: abs(math.log(by_id[i]["price_pkr"] / median))))
+    a = P["ctx_scale"]
+    rescored = []
+    for r, (pid, _) in enumerate(head, start=1):
+        p = by_id[pid]
+        boost = 0.0
+        if page and p["category"] == page:
+            boost += a * P["b_page"]
+        if top_cat and p["category"] == top_cat:
+            boost += a * P["b_cat_browsed"]
+        if p["product_type"] in types:
+            boost += a * P["b_type"]
+        if pid in preferred:
+            boost += a * P["b_price"]
+        rescored.append((pid, 1 / (P["ctx_k"] + r) + boost))
+    rescored.sort(key=lambda x: -x[1])
+    moved = sum(1 for (a_, _), (b_, _) in zip(head, rescored) if a_ != b_)
+    return rescored + tail, {"context_used": True, "positions_changed": moved}
+
+
 # ---------------- full search ----------------
 def run(query: str, mode: str = "hybrid", query_vec=None, context: dict | None = None,
-        k: int = 10, params: dict | None = None) -> dict:
-    """Constraints -> retrieve -> filter -> confidence. Used by the website and the evaluation."""
+        k: int = 10, params: dict | None = None, constraints: dict | None = None) -> dict:
+    """Constraints -> retrieve -> filter -> context -> confidence. Used by the website, the chat and
+    the evaluation. `constraints` adds limits stated elsewhere (e.g. earlier in a chat)."""
     P = {**PARAMS, **(params or {})}
     t0 = time.perf_counter()
     cons = parse_constraints(query)
-    hits, diag = retrieve(cons["clean_query"], mode, query_vec=query_vec, params=P)
+    if constraints:
+        if constraints.get("max_price") is not None:
+            cons["max_price"] = constraints["max_price"]
+        cons["in_stock"] = cons["in_stock"] or bool(constraints.get("in_stock"))
+    text = cons["clean_query"] if P["strip_constraint_words"] else query
+    hits, diag = retrieve(text, mode, query_vec=query_vec, params=P)
     by_id = products_by_id()
     kept = [(pid, s) for pid, s in hits if satisfies(by_id[pid], cons)]
     removed = len(hits) - len(kept)
+    kept, ctx_diag = apply_context(kept, context, P)
 
     strong_kw = diag.get("top_keyword", 0.0) >= P["strong_keyword_score"]
     if mode == "keyword":
@@ -138,6 +213,7 @@ def run(query: str, mode: str = "hybrid", query_vec=None, context: dict | None =
         "mode": mode,
         "constraints": cons,
         "removed_by_constraints": removed,
+        "context": ctx_diag,
         "no_close_match": no_close_match,
         "diagnostics": {k_: round(v, 4) for k_, v in diag.items()},
         "results": [{**by_id[pid], "score": round(s, 4)} for pid, s in kept[:k]],

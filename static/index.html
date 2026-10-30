@@ -48,6 +48,26 @@
     <button type="button" class="ghost" id="visit-clear">Clear this visit</button>
   </aside>
 
+  <button class="ask-btn" id="ask-btn" type="button" aria-haspopup="dialog" aria-controls="chat-panel">Ask Sahulat</button>
+  <aside class="chat-panel" id="chat-panel" role="dialog" aria-modal="false" aria-labelledby="chat-title" hidden>
+    <div class="cp-head">
+      <div>
+        <h2 id="chat-title">Ask Sahulat</h2>
+        <p class="cp-sub" id="chat-sub">AI assistant. Suggests only products from this store.</p>
+      </div>
+      <div class="cp-actions">
+        <button type="button" class="ghost" id="chat-reset">Start over</button>
+        <button type="button" class="ghost" id="chat-close" aria-label="Close chat">Close</button>
+      </div>
+    </div>
+    <div class="cp-log" id="chat-log" aria-live="polite"></div>
+    <form class="cp-form" id="chat-form">
+      <label class="sr" for="chat-q">Message</label>
+      <input id="chat-q" type="text" autocomplete="off" maxlength="300" placeholder="Describe what you need, in any language">
+      <button type="submit">Send</button>
+    </form>
+  </aside>
+
   <script src="/static/illustrations.js"></script>
   <script src="/static/app.js"></script>
 </body>

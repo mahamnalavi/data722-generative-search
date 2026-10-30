@@ -195,3 +195,41 @@ select { border: 1px solid var(--line); background: var(--paper); border-radius:
 
 /* Illustrations: light fill on marked shapes */
 .thumb .f { fill: currentColor; fill-opacity: 0.13; }
+
+/* Ask Sahulat chat */
+.ask-btn { position: fixed; right: 20px; bottom: 20px; z-index: 25; border: 0; border-radius: 999px; padding: 12px 20px;
+  background: var(--cobalt); color: #fff; font-weight: 700; cursor: pointer; box-shadow: 0 6px 20px rgba(23, 47, 107, 0.35); }
+.ask-btn:hover { background: var(--cobalt-deep); }
+.ask-btn[hidden] { display: none; }
+.chat-panel { position: fixed; right: 20px; bottom: 20px; width: min(420px, calc(100vw - 32px)); height: min(640px, calc(100vh - 40px));
+  z-index: 26; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  box-shadow: 0 12px 40px rgba(10, 16, 30, 0.25); display: flex; flex-direction: column; overflow: hidden; }
+.chat-panel[hidden] { display: none; }
+.cp-head { display: flex; justify-content: space-between; gap: 10px; padding: 14px 16px; border-bottom: 1px solid var(--line); background: var(--porcelain); }
+.cp-head h2 { margin: 0; font-size: 18px; }
+.cp-sub { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.cp-actions { display: flex; gap: 6px; align-items: start; }
+.cp-actions .ghost { font-size: 13px; padding: 4px 8px; white-space: nowrap; }
+.cp-log { flex: 1; overflow-y: auto; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.msg { max-width: 88%; padding: 9px 12px; border-radius: 12px; line-height: 1.45; }
+.msg.user { align-self: flex-end; background: var(--cobalt); color: #fff; border-bottom-right-radius: 4px; }
+.msg.bot { align-self: flex-start; background: var(--porcelain); border: 1px solid var(--line); border-bottom-left-radius: 4px; }
+.msg.bot.warn { border-left: 4px solid var(--amber); }
+.msg.hint { align-self: center; background: none; color: var(--muted); font-size: 13px; text-align: center; padding: 0; }
+.pick { display: grid; grid-template-columns: 56px 1fr; gap: 10px; text-decoration: none; background: var(--paper);
+  border: 1px solid var(--line); border-radius: 10px; padding: 8px; margin-top: 8px; }
+.pick:hover { border-color: var(--cobalt); }
+.pick .thumb { aspect-ratio: 1; border-radius: 8px; }
+.pick .thumb svg { width: 80%; height: 80%; }
+.pick b { display: block; font-size: 14px; line-height: 1.3; }
+.pick .why { display: block; font-size: 13px; color: var(--muted); margin-top: 2px; }
+.pick .pp { font-size: 13px; font-weight: 700; }
+.cp-form { display: flex; gap: 8px; padding: 10px 12px; border-top: 1px solid var(--line); }
+.cp-form input { flex: 1; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--porcelain); }
+.cp-form button { border: 0; background: var(--cobalt); color: #fff; font-weight: 600; padding: 10px 16px; border-radius: var(--radius-sm); cursor: pointer; }
+.cp-form button:disabled { opacity: 0.6; cursor: wait; }
+.ask-link { background: none; border: 0; color: var(--cobalt); font-weight: 600; cursor: pointer; padding: 0; text-decoration: underline; }
+@media (max-width: 760px) {
+  .chat-panel { right: 0; bottom: 0; width: 100vw; height: 88vh; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+  .ask-btn { right: 14px; bottom: 14px; }
+}

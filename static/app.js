@@ -109,7 +109,7 @@
       <div class="vp-section"><h3>Products viewed</h3>${v.viewed.length ? `<ul>${v.viewed.slice(-8).reverse().map((p) => `<li>${esc(byId[p.id]?.title || p.type)} (${rs(p.price)})</li>`).join("")}</ul>` : '<p class="vp-empty">None yet.</p>'}</div>
       <div class="vp-section"><h3>Price range of products viewed</h3>${s.price_band ? `<p>${rs(s.price_band.min)} to ${rs(s.price_band.max)}</p>` : '<p class="vp-empty">Not enough to tell yet.</p>'}</div>
       <div class="vp-section"><h3>Searches</h3>${v.searches.length ? `<ul>${v.searches.slice(-5).reverse().map((x) => `<li>${esc(x.q)}</li>`).join("")}</ul>` : '<p class="vp-empty">None yet.</p>'}</div>
-      <div class="vp-section"><h3>Sent with your next search</h3><p class="vp-empty">Page category, the categories and product types above, and the price range. In this early version search does not use it yet.</p></div>`;
+      <div class="vp-section"><h3>Sent with your next search or chat message</h3><p class="vp-empty">The page you're on, the categories and product types above, and the price range. Search uses them to order results slightly. They never override what you type, and never bring back items outside your budget.</p></div>`;
   }
 
   const panel = document.getElementById("visit-panel");
@@ -249,12 +249,72 @@
     } else {
       parts.push(`<div class="grid">${data.results.map(card).join("")}</div>`);
     }
+    parts.push(`<p class="meta">Not finding it? <button type="button" class="ask-link" id="ask-from-search">Ask Sahulat about “${esc(q)}”</button></p>`);
     document.getElementById("s-body").innerHTML = parts.join("");
+    document.getElementById("ask-from-search").addEventListener("click", () => { openChat(); sendChat(q); });
   }
 
   function renderNotFound() {
     main.innerHTML = `<div class="empty"><h1>Page not found</h1><p>That page doesn't exist. <a href="#/">Go to the home page</a>.</p></div>`;
   }
+
+  // ---------- Ask Sahulat chat ----------
+  const CHAT_KEY = "sahulat_chat_v1";
+  const chatPanel = document.getElementById("chat-panel");
+  const askBtn = document.getElementById("ask-btn");
+  const chatLog = document.getElementById("chat-log");
+  const chatForm = document.getElementById("chat-form");
+  const chatQ = document.getElementById("chat-q");
+  let chatBusy = false;
+  const loadChat = () => { try { return JSON.parse(sessionStorage.getItem(CHAT_KEY)) || []; } catch { return chatMemory; } };
+  let chatMemory = [];
+  const saveChat = (t) => { chatMemory = t; try { sessionStorage.setItem(CHAT_KEY, JSON.stringify(t)); } catch { /* memory only */ } };
+
+  function pickCard(p) {
+    return `<a class="pick" href="#/p/${esc(p.product_id)}"><div class="thumb t-${esc(p.category)}">${art(p)}</div>
+      <span><b>${esc(p.title)}</b><span class="pp">${rs(p.price_pkr)}</span> ${stockLabel(p)}
+      ${p.why ? `<span class="why">${esc(p.why)}</span>` : ""}</span></a>`;
+  }
+  function renderChat() {
+    const turns = loadChat();
+    document.getElementById("chat-sub").textContent =
+      `AI assistant. Suggests only products from this store.${currentCategory ? ` Opened from the ${currentCategory} page.` : ""}`;
+    chatLog.innerHTML = (turns.length ? "" : `<p class="msg hint">Describe what you need, in English, Urdu or Roman Urdu. For example: “something to keep rotis warm” or “sasta sa spice box”.</p>`) +
+      turns.map((t) => t.role === "user"
+        ? `<div class="msg user">${esc(t.content)}</div>`
+        : `<div class="msg bot${t.warn ? " warn" : ""}">${esc(t.content)}${(t.products || []).map(pickCard).join("")}</div>`).join("") +
+      (chatBusy ? `<p class="msg hint">Looking through the catalogue…</p>` : "");
+    chatLog.scrollTop = chatLog.scrollHeight;
+  }
+  function openChat() { chatPanel.hidden = false; askBtn.hidden = true; renderChat(); chatQ.focus(); }
+  function closeChat() { chatPanel.hidden = true; askBtn.hidden = false; askBtn.focus(); }
+  async function sendChat(text) {
+    text = (text || "").trim();
+    if (!text || chatBusy) return;
+    const turns = loadChat();
+    turns.push({ role: "user", content: text });
+    saveChat(turns);
+    chatBusy = true; chatForm.querySelector("button").disabled = true; renderChat();
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: turns.slice(-6).map(({ role, content }) => ({ role, content })), context: visitSummary(currentCategory) }),
+      });
+      if (!res.ok) throw new Error(`error ${res.status}`);
+      const data = await res.json();
+      turns.push({ role: "assistant", content: data.reply || "Here is what I found.", products: data.products || [],
+                   warn: Boolean(data.diagnostics && data.diagnostics.fallback) });
+    } catch (err) {
+      turns.push({ role: "assistant", content: `The assistant couldn't be reached (${err.message}). Check your connection and send again.`, warn: true });
+    }
+    saveChat(turns.slice(-12));
+    chatBusy = false; chatForm.querySelector("button").disabled = false; renderChat();
+  }
+  askBtn.addEventListener("click", openChat);
+  document.getElementById("chat-close").addEventListener("click", closeChat);
+  document.getElementById("chat-reset").addEventListener("click", () => { saveChat([]); renderChat(); chatQ.focus(); });
+  chatForm.addEventListener("submit", (e) => { e.preventDefault(); const t = chatQ.value; chatQ.value = ""; sendChat(t); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !chatPanel.hidden && panel.hidden) closeChat(); });
 
   // ---------- routing ----------
   function go(q) {
