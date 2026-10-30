@@ -1,0 +1,3888 @@
+{
+ "prompt_version": "v2",
+ "model": "openai/gpt-oss-120b",
+ "generated": "2026-10-30 11:30",
+ "items": {
+  "FUR-001": {
+   "product_id": "FUR-001",
+   "what_it_is": "A round stool made of cane and reed for sitting.",
+   "used_for": [
+    "extra seating in living room",
+    "footrest while watching TV",
+    "small table for holding drinks"
+   ],
+   "shopper_phrases": [
+    "cane stool",
+    "round stool for balcony",
+    "lightweight seating",
+    "natural reed stool"
+   ],
+   "local_names": [
+    "کین اسٹول",
+    "کین موڈا اسٹول"
+   ],
+   "text": "A round stool made of cane and reed for sitting. Used for: extra seating in living room; footrest while watching TV; small table for holding drinks. Shoppers say: cane stool; round stool for balcony; lightweight seating; natural reed stool. Also called: کین اسٹول, کین موڈا اسٹول."
+  },
+  "FUR-002": {
+   "product_id": "FUR-002",
+   "what_it_is": "A pair of cane stools with cotton cushion tops.",
+   "used_for": [
+    "seating at a kitchen island",
+    "extra chairs for guests",
+    "sitting while cooking"
+   ],
+   "shopper_phrases": [
+    "cane stool with cushion",
+    "pair of kitchen stools",
+    "cushioned cane chairs"
+   ],
+   "local_names": [
+    "موڈا اسٹول",
+    "کین اسٹول"
+   ],
+   "text": "A pair of cane stools with cotton cushion tops. Used for: seating at a kitchen island; extra chairs for guests; sitting while cooking. Shoppers say: cane stool with cushion; pair of kitchen stools; cushioned cane chairs. Also called: موڈا اسٹول, کین اسٹول."
+  },
+  "FUR-003": {
+   "product_id": "FUR-003",
+   "what_it_is": "A woven rope charpai with a sheesham wood frame.",
+   "used_for": [
+    "relaxing in the living room",
+    "outdoor seating on a balcony",
+    "guest sleeping area"
+   ],
+   "shopper_phrases": [
+    "rope charpai",
+    "sheesham frame charpai",
+    "woven rope bed"
+   ],
+   "local_names": [
+    "چَرپائی",
+    "روپ چارپائی"
+   ],
+   "text": "A woven rope charpai with a sheesham wood frame. Used for: relaxing in the living room; outdoor seating on a balcony; guest sleeping area. Shoppers say: rope charpai; sheesham frame charpai; woven rope bed. Also called: چَرپائی, روپ چارپائی."
+  },
+  "FUR-004": {
+   "product_id": "FUR-004",
+   "what_it_is": "A fabric-covered ottoman with a hinged lid for hidden storage.",
+   "used_for": [
+    "extra seating",
+    "storing blankets or magazines",
+    "footrest in living room"
+   ],
+   "shopper_phrases": [
+    "ottoman with storage",
+    "fabric storage ottoman",
+    "living room footrest",
+    "hidden storage ottoman"
+   ],
+   "local_names": [
+    "اُٹمان",
+    "Ottoman"
+   ],
+   "text": "A fabric-covered ottoman with a hinged lid for hidden storage. Used for: extra seating; storing blankets or magazines; footrest in living room. Shoppers say: ottoman with storage; fabric storage ottoman; living room footrest; hidden storage ottoman. Also called: اُٹمان, Ottoman."
+  },
+  "FUR-005": {
+   "product_id": "FUR-005",
+   "what_it_is": "A round pouf ottoman made of faux leather with a lift‑off lid for hidden storage.",
+   "used_for": [
+    "small storage for remote controls",
+    "extra seating",
+    "decorative floor cushion"
+   ],
+   "shopper_phrases": [
+    "round pouf storage",
+    "faux leather pouf",
+    "lift off lid pouf",
+    "storage floor cushion"
+   ],
+   "local_names": [
+    "پوف",
+    "Pouf"
+   ],
+   "text": "A round pouf ottoman made of faux leather with a lift‑off lid for hidden storage. Used for: small storage for remote controls; extra seating; decorative floor cushion. Shoppers say: round pouf storage; faux leather pouf; lift off lid pouf; storage floor cushion. Also called: پوف, Pouf."
+  },
+  "FUR-006": {
+   "product_id": "FUR-006",
+   "what_it_is": "A set of three nesting side tables with MDF tops and metal legs in a walnut finish.",
+   "used_for": [
+    "side tables for coffee cups",
+    "nesting tables for small spaces",
+    "extra surface for lamps"
+   ],
+   "shopper_phrases": [
+    "nesting side tables",
+    "walnut finish tables",
+    "stackable side tables",
+    "metal leg side table"
+   ],
+   "local_names": [
+    "سائیڈ ٹیبل",
+    "Side table"
+   ],
+   "text": "A set of three nesting side tables with MDF tops and metal legs in a walnut finish. Used for: side tables for coffee cups; nesting tables for small spaces; extra surface for lamps. Shoppers say: nesting side tables; walnut finish tables; stackable side tables; metal leg side table. Also called: سائیڈ ٹیبل, Side table."
+  },
+  "FUR-007": {
+   "product_id": "FUR-007",
+   "what_it_is": "An extra‑large bean bag chair covered in faux leather and filled with polystyrene beads.",
+   "used_for": [
+    "relaxing lounge chair",
+    "gaming or movie seating",
+    "kids' play area seating"
+   ],
+   "shopper_phrases": [
+    "XL bean bag chair",
+    "faux leather bean bag",
+    "large bean bag seat",
+    "polystyrene bead bean bag"
+   ],
+   "local_names": [
+    "بین بیک",
+    "Bean bag"
+   ],
+   "text": "An extra‑large bean bag chair covered in faux leather and filled with polystyrene beads. Used for: relaxing lounge chair; gaming or movie seating; kids' play area seating. Shoppers say: XL bean bag chair; faux leather bean bag; large bean bag seat; polystyrene bead bean bag. Also called: بین بیک, Bean bag."
+  },
+  "FUR-008": {
+   "product_id": "FUR-008",
+   "what_it_is": "A large bean bag cover made of cotton canvas, sold without filling.",
+   "used_for": [
+    "replacing a worn bean bag cover",
+    "customizing a bean bag with own filling",
+    "adding a breathable cover to an existing bean bag"
+   ],
+   "shopper_phrases": [
+    "large bean bag cover",
+    "cotton canvas bean bag",
+    "bean bag cover only",
+    "replace bean bag cover"
+   ],
+   "local_names": [
+    "بین بیک کور",
+    "Bean bag cover"
+   ],
+   "text": "A large bean bag cover made of cotton canvas, sold without filling. Used for: replacing a worn bean bag cover; customizing a bean bag with own filling; adding a breathable cover to an existing bean bag. Shoppers say: large bean bag cover; cotton canvas bean bag; bean bag cover only; replace bean bag cover. Also called: بین بیک کور, Bean bag cover."
+  },
+  "FUR-009": {
+   "product_id": "FUR-009",
+   "what_it_is": "A narrow shoe cabinet with two flip‑over drawers for storing shoes.",
+   "used_for": [
+    "organising shoes in a hallway",
+    "keeping pairs together in a closet",
+    "saving floor space in small rooms"
+   ],
+   "shopper_phrases": [
+    "shoe storage cabinet",
+    "slim shoe rack",
+    "shoe cabinet with drawers",
+    "compact shoe organizer"
+   ],
+   "local_names": [
+    "جوتوں کی الماری",
+    "جوتے کا کیبنٹ"
+   ],
+   "text": "A narrow shoe cabinet with two flip‑over drawers for storing shoes. Used for: organising shoes in a hallway; keeping pairs together in a closet; saving floor space in small rooms. Shoppers say: shoe storage cabinet; slim shoe rack; shoe cabinet with drawers; compact shoe organizer. Also called: جوتوں کی الماری, جوتے کا کیبنٹ."
+  },
+  "FUR-010": {
+   "product_id": "FUR-010",
+   "what_it_is": "A compact study desk 100 cm long with a single drawer.",
+   "used_for": [
+    "writing or studying in a small room",
+    "holding a laptop and books",
+    "storing stationery in the drawer"
+   ],
+   "shopper_phrases": [
+    "small study desk",
+    "compact desk with drawer",
+    "100 cm desk",
+    "space‑saving desk"
+   ],
+   "local_names": [
+    "مطالعہ کی میز",
+    "ڈیسک"
+   ],
+   "text": "A compact study desk 100 cm long with a single drawer. Used for: writing or studying in a small room; holding a laptop and books; storing stationery in the drawer. Shoppers say: small study desk; compact desk with drawer; 100 cm desk; space‑saving desk. Also called: مطالعہ کی میز, ڈیسک."
+  },
+  "FUR-011": {
+   "product_id": "FUR-011",
+   "what_it_is": "A wall‑mounted desk that folds down when needed and folds up flat.",
+   "used_for": [
+    "temporary work surface in a bedroom",
+    "saving space in a small apartment",
+    "quickly setting up a laptop station"
+   ],
+   "shopper_phrases": [
+    "fold down desk",
+    "wall mounted desk",
+    "space saving desk",
+    "foldable wall desk"
+   ],
+   "local_names": [
+    "دیوار پر لگنے والی ڈیسک",
+    "فولڈ‑ڈاؤن ڈیسک"
+   ],
+   "text": "A wall‑mounted desk that folds down when needed and folds up flat. Used for: temporary work surface in a bedroom; saving space in a small apartment; quickly setting up a laptop station. Shoppers say: fold down desk; wall mounted desk; space saving desk; foldable wall desk. Also called: دیوار پر لگنے والی ڈیسک, فولڈ‑ڈاؤن ڈیسک."
+  },
+  "FUR-012": {
+   "product_id": "FUR-012",
+   "what_it_is": "An office chair with a mesh back, adjustable lumbar support and 3‑D adjustable arms.",
+   "used_for": [
+    "working at a desk for long hours",
+    "providing back support while studying",
+    "adjustable seating for home office"
+   ],
+   "shopper_phrases": [
+    "ergonomic mesh chair",
+    "office chair with lumbar support",
+    "adjustable arm chair",
+    "mesh office chair"
+   ],
+   "local_names": [
+    "آرگونومک چیئر",
+    "آفس چیئر"
+   ],
+   "text": "An office chair with a mesh back, adjustable lumbar support and 3‑D adjustable arms. Used for: working at a desk for long hours; providing back support while studying; adjustable seating for home office. Shoppers say: ergonomic mesh chair; office chair with lumbar support; adjustable arm chair; mesh office chair. Also called: آرگونومک چیئر, آفس چیئر."
+  },
+  "FUR-013": {
+   "product_id": "FUR-013",
+   "what_it_is": "A basic mid‑back revolving chair with a mesh back and fixed arms.",
+   "used_for": [
+    "sitting at a desk or table",
+    "rotating easily to reach different areas",
+    "simple seating for a home office"
+   ],
+   "shopper_phrases": [
+    "basic revolving chair",
+    "mid back mesh chair",
+    "office chair without arm adjustment",
+    "simple desk chair"
+   ],
+   "local_names": [
+    "ریوولونگ چیئر",
+    "آفس چیئر"
+   ],
+   "text": "A basic mid‑back revolving chair with a mesh back and fixed arms. Used for: sitting at a desk or table; rotating easily to reach different areas; simple seating for a home office. Shoppers say: basic revolving chair; mid back mesh chair; office chair without arm adjustment; simple desk chair. Also called: ریوولونگ چیئر, آفس چیئر."
+  },
+  "FUR-014": {
+   "product_id": "FUR-014",
+   "what_it_is": "A five‑tier ladder bookshelf with metal frame.",
+   "used_for": [
+    "store books vertically",
+    "display decorative items",
+    "organize kitchen supplies",
+    "hold office files"
+   ],
+   "shopper_phrases": [
+    "ladder bookshelf",
+    "5 tier book rack",
+    "tall storage shelf",
+    "metal frame bookshelf"
+   ],
+   "local_names": [
+    "شیلف",
+    "کتابوں کی شیلف"
+   ],
+   "text": "A five‑tier ladder bookshelf with metal frame. Used for: store books vertically; display decorative items; organize kitchen supplies; hold office files. Shoppers say: ladder bookshelf; 5 tier book rack; tall storage shelf; metal frame bookshelf. Also called: شیلف, کتابوں کی شیلف."
+  },
+  "FUR-015": {
+   "product_id": "FUR-015",
+   "what_it_is": "A 140 cm wide TV console with two doors.",
+   "used_for": [
+    "hold a TV up to 60‑inch",
+    "store media devices",
+    "keep remote controls",
+    "hide cables"
+   ],
+   "shopper_phrases": [
+    "TV console 140 cm",
+    "TV cabinet with doors",
+    "living room TV stand",
+    "media console"
+   ],
+   "local_names": [
+    "ٹی وی اسٹینڈ",
+    "ٹی وی کنسول"
+   ],
+   "text": "A 140 cm wide TV console with two doors. Used for: hold a TV up to 60‑inch; store media devices; keep remote controls; hide cables. Shoppers say: TV console 140 cm; TV cabinet with doors; living room TV stand; media console. Also called: ٹی وی اسٹینڈ, ٹی وی کنسول."
+  },
+  "FUR-016": {
+   "product_id": "FUR-016",
+   "what_it_is": "A drop‑leaf dining table that seats 2‑4 people.",
+   "used_for": [
+    "small family meals",
+    "compact dining space",
+    "temporary work surface",
+    "folded storage when not in use"
+   ],
+   "shopper_phrases": [
+    "drop leaf dining table",
+    "foldable dining table",
+    "2 to 4 seat table",
+    "compact dining table"
+   ],
+   "local_names": [
+    "ڈائننگ ٹیبل",
+    "فولڈنگ ٹیبل"
+   ],
+   "text": "A drop‑leaf dining table that seats 2‑4 people. Used for: small family meals; compact dining space; temporary work surface; folded storage when not in use. Shoppers say: drop leaf dining table; foldable dining table; 2 to 4 seat table; compact dining table. Also called: ڈائننگ ٹیبل, فولڈنگ ٹیبل."
+  },
+  "FUR-017": {
+   "product_id": "FUR-017",
+   "what_it_is": "A pair of adjustable height bar stools with faux‑leather seats.",
+   "used_for": [
+    "sit at a kitchen island",
+    "use at a home bar",
+    "adjust height for different counters",
+    "provide extra seating"
+   ],
+   "shopper_phrases": [
+    "adjustable bar stool",
+    "pair of bar stools",
+    "faux leather bar stool",
+    "height adjustable stool"
+   ],
+   "local_names": [
+    "بار اسٹول",
+    "سٹوول"
+   ],
+   "text": "A pair of adjustable height bar stools with faux‑leather seats. Used for: sit at a kitchen island; use at a home bar; adjust height for different counters; provide extra seating. Shoppers say: adjustable bar stool; pair of bar stools; faux leather bar stool; height adjustable stool. Also called: بار اسٹول, سٹوول."
+  },
+  "FUR-018": {
+   "product_id": "FUR-018",
+   "what_it_is": "A steel folding chair with a padded PU seat.",
+   "used_for": [
+    "extra seating for guests",
+    "outdoor events",
+    "temporary meeting chairs",
+    "stackable storage"
+   ],
+   "shopper_phrases": [
+    "folding steel chair",
+    "padded folding chair",
+    "metal folding chair",
+    "stackable chair"
+   ],
+   "local_names": [
+    "فولڈنگ چیئر",
+    "مٹیریل چیئر"
+   ],
+   "text": "A steel folding chair with a padded PU seat. Used for: extra seating for guests; outdoor events; temporary meeting chairs; stackable storage. Shoppers say: folding steel chair; padded folding chair; metal folding chair; stackable chair. Also called: فولڈنگ چیئر, مٹیریل چیئر."
+  },
+  "FUR-019": {
+   "product_id": "FUR-019",
+   "what_it_is": "A small portable table for using a laptop while lying in bed.",
+   "used_for": [
+    "working on a laptop in bed",
+    "eating meals in bed",
+    "reading or watching videos while reclining"
+   ],
+   "shopper_phrases": [
+    "laptop table for bed",
+    "foldable bed desk",
+    "portable laptop tray",
+    "bedside laptop stand",
+    "small bed table"
+   ],
+   "local_names": [
+    "بیڈ ٹیبل",
+    "لیپ ٹاپ ٹیبل"
+   ],
+   "text": "A small portable table for using a laptop while lying in bed. Used for: working on a laptop in bed; eating meals in bed; reading or watching videos while reclining. Shoppers say: laptop table for bed; foldable bed desk; portable laptop tray; bedside laptop stand; small bed table. Also called: بیڈ ٹیبل, لیپ ٹاپ ٹیبل."
+  },
+  "FUR-020": {
+   "product_id": "FUR-020",
+   "what_it_is": "An adjustable height laptop table with a tilting surface.",
+   "used_for": [
+    "setting laptop at comfortable height",
+    "tilting screen for better viewing",
+    "working or studying on a couch or floor"
+   ],
+   "shopper_phrases": [
+    "adjustable laptop table",
+    "tilting laptop desk",
+    "height adjustable laptop stand",
+    "portable laptop table",
+    "ergonomic laptop table"
+   ],
+   "local_names": [
+    "ایڈجسٹ ایبل لیپ ٹاپ ٹیبل",
+    "ٹیلیٹنگ لیپ ٹاپ ڈیسک"
+   ],
+   "text": "An adjustable height laptop table with a tilting surface. Used for: setting laptop at comfortable height; tilting screen for better viewing; working or studying on a couch or floor. Shoppers say: adjustable laptop table; tilting laptop desk; height adjustable laptop stand; portable laptop table; ergonomic laptop table. Also called: ایڈجسٹ ایبل لیپ ٹاپ ٹیبل, ٹیلیٹنگ لیپ ٹاپ ڈیسک."
+  },
+  "FUR-021": {
+   "product_id": "FUR-021",
+   "what_it_is": "A three‑seat sofa that can be converted into a bed.",
+   "used_for": [
+    "sitting in the living room",
+    "turning into a guest bed",
+    "relaxing on a sofa"
+   ],
+   "shopper_phrases": [
+    "sofa cum bed 3 seater",
+    "convertible sofa bed",
+    "3 seater sofa bed",
+    "click clack sofa bed",
+    "fabric sofa bed"
+   ],
+   "local_names": [
+    "سوفا کم بیڈ",
+    "کلیک کلک صوفہ"
+   ],
+   "text": "A three‑seat sofa that can be converted into a bed. Used for: sitting in the living room; turning into a guest bed; relaxing on a sofa. Shoppers say: sofa cum bed 3 seater; convertible sofa bed; 3 seater sofa bed; click clack sofa bed; fabric sofa bed. Also called: سوفا کم بیڈ, کلیک کلک صوفہ."
+  },
+  "FUR-022": {
+   "product_id": "FUR-022",
+   "what_it_is": "A bedside table with two drawers for storing small items.",
+   "used_for": [
+    "keeping night‑stand essentials",
+    "storing books or glasses",
+    "organising medication"
+   ],
+   "shopper_phrases": [
+    "bedside table with drawers",
+    "2 drawer nightstand",
+    "small bedroom table",
+    "engineered wood bedside table",
+    "bedroom side table"
+   ],
+   "local_names": [
+    "بیڈ سائیڈ ٹیبل",
+    "نائٹ اسٹینڈ"
+   ],
+   "text": "A bedside table with two drawers for storing small items. Used for: keeping night‑stand essentials; storing books or glasses; organising medication. Shoppers say: bedside table with drawers; 2 drawer nightstand; small bedroom table; engineered wood bedside table; bedroom side table. Also called: بیڈ سائیڈ ٹیبل, نائٹ اسٹینڈ."
+  },
+  "FUR-023": {
+   "product_id": "FUR-023",
+   "what_it_is": "A sheesham wood bedside table with an open shelf.",
+   "used_for": [
+    "holding a lamp or alarm clock",
+    "displaying books or decor",
+    "quick access to bedside items"
+   ],
+   "shopper_phrases": [
+    "sheesham bedside table",
+    "wooden nightstand with shelf",
+    "open shelf bedside table",
+    "solid wood bedside table",
+    "bedroom table sheesham"
+   ],
+   "local_names": [
+    "شیشم ٹیبل",
+    "نائٹ اسٹینڈ"
+   ],
+   "text": "A sheesham wood bedside table with an open shelf. Used for: holding a lamp or alarm clock; displaying books or decor; quick access to bedside items. Shoppers say: sheesham bedside table; wooden nightstand with shelf; open shelf bedside table; solid wood bedside table; bedroom table sheesham. Also called: شیشم ٹیبل, نائٹ اسٹینڈ."
+  },
+  "FUR-024": {
+   "product_id": "FUR-024",
+   "what_it_is": "A wooden dressing table with a mirror and a stool.",
+   "used_for": [
+    "Putting on makeup",
+    "Storing jewelry and accessories",
+    "Keeping daily toiletries"
+   ],
+   "shopper_phrases": [
+    "dressing table with mirror",
+    "makeup table with stool",
+    "bedroom vanity",
+    "mirror table for bedroom"
+   ],
+   "local_names": [
+    "ڈریسنگ ٹیبل",
+    "میک اپ ٹیبل"
+   ],
+   "text": "A wooden dressing table with a mirror and a stool. Used for: Putting on makeup; Storing jewelry and accessories; Keeping daily toiletries. Shoppers say: dressing table with mirror; makeup table with stool; bedroom vanity; mirror table for bedroom. Also called: ڈریسنگ ٹیبل, میک اپ ٹیبل."
+  },
+  "FUR-025": {
+   "product_id": "FUR-025",
+   "what_it_is": "A metal coat stand with eight hooks and a marble‑look base.",
+   "used_for": [
+    "Hanging coats and jackets",
+    "Holding umbrellas",
+    "Organising hats and bags"
+   ],
+   "shopper_phrases": [
+    "coat stand with 8 hooks",
+    "metal hat rack",
+    "entryway coat hanger",
+    "marble base coat stand"
+   ],
+   "local_names": [
+    "کوٹ اسٹینڈ",
+    "ہیتھ ریک"
+   ],
+   "text": "A metal coat stand with eight hooks and a marble‑look base. Used for: Hanging coats and jackets; Holding umbrellas; Organising hats and bags. Shoppers say: coat stand with 8 hooks; metal hat rack; entryway coat hanger; marble base coat stand. Also called: کوٹ اسٹینڈ, ہیتھ ریک."
+  },
+  "FUR-026": {
+   "product_id": "FUR-026",
+   "what_it_is": "A three‑panel folding room divider with a wooden frame and fabric panels.",
+   "used_for": [
+    "Creating privacy in a room",
+    "Separating living space from work area",
+    "Hiding clutter or storage"
+   ],
+   "shopper_phrases": [
+    "folding room divider",
+    "3 panel room screen",
+    "fabric room partition",
+    "portable room divider"
+   ],
+   "local_names": [
+    "پارٹیشن",
+    "رووم ڈیوائیڈر"
+   ],
+   "text": "A three‑panel folding room divider with a wooden frame and fabric panels. Used for: Creating privacy in a room; Separating living space from work area; Hiding clutter or storage. Shoppers say: folding room divider; 3 panel room screen; fabric room partition; portable room divider. Also called: پارٹیشن, رووم ڈیوائیڈر."
+  },
+  "FUR-027": {
+   "product_id": "FUR-027",
+   "what_it_is": "A three‑tier metal plant stand with a powder‑coated finish.",
+   "used_for": [
+    "Displaying indoor plants",
+    "Saving floor space for multiple pots",
+    "Showing decorative succulents"
+   ],
+   "shopper_phrases": [
+    "metal plant stand 3 tiers",
+    "indoor plant rack",
+    "powder coated plant stand",
+    "multi tier plant holder"
+   ],
+   "local_names": [
+    "پلانٹ اسٹینڈ",
+    "پودوں کا اسٹینڈ"
+   ],
+   "text": "A three‑tier metal plant stand with a powder‑coated finish. Used for: Displaying indoor plants; Saving floor space for multiple pots; Showing decorative succulents. Shoppers say: metal plant stand 3 tiers; indoor plant rack; powder coated plant stand; multi tier plant holder. Also called: پلانٹ اسٹینڈ, پودوں کا اسٹینڈ."
+  },
+  "FUR-028": {
+   "product_id": "FUR-028",
+   "what_it_is": "A two‑step folding step stool made of PP plastic.",
+   "used_for": [
+    "Reaching high kitchen shelves",
+    "Helping children climb safely",
+    "Temporarily standing while changing light bulbs"
+   ],
+   "shopper_phrases": [
+    "two step folding stool",
+    "foldable step stool",
+    "plastic step ladder",
+    "kitchen step stool"
+   ],
+   "local_names": [
+    "اسٹیپ سٹول",
+    "فولڈنگ سٹول"
+   ],
+   "text": "A two‑step folding step stool made of PP plastic. Used for: Reaching high kitchen shelves; Helping children climb safely; Temporarily standing while changing light bulbs. Shoppers say: two step folding stool; foldable step stool; plastic step ladder; kitchen step stool. Also called: اسٹیپ سٹول, فولڈنگ سٹول."
+  },
+  "FUR-029": {
+   "product_id": "FUR-029",
+   "what_it_is": "A five‑tier corner shelf made of engineered wood.",
+   "used_for": [
+    "store books or magazines",
+    "display decorative items",
+    "organize kitchen supplies",
+    "hold plants in a corner"
+   ],
+   "shopper_phrases": [
+    "corner shelf unit",
+    "5 tier wall shelf",
+    "corner storage rack",
+    "engineered wood shelf",
+    "corner bookshelf"
+   ],
+   "local_names": [],
+   "text": "A five‑tier corner shelf made of engineered wood. Used for: store books or magazines; display decorative items; organize kitchen supplies; hold plants in a corner. Shoppers say: corner shelf unit; 5 tier wall shelf; corner storage rack; engineered wood shelf; corner bookshelf."
+  },
+  "FUR-030": {
+   "product_id": "FUR-030",
+   "what_it_is": "A wooden rocking chair with a sheesham frame and cane‑woven seat.",
+   "used_for": [
+    "relaxing while rocking",
+    "reading a book",
+    "nursing a baby",
+    "adding a traditional touch to a room"
+   ],
+   "shopper_phrases": [
+    "wooden rocking chair",
+    "sheesham rocking chair",
+    "cane seat rocker",
+    "traditional rocking chair",
+    "rocking chair for living room"
+   ],
+   "local_names": [
+    "rocking chair",
+    "rocking kursi"
+   ],
+   "text": "A wooden rocking chair with a sheesham frame and cane‑woven seat. Used for: relaxing while rocking; reading a book; nursing a baby; adding a traditional touch to a room. Shoppers say: wooden rocking chair; sheesham rocking chair; cane seat rocker; traditional rocking chair; rocking chair for living room. Also called: rocking chair, rocking kursi."
+  },
+  "FUR-031": {
+   "product_id": "FUR-031",
+   "what_it_is": "A portable wardrobe with three fabric sections and a steel frame.",
+   "used_for": [
+    "temporary clothing storage",
+    "guest room wardrobe",
+    "dormitory closet",
+    "organizing seasonal clothes"
+   ],
+   "shopper_phrases": [
+    "portable fabric wardrobe",
+    "foldable wardrobe",
+    "3 section clothing rack",
+    "lightweight wardrobe",
+    "travel wardrobe"
+   ],
+   "local_names": [
+    "wardrobe",
+    "kapray ka rack"
+   ],
+   "text": "A portable wardrobe with three fabric sections and a steel frame. Used for: temporary clothing storage; guest room wardrobe; dormitory closet; organizing seasonal clothes. Shoppers say: portable fabric wardrobe; foldable wardrobe; 3 section clothing rack; lightweight wardrobe; travel wardrobe. Also called: wardrobe, kapray ka rack."
+  },
+  "FUR-032": {
+   "product_id": "FUR-032",
+   "what_it_is": "A foldable prayer chair with a padded seat and steel backrest.",
+   "used_for": [
+    "sitting while praying",
+    "extra seating for guests",
+    "portable seating for outdoor prayer",
+    "comfort during long prayers"
+   ],
+   "shopper_phrases": [
+    "foldable prayer chair",
+    "prayer chair with backrest",
+    "portable masjid chair",
+    "steel frame prayer seat",
+    "padded prayer chair"
+   ],
+   "local_names": [
+    "namaz ki kursi",
+    "prayer chair"
+   ],
+   "text": "A foldable prayer chair with a padded seat and steel backrest. Used for: sitting while praying; extra seating for guests; portable seating for outdoor prayer; comfort during long prayers. Shoppers say: foldable prayer chair; prayer chair with backrest; portable masjid chair; steel frame prayer seat; padded prayer chair. Also called: namaz ki kursi, prayer chair."
+  },
+  "FUR-033": {
+   "product_id": "FUR-033",
+   "what_it_is": "A height‑adjustable standing desk converter with a gas‑spring mechanism.",
+   "used_for": [
+    "convert a sitting desk to standing",
+    "adjust work height quickly",
+    "use laptop ergonomically",
+    "switch between sitting and standing"
+   ],
+   "shopper_phrases": [
+    "standing desk converter",
+    "height adjustable desk riser",
+    "gas spring desk lift",
+    "desk converter 80 cm",
+    "adjustable work surface"
+   ],
+   "local_names": [],
+   "text": "A height‑adjustable standing desk converter with a gas‑spring mechanism. Used for: convert a sitting desk to standing; adjust work height quickly; use laptop ergonomically; switch between sitting and standing. Shoppers say: standing desk converter; height adjustable desk riser; gas spring desk lift; desk converter 80 cm; adjustable work surface."
+  },
+  "FUR-034": {
+   "product_id": "FUR-034",
+   "what_it_is": "A metal mesh stand that raises a monitor and adds a small drawer for storage",
+   "used_for": [
+    "Raise monitor to eye level",
+    "Free up desk space",
+    "Store pens or USB drives"
+   ],
+   "shopper_phrases": [
+    "monitor stand with drawer",
+    "desk riser for laptop",
+    "monitor lift storage",
+    "monitor riser metal",
+    "desk organizer stand"
+   ],
+   "local_names": [],
+   "text": "A metal mesh stand that raises a monitor and adds a small drawer for storage Used for: Raise monitor to eye level; Free up desk space; Store pens or USB drives. Shoppers say: monitor stand with drawer; desk riser for laptop; monitor lift storage; monitor riser metal; desk organizer stand."
+  },
+  "FUR-035": {
+   "product_id": "FUR-035",
+   "what_it_is": "A floor cushion set with a round pillow, covered in removable cotton fabric",
+   "used_for": [
+    "Sit on floor for meals or prayer",
+    "Relax while watching TV",
+    "Provide extra seating for guests"
+   ],
+   "shopper_phrases": [
+    "floor cushion set",
+    "gaddi with bolster",
+    "floor seating cushion",
+    "cotton floor pillow",
+    "gaddi set"
+   ],
+   "local_names": [
+    "گڈی",
+    "گڈی سیٹ"
+   ],
+   "text": "A floor cushion set with a round pillow, covered in removable cotton fabric Used for: Sit on floor for meals or prayer; Relax while watching TV; Provide extra seating for guests. Shoppers say: floor cushion set; gaddi with bolster; floor seating cushion; cotton floor pillow; gaddi set. Also called: گڈی, گڈی سیٹ."
+  },
+  "FUR-036": {
+   "product_id": "FUR-036",
+   "what_it_is": "A hand‑carved sheesham wood folding rehal for holding the Qur'an.",
+   "used_for": [
+    "prayer stand",
+    "displaying books",
+    "decorative accent"
+   ],
+   "shopper_phrases": [
+    "wooden rehal folding",
+    "sheesham prayer stand",
+    "hand carved rehal"
+   ],
+   "local_names": [
+    "ریلہ",
+    "ریلہ لکڑی"
+   ],
+   "text": "A hand‑carved sheesham wood folding rehal for holding the Qur'an. Used for: prayer stand; displaying books; decorative accent. Shoppers say: wooden rehal folding; sheesham prayer stand; hand carved rehal. Also called: ریلہ, ریلہ لکڑی."
+  },
+  "FUR-037": {
+   "product_id": "FUR-037",
+   "what_it_is": "An adjustable angled footrest made of textured plastic that fits under a desk",
+   "used_for": [
+    "Support feet while working",
+    "Reduce leg fatigue",
+    "Improve posture at a desk"
+   ],
+   "shopper_phrases": [
+    "under desk footrest",
+    "adjustable footrest",
+    "footrest for office desk",
+    "ergonomic footrest",
+    "desk foot support"
+   ],
+   "local_names": [],
+   "text": "An adjustable angled footrest made of textured plastic that fits under a desk Used for: Support feet while working; Reduce leg fatigue; Improve posture at a desk. Shoppers say: under desk footrest; adjustable footrest; footrest for office desk; ergonomic footrest; desk foot support."
+  },
+  "FUR-038": {
+   "product_id": "FUR-038",
+   "what_it_is": "A narrow 100 cm console table with engineered wood top and metal legs for entryways",
+   "used_for": [
+    "Hold keys and mail",
+    "Display decorative items",
+    "Serve as a slim side table"
+   ],
+   "shopper_phrases": [
+    "narrow console table",
+    "100 cm entryway table",
+    "slim hallway table",
+    "metal leg console",
+    "small entry table"
+   ],
+   "local_names": [],
+   "text": "A narrow 100 cm console table with engineered wood top and metal legs for entryways Used for: Hold keys and mail; Display decorative items; Serve as a slim side table. Shoppers say: narrow console table; 100 cm entryway table; slim hallway table; metal leg console; small entry table."
+  },
+  "FUR-039": {
+   "product_id": "FUR-039",
+   "what_it_is": "A single‑seat fabric recliner with a manual lever and solid wood frame",
+   "used_for": [
+    "Relax and recline after work",
+    "Watch TV comfortably",
+    "Read a book in a cozy seat"
+   ],
+   "shopper_phrases": [
+    "fabric recliner chair",
+    "single seat recliner",
+    "manual lever recliner",
+    "living room recliner",
+    "reclining chair"
+   ],
+   "local_names": [
+    "ریکلائنر"
+   ],
+   "text": "A single‑seat fabric recliner with a manual lever and solid wood frame Used for: Relax and recline after work; Watch TV comfortably; Read a book in a cozy seat. Shoppers say: fabric recliner chair; single seat recliner; manual lever recliner; living room recliner; reclining chair. Also called: ریکلائنر."
+  },
+  "FUR-040": {
+   "product_id": "FUR-040",
+   "what_it_is": "A small plastic table with two chairs for children.",
+   "used_for": [
+    "Kids eating meals",
+    "Drawing or coloring",
+    "Playing board games"
+   ],
+   "shopper_phrases": [
+    "kids table and chairs",
+    "children dining set",
+    "small plastic table for kids"
+   ],
+   "local_names": [
+    "بچوں کا ٹیبل اور کرسیاں",
+    "Kids table"
+   ],
+   "text": "A small plastic table with two chairs for children. Used for: Kids eating meals; Drawing or coloring; Playing board games. Shoppers say: kids table and chairs; children dining set; small plastic table for kids. Also called: بچوں کا ٹیبل اور کرسیاں, Kids table."
+  },
+  "FUR-041": {
+   "product_id": "FUR-041",
+   "what_it_is": "A set of three floating wall shelves that mount with hidden brackets.",
+   "used_for": [
+    "Displaying books",
+    "Holding decorative items",
+    "Storing small kitchenware"
+   ],
+   "shopper_phrases": [
+    "floating wall shelves set",
+    "hidden bracket shelves",
+    "wall mounted shelves 3 pcs"
+   ],
+   "local_names": [
+    "فلوٹنگ شیلف",
+    "Wall shelves"
+   ],
+   "text": "A set of three floating wall shelves that mount with hidden brackets. Used for: Displaying books; Holding decorative items; Storing small kitchenware. Shoppers say: floating wall shelves set; hidden bracket shelves; wall mounted shelves 3 pcs. Also called: فلوٹنگ شیلف, Wall shelves."
+  },
+  "FUR-042": {
+   "product_id": "FUR-042",
+   "what_it_is": "A metal bunk bed with one single bed stacked over another, includes a built‑in ladder.",
+   "used_for": [
+    "Saving floor space in a bedroom",
+    "Providing two sleeping spots",
+    "Kids sharing a room"
+   ],
+   "shopper_phrases": [
+    "metal bunk bed single over single",
+    "steel tube bunk bed",
+    "compact double bed for kids"
+   ],
+   "local_names": [
+    "بَنک بڈ",
+    "Bunk bed"
+   ],
+   "text": "A metal bunk bed with one single bed stacked over another, includes a built‑in ladder. Used for: Saving floor space in a bedroom; Providing two sleeping spots; Kids sharing a room. Shoppers say: metal bunk bed single over single; steel tube bunk bed; compact double bed for kids. Also called: بَنک بڈ, Bunk bed."
+  },
+  "FUR-043": {
+   "product_id": "FUR-043",
+   "what_it_is": "An entryway bench made of engineered wood with a lower shelf for shoes.",
+   "used_for": [
+    "Sitting while putting on shoes",
+    "Storing shoes at the door",
+    "Adding a small seating spot in hallway"
+   ],
+   "shopper_phrases": [
+    "entryway bench with shoe shelf",
+    "hallway bench shoe storage",
+    "doorway seating bench"
+   ],
+   "local_names": [
+    "انٹری بینچ جوتے کی شیلف کے ساتھ",
+    "Shoe bench"
+   ],
+   "text": "An entryway bench made of engineered wood with a lower shelf for shoes. Used for: Sitting while putting on shoes; Storing shoes at the door; Adding a small seating spot in hallway. Shoppers say: entryway bench with shoe shelf; hallway bench shoe storage; doorway seating bench. Also called: انٹری بینچ جوتے کی شیلف کے ساتھ, Shoe bench."
+  },
+  "FUR-044": {
+   "product_id": "FUR-044",
+   "what_it_is": "A tall engineered‑wood bookcase with five shelves, 180 cm high.",
+   "used_for": [
+    "Storing books",
+    "Organizing DVDs or games",
+    "Displaying decorative items"
+   ],
+   "shopper_phrases": [
+    "5 shelf bookcase 180 cm",
+    "tall wooden bookcase",
+    "engineered wood bookshelf"
+   ],
+   "local_names": [
+    "کتابوں کی شیلف",
+    "Bookcase"
+   ],
+   "text": "A tall engineered‑wood bookcase with five shelves, 180 cm high. Used for: Storing books; Organizing DVDs or games; Displaying decorative items. Shoppers say: 5 shelf bookcase 180 cm; tall wooden bookcase; engineered wood bookshelf. Also called: کتابوں کی شیلف, Bookcase."
+  },
+  "KIT-001": {
+   "product_id": "KIT-001",
+   "what_it_is": "A stainless steel set of three tools for separating egg whites from yolks.",
+   "used_for": [
+    "separating egg whites for meringues",
+    "removing yolk for low‑fat recipes",
+    "preparing egg whites for omelettes"
+   ],
+   "shopper_phrases": [
+    "egg separator set",
+    "how to separate egg whites",
+    "stainless steel egg yolk separator",
+    "egg white separator tool",
+    "egg separator for baking"
+   ],
+   "local_names": [
+    "انڈے کا الگ کرنے والا",
+    "egg separator"
+   ],
+   "text": "A stainless steel set of three tools for separating egg whites from yolks. Used for: separating egg whites for meringues; removing yolk for low‑fat recipes; preparing egg whites for omelettes. Shoppers say: egg separator set; how to separate egg whites; stainless steel egg yolk separator; egg white separator tool; egg separator for baking. Also called: انڈے کا الگ کرنے والا, egg separator."
+  },
+  "KIT-002": {
+   "product_id": "KIT-002",
+   "what_it_is": "A food‑grade silicone tool for separating egg yolks from whites.",
+   "used_for": [
+    "splitting yolk for sauces",
+    "collecting whites for baking",
+    "easy cleanup after separating eggs"
+   ],
+   "shopper_phrases": [
+    "silicone egg yolk separator",
+    "food grade egg separator",
+    "yellow egg separator",
+    "egg yolk splitter",
+    "egg separator silicone"
+   ],
+   "local_names": [
+    "سیلیکون انڈے کا الگ کرنے والا",
+    "egg separator"
+   ],
+   "text": "A food‑grade silicone tool for separating egg yolks from whites. Used for: splitting yolk for sauces; collecting whites for baking; easy cleanup after separating eggs. Shoppers say: silicone egg yolk separator; food grade egg separator; yellow egg separator; egg yolk splitter; egg separator silicone. Also called: سیلیکون انڈے کا الگ کرنے والا, egg separator."
+  },
+  "KIT-003": {
+   "product_id": "KIT-003",
+   "what_it_is": "A hand‑held slicer with adjustable thickness settings and a julienne insert.",
+   "used_for": [
+    "thinly slice vegetables",
+    "make uniform potato chips",
+    "create julienne strips for salads"
+   ],
+   "shopper_phrases": [
+    "adjustable mandoline slicer",
+    "mandoline with julienne",
+    "vegetable slicer 5 thicknesses"
+   ],
+   "local_names": [
+    "مانڈولین"
+   ],
+   "text": "A hand‑held slicer with adjustable thickness settings and a julienne insert. Used for: thinly slice vegetables; make uniform potato chips; create julienne strips for salads. Shoppers say: adjustable mandoline slicer; mandoline with julienne; vegetable slicer 5 thicknesses. Also called: مانڈولین."
+  },
+  "KIT-004": {
+   "product_id": "KIT-004",
+   "what_it_is": "A compact mandoline with a V‑blade and three interchangeable slicing inserts.",
+   "used_for": [
+    "thinly slicing vegetables",
+    "julienne cutting carrots or potatoes",
+    "making uniform fruit slices"
+   ],
+   "shopper_phrases": [
+    "compact mandoline slicer",
+    "V blade mandoline",
+    "mandoline with 3 inserts",
+    "vegetable slicer kitchen tool",
+    "mandoline for julienne"
+   ],
+   "local_names": [
+    "مینڈولین",
+    "سبزی کا سلائسر"
+   ],
+   "text": "A compact mandoline with a V‑blade and three interchangeable slicing inserts. Used for: thinly slicing vegetables; julienne cutting carrots or potatoes; making uniform fruit slices. Shoppers say: compact mandoline slicer; V blade mandoline; mandoline with 3 inserts; vegetable slicer kitchen tool; mandoline for julienne. Also called: مینڈولین, سبزی کا سلائسر."
+  },
+  "KIT-005": {
+   "product_id": "KIT-005",
+   "what_it_is": "A heavy‑duty garlic press made of zinc alloy with a chrome finish.",
+   "used_for": [
+    "pressing garlic cloves into paste",
+    "quickly mincing garlic for curries",
+    "adding fresh garlic flavor without chopping"
+   ],
+   "shopper_phrases": [
+    "zinc alloy garlic press",
+    "heavy duty garlic crusher",
+    "chrome garlic press",
+    "garlic press 18 cm",
+    "garlic press for kitchen"
+   ],
+   "local_names": [
+    "لہسن پریس",
+    "garlic press"
+   ],
+   "text": "A heavy‑duty garlic press made of zinc alloy with a chrome finish. Used for: pressing garlic cloves into paste; quickly mincing garlic for curries; adding fresh garlic flavor without chopping. Shoppers say: zinc alloy garlic press; heavy duty garlic crusher; chrome garlic press; garlic press 18 cm; garlic press for kitchen. Also called: لہسن پریس, garlic press."
+  },
+  "KIT-006": {
+   "product_id": "KIT-006",
+   "what_it_is": "A stainless steel curved rocker that crushes garlic when rolled.",
+   "used_for": [
+    "crushing garlic cloves into fine pieces",
+    "making garlic paste without a board",
+    "quickly preparing garlic for sauces"
+   ],
+   "shopper_phrases": [
+    "rocker garlic crusher",
+    "stainless steel garlic rocker",
+    "garlic crusher curved",
+    "garlic roller tool",
+    "garlic crusher kitchen"
+   ],
+   "local_names": [
+    "لہسن راکر",
+    "garlic crusher"
+   ],
+   "text": "A stainless steel curved rocker that crushes garlic when rolled. Used for: crushing garlic cloves into fine pieces; making garlic paste without a board; quickly preparing garlic for sauces. Shoppers say: rocker garlic crusher; stainless steel garlic rocker; garlic crusher curved; garlic roller tool; garlic crusher kitchen. Also called: لہسن راکر, garlic crusher."
+  },
+  "KIT-007": {
+   "product_id": "KIT-007",
+   "what_it_is": "A stainless‑steel bench scraper with built‑in inch and centimetre measurement markings.",
+   "used_for": [
+    "scrape dough from work surface",
+    "measure and cut pastry dough",
+    "smooth icing on cakes"
+   ],
+   "shopper_phrases": [
+    "bench scraper with ruler",
+    "stainless steel dough scraper",
+    "measuring edge scraper"
+   ],
+   "local_names": [],
+   "text": "A stainless‑steel bench scraper with built‑in inch and centimetre measurement markings. Used for: scrape dough from work surface; measure and cut pastry dough; smooth icing on cakes. Shoppers say: bench scraper with ruler; stainless steel dough scraper; measuring edge scraper."
+  },
+  "KIT-008": {
+   "product_id": "KIT-008",
+   "what_it_is": "A set of two plastic bowl scrapers with one curved edge and one straight edge.",
+   "used_for": [
+    "scraping batter from mixing bowls",
+    "removing dough from containers",
+    "smoothing frosting on cakes"
+   ],
+   "shopper_phrases": [
+    "bowl scraper",
+    "plastic bowl scraper set",
+    "curved edge scraper",
+    "straight edge scraper",
+    "scrape batter"
+   ],
+   "local_names": [],
+   "text": "A set of two plastic bowl scrapers with one curved edge and one straight edge. Used for: scraping batter from mixing bowls; removing dough from containers; smoothing frosting on cakes. Shoppers say: bowl scraper; plastic bowl scraper set; curved edge scraper; straight edge scraper; scrape batter."
+  },
+  "KIT-009": {
+   "product_id": "KIT-009",
+   "what_it_is": "A 5‑litre salad spinner made of BPA‑free plastic with a push‑pump and brake mechanism.",
+   "used_for": [
+    "drying washed lettuce",
+    "spinning herbs after washing",
+    "removing excess water from salad greens"
+   ],
+   "shopper_phrases": [
+    "5 litre salad spinner",
+    "salad spinner with pump",
+    "BPA free salad spinner",
+    "large salad dryer",
+    "push pump salad spinner"
+   ],
+   "local_names": [],
+   "text": "A 5‑litre salad spinner made of BPA‑free plastic with a push‑pump and brake mechanism. Used for: drying washed lettuce; spinning herbs after washing; removing excess water from salad greens. Shoppers say: 5 litre salad spinner; salad spinner with pump; BPA free salad spinner; large salad dryer; push pump salad spinner."
+  },
+  "KIT-010": {
+   "product_id": "KIT-010",
+   "what_it_is": "A 3‑litre salad spinner with a side crank handle, made of PP plastic.",
+   "used_for": [
+    "drying small batches of salad",
+    "spinning washed herbs",
+    "removing water from sliced vegetables"
+   ],
+   "shopper_phrases": [
+    "3 litre salad spinner",
+    "crank salad spinner",
+    "small salad dryer",
+    "PP plastic salad spinner",
+    "side crank salad spinner"
+   ],
+   "local_names": [],
+   "text": "A 3‑litre salad spinner with a side crank handle, made of PP plastic. Used for: drying small batches of salad; spinning washed herbs; removing water from sliced vegetables. Shoppers say: 3 litre salad spinner; crank salad spinner; small salad dryer; PP plastic salad spinner; side crank salad spinner."
+  },
+  "KIT-011": {
+   "product_id": "KIT-011",
+   "what_it_is": "A 16 cm stainless steel spider strainer with a 38 cm handle.",
+   "used_for": [
+    "lifting fried foods from oil",
+    "skimming broth or soup",
+    "draining pasta or vegetables"
+   ],
+   "shopper_phrases": [
+    "stainless steel spider strainer",
+    "16 cm spider strainer",
+    "metal kitchen spider",
+    "food skimmer",
+    "large spider ladle"
+   ],
+   "local_names": [],
+   "text": "A 16 cm stainless steel spider strainer with a 38 cm handle. Used for: lifting fried foods from oil; skimming broth or soup; draining pasta or vegetables. Shoppers say: stainless steel spider strainer; 16 cm spider strainer; metal kitchen spider; food skimmer; large spider ladle."
+  },
+  "KIT-012": {
+   "product_id": "KIT-012",
+   "what_it_is": "A brass wire skimmer with a 14 cm basket and bamboo handle.",
+   "used_for": [
+    "skimming foam from soups",
+    "removing fried items from oil",
+    "lifting dumplings or noodles"
+   ],
+   "shopper_phrases": [
+    "brass skimmer",
+    "bamboo handle skimmer",
+    "14 cm kitchen skimmer",
+    "metal skimmer for frying",
+    "wire skimmer"
+   ],
+   "local_names": [],
+   "text": "A brass wire skimmer with a 14 cm basket and bamboo handle. Used for: skimming foam from soups; removing fried items from oil; lifting dumplings or noodles. Shoppers say: brass skimmer; bamboo handle skimmer; 14 cm kitchen skimmer; metal skimmer for frying; wire skimmer."
+  },
+  "KIT-013": {
+   "product_id": "KIT-013",
+   "what_it_is": "A 20 cm stainless steel conical strainer with an extra‑fine mesh.",
+   "used_for": [
+    "sieving fine sauces",
+    "removing seeds from purees",
+    "straining tea leaves",
+    "filtering powdered spices"
+   ],
+   "shopper_phrases": [
+    "fine mesh strainer",
+    "conical chinois 20 cm",
+    "stainless steel tea strainer",
+    "sieve for sauces",
+    "small kitchen strainer"
+   ],
+   "local_names": [
+    "چینی سٹرینر",
+    "چینی سٹرینر 20 سینٹی میٹر"
+   ],
+   "text": "A 20 cm stainless steel conical strainer with an extra‑fine mesh. Used for: sieving fine sauces; removing seeds from purees; straining tea leaves; filtering powdered spices. Shoppers say: fine mesh strainer; conical chinois 20 cm; stainless steel tea strainer; sieve for sauces; small kitchen strainer. Also called: چینی سٹرینر, چینی سٹرینر 20 سینٹی میٹر."
+  },
+  "KIT-014": {
+   "product_id": "KIT-014",
+   "what_it_is": "A set of three stainless steel mesh strainers in 8 cm, 14 cm and 20 cm sizes.",
+   "used_for": [
+    "draining pasta",
+    "rinsing vegetables",
+    "sieving flour",
+    "straining soups"
+   ],
+   "shopper_phrases": [
+    "stainless steel strainer set",
+    "3‑piece kitchen sieve",
+    "different size strainers",
+    "mesh strainer 8 cm",
+    "large kitchen colander"
+   ],
+   "local_names": [
+    "سٹرینر سیٹ",
+    "چینی سٹرینر سیٹ"
+   ],
+   "text": "A set of three stainless steel mesh strainers in 8 cm, 14 cm and 20 cm sizes. Used for: draining pasta; rinsing vegetables; sieving flour; straining soups. Shoppers say: stainless steel strainer set; 3‑piece kitchen sieve; different size strainers; mesh strainer 8 cm; large kitchen colander. Also called: سٹرینر سیٹ, چینی سٹرینر سیٹ."
+  },
+  "KIT-015": {
+   "product_id": "KIT-015",
+   "what_it_is": "A 12‑inch pre‑seasoned cast‑iron tawa for cooking flatbreads and pancakes.",
+   "used_for": [
+    "making roti or chapati",
+    "cooking pancakes",
+    "searing vegetables"
+   ],
+   "shopper_phrases": [
+    "cast iron tawa 12 inch",
+    "pre seasoned tawa",
+    "flatbread pan cast iron"
+   ],
+   "local_names": [
+    "توا",
+    "کاسٹ آئرن توا"
+   ],
+   "text": "A 12‑inch pre‑seasoned cast‑iron tawa for cooking flatbreads and pancakes. Used for: making roti or chapati; cooking pancakes; searing vegetables. Shoppers say: cast iron tawa 12 inch; pre seasoned tawa; flatbread pan cast iron. Also called: توا, کاسٹ آئرن توا."
+  },
+  "KIT-016": {
+   "product_id": "KIT-016",
+   "what_it_is": "An 11‑inch concave non‑stick tawa made of aluminium.",
+   "used_for": [
+    "making pancakes",
+    "cooking eggs",
+    "frying flatbreads",
+    "light sautéing"
+   ],
+   "shopper_phrases": [
+    "non stick tawa 11 inch",
+    "concave frying pan",
+    "aluminium tawa",
+    "flat pan for roti",
+    "egg cooking pan"
+   ],
+   "local_names": [
+    "نان ٹوا",
+    "پینکیک ٹوا"
+   ],
+   "text": "An 11‑inch concave non‑stick tawa made of aluminium. Used for: making pancakes; cooking eggs; frying flatbreads; light sautéing. Shoppers say: non stick tawa 11 inch; concave frying pan; aluminium tawa; flat pan for roti; egg cooking pan. Also called: نان ٹوا, پینکیک ٹوا."
+  },
+  "KIT-017": {
+   "product_id": "KIT-017",
+   "what_it_is": "A 12‑inch flat tawa with a granite‑coated surface and an induction‑compatible base.",
+   "used_for": [
+    "cooking chapati",
+    "frying kebabs",
+    "making paratha",
+    "searing thin cuts"
+   ],
+   "shopper_phrases": [
+    "granite tawa 12 inch",
+    "induction flat tawa",
+    "chapati pan",
+    "aluminium tawa granite coating",
+    "flat cooking pan"
+   ],
+   "local_names": [
+    "گرینائٹ ٹوا",
+    "چپاتی ٹوا"
+   ],
+   "text": "A 12‑inch flat tawa with a granite‑coated surface and an induction‑compatible base. Used for: cooking chapati; frying kebabs; making paratha; searing thin cuts. Shoppers say: granite tawa 12 inch; induction flat tawa; chapati pan; aluminium tawa granite coating; flat cooking pan. Also called: گرینائٹ ٹوا, چپاتی ٹوا."
+  },
+  "KIT-018": {
+   "product_id": "KIT-018",
+   "what_it_is": "A 10‑inch black‑iron karahi with two riveted handles.",
+   "used_for": [
+    "deep frying pakoras",
+    "cooking curries",
+    "stir‑frying vegetables",
+    "making biryani base"
+   ],
+   "shopper_phrases": [
+    "iron karahi 10 inch",
+    "black iron wok",
+    "karahi with two handles",
+    "traditional Pakistani karahi",
+    "deep fry karahi"
+   ],
+   "local_names": [
+    "کڑاہی",
+    "آئرن کڑاہی"
+   ],
+   "text": "A 10‑inch black‑iron karahi with two riveted handles. Used for: deep frying pakoras; cooking curries; stir‑frying vegetables; making biryani base. Shoppers say: iron karahi 10 inch; black iron wok; karahi with two handles; traditional Pakistani karahi; deep fry karahi. Also called: کڑاہی, آئرن کڑاہی."
+  },
+  "KIT-019": {
+   "product_id": "KIT-019",
+   "what_it_is": "A 26 cm non‑stick aluminium karahi with a tempered‑glass lid for cooking.",
+   "used_for": [
+    "frying vegetables",
+    "making curries",
+    "stir‑frying meat",
+    "cooking eggs"
+   ],
+   "shopper_phrases": [
+    "non stick karahi",
+    "karahi with glass lid",
+    "26 cm frying pan",
+    "aluminium karahi"
+   ],
+   "local_names": [
+    "کڑاہی",
+    "karahi"
+   ],
+   "text": "A 26 cm non‑stick aluminium karahi with a tempered‑glass lid for cooking. Used for: frying vegetables; making curries; stir‑frying meat; cooking eggs. Shoppers say: non stick karahi; karahi with glass lid; 26 cm frying pan; aluminium karahi. Also called: کڑاہی, karahi."
+  },
+  "KIT-020": {
+   "product_id": "KIT-020",
+   "what_it_is": "A 5 L hard‑aluminium pressure cooker with weight valve and safety plug.",
+   "used_for": [
+    "cooking rice quickly",
+    "making stews",
+    "softening beans",
+    "preparing soups"
+   ],
+   "shopper_phrases": [
+    "5 litre pressure cooker",
+    "aluminium pressure cooker",
+    "pressure cooker with safety valve",
+    "large pressure cooker"
+   ],
+   "local_names": [
+    "پریشر ککر",
+    "pressure cooker"
+   ],
+   "text": "A 5 L hard‑aluminium pressure cooker with weight valve and safety plug. Used for: cooking rice quickly; making stews; softening beans; preparing soups. Shoppers say: 5 litre pressure cooker; aluminium pressure cooker; pressure cooker with safety valve; large pressure cooker. Also called: پریشر ککر, pressure cooker."
+  },
+  "KIT-021": {
+   "product_id": "KIT-021",
+   "what_it_is": "A 7 L stainless‑steel pressure cooker with a tri‑ply induction‑compatible base.",
+   "used_for": [
+    "cooking large batches of biryani",
+    "making broth",
+    "pressure cooking meat",
+    "preparing lentils"
+   ],
+   "shopper_phrases": [
+    "7 litre stainless pressure cooker",
+    "induction pressure cooker",
+    "tri ply pressure cooker",
+    "large stainless steel pressure cooker"
+   ],
+   "local_names": [
+    "اسٹینلیس پریشر ککر",
+    "stainless pressure cooker"
+   ],
+   "text": "A 7 L stainless‑steel pressure cooker with a tri‑ply induction‑compatible base. Used for: cooking large batches of biryani; making broth; pressure cooking meat; preparing lentils. Shoppers say: 7 litre stainless pressure cooker; induction pressure cooker; tri ply pressure cooker; large stainless steel pressure cooker. Also called: اسٹینلیس پریشر ککر, stainless pressure cooker."
+  },
+  "KIT-022": {
+   "product_id": "KIT-022",
+   "what_it_is": "A 3 L hard‑aluminium mini pressure cooker with a gasket release window.",
+   "used_for": [
+    "quickly cooking small portions of dal",
+    "making single‑serve soups",
+    "softening vegetables",
+    "preparing small batches of rice"
+   ],
+   "shopper_phrases": [
+    "mini pressure cooker 3 litre",
+    "small aluminium pressure cooker",
+    "pressure cooker with release window",
+    "compact pressure cooker"
+   ],
+   "local_names": [
+    "منی پریشر ککر",
+    "mini pressure cooker"
+   ],
+   "text": "A 3 L hard‑aluminium mini pressure cooker with a gasket release window. Used for: quickly cooking small portions of dal; making single‑serve soups; softening vegetables; preparing small batches of rice. Shoppers say: mini pressure cooker 3 litre; small aluminium pressure cooker; pressure cooker with release window; compact pressure cooker. Also called: منی پریشر ککر, mini pressure cooker."
+  },
+  "KIT-023": {
+   "product_id": "KIT-023",
+   "what_it_is": "A stainless‑steel masala dabba set with seven bowls, a small spoon and a see‑through lid.",
+   "used_for": [
+    "storing spices",
+    "organising cooking herbs",
+    "keeping powdered masala fresh",
+    "serving small side condiments"
+   ],
+   "shopper_phrases": [
+    "masala dabba 7 bowls",
+    "stainless steel spice box",
+    "spice storage set with spoon",
+    "see through spice container"
+   ],
+   "local_names": [
+    "مصالحہ ڈبہ",
+    "masala dabba"
+   ],
+   "text": "A stainless‑steel masala dabba set with seven bowls, a small spoon and a see‑through lid. Used for: storing spices; organising cooking herbs; keeping powdered masala fresh; serving small side condiments. Shoppers say: masala dabba 7 bowls; stainless steel spice box; spice storage set with spoon; see through spice container. Also called: مصالحہ ڈبہ, masala dabba."
+  },
+  "KIT-024": {
+   "product_id": "KIT-024",
+   "what_it_is": "A wooden spice storage box with nine glass jars and a sliding lid",
+   "used_for": [
+    "store spices",
+    "keep herbs fresh",
+    "organize kitchen condiments"
+   ],
+   "shopper_phrases": [
+    "spice box with jars",
+    "masala storage container",
+    "wooden spice rack",
+    "glass spice jars",
+    "kitchen spice organizer"
+   ],
+   "local_names": [
+    "مسالا ڈبہ",
+    "Masala Box"
+   ],
+   "text": "A wooden spice storage box with nine glass jars and a sliding lid Used for: store spices; keep herbs fresh; organize kitchen condiments. Shoppers say: spice box with jars; masala storage container; wooden spice rack; glass spice jars; kitchen spice organizer. Also called: مسالا ڈبہ, Masala Box."
+  },
+  "KIT-025": {
+   "product_id": "KIT-025",
+   "what_it_is": "A wooden hand‑crank churner for making butter or curd.",
+   "used_for": [
+    "hand‑churn butter at home",
+    "make fresh curd or lassi",
+    "stir thick mixtures manually"
+   ],
+   "shopper_phrases": [
+    "wooden butter churner",
+    "hand churner madhani",
+    "sheesham churner"
+   ],
+   "local_names": [
+    "مڈھنی",
+    "مادھنی"
+   ],
+   "text": "A wooden hand‑crank churner for making butter or curd. Used for: hand‑churn butter at home; make fresh curd or lassi; stir thick mixtures manually. Shoppers say: wooden butter churner; hand churner madhani; sheesham churner. Also called: مڈھنی, مادھنی."
+  },
+  "KIT-026": {
+   "product_id": "KIT-026",
+   "what_it_is": "A flat stainless‑steel chimta (tongs) 14 inches long for handling hot food",
+   "used_for": [
+    "flip chapati",
+    "pick up kebabs",
+    "turn fried items"
+   ],
+   "shopper_phrases": [
+    "steel chimta",
+    "flat tongs 14 inch",
+    "kebab tongs",
+    "chapati turning tool",
+    "stainless steel kitchen tongs"
+   ],
+   "local_names": [
+    "چمٹا",
+    "Chimta"
+   ],
+   "text": "A flat stainless‑steel chimta (tongs) 14 inches long for handling hot food Used for: flip chapati; pick up kebabs; turn fried items. Shoppers say: steel chimta; flat tongs 14 inch; kebab tongs; chapati turning tool; stainless steel kitchen tongs. Also called: چمٹا, Chimta."
+  },
+  "KIT-027": {
+   "product_id": "KIT-027",
+   "what_it_is": "A pair of locking tongs with silicone tips, sizes 9 and 12 inches",
+   "used_for": [
+    "grasp salads",
+    "serve pasta",
+    "turn grilled veggies"
+   ],
+   "shopper_phrases": [
+    "silicone tipped tongs",
+    "locking kitchen tongs",
+    "stainless steel tongs set",
+    "9 inch tongs",
+    "12 inch tongs"
+   ],
+   "local_names": [
+    "ٹانگیں",
+    "Tongs"
+   ],
+   "text": "A pair of locking tongs with silicone tips, sizes 9 and 12 inches Used for: grasp salads; serve pasta; turn grilled veggies. Shoppers say: silicone tipped tongs; locking kitchen tongs; stainless steel tongs set; 9 inch tongs; 12 inch tongs. Also called: ٹانگیں, Tongs."
+  },
+  "KIT-028": {
+   "product_id": "KIT-028",
+   "what_it_is": "A 12 cm polished marble mortar and pestle for grinding spices",
+   "used_for": [
+    "grind whole spices",
+    "make pastes",
+    "crush herbs"
+   ],
+   "shopper_phrases": [
+    "marble mortar and pestle",
+    "12 cm mortar",
+    "spice grinding stone",
+    "marble pestle",
+    "kitchen mortar"
+   ],
+   "local_names": [
+    "موڑ اور پیسنے کا برتن",
+    "Mortar Pestle"
+   ],
+   "text": "A 12 cm polished marble mortar and pestle for grinding spices Used for: grind whole spices; make pastes; crush herbs. Shoppers say: marble mortar and pestle; 12 cm mortar; spice grinding stone; marble pestle; kitchen mortar. Also called: موڑ اور پیسنے کا برتن, Mortar Pestle."
+  },
+  "KIT-029": {
+   "product_id": "KIT-029",
+   "what_it_is": "A medium solid‑brass hamam dasta (mortar) for crushing spices",
+   "used_for": [
+    "crush peppercorns",
+    "grind masala",
+    "make chutney"
+   ],
+   "shopper_phrases": [
+    "brass hamam dasta",
+    "medium mortar",
+    "spice crushing brass",
+    "dasta for masala",
+    "brass kitchen mortar"
+   ],
+   "local_names": [
+    "حمام دستہ",
+    "Hamam Dasta"
+   ],
+   "text": "A medium solid‑brass hamam dasta (mortar) for crushing spices Used for: crush peppercorns; grind masala; make chutney. Shoppers say: brass hamam dasta; medium mortar; spice crushing brass; dasta for masala; brass kitchen mortar. Also called: حمام دستہ, Hamam Dasta."
+  },
+  "KIT-030": {
+   "product_id": "KIT-030",
+   "what_it_is": "A handheld stainless‑steel grater with a soft grip handle.",
+   "used_for": [
+    "grating cheese",
+    "shredding carrots",
+    "rubbing nutmeg",
+    "making zest"
+   ],
+   "shopper_phrases": [
+    "cheese grater",
+    "fine grater for zest",
+    "stainless steel rasp",
+    "small kitchen grater"
+   ],
+   "local_names": [
+    "rasp grater",
+    "grater"
+   ],
+   "text": "A handheld stainless‑steel grater with a soft grip handle. Used for: grating cheese; shredding carrots; rubbing nutmeg; making zest. Shoppers say: cheese grater; fine grater for zest; stainless steel rasp; small kitchen grater. Also called: rasp grater, grater."
+  },
+  "KIT-031": {
+   "product_id": "KIT-031",
+   "what_it_is": "A four‑sided stainless‑steel box grater with fine, medium, coarse and slicer sides.",
+   "used_for": [
+    "grating cheese",
+    "shredding vegetables",
+    "coarse grating potatoes",
+    "slicing cucumbers"
+   ],
+   "shopper_phrases": [
+    "box grater 4 side",
+    "multi side grater",
+    "stainless steel grater",
+    "kitchen grater for veg"
+   ],
+   "local_names": [
+    "box grater",
+    "grater"
+   ],
+   "text": "A four‑sided stainless‑steel box grater with fine, medium, coarse and slicer sides. Used for: grating cheese; shredding vegetables; coarse grating potatoes; slicing cucumbers. Shoppers say: box grater 4 side; multi side grater; stainless steel grater; kitchen grater for veg. Also called: box grater, grater."
+  },
+  "KIT-032": {
+   "product_id": "KIT-032",
+   "what_it_is": "An adjustable under‑cabinet jar opener that mounts with screws and has steel teeth.",
+   "used_for": [
+    "opening tight jar lids",
+    "removing stubborn sauce jar caps",
+    "helping seniors open jars"
+   ],
+   "shopper_phrases": [
+    "under cabinet jar opener",
+    "adjustable jar opener",
+    "jar lid opener for cabinets",
+    "mountable jar opener"
+   ],
+   "local_names": [
+    "jar opener"
+   ],
+   "text": "An adjustable under‑cabinet jar opener that mounts with screws and has steel teeth. Used for: opening tight jar lids; removing stubborn sauce jar caps; helping seniors open jars. Shoppers say: under cabinet jar opener; adjustable jar opener; jar lid opener for cabinets; mountable jar opener. Also called: jar opener."
+  },
+  "KIT-033": {
+   "product_id": "KIT-033",
+   "what_it_is": "A set of four silicone rubber pads that stick to lids for easier opening.",
+   "used_for": [
+    "gripping jar lids",
+    "opening stubborn bottle caps",
+    "preventing hand slip on lids"
+   ],
+   "shopper_phrases": [
+    "rubber lid opener pads",
+    "silicone jar grip",
+    "non slip lid opener",
+    "jar opening aid"
+   ],
+   "local_names": [
+    "lid grip pads"
+   ],
+   "text": "A set of four silicone rubber pads that stick to lids for easier opening. Used for: gripping jar lids; opening stubborn bottle caps; preventing hand slip on lids. Shoppers say: rubber lid opener pads; silicone jar grip; non slip lid opener; jar opening aid. Also called: lid grip pads."
+  },
+  "KIT-034": {
+   "product_id": "KIT-034",
+   "what_it_is": "A 500 ml borosilicate glass oil dispenser with a steel drip‑free spout.",
+   "used_for": [
+    "storing cooking oil",
+    "pouring oil without mess",
+    "refilling salad dressing bottles"
+   ],
+   "shopper_phrases": [
+    "glass oil dispenser 500ml",
+    "drip free oil bottle",
+    "oil pourer glass",
+    "kitchen oil container"
+   ],
+   "local_names": [
+    "oil dispenser",
+    "tel ka bottle"
+   ],
+   "text": "A 500 ml borosilicate glass oil dispenser with a steel drip‑free spout. Used for: storing cooking oil; pouring oil without mess; refilling salad dressing bottles. Shoppers say: glass oil dispenser 500ml; drip free oil bottle; oil pourer glass; kitchen oil container. Also called: oil dispenser, tel ka bottle."
+  },
+  "KIT-035": {
+   "product_id": "KIT-035",
+   "what_it_is": "A 200 ml glass bottle with a pump that sprays a fine mist of oil.",
+   "used_for": [
+    "spraying oil on a pan",
+    "lightly oiling salad greens",
+    "misting oil for baking"
+   ],
+   "shopper_phrases": [
+    "oil spray bottle",
+    "fine mist oil sprayer",
+    "200ml oil mister",
+    "kitchen oil sprayer"
+   ],
+   "local_names": [
+    "تیل سپرے بوتل",
+    "oil mister"
+   ],
+   "text": "A 200 ml glass bottle with a pump that sprays a fine mist of oil. Used for: spraying oil on a pan; lightly oiling salad greens; misting oil for baking. Shoppers say: oil spray bottle; fine mist oil sprayer; 200ml oil mister; kitchen oil sprayer. Also called: تیل سپرے بوتل, oil mister."
+  },
+  "KIT-036": {
+   "product_id": "KIT-036",
+   "what_it_is": "A digital kitchen scale that measures up to 5 kg in 1 g increments.",
+   "used_for": [
+    "weighing flour for baking",
+    "measuring fruit portions",
+    "checking meat weight"
+   ],
+   "shopper_phrases": [
+    "digital kitchen scale 5kg",
+    "5 kg kitchen scale",
+    "precision kitchen scale",
+    "LCD kitchen scale"
+   ],
+   "local_names": [
+    "کچن اسکیل",
+    "digital scale"
+   ],
+   "text": "A digital kitchen scale that measures up to 5 kg in 1 g increments. Used for: weighing flour for baking; measuring fruit portions; checking meat weight. Shoppers say: digital kitchen scale 5kg; 5 kg kitchen scale; precision kitchen scale; LCD kitchen scale. Also called: کچن اسکیل, digital scale."
+  },
+  "KIT-037": {
+   "product_id": "KIT-037",
+   "what_it_is": "A glass‑top digital scale that weighs up to 10 kg with a tare function and USB charging.",
+   "used_for": [
+    "weighing large batches of dough",
+    "measuring bulk ingredients",
+    "taring a bowl to weigh contents only"
+   ],
+   "shopper_phrases": [
+    "glass top kitchen scale",
+    "10kg digital scale",
+    "USB rechargeable kitchen scale",
+    "tare function scale"
+   ],
+   "local_names": [
+    "گلاس ٹاپ اسکیل",
+    "digital kitchen scale"
+   ],
+   "text": "A glass‑top digital scale that weighs up to 10 kg with a tare function and USB charging. Used for: weighing large batches of dough; measuring bulk ingredients; taring a bowl to weigh contents only. Shoppers say: glass top kitchen scale; 10kg digital scale; USB rechargeable kitchen scale; tare function scale. Also called: گلاس ٹاپ اسکیل, digital kitchen scale."
+  },
+  "KIT-038": {
+   "product_id": "KIT-038",
+   "what_it_is": "An instant‑read probe thermometer with a foldable 11 cm probe, measuring –50 °C to 300 °C.",
+   "used_for": [
+    "checking meat doneness",
+    "testing oil temperature for frying",
+    "measuring oven temperature quickly"
+   ],
+   "shopper_phrases": [
+    "instant read thermometer",
+    "probe thermometer 300c",
+    "foldable kitchen thermometer",
+    "quick read meat thermometer"
+   ],
+   "local_names": [
+    "انستانٹ ریڈ تھرمامیٹر",
+    "probe thermometer"
+   ],
+   "text": "An instant‑read probe thermometer with a foldable 11 cm probe, measuring –50 °C to 300 °C. Used for: checking meat doneness; testing oil temperature for frying; measuring oven temperature quickly. Shoppers say: instant read thermometer; probe thermometer 300c; foldable kitchen thermometer; quick read meat thermometer. Also called: انستانٹ ریڈ تھرمامیٹر, probe thermometer."
+  },
+  "KIT-039": {
+   "product_id": "KIT-039",
+   "what_it_is": "A pair of stainless‑steel scissors with five blades and a cleaning comb for chopping herbs.",
+   "used_for": [
+    "cutting fresh herbs quickly",
+    "snipping garlic cloves",
+    "trimming chives"
+   ],
+   "shopper_phrases": [
+    "5 blade herb scissors",
+    "herb scissors with comb",
+    "stainless steel herb cutter",
+    "multi blade kitchen scissors"
+   ],
+   "local_names": [
+    "ہرب سیزرز",
+    "herb scissors"
+   ],
+   "text": "A pair of stainless‑steel scissors with five blades and a cleaning comb for chopping herbs. Used for: cutting fresh herbs quickly; snipping garlic cloves; trimming chives. Shoppers say: 5 blade herb scissors; herb scissors with comb; stainless steel herb cutter; multi blade kitchen scissors. Also called: ہرب سیزرز, herb scissors."
+  },
+  "KIT-040": {
+   "product_id": "KIT-040",
+   "what_it_is": "A handheld tool with four interchangeable blades for turning vegetables into spirals or ribbons.",
+   "used_for": [
+    "making zucchini noodles",
+    "creating curly carrot strips",
+    "preparing decorative salad toppings"
+   ],
+   "shopper_phrases": [
+    "vegetable spiralizer",
+    "zucchini noodles tool",
+    "spiral cut veggies",
+    "handheld veggie slicer"
+   ],
+   "local_names": [
+    "سبزی سپائرلائزر",
+    "سبزی کا سپائرل میکر"
+   ],
+   "text": "A handheld tool with four interchangeable blades for turning vegetables into spirals or ribbons. Used for: making zucchini noodles; creating curly carrot strips; preparing decorative salad toppings. Shoppers say: vegetable spiralizer; zucchini noodles tool; spiral cut veggies; handheld veggie slicer. Also called: سبزی سپائرلائزر, سبزی کا سپائرل میکر."
+  },
+  "KIT-041": {
+   "product_id": "KIT-041",
+   "what_it_is": "A hand‑press lemon squeezer made of enamel‑coated cast aluminium.",
+   "used_for": [
+    "extracting juice from lemons",
+    "pressing small citrus fruits",
+    "making fresh lemonade"
+   ],
+   "shopper_phrases": [
+    "lemon squeezer hand press",
+    "cast aluminium citrus press",
+    "manual lemon juicer"
+   ],
+   "local_names": [
+    "لیموں کا رس نکالنے والا",
+    "لیموں کا سqueezer"
+   ],
+   "text": "A hand‑press lemon squeezer made of enamel‑coated cast aluminium. Used for: extracting juice from lemons; pressing small citrus fruits; making fresh lemonade. Shoppers say: lemon squeezer hand press; cast aluminium citrus press; manual lemon juicer. Also called: لیموں کا رس نکالنے والا, لیموں کا سqueezer."
+  },
+  "KIT-042": {
+   "product_id": "KIT-042",
+   "what_it_is": "An electric citrus juicer with 40 W motor, 700 ml capacity and two cone sizes.",
+   "used_for": [
+    "juicing oranges",
+    "extracting juice from grapefruits",
+    "quickly making fresh citrus drinks"
+   ],
+   "shopper_phrases": [
+    "electric citrus juicer 700ml",
+    "electric orange juicer",
+    "small electric juice extractor"
+   ],
+   "local_names": [
+    "الیکٹرک سٹرس جوسر",
+    "سٹرسی جوس مشین"
+   ],
+   "text": "An electric citrus juicer with 40 W motor, 700 ml capacity and two cone sizes. Used for: juicing oranges; extracting juice from grapefruits; quickly making fresh citrus drinks. Shoppers say: electric citrus juicer 700ml; electric orange juicer; small electric juice extractor. Also called: الیکٹرک سٹرس جوسر, سٹرسی جوس مشین."
+  },
+  "KIT-043": {
+   "product_id": "KIT-043",
+   "what_it_is": "A 2.5 L insulated casserole pot with stainless‑steel inner and locking lid.",
+   "used_for": [
+    "keeping soups hot for serving",
+    "transporting stews to a gathering",
+    "serving hot dishes at a buffet"
+   ],
+   "shopper_phrases": [
+    "insulated hot pot 2.5L",
+    "casserole with locking lid",
+    "thermal serving pot"
+   ],
+   "local_names": [
+    "گرم خوراکی پوت",
+    "انسانی ہاٹ پوٹ"
+   ],
+   "text": "A 2.5 L insulated casserole pot with stainless‑steel inner and locking lid. Used for: keeping soups hot for serving; transporting stews to a gathering; serving hot dishes at a buffet. Shoppers say: insulated hot pot 2.5L; casserole with locking lid; thermal serving pot. Also called: گرم خوراکی پوت, انسانی ہاٹ پوٹ."
+  },
+  "KIT-044": {
+   "product_id": "KIT-044",
+   "what_it_is": "A plastic roti box with cotton lining and a clip lid, holding about 15 rotis.",
+   "used_for": [
+    "carrying fresh rotis to work",
+    "keeping rotis warm for a picnic",
+    "storing homemade chapatis"
+   ],
+   "shopper_phrases": [
+    "insulated roti box",
+    "cotton lined roti carrier",
+    "roti storage box"
+   ],
+   "local_names": [
+    "روٹی باکس",
+    "روٹی کا ڈبہ"
+   ],
+   "text": "A plastic roti box with cotton lining and a clip lid, holding about 15 rotis. Used for: carrying fresh rotis to work; keeping rotis warm for a picnic; storing homemade chapatis. Shoppers say: insulated roti box; cotton lined roti carrier; roti storage box. Also called: روٹی باکس, روٹی کا ڈبہ."
+  },
+  "KIT-045": {
+   "product_id": "KIT-045",
+   "what_it_is": "A 16‑inch stainless steel serving or mixing bowl.",
+   "used_for": [
+    "mixing batter",
+    "serving salads",
+    "holding dough"
+   ],
+   "shopper_phrases": [
+    "stainless steel bowl 16 inch",
+    "mixing bowl for dough",
+    "large kitchen bowl",
+    "serving bowl stainless steel"
+   ],
+   "local_names": [
+    "پرات"
+   ],
+   "text": "A 16‑inch stainless steel serving or mixing bowl. Used for: mixing batter; serving salads; holding dough. Shoppers say: stainless steel bowl 16 inch; mixing bowl for dough; large kitchen bowl; serving bowl stainless steel. Also called: پرات."
+  },
+  "KIT-046": {
+   "product_id": "KIT-046",
+   "what_it_is": "A wooden chakla and belan set for rolling flatbreads.",
+   "used_for": [
+    "rolling chapati",
+    "rolling roti",
+    "flattening dough"
+   ],
+   "shopper_phrases": [
+    "chakla belan set",
+    "wooden rolling board",
+    "flatbread rolling board",
+    "chapati rolling board"
+   ],
+   "local_names": [
+    "چکلا",
+    "بیلن"
+   ],
+   "text": "A wooden chakla and belan set for rolling flatbreads. Used for: rolling chapati; rolling roti; flattening dough. Shoppers say: chakla belan set; wooden rolling board; flatbread rolling board; chapati rolling board. Also called: چکلا, بیلن."
+  },
+  "KIT-047": {
+   "product_id": "KIT-047",
+   "what_it_is": "A pizza cutter wheel with a finger guard for cutting pizza.",
+   "used_for": [
+    "cutting pizza slices",
+    "cutting flatbreads",
+    "slicing baked pies"
+   ],
+   "shopper_phrases": [
+    "pizza cutter with guard",
+    "wheel pizza cutter",
+    "pizza slice cutter",
+    "pizza cutter stainless steel"
+   ],
+   "local_names": [
+    "پیزا کٹر"
+   ],
+   "text": "A pizza cutter wheel with a finger guard for cutting pizza. Used for: cutting pizza slices; cutting flatbreads; slicing baked pies. Shoppers say: pizza cutter with guard; wheel pizza cutter; pizza slice cutter; pizza cutter stainless steel. Also called: پیزا کٹر."
+  },
+  "KIT-048": {
+   "product_id": "KIT-048",
+   "what_it_is": "An 8‑blade apple slicer and corer.",
+   "used_for": [
+    "slicing apples",
+    "removing apple cores",
+    "preparing apple slices for pies"
+   ],
+   "shopper_phrases": [
+    "apple slicer corer",
+    "8 blade apple cutter",
+    "apple slicer stainless steel",
+    "apple corer tool"
+   ],
+   "local_names": [
+    "سیب کا سلائسر"
+   ],
+   "text": "An 8‑blade apple slicer and corer. Used for: slicing apples; removing apple cores; preparing apple slices for pies. Shoppers say: apple slicer corer; 8 blade apple cutter; apple slicer stainless steel; apple corer tool. Also called: سیب کا سلائسر."
+  },
+  "KIT-049": {
+   "product_id": "KIT-049",
+   "what_it_is": "A 33‑cm splatter guard screen for frying pans.",
+   "used_for": [
+    "preventing oil splatter while frying",
+    "covering pans during sauté",
+    "keeping stovetop clean"
+   ],
+   "shopper_phrases": [
+    "splatter guard screen",
+    "frying pan splatter guard",
+    "oil splash cover",
+    "stove splatter screen"
+   ],
+   "local_names": [
+    "اسپلیٹر گارڈ"
+   ],
+   "text": "A 33‑cm splatter guard screen for frying pans. Used for: preventing oil splatter while frying; covering pans during sauté; keeping stovetop clean. Shoppers say: splatter guard screen; frying pan splatter guard; oil splash cover; stove splatter screen. Also called: اسپلیٹر گارڈ."
+  },
+  "KIT-050": {
+   "product_id": "KIT-050",
+   "what_it_is": "A reusable silicone mat for baking on a half‑sheet tray.",
+   "used_for": [
+    "lining baking trays to avoid parchment paper",
+    "baking cookies, pastries, or roasted veggies",
+    "providing a non‑stick surface for easy cleanup"
+   ],
+   "shopper_phrases": [
+    "silicone baking mat half sheet",
+    "non stick baking sheet liner",
+    "reusable baking mat 42x29 cm",
+    "heat resistant baking mat",
+    "silicone mat for oven"
+   ],
+   "local_names": [
+    "سلیکون بیکنگ میٹ",
+    "بیکنگ میٹ"
+   ],
+   "text": "A reusable silicone mat for baking on a half‑sheet tray. Used for: lining baking trays to avoid parchment paper; baking cookies, pastries, or roasted veggies; providing a non‑stick surface for easy cleanup. Shoppers say: silicone baking mat half sheet; non stick baking sheet liner; reusable baking mat 42x29 cm; heat resistant baking mat; silicone mat for oven. Also called: سلیکون بیکنگ میٹ, بیکنگ میٹ."
+  },
+  "KIT-051": {
+   "product_id": "KIT-051",
+   "what_it_is": "A set of stainless‑steel measuring cups and spoons.",
+   "used_for": [
+    "measuring dry ingredients like flour or sugar",
+    "measuring liquid volumes for recipes",
+    "quickly converting between ml and cup measurements"
+   ],
+   "shopper_phrases": [
+    "stainless steel measuring cups set",
+    "10 piece measuring spoons and cups",
+    "engraved ml cup measuring set",
+    "kitchen measuring set stainless",
+    "measuring cup and spoon set"
+   ],
+   "local_names": [
+    "ماپنے کا کپ اور چمچ سیٹ",
+    "میجرنگ کپ سٹینلیس سٹیل"
+   ],
+   "text": "A set of stainless‑steel measuring cups and spoons. Used for: measuring dry ingredients like flour or sugar; measuring liquid volumes for recipes; quickly converting between ml and cup measurements. Shoppers say: stainless steel measuring cups set; 10 piece measuring spoons and cups; engraved ml cup measuring set; kitchen measuring set stainless; measuring cup and spoon set. Also called: ماپنے کا کپ اور چمچ سیٹ, میجرنگ کپ سٹینلیس سٹیل."
+  },
+  "KIT-052": {
+   "product_id": "KIT-052",
+   "what_it_is": "A stainless‑steel tea strainer with an 8 cm diameter.",
+   "used_for": [
+    "filtering loose tea leaves while pouring",
+    "straining herbs or spices from hot water",
+    "serving tea without leaf particles"
+   ],
+   "shopper_phrases": [
+    "stainless steel tea strainer 8 cm",
+    "tea filter with hook handle",
+    "metal tea strainer for teapot",
+    "tea leaf strainer stainless",
+    "small tea strainer"
+   ],
+   "local_names": [
+    "چائے چھاننی",
+    "ٹی سٹرینر"
+   ],
+   "text": "A stainless‑steel tea strainer with an 8 cm diameter. Used for: filtering loose tea leaves while pouring; straining herbs or spices from hot water; serving tea without leaf particles. Shoppers say: stainless steel tea strainer 8 cm; tea filter with hook handle; metal tea strainer for teapot; tea leaf strainer stainless; small tea strainer. Also called: چائے چھاننی, ٹی سٹرینر."
+  },
+  "KIT-053": {
+   "product_id": "KIT-053",
+   "what_it_is": "A glass disc placed on a pot to stop water from boiling over.",
+   "used_for": [
+    "prevent boil‑over while cooking rice",
+    "keep stovetop clean",
+    "reduce mess from sauces"
+   ],
+   "shopper_phrases": [
+    "boil over preventer disc",
+    "glass pot lid disc",
+    "anti boil over glass"
+   ],
+   "local_names": [],
+   "text": "A glass disc placed on a pot to stop water from boiling over. Used for: prevent boil‑over while cooking rice; keep stovetop clean; reduce mess from sauces. Shoppers say: boil over preventer disc; glass pot lid disc; anti boil over glass."
+  },
+  "KIT-054": {
+   "product_id": "KIT-054",
+   "what_it_is": "An electric hand mixer with 5 speeds and turbo, includes beaters and dough hooks.",
+   "used_for": [
+    "whipping cream or egg whites",
+    "mixing batter for cakes and pancakes",
+    "kneading small amounts of dough"
+   ],
+   "shopper_phrases": [
+    "electric hand mixer 5 speeds",
+    "250W hand mixer with dough hooks",
+    "hand mixer turbo function",
+    "kitchen hand mixer beaters",
+    "hand mixer for baking"
+   ],
+   "local_names": [
+    "الیکٹرک ہینڈ مکسر",
+    "ہینڈ مکسر"
+   ],
+   "text": "An electric hand mixer with 5 speeds and turbo, includes beaters and dough hooks. Used for: whipping cream or egg whites; mixing batter for cakes and pancakes; kneading small amounts of dough. Shoppers say: electric hand mixer 5 speeds; 250W hand mixer with dough hooks; hand mixer turbo function; kitchen hand mixer beaters; hand mixer for baking. Also called: الیکٹرک ہینڈ مکسر, ہینڈ مکسر."
+  },
+  "KIT-055": {
+   "product_id": "KIT-055",
+   "what_it_is": "A compact electric hand mixer with 3 speeds, includes beaters.",
+   "used_for": [
+    "light mixing of batter or dough",
+    "whipping small amounts of cream",
+    "quickly stirring sauces or soups"
+   ],
+   "shopper_phrases": [
+    "compact hand mixer 3 speeds",
+    "150W hand mixer beaters",
+    "small kitchen hand mixer",
+    "hand mixer for light mixing",
+    "portable hand mixer"
+   ],
+   "local_names": [
+    "کمپیکٹ ہینڈ مکسر",
+    "ہینڈ مکسر"
+   ],
+   "text": "A compact electric hand mixer with 3 speeds, includes beaters. Used for: light mixing of batter or dough; whipping small amounts of cream; quickly stirring sauces or soups. Shoppers say: compact hand mixer 3 speeds; 150W hand mixer beaters; small kitchen hand mixer; hand mixer for light mixing; portable hand mixer. Also called: کمپیکٹ ہینڈ مکسر, ہینڈ مکسر."
+  },
+  "KIT-056": {
+   "product_id": "KIT-056",
+   "what_it_is": "A hand‑operated chopper that cuts food using a pull‑cord mechanism.",
+   "used_for": [
+    "chopping vegetables",
+    "making salsa",
+    "preparing small amounts of herbs"
+   ],
+   "shopper_phrases": [
+    "manual food chopper",
+    "pull string chopper 500ml",
+    "hand chopper for veggies",
+    "small kitchen chopper"
+   ],
+   "local_names": [
+    "چاپر",
+    "hand chopper"
+   ],
+   "text": "A hand‑operated chopper that cuts food using a pull‑cord mechanism. Used for: chopping vegetables; making salsa; preparing small amounts of herbs. Shoppers say: manual food chopper; pull string chopper 500ml; hand chopper for veggies; small kitchen chopper. Also called: چاپر, hand chopper."
+  },
+  "KIT-057": {
+   "product_id": "KIT-057",
+   "what_it_is": "A larger hand‑operated chopper with five stainless‑steel blades.",
+   "used_for": [
+    "chopping larger batches of vegetables",
+    "grating soft fruits",
+    "making chutney"
+   ],
+   "shopper_phrases": [
+    "pull string chopper 900ml",
+    "5 blade manual chopper",
+    "hand chopper big size",
+    "kitchen veg chopper"
+   ],
+   "local_names": [
+    "چاپر",
+    "hand chopper"
+   ],
+   "text": "A larger hand‑operated chopper with five stainless‑steel blades. Used for: chopping larger batches of vegetables; grating soft fruits; making chutney. Shoppers say: pull string chopper 900ml; 5 blade manual chopper; hand chopper big size; kitchen veg chopper. Also called: چاپر, hand chopper."
+  },
+  "KIT-058": {
+   "product_id": "KIT-058",
+   "what_it_is": "A three‑stage manual knife sharpener with diamond, ceramic and tungsten surfaces.",
+   "used_for": [
+    "sharpening kitchen knives",
+    "restoring dull blades",
+    "maintaining cutting tools"
+   ],
+   "shopper_phrases": [
+    "manual knife sharpener",
+    "3 stage knife sharpener",
+    "diamond ceramic sharpener",
+    "home knife sharpener"
+   ],
+   "local_names": [
+    "چاقو شارپنر",
+    "knife sharpener"
+   ],
+   "text": "A three‑stage manual knife sharpener with diamond, ceramic and tungsten surfaces. Used for: sharpening kitchen knives; restoring dull blades; maintaining cutting tools. Shoppers say: manual knife sharpener; 3 stage knife sharpener; diamond ceramic sharpener; home knife sharpener. Also called: چاقو شارپنر, knife sharpener."
+  },
+  "KIT-059": {
+   "product_id": "KIT-059",
+   "what_it_is": "A dual‑grit whetstone (1000/6000) on a bamboo base with angle guide for sharpening blades.",
+   "used_for": [
+    "coarse sharpening of knives",
+    "fine polishing of blades",
+    "sharpening scissors or tools"
+   ],
+   "shopper_phrases": [
+    "whetstone 1000 6000 grit",
+    "bamboo base sharpening stone",
+    "angle guide whetstone",
+    "knife sharpening stone"
+   ],
+   "local_names": [
+    "پتھر شارپنر",
+    "whetstone"
+   ],
+   "text": "A dual‑grit whetstone (1000/6000) on a bamboo base with angle guide for sharpening blades. Used for: coarse sharpening of knives; fine polishing of blades; sharpening scissors or tools. Shoppers say: whetstone 1000 6000 grit; bamboo base sharpening stone; angle guide whetstone; knife sharpening stone. Also called: پتھر شارپنر, whetstone."
+  },
+  "ORG-001": {
+   "product_id": "ORG-001",
+   "what_it_is": "A two‑tier pull‑out organizer that fits under a sink.",
+   "used_for": [
+    "storing cleaning bottles",
+    "organising sponges and brushes",
+    "keeping extra towels under the sink"
+   ],
+   "shopper_phrases": [
+    "under sink organizer",
+    "pull out sink rack",
+    "2 tier sink storage",
+    "kitchen under sink shelf",
+    "sink organizer steel"
+   ],
+   "local_names": [],
+   "text": "A two‑tier pull‑out organizer that fits under a sink. Used for: storing cleaning bottles; organising sponges and brushes; keeping extra towels under the sink. Shoppers say: under sink organizer; pull out sink rack; 2 tier sink storage; kitchen under sink shelf; sink organizer steel."
+  },
+  "ORG-002": {
+   "product_id": "ORG-002",
+   "what_it_is": "An expandable steel shelf that fits under a sink.",
+   "used_for": [
+    "adding extra shelf space under sink",
+    "storing dishwashing liquid",
+    "keeping garbage bags organized"
+   ],
+   "shopper_phrases": [
+    "under sink expandable shelf",
+    "adjustable sink shelf",
+    "steel under sink rack",
+    "kitchen sink storage shelf",
+    "sliding sink shelf"
+   ],
+   "local_names": [],
+   "text": "An expandable steel shelf that fits under a sink. Used for: adding extra shelf space under sink; storing dishwashing liquid; keeping garbage bags organized. Shoppers say: under sink expandable shelf; adjustable sink shelf; steel under sink rack; kitchen sink storage shelf; sliding sink shelf."
+  },
+  "ORG-003": {
+   "product_id": "ORG-003",
+   "what_it_is": "A set of four bamboo drawer dividers that adjust to fit drawer width.",
+   "used_for": [
+    "separating utensils in kitchen drawer",
+    "organising office supplies",
+    "keeping cutlery sorted"
+   ],
+   "shopper_phrases": [
+    "bamboo drawer dividers",
+    "adjustable drawer organizer",
+    "drawer separator set",
+    "kitchen drawer organizer bamboo",
+    "spring loaded drawer dividers"
+   ],
+   "local_names": [],
+   "text": "A set of four bamboo drawer dividers that adjust to fit drawer width. Used for: separating utensils in kitchen drawer; organising office supplies; keeping cutlery sorted. Shoppers say: bamboo drawer dividers; adjustable drawer organizer; drawer separator set; kitchen drawer organizer bamboo; spring loaded drawer dividers."
+  },
+  "ORG-004": {
+   "product_id": "ORG-004",
+   "what_it_is": "Eight plastic trays with non‑slip pads for organizing drawer contents.",
+   "used_for": [
+    "sorting small kitchen tools",
+    "organising office stationery",
+    "keeping jewelry separated"
+   ],
+   "shopper_phrases": [
+    "plastic drawer organizer trays",
+    "drawer trays set",
+    "non slip drawer inserts",
+    "PP plastic drawer dividers",
+    "kitchen drawer organizer"
+   ],
+   "local_names": [],
+   "text": "Eight plastic trays with non‑slip pads for organizing drawer contents. Used for: sorting small kitchen tools; organising office stationery; keeping jewelry separated. Shoppers say: plastic drawer organizer trays; drawer trays set; non slip drawer inserts; PP plastic drawer dividers; kitchen drawer organizer."
+  },
+  "ORG-005": {
+   "product_id": "ORG-005",
+   "what_it_is": "A clear acrylic rotating turntable for easy access to items on a kitchen shelf or countertop.",
+   "used_for": [
+    "store spices for quick reach",
+    "display condiments on a countertop",
+    "organise small jars in cabinets"
+   ],
+   "shopper_phrases": [
+    "lazy susan turntable 30 cm",
+    "clear acrylic rotating tray",
+    "kitchen turntable"
+   ],
+   "local_names": [
+    "لیزی سوزن"
+   ],
+   "text": "A clear acrylic rotating turntable for easy access to items on a kitchen shelf or countertop. Used for: store spices for quick reach; display condiments on a countertop; organise small jars in cabinets. Shoppers say: lazy susan turntable 30 cm; clear acrylic rotating tray; kitchen turntable. Also called: لیزی سوزن."
+  },
+  "ORG-006": {
+   "product_id": "ORG-006",
+   "what_it_is": "A two‑tier rotating bamboo tray for countertop storage",
+   "used_for": [
+    "holding spices",
+    "organizing condiments",
+    "displaying small snacks"
+   ],
+   "shopper_phrases": [
+    "lazy susan for kitchen",
+    "bamboo rotating tray",
+    "2 tier spice organizer"
+   ],
+   "local_names": [
+    "لیزی سوزن",
+    "بامبو ٹرے"
+   ],
+   "text": "A two‑tier rotating bamboo tray for countertop storage Used for: holding spices; organizing condiments; displaying small snacks. Shoppers say: lazy susan for kitchen; bamboo rotating tray; 2 tier spice organizer. Also called: لیزی سوزن, بامبو ٹرے."
+  },
+  "ORG-007": {
+   "product_id": "ORG-007",
+   "what_it_is": "A set of six vacuum storage bags with a hand pump for compressing clothes",
+   "used_for": [
+    "storing out‑of‑season clothing",
+    "saving space in suitcases",
+    "protecting blankets from dust"
+   ],
+   "shopper_phrases": [
+    "vacuum storage bags set",
+    "hand pump clothes bags",
+    "space saving wardrobe bags"
+   ],
+   "local_names": [
+    "ویکیوم بیگ",
+    "ہینڈ پمپ بیگ"
+   ],
+   "text": "A set of six vacuum storage bags with a hand pump for compressing clothes Used for: storing out‑of‑season clothing; saving space in suitcases; protecting blankets from dust. Shoppers say: vacuum storage bags set; hand pump clothes bags; space saving wardrobe bags. Also called: ویکیوم بیگ, ہینڈ پمپ بیگ."
+  },
+  "ORG-008": {
+   "product_id": "ORG-008",
+   "what_it_is": "Three large vacuum bags for compressing bulky items",
+   "used_for": [
+    "packing winter coats",
+    "storing quilts",
+    "reducing volume of pillows"
+   ],
+   "shopper_phrases": [
+    "jumbo vacuum bags",
+    "large vacuum storage",
+    "compress bulky items"
+   ],
+   "local_names": [
+    "جمبو ویکیوم بیگ"
+   ],
+   "text": "Three large vacuum bags for compressing bulky items Used for: packing winter coats; storing quilts; reducing volume of pillows. Shoppers say: jumbo vacuum bags; large vacuum storage; compress bulky items. Also called: جمبو ویکیوم بیگ."
+  },
+  "ORG-009": {
+   "product_id": "ORG-009",
+   "what_it_is": "A clear PVC over‑the‑door shoe organizer with 24 pockets",
+   "used_for": [
+    "keeping shoes visible",
+    "organizing boots and sandals",
+    "saving floor space"
+   ],
+   "shopper_phrases": [
+    "over door shoe organizer",
+    "24 pocket shoe rack",
+    "clear shoe holder"
+   ],
+   "local_names": [
+    "جوتے کا آرگنائزر",
+    "شیلف"
+   ],
+   "text": "A clear PVC over‑the‑door shoe organizer with 24 pockets Used for: keeping shoes visible; organizing boots and sandals; saving floor space. Shoppers say: over door shoe organizer; 24 pocket shoe rack; clear shoe holder. Also called: جوتے کا آرگنائزر, شیلف."
+  },
+  "ORG-010": {
+   "product_id": "ORG-010",
+   "what_it_is": "A matte black steel rack that hangs over a door with six double hooks",
+   "used_for": [
+    "hanging coats",
+    "organizing bags",
+    "holding towels"
+   ],
+   "shopper_phrases": [
+    "over door hook rack",
+    "6 hook coat hanger",
+    "black steel door hooks"
+   ],
+   "local_names": [
+    "ہُک ریک",
+    "ڈور ہُکس"
+   ],
+   "text": "A matte black steel rack that hangs over a door with six double hooks Used for: hanging coats; organizing bags; holding towels. Shoppers say: over door hook rack; 6 hook coat hanger; black steel door hooks. Also called: ہُک ریک, ڈور ہُکس."
+  },
+  "ORG-011": {
+   "product_id": "ORG-011",
+   "what_it_is": "A large box that hides and organizes power and data cables on a desk or floor.",
+   "used_for": [
+    "cover messy power strips",
+    "store excess cable length",
+    "keep cords out of sight",
+    "prevent tripping hazards"
+   ],
+   "shopper_phrases": [
+    "cable management box",
+    "hide cords",
+    "desk cable organizer",
+    "large cable box"
+   ],
+   "local_names": [],
+   "text": "A large box that hides and organizes power and data cables on a desk or floor. Used for: cover messy power strips; store excess cable length; keep cords out of sight; prevent tripping hazards. Shoppers say: cable management box; hide cords; desk cable organizer; large cable box."
+  },
+  "ORG-012": {
+   "product_id": "ORG-012",
+   "what_it_is": "Adhesive clips that stick to surfaces to hold small groups of cables in place.",
+   "used_for": [
+    "bundle charger cables",
+    "secure headphone wires",
+    "organize desk power cords",
+    "attach cables to the back of a monitor"
+   ],
+   "shopper_phrases": [
+    "adhesive cable clips",
+    "sticky cable holders",
+    "desk cable clips",
+    "cable organizers 30 pcs"
+   ],
+   "local_names": [],
+   "text": "Adhesive clips that stick to surfaces to hold small groups of cables in place. Used for: bundle charger cables; secure headphone wires; organize desk power cords; attach cables to the back of a monitor. Shoppers say: adhesive cable clips; sticky cable holders; desk cable clips; cable organizers 30 pcs."
+  },
+  "ORG-013": {
+   "product_id": "ORG-013",
+   "what_it_is": "A wall‑mounted rack with three steel‑wire shelves for storing spice jars.",
+   "used_for": [
+    "keep spices within reach",
+    "free up countertop space",
+    "organize cooking herbs",
+    "display small condiment bottles"
+   ],
+   "shopper_phrases": [
+    "wall spice rack",
+    "3 tier spice holder",
+    "kitchen wall organizer",
+    "steel spice rack"
+   ],
+   "local_names": [],
+   "text": "A wall‑mounted rack with three steel‑wire shelves for storing spice jars. Used for: keep spices within reach; free up countertop space; organize cooking herbs; display small condiment bottles. Shoppers say: wall spice rack; 3 tier spice holder; kitchen wall organizer; steel spice rack."
+  },
+  "ORG-014": {
+   "product_id": "ORG-014",
+   "what_it_is": "Clear PET bins with built-in handles for arranging items inside a refrigerator.",
+   "used_for": [
+    "store fruits and vegetables",
+    "separate dairy products",
+    "keep leftovers organized",
+    "stack items without sliding"
+   ],
+   "shopper_phrases": [
+    "clear fridge bins",
+    "refrigerator organizer bins",
+    "transparent fridge storage",
+    "fridge bins set of 4"
+   ],
+   "local_names": [],
+   "text": "Clear PET bins with built-in handles for arranging items inside a refrigerator. Used for: store fruits and vegetables; separate dairy products; keep leftovers organized; stack items without sliding. Shoppers say: clear fridge bins; refrigerator organizer bins; transparent fridge storage; fridge bins set of 4."
+  },
+  "ORG-015": {
+   "product_id": "ORG-015",
+   "what_it_is": "A pull‑out drawer that holds up to 21 eggs inside a refrigerator.",
+   "used_for": [
+    "store eggs safely",
+    "prevent eggs from rolling",
+    "save fridge shelf space",
+    "keep eggs organized in one place"
+   ],
+   "shopper_phrases": [
+    "egg holder drawer",
+    "fridge egg organizer",
+    "21 egg storage drawer",
+    "egg tray for fridge"
+   ],
+   "local_names": [],
+   "text": "A pull‑out drawer that holds up to 21 eggs inside a refrigerator. Used for: store eggs safely; prevent eggs from rolling; save fridge shelf space; keep eggs organized in one place. Shoppers say: egg holder drawer; fridge egg organizer; 21 egg storage drawer; egg tray for fridge."
+  },
+  "ORG-016": {
+   "product_id": "ORG-016",
+   "what_it_is": "A zippered bag that slides under a bed for storing items.",
+   "used_for": [
+    "store seasonal clothes",
+    "keep extra bedding",
+    "organize shoes",
+    "hide clutter"
+   ],
+   "shopper_phrases": [
+    "under bed storage bag",
+    "zip bag for under bed",
+    "bedroom storage bag",
+    "clear zip storage"
+   ],
+   "local_names": [],
+   "text": "A zippered bag that slides under a bed for storing items. Used for: store seasonal clothes; keep extra bedding; organize shoes; hide clutter. Shoppers say: under bed storage bag; zip bag for under bed; bedroom storage bag; clear zip storage."
+  },
+  "ORG-017": {
+   "product_id": "ORG-017",
+   "what_it_is": "A plastic drawer that rolls under a bed on wheels.",
+   "used_for": [
+    "store books under bed",
+    "keep toys organized",
+    "hide accessories",
+    "easy pull‑out storage"
+   ],
+   "shopper_phrases": [
+    "rolling under bed drawer",
+    "plastic under bed drawer",
+    "bedroom storage drawer with wheels",
+    "under bed rolling drawer"
+   ],
+   "local_names": [],
+   "text": "A plastic drawer that rolls under a bed on wheels. Used for: store books under bed; keep toys organized; hide accessories; easy pull‑out storage. Shoppers say: rolling under bed drawer; plastic under bed drawer; bedroom storage drawer with wheels; under bed rolling drawer."
+  },
+  "ORG-018": {
+   "product_id": "ORG-018",
+   "what_it_is": "A wall‑mounted organizer with 72 clear pockets for jewellery.",
+   "used_for": [
+    "store necklaces",
+    "keep earrings sorted",
+    "organize rings",
+    "display bracelets"
+   ],
+   "shopper_phrases": [
+    "hanging jewellery organizer",
+    "72 pocket jewellery holder",
+    "wall jewellery storage",
+    "clear jewellery organizer"
+   ],
+   "local_names": [],
+   "text": "A wall‑mounted organizer with 72 clear pockets for jewellery. Used for: store necklaces; keep earrings sorted; organize rings; display bracelets. Shoppers say: hanging jewellery organizer; 72 pocket jewellery holder; wall jewellery storage; clear jewellery organizer."
+  },
+  "ORG-019": {
+   "product_id": "ORG-019",
+   "what_it_is": "A set of six hanging fabric shelves that attach to a closet with Velcro.",
+   "used_for": [
+    "add extra shelf space",
+    "store folded clothes",
+    "keep accessories tidy",
+    "organize shoes"
+   ],
+   "shopper_phrases": [
+    "hanging closet shelves",
+    "fabric closet organizer",
+    "Velcro hanging shelves",
+    "wardrobe extra shelves"
+   ],
+   "local_names": [],
+   "text": "A set of six hanging fabric shelves that attach to a closet with Velcro. Used for: add extra shelf space; store folded clothes; keep accessories tidy; organize shoes. Shoppers say: hanging closet shelves; fabric closet organizer; Velcro hanging shelves; wardrobe extra shelves."
+  },
+  "ORG-020": {
+   "product_id": "ORG-020",
+   "what_it_is": "Velvet‑flocked plastic hangers with a 360‑degree hook.",
+   "used_for": [
+    "hang shirts",
+    "keep dresses from slipping",
+    "organize coats",
+    "store trousers"
+   ],
+   "shopper_phrases": [
+    "velvet hangers pack",
+    "soft plastic hangers",
+    "360 degree hook hangers",
+    "wardrobe velvet hangers"
+   ],
+   "local_names": [],
+   "text": "Velvet‑flocked plastic hangers with a 360‑degree hook. Used for: hang shirts; keep dresses from slipping; organize coats; store trousers. Shoppers say: velvet hangers pack; soft plastic hangers; 360 degree hook hangers; wardrobe velvet hangers."
+  },
+  "ORG-021": {
+   "product_id": "ORG-021",
+   "what_it_is": "A steel rack that holds up to five pot lids on a counter or wall.",
+   "used_for": [
+    "organizing pot lids",
+    "saving cabinet space",
+    "keeping lids within reach"
+   ],
+   "shopper_phrases": [
+    "pot lid holder",
+    "lid rack for kitchen",
+    "where to store pot lids",
+    "5 slot lid organizer"
+   ],
+   "local_names": [],
+   "text": "A steel rack that holds up to five pot lids on a counter or wall. Used for: organizing pot lids; saving cabinet space; keeping lids within reach. Shoppers say: pot lid holder; lid rack for kitchen; where to store pot lids; 5 slot lid organizer."
+  },
+  "ORG-022": {
+   "product_id": "ORG-022",
+   "what_it_is": "An expandable bamboo tray with 5‑7 compartments for cutlery in a drawer.",
+   "used_for": [
+    "sorting spoons, forks, knives",
+    "keeping drawer tidy",
+    "adjusting width to fit drawer"
+   ],
+   "shopper_phrases": [
+    "bamboo cutlery tray",
+    "expandable drawer organizer",
+    "cutlery divider",
+    "adjustable cutlery tray"
+   ],
+   "local_names": [],
+   "text": "An expandable bamboo tray with 5‑7 compartments for cutlery in a drawer. Used for: sorting spoons, forks, knives; keeping drawer tidy; adjusting width to fit drawer. Shoppers say: bamboo cutlery tray; expandable drawer organizer; cutlery divider; adjustable cutlery tray."
+  },
+  "ORG-023": {
+   "product_id": "ORG-023",
+   "what_it_is": "A two‑tier stainless steel shower caddy that sticks to the wall without drilling.",
+   "used_for": [
+    "holding shampoo bottles",
+    "storing soap and razors",
+    "organizing bathroom items in a corner"
+   ],
+   "shopper_phrases": [
+    "adhesive shower caddy",
+    "corner bathroom organizer",
+    "stainless steel shower shelf",
+    "no‑drill shower rack"
+   ],
+   "local_names": [],
+   "text": "A two‑tier stainless steel shower caddy that sticks to the wall without drilling. Used for: holding shampoo bottles; storing soap and razors; organizing bathroom items in a corner. Shoppers say: adhesive shower caddy; corner bathroom organizer; stainless steel shower shelf; no‑drill shower rack."
+  },
+  "ORG-024": {
+   "product_id": "ORG-024",
+   "what_it_is": "A tension‑pole shower caddy with four adjustable shelves made of aluminium.",
+   "used_for": [
+    "holding shower gels",
+    "storing towels",
+    "organizing bathroom accessories"
+   ],
+   "shopper_phrases": [
+    "tension pole shower rack",
+    "adjustable shower caddy",
+    "4 shelf bathroom organizer",
+    "no‑drill shower shelf"
+   ],
+   "local_names": [],
+   "text": "A tension‑pole shower caddy with four adjustable shelves made of aluminium. Used for: holding shower gels; storing towels; organizing bathroom accessories. Shoppers say: tension pole shower rack; adjustable shower caddy; 4 shelf bathroom organizer; no‑drill shower shelf."
+  },
+  "ORG-025": {
+   "product_id": "ORG-025",
+   "what_it_is": "A wall‑mounted MDF key holder with five hooks and a small shelf for mail.",
+   "used_for": [
+    "hanging keys",
+    "placing incoming letters",
+    "keeping entryway tidy"
+   ],
+   "shopper_phrases": [
+    "wall key holder with mail shelf",
+    "entryway organizer",
+    "key hook and mail slot",
+    "5 hook wall rack"
+   ],
+   "local_names": [],
+   "text": "A wall‑mounted MDF key holder with five hooks and a small shelf for mail. Used for: hanging keys; placing incoming letters; keeping entryway tidy. Shoppers say: wall key holder with mail shelf; entryway organizer; key hook and mail slot; 5 hook wall rack."
+  },
+  "ORG-026": {
+   "product_id": "ORG-026",
+   "what_it_is": "A steel and plastic shoe rack with four shelves.",
+   "used_for": [
+    "store up to 12 pairs of shoes",
+    "keep shoes organized in the entryway",
+    "stack shoes vertically to save floor space"
+   ],
+   "shopper_phrases": [
+    "shoe rack 4 tiers",
+    "store shoes entryway",
+    "steel shoe shelf",
+    "organize shoes near door"
+   ],
+   "local_names": [
+    "جوتوں کا ریک",
+    "shoe rack"
+   ],
+   "text": "A steel and plastic shoe rack with four shelves. Used for: store up to 12 pairs of shoes; keep shoes organized in the entryway; stack shoes vertically to save floor space. Shoppers say: shoe rack 4 tiers; store shoes entryway; steel shoe shelf; organize shoes near door. Also called: جوتوں کا ریک, shoe rack."
+  },
+  "ORG-027": {
+   "product_id": "ORG-027",
+   "what_it_is": "A two‑tier bamboo shoe rack.",
+   "used_for": [
+    "hold up to 6 pairs of shoes",
+    "organize shoes in a natural wood look",
+    "save space in a hallway"
+   ],
+   "shopper_phrases": [
+    "bamboo shoe rack",
+    "2 tier shoe holder",
+    "eco friendly shoe rack",
+    "shoe storage bamboo"
+   ],
+   "local_names": [
+    "بامبو جوتوں کا ریک",
+    "bamboo shoe rack"
+   ],
+   "text": "A two‑tier bamboo shoe rack. Used for: hold up to 6 pairs of shoes; organize shoes in a natural wood look; save space in a hallway. Shoppers say: bamboo shoe rack; 2 tier shoe holder; eco friendly shoe rack; shoe storage bamboo. Also called: بامبو جوتوں کا ریک, bamboo shoe rack."
+  },
+  "ORG-028": {
+   "product_id": "ORG-028",
+   "what_it_is": "A set of three fabric storage cubes with handles.",
+   "used_for": [
+    "store clothes or accessories in a bedroom",
+    "keep items tidy on a shelf",
+    "easily carry cubes using the handles"
+   ],
+   "shopper_phrases": [
+    "fabric storage cubes",
+    "collapsible storage bins",
+    "bedroom storage cubes",
+    "cube organizers with handles"
+   ],
+   "local_names": [
+    "سٹوریج کیوب",
+    "storage cube"
+   ],
+   "text": "A set of three fabric storage cubes with handles. Used for: store clothes or accessories in a bedroom; keep items tidy on a shelf; easily carry cubes using the handles. Shoppers say: fabric storage cubes; collapsible storage bins; bedroom storage cubes; cube organizers with handles. Also called: سٹوریج کیوب, storage cube."
+  },
+  "ORG-029": {
+   "product_id": "ORG-029",
+   "what_it_is": "A steel mesh desk organizer with five compartments and a drawer.",
+   "used_for": [
+    "hold pens, paper clips and small office items",
+    "keep documents separated",
+    "store small tools in the drawer"
+   ],
+   "shopper_phrases": [
+    "mesh desk organizer",
+    "desk organizer with drawer",
+    "5 compartment desk tray",
+    "office supply holder"
+   ],
+   "local_names": [
+    "ڈیسک آرگنائزر",
+    "desk organizer"
+   ],
+   "text": "A steel mesh desk organizer with five compartments and a drawer. Used for: hold pens, paper clips and small office items; keep documents separated; store small tools in the drawer. Shoppers say: mesh desk organizer; desk organizer with drawer; 5 compartment desk tray; office supply holder. Also called: ڈیسک آرگنائزر, desk organizer."
+  },
+  "ORG-030": {
+   "product_id": "ORG-030",
+   "what_it_is": "A set of three kraft cardboard magazine file holders for A4 size.",
+   "used_for": [
+    "store magazines or documents",
+    "keep papers upright on a desk",
+    "organize files in a home office"
+   ],
+   "shopper_phrases": [
+    "magazine file holder",
+    "A4 file organizer",
+    "kraft cardboard file",
+    "desk paper holder"
+   ],
+   "local_names": [
+    "فائل ہولڈر",
+    "magazine holder"
+   ],
+   "text": "A set of three kraft cardboard magazine file holders for A4 size. Used for: store magazines or documents; keep papers upright on a desk; organize files in a home office. Shoppers say: magazine file holder; A4 file organizer; kraft cardboard file; desk paper holder. Also called: فائل ہولڈر, magazine holder."
+  },
+  "ORG-031": {
+   "product_id": "ORG-031",
+   "what_it_is": "A set of six airtight containers with locking silicone seals for storing food.",
+   "used_for": [
+    "keep leftovers fresh",
+    "store dry pantry items",
+    "organise fridge leftovers",
+    "prevent spills in bags"
+   ],
+   "shopper_phrases": [
+    "airtight food containers",
+    "food storage jars set",
+    "keep food fresh containers",
+    "leak proof storage boxes",
+    "kitchen food containers"
+   ],
+   "local_names": [
+    " airtight dabba",
+    "food storage dabba"
+   ],
+   "text": "A set of six airtight containers with locking silicone seals for storing food. Used for: keep leftovers fresh; store dry pantry items; organise fridge leftovers; prevent spills in bags. Shoppers say: airtight food containers; food storage jars set; keep food fresh containers; leak proof storage boxes; kitchen food containers. Also called:  airtight dabba, food storage dabba."
+  },
+  "ORG-032": {
+   "product_id": "ORG-032",
+   "what_it_is": "A set of three borosilicate glass jars with bamboo lids for kitchen storage.",
+   "used_for": [
+    "store spices",
+    "keep dry beans",
+    "organise tea leaves",
+    "display pantry items"
+   ],
+   "shopper_phrases": [
+    "glass storage jars bamboo lid",
+    "borosilicate kitchen jars",
+    "spice storage jars",
+    "glass pantry containers",
+    "jars with bamboo lids"
+   ],
+   "local_names": [
+    "glass ki jar",
+    "bamboo lid wali jar"
+   ],
+   "text": "A set of three borosilicate glass jars with bamboo lids for kitchen storage. Used for: store spices; keep dry beans; organise tea leaves; display pantry items. Shoppers say: glass storage jars bamboo lid; borosilicate kitchen jars; spice storage jars; glass pantry containers; jars with bamboo lids. Also called: glass ki jar, bamboo lid wali jar."
+  },
+  "ORG-033": {
+   "product_id": "ORG-033",
+   "what_it_is": "A two‑tier stainless steel dish drying rack with a cutlery holder and drainboard.",
+   "used_for": [
+    "dry dishes after washing",
+    "hold cutlery while drying",
+    "keep countertop tidy",
+    "drain water away"
+   ],
+   "shopper_phrases": [
+    "2 tier dish rack",
+    "stainless steel drying rack",
+    "dish drying rack with cutlery holder",
+    "kitchen drainboard rack",
+    "multi tier dish dryer"
+   ],
+   "local_names": [
+    "bartan sukhanay ka rack",
+    "dish drying rack"
+   ],
+   "text": "A two‑tier stainless steel dish drying rack with a cutlery holder and drainboard. Used for: dry dishes after washing; hold cutlery while drying; keep countertop tidy; drain water away. Shoppers say: 2 tier dish rack; stainless steel drying rack; dish drying rack with cutlery holder; kitchen drainboard rack; multi tier dish dryer. Also called: bartan sukhanay ka rack, dish drying rack."
+  },
+  "ORG-034": {
+   "product_id": "ORG-034",
+   "what_it_is": "A roll‑up drying rack that fits over the sink, made of silicone‑coated steel.",
+   "used_for": [
+    "dry dishes in sink area",
+    "store small utensils while drying",
+    "save countertop space",
+    "easy to roll away"
+   ],
+   "shopper_phrases": [
+    "over sink drying rack",
+    "roll up dish rack",
+    "silicone coated drying rack",
+    "sink countertop dryer",
+    "foldable dish rack"
+   ],
+   "local_names": [
+    "sink ke upar rack",
+    "roll up drying rack"
+   ],
+   "text": "A roll‑up drying rack that fits over the sink, made of silicone‑coated steel. Used for: dry dishes in sink area; store small utensils while drying; save countertop space; easy to roll away. Shoppers say: over sink drying rack; roll up dish rack; silicone coated drying rack; sink countertop dryer; foldable dish rack. Also called: sink ke upar rack, roll up drying rack."
+  },
+  "ORG-035": {
+   "product_id": "ORG-035",
+   "what_it_is": "A wall‑mounted holder for plastic bags made of a steel wire frame with fabric backing.",
+   "used_for": [
+    "store zip‑lock bags",
+    "keep freezer bags organized",
+    "save drawer space",
+    "quickly grab a bag"
+   ],
+   "shopper_phrases": [
+    "wall mounted bag holder",
+    "plastic bag organizer",
+    "kitchen bag rack",
+    "bag storage wall mount",
+    "bag holder steel frame"
+   ],
+   "local_names": [
+    "plastic bag holder",
+    "bag ka rack"
+   ],
+   "text": "A wall‑mounted holder for plastic bags made of a steel wire frame with fabric backing. Used for: store zip‑lock bags; keep freezer bags organized; save drawer space; quickly grab a bag. Shoppers say: wall mounted bag holder; plastic bag organizer; kitchen bag rack; bag storage wall mount; bag holder steel frame. Also called: plastic bag holder, bag ka rack."
+  },
+  "ORG-036": {
+   "product_id": "ORG-036",
+   "what_it_is": "A steel rotating hanger with 20 hooks for hanging belts and ties.",
+   "used_for": [
+    "organizing belts",
+    "organizing ties",
+    "saving closet space",
+    "easy access to accessories"
+   ],
+   "shopper_phrases": [
+    "belt hanger",
+    "tie rack",
+    "rotating belt holder",
+    "wardrobe organizer for belts",
+    "20 hook belt hanger"
+   ],
+   "local_names": [
+    "بیلٹ ہینگر",
+    "ٹائی ہولڈر"
+   ],
+   "text": "A steel rotating hanger with 20 hooks for hanging belts and ties. Used for: organizing belts; organizing ties; saving closet space; easy access to accessories. Shoppers say: belt hanger; tie rack; rotating belt holder; wardrobe organizer for belts; 20 hook belt hanger. Also called: بیلٹ ہینگر, ٹائی ہولڈر."
+  },
+  "ORG-037": {
+   "product_id": "ORG-037",
+   "what_it_is": "A clear acrylic makeup organizer with three drawers and brush slots on top.",
+   "used_for": [
+    "storing makeup items",
+    "keeping brushes organized",
+    "separating cosmetics by type",
+    "visible storage for quick access"
+   ],
+   "shopper_phrases": [
+    "acrylic makeup organizer",
+    "makeup drawer set",
+    "clear makeup storage",
+    "brush slot organizer",
+    "bathroom makeup organizer"
+   ],
+   "local_names": [
+    "میک اپ آرگنائزر",
+    "بروث سلاٹ"
+   ],
+   "text": "A clear acrylic makeup organizer with three drawers and brush slots on top. Used for: storing makeup items; keeping brushes organized; separating cosmetics by type; visible storage for quick access. Shoppers say: acrylic makeup organizer; makeup drawer set; clear makeup storage; brush slot organizer; bathroom makeup organizer. Also called: میک اپ آرگنائزر, بروث سلاٹ."
+  },
+  "ORG-038": {
+   "product_id": "ORG-038",
+   "what_it_is": "An expandable three‑tier pantry shelf riser made of PP that widens from 38 to 68 cm.",
+   "used_for": [
+    "adding extra shelves in pantry",
+    "organizing canned goods",
+    "storing spices vertically",
+    "adjustable kitchen storage"
+   ],
+   "shopper_phrases": [
+    "expandable pantry shelf",
+    "3 tier kitchen rack",
+    "adjustable shelf riser",
+    "PP pantry organizer",
+    "wide pantry shelf"
+   ],
+   "local_names": [
+    "پینٹری شیلف",
+    "کچن ریک"
+   ],
+   "text": "An expandable three‑tier pantry shelf riser made of PP that widens from 38 to 68 cm. Used for: adding extra shelves in pantry; organizing canned goods; storing spices vertically; adjustable kitchen storage. Shoppers say: expandable pantry shelf; 3 tier kitchen rack; adjustable shelf riser; PP pantry organizer; wide pantry shelf. Also called: پینٹری شیلف, کچن ریک."
+  },
+  "ORG-039": {
+   "product_id": "ORG-039",
+   "what_it_is": "A foldable stainless steel clothes drying stand with 1.6 m length and 18 m line space.",
+   "used_for": [
+    "drying washed clothes indoors",
+    "air‑drying garments",
+    "saving space when folded",
+    "providing multiple hanging lines"
+   ],
+   "shopper_phrases": [
+    "foldable drying rack",
+    "steel clothes drying stand",
+    "indoor clothes line",
+    "compact laundry rack",
+    "multi‑line drying stand"
+   ],
+   "local_names": [
+    "کپڑے سکھانے کا اسٹینڈ",
+    "ڈائنگ ریک"
+   ],
+   "text": "A foldable stainless steel clothes drying stand with 1.6 m length and 18 m line space. Used for: drying washed clothes indoors; air‑drying garments; saving space when folded; providing multiple hanging lines. Shoppers say: foldable drying rack; steel clothes drying stand; indoor clothes line; compact laundry rack; multi‑line drying stand. Also called: کپڑے سکھانے کا اسٹینڈ, ڈائنگ ریک."
+  },
+  "ORG-040": {
+   "product_id": "ORG-040",
+   "what_it_is": "A wall‑mounted retractable clothesline with four lines that can extend up to 4 m, housed in an ABS case.",
+   "used_for": [
+    "outdoor or indoor drying of clothes",
+    "saving floor space",
+    "quickly pulling out and retracting lines",
+    "drying multiple items at once"
+   ],
+   "shopper_phrases": [
+    "retractable clothesline",
+    "wall mounted laundry line",
+    "4 line drying rack",
+    "ABS clothesline holder",
+    "space saving clothesline"
+   ],
+   "local_names": [
+    "ریٹریکیبل کپڑے لائن",
+    "وال ماؤنٹڈ ڈرائنگ لائن"
+   ],
+   "text": "A wall‑mounted retractable clothesline with four lines that can extend up to 4 m, housed in an ABS case. Used for: outdoor or indoor drying of clothes; saving floor space; quickly pulling out and retracting lines; drying multiple items at once. Shoppers say: retractable clothesline; wall mounted laundry line; 4 line drying rack; ABS clothesline holder; space saving clothesline. Also called: ریٹریکیبل کپڑے لائن, وال ماؤنٹڈ ڈرائنگ لائن."
+  },
+  "ORG-041": {
+   "product_id": "ORG-041",
+   "what_it_is": "A 60‑litre collapsible laundry basket made of Oxford fabric with two padded handles.",
+   "used_for": [
+    "carrying dirty clothes to the wash",
+    "storing clean laundry in a bedroom",
+    "folding and transporting laundry while traveling"
+   ],
+   "shopper_phrases": [
+    "large laundry basket",
+    "foldable laundry bin",
+    "60 litre laundry hamper",
+    "portable laundry basket",
+    "collapsible laundry basket"
+   ],
+   "local_names": [
+    "laundry basket",
+    "dhobey ki tokri"
+   ],
+   "text": "A 60‑litre collapsible laundry basket made of Oxford fabric with two padded handles. Used for: carrying dirty clothes to the wash; storing clean laundry in a bedroom; folding and transporting laundry while traveling. Shoppers say: large laundry basket; foldable laundry bin; 60 litre laundry hamper; portable laundry basket; collapsible laundry basket. Also called: laundry basket, dhobey ki tokri."
+  },
+  "ORG-042": {
+   "product_id": "ORG-042",
+   "what_it_is": "A wall‑mounted pegboard kit (60 × 40 cm) made of metal with 10 accessories including hooks, a shelf and cups.",
+   "used_for": [
+    "organising tools and stationery on a wall",
+    "hanging kitchen utensils",
+    "creating a custom storage board in a workshop"
+   ],
+   "shopper_phrases": [
+    "wall pegboard kit",
+    "metal pegboard with accessories",
+    "pegboard for garage",
+    "wall organizer with hooks",
+    "pegboard shelf"
+   ],
+   "local_names": [
+    "pegboard",
+    "deewar ka board"
+   ],
+   "text": "A wall‑mounted pegboard kit (60 × 40 cm) made of metal with 10 accessories including hooks, a shelf and cups. Used for: organising tools and stationery on a wall; hanging kitchen utensils; creating a custom storage board in a workshop. Shoppers say: wall pegboard kit; metal pegboard with accessories; pegboard for garage; wall organizer with hooks; pegboard shelf. Also called: pegboard, deewar ka board."
+  },
+  "ORG-043": {
+   "product_id": "ORG-043",
+   "what_it_is": "A foldable drawer organizer with 24 cells made from non‑woven fabric.",
+   "used_for": [
+    "sorting socks and underwear in a drawer",
+    "keeping office supplies organized",
+    "storing small kitchen items like cutlery"
+   ],
+   "shopper_phrases": [
+    "drawer organizer 24 cells",
+    "foldable drawer divider",
+    "fabric drawer insert",
+    "non woven drawer organizer",
+    "drawer storage tray"
+   ],
+   "local_names": [
+    "drawer organizer",
+    "drawer ka dividor"
+   ],
+   "text": "A foldable drawer organizer with 24 cells made from non‑woven fabric. Used for: sorting socks and underwear in a drawer; keeping office supplies organized; storing small kitchen items like cutlery. Shoppers say: drawer organizer 24 cells; foldable drawer divider; fabric drawer insert; non woven drawer organizer; drawer storage tray. Also called: drawer organizer, drawer ka dividor."
+  },
+  "ORG-044": {
+   "product_id": "ORG-044",
+   "what_it_is": "A three‑layer medicine storage box with a handle, made of PP plastic and a clip latch.",
+   "used_for": [
+    "keeping daily medicines organized",
+    "storing first‑aid supplies",
+    "carrying pills while traveling"
+   ],
+   "shopper_phrases": [
+    "medicine box with handle",
+    "3 layer pill organizer",
+    "plastic medicine storage",
+    "clip latch medicine box",
+    "travel medicine case"
+   ],
+   "local_names": [
+    "dawai ka dabba",
+    "medicine box"
+   ],
+   "text": "A three‑layer medicine storage box with a handle, made of PP plastic and a clip latch. Used for: keeping daily medicines organized; storing first‑aid supplies; carrying pills while traveling. Shoppers say: medicine box with handle; 3 layer pill organizer; plastic medicine storage; clip latch medicine box; travel medicine case. Also called: dawai ka dabba, medicine box."
+  },
+  "ORG-045": {
+   "product_id": "ORG-045",
+   "what_it_is": "A weekly pill organizer with 14 compartments (AM/PM for 7 days) made of BPA‑free PP.",
+   "used_for": [
+    "sorting daily doses of medication",
+    "organising vitamins for a week",
+    "keeping morning and evening pills separate"
+   ],
+   "shopper_phrases": [
+    "weekly pill organizer",
+    "7 day medicine box",
+    "AM PM pill case",
+    "BPA free pill organizer",
+    "14 compartment pill holder"
+   ],
+   "local_names": [
+    "pill organizer",
+    "dawai ka organizer"
+   ],
+   "text": "A weekly pill organizer with 14 compartments (AM/PM for 7 days) made of BPA‑free PP. Used for: sorting daily doses of medication; organising vitamins for a week; keeping morning and evening pills separate. Shoppers say: weekly pill organizer; 7 day medicine box; AM PM pill case; BPA free pill organizer; 14 compartment pill holder. Also called: pill organizer, dawai ka organizer."
+  },
+  "ORG-046": {
+   "product_id": "ORG-046",
+   "what_it_is": "A stainless steel stand with six hooks for hanging mugs.",
+   "used_for": [
+    "hang mugs on the countertop",
+    "keep mugs organized and visible",
+    "save cabinet space"
+   ],
+   "shopper_phrases": [
+    "mug holder stand",
+    "wall mug rack",
+    "mug tree for kitchen"
+   ],
+   "local_names": [
+    "مگ اسٹینڈ",
+    "مگ ٹری"
+   ],
+   "text": "A stainless steel stand with six hooks for hanging mugs. Used for: hang mugs on the countertop; keep mugs organized and visible; save cabinet space. Shoppers say: mug holder stand; wall mug rack; mug tree for kitchen. Also called: مگ اسٹینڈ, مگ ٹری."
+  },
+  "ORG-047": {
+   "product_id": "ORG-047",
+   "what_it_is": "An ironing board with an adjustable height and a built‑in iron rest.",
+   "used_for": [
+    "ironing clothes",
+    "resting the iron while pressing",
+    "adjusting board height for comfort"
+   ],
+   "shopper_phrases": [
+    "adjustable ironing board",
+    "ironing board with iron rest",
+    "height adjustable ironing board"
+   ],
+   "local_names": [
+    "آئرننگ بورڈ",
+    "آئرن بورڈ"
+   ],
+   "text": "An ironing board with an adjustable height and a built‑in iron rest. Used for: ironing clothes; resting the iron while pressing; adjusting board height for comfort. Shoppers say: adjustable ironing board; ironing board with iron rest; height adjustable ironing board. Also called: آئرننگ بورڈ, آئرن بورڈ."
+  },
+  "ORG-048": {
+   "product_id": "ORG-048",
+   "what_it_is": "A three‑tier metal cart on lockable wheels for moving kitchen items.",
+   "used_for": [
+    "storing spices, utensils, or pantry items",
+    "rolling food prep supplies around the kitchen",
+    "organizing cleaning supplies"
+   ],
+   "shopper_phrases": [
+    "rolling kitchen cart",
+    "3 tier utility cart",
+    "mobile kitchen storage"
+   ],
+   "local_names": [
+    "کچن کارٹ",
+    "روئنگ کارٹ"
+   ],
+   "text": "A three‑tier metal cart on lockable wheels for moving kitchen items. Used for: storing spices, utensils, or pantry items; rolling food prep supplies around the kitchen; organizing cleaning supplies. Shoppers say: rolling kitchen cart; 3 tier utility cart; mobile kitchen storage. Also called: کچن کارٹ, روئنگ کارٹ."
+  },
+  "TOL-001": {
+   "product_id": "TOL-001",
+   "what_it_is": "A handheld electronic scanner that detects wood, metal, live AC wires and deep objects behind walls.",
+   "used_for": [
+    "locate studs in walls",
+    "find hidden metal pipes",
+    "detect live electrical wires before drilling"
+   ],
+   "shopper_phrases": [
+    "wall stud finder 4 in 1",
+    "electronic wall scanner wood metal",
+    "detect AC wire behind wall"
+   ],
+   "local_names": [],
+   "text": "A handheld electronic scanner that detects wood, metal, live AC wires and deep objects behind walls. Used for: locate studs in walls; find hidden metal pipes; detect live electrical wires before drilling. Shoppers say: wall stud finder 4 in 1; electronic wall scanner wood metal; detect AC wire behind wall."
+  },
+  "TOL-002": {
+   "product_id": "TOL-002",
+   "what_it_is": "A 24‑inch aluminium spirit level with three vials for checking levelness.",
+   "used_for": [
+    "checking if a surface is level",
+    "aligning shelves or cabinets",
+    "installing pictures or fixtures"
+   ],
+   "shopper_phrases": [
+    "24 inch spirit level",
+    "aluminium level with 3 vials",
+    "construction level tool",
+    "bubble level 24\""
+   ],
+   "local_names": [
+    "لیول",
+    "spirit level"
+   ],
+   "text": "A 24‑inch aluminium spirit level with three vials for checking levelness. Used for: checking if a surface is level; aligning shelves or cabinets; installing pictures or fixtures. Shoppers say: 24 inch spirit level; aluminium level with 3 vials; construction level tool; bubble level 24\". Also called: لیول, spirit level."
+  },
+  "TOL-003": {
+   "product_id": "TOL-003",
+   "what_it_is": "A 9‑inch magnetic level with three vials for checking straightness.",
+   "used_for": [
+    "checking walls for plumb",
+    "aligning shelves",
+    "installing picture frames"
+   ],
+   "shopper_phrases": [
+    "level for wall mounting",
+    "magnetic level 9 inch",
+    "how to check if a surface is level"
+   ],
+   "local_names": [
+    "مقناطیسی لیول",
+    "magnetic level"
+   ],
+   "text": "A 9‑inch magnetic level with three vials for checking straightness. Used for: checking walls for plumb; aligning shelves; installing picture frames. Shoppers say: level for wall mounting; magnetic level 9 inch; how to check if a surface is level. Also called: مقناطیسی لیول, magnetic level."
+  },
+  "TOL-004": {
+   "product_id": "TOL-004",
+   "what_it_is": "A 12 V cordless drill driver that comes with two rechargeable batteries.",
+   "used_for": [
+    "drilling small holes in wood",
+    "driving screws in furniture",
+    "light DIY repairs"
+   ],
+   "shopper_phrases": [
+    "12v cordless drill",
+    "drill driver with two batteries",
+    "lightweight drill for home use"
+   ],
+   "local_names": [
+    "cordless drill",
+    "ڈرل ڈرائیور"
+   ],
+   "text": "A 12 V cordless drill driver that comes with two rechargeable batteries. Used for: drilling small holes in wood; driving screws in furniture; light DIY repairs. Shoppers say: 12v cordless drill; drill driver with two batteries; lightweight drill for home use. Also called: cordless drill, ڈرل ڈرائیور."
+  },
+  "TOL-005": {
+   "product_id": "TOL-005",
+   "what_it_is": "A 20 V cordless hammer drill kit with two batteries, supporting drill, hammer and screw modes.",
+   "used_for": [
+    "drilling into concrete",
+    "driving screws in tough material",
+    "general home renovation"
+   ],
+   "shopper_phrases": [
+    "20v hammer drill",
+    "cordless drill hammer mode",
+    "drill for masonry"
+   ],
+   "local_names": [
+    "ہیمر ڈرل",
+    "hammer drill"
+   ],
+   "text": "A 20 V cordless hammer drill kit with two batteries, supporting drill, hammer and screw modes. Used for: drilling into concrete; driving screws in tough material; general home renovation. Shoppers say: 20v hammer drill; cordless drill hammer mode; drill for masonry. Also called: ہیمر ڈرل, hammer drill."
+  },
+  "TOL-006": {
+   "product_id": "TOL-006",
+   "what_it_is": "A precision screwdriver set with 32 interchangeable magnetic bits.",
+   "used_for": [
+    "tightening small electronics screws",
+    "assembling gadgets",
+    "repairing phones or laptops"
+   ],
+   "shopper_phrases": [
+    "precision screwdriver set 32 bits",
+    "magnetic screwdriver bits",
+    "screwdriver for phone repair"
+   ],
+   "local_names": [
+    "پریسیژن سکرو ڈرائیور",
+    "precision screwdriver"
+   ],
+   "text": "A precision screwdriver set with 32 interchangeable magnetic bits. Used for: tightening small electronics screws; assembling gadgets; repairing phones or laptops. Shoppers say: precision screwdriver set 32 bits; magnetic screwdriver bits; screwdriver for phone repair. Also called: پریسیژن سکرو ڈرائیور, precision screwdriver."
+  },
+  "TOL-007": {
+   "product_id": "TOL-007",
+   "what_it_is": "A mini screwdriver kit containing six pieces with Phillips and flat tips.",
+   "used_for": [
+    "quick fixes on furniture",
+    "tightening small screws",
+    "basic household repairs"
+   ],
+   "shopper_phrases": [
+    "mini screwdriver set",
+    "small screwdriver kit",
+    "Phillips flat screwdriver set"
+   ],
+   "local_names": [
+    "منی سکرو ڈرائیور",
+    "mini screwdriver"
+   ],
+   "text": "A mini screwdriver kit containing six pieces with Phillips and flat tips. Used for: quick fixes on furniture; tightening small screws; basic household repairs. Shoppers say: mini screwdriver set; small screwdriver kit; Phillips flat screwdriver set. Also called: منی سکرو ڈرائیور, mini screwdriver."
+  },
+  "TOL-008": {
+   "product_id": "TOL-008",
+   "what_it_is": "A handheld device that measures electrical voltage, current, resistance and continuity.",
+   "used_for": [
+    "checking if a socket is live",
+    "testing battery voltage",
+    "measuring resistance of a wire",
+    "verifying continuity in a circuit"
+   ],
+   "shopper_phrases": [
+    "how to test voltage",
+    "multimeter for home wiring",
+    "measure resistance tool",
+    "check continuity pen",
+    "digital multimeter price"
+   ],
+   "local_names": [
+    "ملٹی میٹر",
+    "digital multimeter"
+   ],
+   "text": "A handheld device that measures electrical voltage, current, resistance and continuity. Used for: checking if a socket is live; testing battery voltage; measuring resistance of a wire; verifying continuity in a circuit. Shoppers say: how to test voltage; multimeter for home wiring; measure resistance tool; check continuity pen; digital multimeter price. Also called: ملٹی میٹر, digital multimeter."
+  },
+  "TOL-009": {
+   "product_id": "TOL-009",
+   "what_it_is": "A pen‑style detector that senses AC voltage without touching the conductor.",
+   "used_for": [
+    "detecting live wires before work",
+    "checking if a switch is powered",
+    "finding hidden cables in walls"
+   ],
+   "shopper_phrases": [
+    "non contact voltage tester",
+    "voltage detector pen",
+    "how to find live wire",
+    "electricity safety pen",
+    "voltage detector for home"
+   ],
+   "local_names": [
+    "وولٹیج ڈیٹیکٹر پین",
+    "voltage detector pen"
+   ],
+   "text": "A pen‑style detector that senses AC voltage without touching the conductor. Used for: detecting live wires before work; checking if a switch is powered; finding hidden cables in walls. Shoppers say: non contact voltage tester; voltage detector pen; how to find live wire; electricity safety pen; voltage detector for home. Also called: وولٹیج ڈیٹیکٹر پین, voltage detector pen."
+  },
+  "TOL-010": {
+   "product_id": "TOL-010",
+   "what_it_is": "A 5‑meter steel measuring tape with an automatic lock mechanism.",
+   "used_for": [
+    "measuring furniture dimensions",
+    "checking room length",
+    "marking cuts on wood or metal"
+   ],
+   "shopper_phrases": [
+    "5m measuring tape",
+    "auto lock tape measure",
+    "tape measure for carpentry",
+    "steel measuring tape",
+    "tape measure 5 meters"
+   ],
+   "local_names": [
+    "ٹیپ میجر",
+    "tape measure"
+   ],
+   "text": "A 5‑meter steel measuring tape with an automatic lock mechanism. Used for: measuring furniture dimensions; checking room length; marking cuts on wood or metal. Shoppers say: 5m measuring tape; auto lock tape measure; tape measure for carpentry; steel measuring tape; tape measure 5 meters. Also called: ٹیپ میجر, tape measure."
+  },
+  "TOL-011": {
+   "product_id": "TOL-011",
+   "what_it_is": "A 10‑meter steel measuring tape housed in a shock‑absorbing rubber case.",
+   "used_for": [
+    "measuring longer distances outdoors",
+    "layout work for construction",
+    "taking fabric or carpet measurements"
+   ],
+   "shopper_phrases": [
+    "10m tape measure rubber case",
+    "long measuring tape",
+    "rubber case tape measure",
+    "construction measuring tape",
+    "tape measure 10 meters"
+   ],
+   "local_names": [
+    "ٹیپ میجر",
+    "tape measure"
+   ],
+   "text": "A 10‑meter steel measuring tape housed in a shock‑absorbing rubber case. Used for: measuring longer distances outdoors; layout work for construction; taking fabric or carpet measurements. Shoppers say: 10m tape measure rubber case; long measuring tape; rubber case tape measure; construction measuring tape; tape measure 10 meters. Also called: ٹیپ میجر, tape measure."
+  },
+  "TOL-012": {
+   "product_id": "TOL-012",
+   "what_it_is": "A laser device that measures distances up to 40 m with ±2 mm accuracy and can calculate area, volume and Pythagorean distances.",
+   "used_for": [
+    "measuring room dimensions quickly",
+    "calculating floor area for tiling",
+    "determining volume of a space"
+   ],
+   "shopper_phrases": [
+    "laser distance meter 40m",
+    "measure room size laser",
+    "laser distance tool for area",
+    "digital laser distance measurer",
+    "laser distance calculator"
+   ],
+   "local_names": [
+    "لیزر ڈسٹنس میٹر",
+    "laser distance meter"
+   ],
+   "text": "A laser device that measures distances up to 40 m with ±2 mm accuracy and can calculate area, volume and Pythagorean distances. Used for: measuring room dimensions quickly; calculating floor area for tiling; determining volume of a space. Shoppers say: laser distance meter 40m; measure room size laser; laser distance tool for area; digital laser distance measurer; laser distance calculator. Also called: لیزر ڈسٹنس میٹر, laser distance meter."
+  },
+  "TOL-013": {
+   "product_id": "TOL-013",
+   "what_it_is": "A handheld gun that melts glue sticks to bond items together.",
+   "used_for": [
+    "attaching fabric pieces",
+    "fixing broken ornaments",
+    "craft projects"
+   ],
+   "shopper_phrases": [
+    "hot glue gun",
+    "glue gun for crafts",
+    "40W glue gun"
+   ],
+   "local_names": [
+    "گلو گن",
+    "hot glue gun"
+   ],
+   "text": "A handheld gun that melts glue sticks to bond items together. Used for: attaching fabric pieces; fixing broken ornaments; craft projects. Shoppers say: hot glue gun; glue gun for crafts; 40W glue gun. Also called: گلو گن, hot glue gun."
+  },
+  "TOL-014": {
+   "product_id": "TOL-014",
+   "what_it_is": "A steel-frame gun that pushes caulk out of standard cartridges.",
+   "used_for": [
+    "sealing gaps around windows",
+    "filling cracks in walls",
+    "applying silicone in bathrooms"
+   ],
+   "shopper_phrases": [
+    "caulking gun steel",
+    "heavy duty caulk gun",
+    "caulk gun 300ml"
+   ],
+   "local_names": [
+    "caulking gun",
+    "کاؤلکنگ گن"
+   ],
+   "text": "A steel-frame gun that pushes caulk out of standard cartridges. Used for: sealing gaps around windows; filling cracks in walls; applying silicone in bathrooms. Shoppers say: caulking gun steel; heavy duty caulk gun; caulk gun 300ml. Also called: caulking gun, کاؤلکنگ گن."
+  },
+  "TOL-015": {
+   "product_id": "TOL-015",
+   "what_it_is": "A 14‑inch pipe wrench made of drop‑forged steel for turning pipes.",
+   "used_for": [
+    "tightening pipe fittings",
+    "removing stuck pipe nuts",
+    "plumbing repairs"
+   ],
+   "shopper_phrases": [
+    "14 inch pipe wrench",
+    "pipe wrench steel",
+    "plumbing wrench"
+   ],
+   "local_names": [
+    "پائپ رنچ",
+    "pipe wrench"
+   ],
+   "text": "A 14‑inch pipe wrench made of drop‑forged steel for turning pipes. Used for: tightening pipe fittings; removing stuck pipe nuts; plumbing repairs. Shoppers say: 14 inch pipe wrench; pipe wrench steel; plumbing wrench. Also called: پائپ رنچ, pipe wrench."
+  },
+  "TOL-016": {
+   "product_id": "TOL-016",
+   "what_it_is": "A plunger with a rubber cup and wooden handle for clearing clogs.",
+   "used_for": [
+    "unclogging toilet bowls",
+    "clearing sink drains",
+    "removing minor pipe blockages"
+   ],
+   "shopper_phrases": [
+    "rubber cup plunger",
+    "wood handle plunger",
+    "toilet plunger wooden handle"
+   ],
+   "local_names": [
+    "پلانجر",
+    "plunger"
+   ],
+   "text": "A plunger with a rubber cup and wooden handle for clearing clogs. Used for: unclogging toilet bowls; clearing sink drains; removing minor pipe blockages. Shoppers say: rubber cup plunger; wood handle plunger; toilet plunger wooden handle. Also called: پلانجر, plunger."
+  },
+  "TOL-017": {
+   "product_id": "TOL-017",
+   "what_it_is": "A heavy‑duty plunger with a flange rubber cup and plastic handle.",
+   "used_for": [
+    "unclogging toilets with a flange cup",
+    "clearing bathroom drains",
+    "removing stubborn blockages"
+   ],
+   "shopper_phrases": [
+    "flange plunger",
+    "heavy duty plunger",
+    "toilet plunger with flange"
+   ],
+   "local_names": [
+    "فلیج پلانجر",
+    "flange plunger"
+   ],
+   "text": "A heavy‑duty plunger with a flange rubber cup and plastic handle. Used for: unclogging toilets with a flange cup; clearing bathroom drains; removing stubborn blockages. Shoppers say: flange plunger; heavy duty plunger; toilet plunger with flange. Also called: فلیج پلانجر, flange plunger."
+  },
+  "TOL-018": {
+   "product_id": "TOL-018",
+   "what_it_is": "A 5 m steel cable auger with a crank handle for clearing clogged drains.",
+   "used_for": [
+    "unclog bathroom sink",
+    "remove hair blockage in shower drain",
+    "clear kitchen sink clogs"
+   ],
+   "shopper_phrases": [
+    "drain auger 5m",
+    "steel cable plumber snake",
+    "crank handle drain snake"
+   ],
+   "local_names": [
+    "ڈریں آوگر",
+    "پلمبر کیبل"
+   ],
+   "text": "A 5 m steel cable auger with a crank handle for clearing clogged drains. Used for: unclog bathroom sink; remove hair blockage in shower drain; clear kitchen sink clogs. Shoppers say: drain auger 5m; steel cable plumber snake; crank handle drain snake. Also called: ڈریں آوگر, پلمبر کیبل."
+  },
+  "TOL-019": {
+   "product_id": "TOL-019",
+   "what_it_is": "A handheld tool that strips, cuts and crimps electrical wires",
+   "used_for": [
+    "Removing insulation from wires",
+    "Cutting wire to length",
+    "Attaching connectors to wire ends"
+   ],
+   "shopper_phrases": [
+    "wire stripper",
+    "wire crimper",
+    "strip and crimp tool",
+    "electrical wire cutter"
+   ],
+   "local_names": [
+    "وائر سٹرپر",
+    "wire stripper"
+   ],
+   "text": "A handheld tool that strips, cuts and crimps electrical wires Used for: Removing insulation from wires; Cutting wire to length; Attaching connectors to wire ends. Shoppers say: wire stripper; wire crimper; strip and crimp tool; electrical wire cutter. Also called: وائر سٹرپر, wire stripper."
+  },
+  "TOL-020": {
+   "product_id": "TOL-020",
+   "what_it_is": "A set of ball‑end hex keys for tightening or loosening hex bolts and screws",
+   "used_for": [
+    "Assembling furniture",
+    "Adjusting bike parts",
+    "Installing kitchen fixtures"
+   ],
+   "shopper_phrases": [
+    "hex key set",
+    "allen wrench set",
+    "ball end hex keys",
+    "9 piece hex key"
+   ],
+   "local_names": [
+    "ایلن رینچ",
+    "allen wrench"
+   ],
+   "text": "A set of ball‑end hex keys for tightening or loosening hex bolts and screws Used for: Assembling furniture; Adjusting bike parts; Installing kitchen fixtures. Shoppers say: hex key set; allen wrench set; ball end hex keys; 9 piece hex key. Also called: ایلن رینچ, allen wrench."
+  },
+  "TOL-021": {
+   "product_id": "TOL-021",
+   "what_it_is": "A three‑piece pliers set with combination, long‑nose and diagonal cutter pliers",
+   "used_for": [
+    "Gripping wires",
+    "Bending small metal parts",
+    "Cutting wire or nails"
+   ],
+   "shopper_phrases": [
+    "pliers set",
+    "combination pliers",
+    "long nose pliers",
+    "diagonal cutter"
+   ],
+   "local_names": [
+    "پلاس",
+    "pliers"
+   ],
+   "text": "A three‑piece pliers set with combination, long‑nose and diagonal cutter pliers Used for: Gripping wires; Bending small metal parts; Cutting wire or nails. Shoppers say: pliers set; combination pliers; long nose pliers; diagonal cutter. Also called: پلاس, pliers."
+  },
+  "TOL-022": {
+   "product_id": "TOL-022",
+   "what_it_is": "A 16 oz claw hammer with a fibreglass handle and rubber grip",
+   "used_for": [
+    "Driving nails into wood",
+    "Pulling nails out",
+    "General carpentry work"
+   ],
+   "shopper_phrases": [
+    "claw hammer 16oz",
+    "fibreglass handle hammer",
+    "nail hammer",
+    "hand hammer"
+   ],
+   "local_names": [
+    "ہتھوڑا",
+    "hammer"
+   ],
+   "text": "A 16 oz claw hammer with a fibreglass handle and rubber grip Used for: Driving nails into wood; Pulling nails out; General carpentry work. Shoppers say: claw hammer 16oz; fibreglass handle hammer; nail hammer; hand hammer. Also called: ہتھوڑا, hammer."
+  },
+  "TOL-023": {
+   "product_id": "TOL-023",
+   "what_it_is": "A 16 oz rubber mallet with a wooden handle",
+   "used_for": [
+    "Gentle tapping without damaging surfaces",
+    "Assembling furniture without marring wood",
+    "Setting tiles or panels"
+   ],
+   "shopper_phrases": [
+    "rubber mallet 16oz",
+    "wood handle mallet",
+    "soft hammer",
+    "non‑metal hammer"
+   ],
+   "local_names": [
+    "ربر مالٹ",
+    "rubber mallet"
+   ],
+   "text": "A 16 oz rubber mallet with a wooden handle Used for: Gentle tapping without damaging surfaces; Assembling furniture without marring wood; Setting tiles or panels. Shoppers say: rubber mallet 16oz; wood handle mallet; soft hammer; non‑metal hammer. Also called: ربر مالٹ, rubber mallet."
+  },
+  "TOL-024": {
+   "product_id": "TOL-024",
+   "what_it_is": "A lightweight aluminium ladder with five steps for reaching higher places",
+   "used_for": [
+    "changing light bulbs",
+    "accessing high shelves",
+    "painting walls"
+   ],
+   "shopper_phrases": [
+    "5 step ladder",
+    "aluminium step ladder 1.5m",
+    "ladder for home use",
+    "lightweight ladder",
+    "ladder 150kg load"
+   ],
+   "local_names": [
+    "سیڑھی",
+    "step ladder"
+   ],
+   "text": "A lightweight aluminium ladder with five steps for reaching higher places Used for: changing light bulbs; accessing high shelves; painting walls. Shoppers say: 5 step ladder; aluminium step ladder 1.5m; ladder for home use; lightweight ladder; ladder 150kg load. Also called: سیڑھی, step ladder."
+  },
+  "TOL-025": {
+   "product_id": "TOL-025",
+   "what_it_is": "A compact foldable steel ladder with three steps for low‑height tasks",
+   "used_for": [
+    "reaching kitchen cabinets",
+    "changing small ceiling lights",
+    "cleaning window tops"
+   ],
+   "shopper_phrases": [
+    "foldable step ladder",
+    "3 step steel ladder",
+    "small ladder 0.9m",
+    "portable ladder",
+    "steel ladder for home"
+   ],
+   "local_names": [
+    "فولڈ ایبل سیڑھی",
+    "foldable ladder"
+   ],
+   "text": "A compact foldable steel ladder with three steps for low‑height tasks Used for: reaching kitchen cabinets; changing small ceiling lights; cleaning window tops. Shoppers say: foldable step ladder; 3 step steel ladder; small ladder 0.9m; portable ladder; steel ladder for home. Also called: فولڈ ایبل سیڑھی, foldable ladder."
+  },
+  "TOL-026": {
+   "product_id": "TOL-026",
+   "what_it_is": "A rechargeable LED emergency light with 60 LEDs for backup illumination",
+   "used_for": [
+    "power outage lighting",
+    "camping or outdoor backup light",
+    "garage or basement emergency illumination"
+   ],
+   "shopper_phrases": [
+    "LED emergency light",
+    "rechargeable 60 LED light",
+    "backup light 8 hours",
+    "emergency lamp",
+    "LED light for power cut"
+   ],
+   "local_names": [
+    "ایمرجنسی لائٹ",
+    "emergency light"
+   ],
+   "text": "A rechargeable LED emergency light with 60 LEDs for backup illumination Used for: power outage lighting; camping or outdoor backup light; garage or basement emergency illumination. Shoppers say: LED emergency light; rechargeable 60 LED light; backup light 8 hours; emergency lamp; LED light for power cut. Also called: ایمرجنسی لائٹ, emergency light."
+  },
+  "TOL-027": {
+   "product_id": "TOL-027",
+   "what_it_is": "A rechargeable 12 W LED bulb with a B22 base for temporary lighting",
+   "used_for": [
+    "emergency lighting during outages",
+    "portable lighting for tents",
+    "supplemental light in rooms"
+   ],
+   "shopper_phrases": [
+    "rechargeable LED bulb",
+    "12W B22 bulb",
+    "LED bulb with battery",
+    "portable LED bulb",
+    "emergency LED bulb"
+   ],
+   "local_names": [
+    "ریچارج ایبل بلب",
+    "LED بلب"
+   ],
+   "text": "A rechargeable 12 W LED bulb with a B22 base for temporary lighting Used for: emergency lighting during outages; portable lighting for tents; supplemental light in rooms. Shoppers say: rechargeable LED bulb; 12W B22 bulb; LED bulb with battery; portable LED bulb; emergency LED bulb. Also called: ریچارج ایبل بلب, LED بلب."
+  },
+  "TOL-028": {
+   "product_id": "TOL-028",
+   "what_it_is": "A 4‑socket extension board with surge and overload protection",
+   "used_for": [
+    "connecting multiple appliances safely",
+    "protecting electronics from power spikes",
+    "extending power reach in living rooms"
+   ],
+   "shopper_phrases": [
+    "4 socket extension board",
+    "surge protector power strip",
+    "extension board with overload switch",
+    "multi socket extension 3m cable",
+    "power strip with surge protection"
+   ],
+   "local_names": [
+    "سورج پروٹیکٹر",
+    "extension board"
+   ],
+   "text": "A 4‑socket extension board with surge and overload protection Used for: connecting multiple appliances safely; protecting electronics from power spikes; extending power reach in living rooms. Shoppers say: 4 socket extension board; surge protector power strip; extension board with overload switch; multi socket extension 3m cable; power strip with surge protection. Also called: سورج پروٹیکٹر, extension board."
+  },
+  "TOL-029": {
+   "product_id": "TOL-029",
+   "what_it_is": "A rechargeable LED headlamp with three brightness modes.",
+   "used_for": [
+    "hands‑free lighting while working",
+    "camping or night walks",
+    "reading in low light"
+   ],
+   "shopper_phrases": [
+    "LED headlamp rechargeable",
+    "hands free light for work",
+    "USB headlamp 300 lumens",
+    "night camping light",
+    "headlamp with multiple modes"
+   ],
+   "local_names": [
+    "ہیڈ لیمپ",
+    "LED سر لائٹ"
+   ],
+   "text": "A rechargeable LED headlamp with three brightness modes. Used for: hands‑free lighting while working; camping or night walks; reading in low light. Shoppers say: LED headlamp rechargeable; hands free light for work; USB headlamp 300 lumens; night camping light; headlamp with multiple modes. Also called: ہیڈ لیمپ, LED سر لائٹ."
+  },
+  "TOL-030": {
+   "product_id": "TOL-030",
+   "what_it_is": "A retractable utility knife that comes with five snap‑off blades.",
+   "used_for": [
+    "cutting cardboard or packaging",
+    "trimming carpet or vinyl",
+    "opening boxes"
+   ],
+   "shopper_phrases": [
+    "retractable utility knife 5 blades",
+    "snap off knife for home",
+    "handheld cutting knife",
+    "utility knife with auto lock",
+    "box cutting knife"
+   ],
+   "local_names": [
+    "یوزٹیلیٹی نائف",
+    "کٹر چاقو"
+   ],
+   "text": "A retractable utility knife that comes with five snap‑off blades. Used for: cutting cardboard or packaging; trimming carpet or vinyl; opening boxes. Shoppers say: retractable utility knife 5 blades; snap off knife for home; handheld cutting knife; utility knife with auto lock; box cutting knife. Also called: یوزٹیلیٹی نائف, کٹر چاقو."
+  },
+  "TOL-031": {
+   "product_id": "TOL-031",
+   "what_it_is": "A hacksaw frame that includes two 12‑inch blades with 24 teeth per inch.",
+   "used_for": [
+    "sawing metal pipes",
+    "cutting plastic rods",
+    "trimming wooden trim"
+   ],
+   "shopper_phrases": [
+    "hacksaw with two blades",
+    "12 inch hacksaw metal cutting",
+    "adjustable hacksaw frame",
+    "DIY metal saw",
+    "hand saw for pipe"
+   ],
+   "local_names": [
+    "ہیکساو",
+    "دستگیر آری"
+   ],
+   "text": "A hacksaw frame that includes two 12‑inch blades with 24 teeth per inch. Used for: sawing metal pipes; cutting plastic rods; trimming wooden trim. Shoppers say: hacksaw with two blades; 12 inch hacksaw metal cutting; adjustable hacksaw frame; DIY metal saw; hand saw for pipe. Also called: ہیکساو, دستگیر آری."
+  },
+  "TOL-032": {
+   "product_id": "TOL-032",
+   "what_it_is": "A pair of quick‑grip bar clamps with a one‑hand trigger release, opening up to 15 cm.",
+   "used_for": [
+    "holding wood pieces while gluing",
+    "clamping metal brackets",
+    "temporary fastening during assembly"
+   ],
+   "shopper_phrases": [
+    "quick grip bar clamps",
+    "one hand release clamps",
+    "15 cm bar clamp set",
+    "hand tool clamps for woodworking",
+    "clamps for DIY projects"
+   ],
+   "local_names": [
+    "کلپ",
+    "بار کلپ"
+   ],
+   "text": "A pair of quick‑grip bar clamps with a one‑hand trigger release, opening up to 15 cm. Used for: holding wood pieces while gluing; clamping metal brackets; temporary fastening during assembly. Shoppers say: quick grip bar clamps; one hand release clamps; 15 cm bar clamp set; hand tool clamps for woodworking; clamps for DIY projects. Also called: کلپ, بار کلپ."
+  },
+  "TOL-033": {
+   "product_id": "TOL-033",
+   "what_it_is": "A foam sanding block with twelve sheets of sandpaper in 80, 120 and 240 grits.",
+   "used_for": [
+    "smoothing wood surfaces",
+    "preparing walls before painting",
+    "finishing metal or plastic parts"
+   ],
+   "shopper_phrases": [
+    "sanding block with assorted grit",
+    "foam sandpaper block 12 sheets",
+    "sandpaper for wood finishing",
+    "DIY sanding kit",
+    "sandpaper block 80 120 240"
+   ],
+   "local_names": [
+    "سینڈنگ بلاک",
+    "ریگھٹ کاغذ"
+   ],
+   "text": "A foam sanding block with twelve sheets of sandpaper in 80, 120 and 240 grits. Used for: smoothing wood surfaces; preparing walls before painting; finishing metal or plastic parts. Shoppers say: sanding block with assorted grit; foam sandpaper block 12 sheets; sandpaper for wood finishing; DIY sanding kit; sandpaper block 80 120 240. Also called: سینڈنگ بلاک, ریگھٹ کاغذ."
+  },
+  "TOL-034": {
+   "product_id": "TOL-034",
+   "what_it_is": "A 9‑inch paint roller kit with a tray and extension adapter for applying paint.",
+   "used_for": [
+    "painting walls",
+    "covering large surfaces",
+    "applying primer"
+   ],
+   "shopper_phrases": [
+    "paint roller 9 inch",
+    "roller kit with tray",
+    "painting tool for walls",
+    "extendable paint roller"
+   ],
+   "local_names": [
+    "رولر پینٹ",
+    "پینٹ رولر کٹ"
+   ],
+   "text": "A 9‑inch paint roller kit with a tray and extension adapter for applying paint. Used for: painting walls; covering large surfaces; applying primer. Shoppers say: paint roller 9 inch; roller kit with tray; painting tool for walls; extendable paint roller. Also called: رولر پینٹ, پینٹ رولر کٹ."
+  },
+  "TOL-035": {
+   "product_id": "TOL-035",
+   "what_it_is": "A 16‑inch plastic toolbox with a removable tray and metal latch for storing tools.",
+   "used_for": [
+    "organising hand tools",
+    "carrying small parts",
+    "keeping screws and nails together"
+   ],
+   "shopper_phrases": [
+    "plastic toolbox 16 inch",
+    "tool box with removable tray",
+    "portable tool storage",
+    "metal latch toolbox"
+   ],
+   "local_names": [
+    "ٹول بکس",
+    "پلاسٹک ٹول باکس"
+   ],
+   "text": "A 16‑inch plastic toolbox with a removable tray and metal latch for storing tools. Used for: organising hand tools; carrying small parts; keeping screws and nails together. Shoppers say: plastic toolbox 16 inch; tool box with removable tray; portable tool storage; metal latch toolbox. Also called: ٹول بکس, پلاسٹک ٹول باکس."
+  },
+  "TOL-036": {
+   "product_id": "TOL-036",
+   "what_it_is": "A kit of 200 wall plugs and matching screws in 6 mm and 8 mm sizes.",
+   "used_for": [
+    "fixing shelves to walls",
+    "installing picture frames",
+    "mounting light fixtures"
+   ],
+   "shopper_phrases": [
+    "wall plug and screw kit",
+    "200 pieces plugs screws",
+    "6mm and 8mm wall anchors",
+    "fixings for drywall"
+   ],
+   "local_names": [
+    "وال پلگ",
+    "سکرو کٹ"
+   ],
+   "text": "A kit of 200 wall plugs and matching screws in 6 mm and 8 mm sizes. Used for: fixing shelves to walls; installing picture frames; mounting light fixtures. Shoppers say: wall plug and screw kit; 200 pieces plugs screws; 6mm and 8mm wall anchors; fixings for drywall. Also called: وال پلگ, سکرو کٹ."
+  },
+  "TOL-037": {
+   "product_id": "TOL-037",
+   "what_it_is": "A telescopic magnetic pickup tool with LED light, extending from 16 cm to 80 cm and pulling up to 3.6 kg.",
+   "used_for": [
+    "retrieving dropped screws",
+    "picking up metal objects in tight spots",
+    "seeing inside dark cavities"
+   ],
+   "shopper_phrases": [
+    "magnetic pickup tool with LED",
+    "telescopic magnet grabber",
+    "long reach magnetic tool",
+    "LED magnetic pick up stick"
+   ],
+   "local_names": [
+    "مقناطیسی پِک اپ ٹول",
+    "LED میگنیٹ ٹول"
+   ],
+   "text": "A telescopic magnetic pickup tool with LED light, extending from 16 cm to 80 cm and pulling up to 3.6 kg. Used for: retrieving dropped screws; picking up metal objects in tight spots; seeing inside dark cavities. Shoppers say: magnetic pickup tool with LED; telescopic magnet grabber; long reach magnetic tool; LED magnetic pick up stick. Also called: مقناطیسی پِک اپ ٹول, LED میگنیٹ ٹول."
+  },
+  "TOL-038": {
+   "product_id": "TOL-038",
+   "what_it_is": "A 60 W adjustable soldering iron kit with temperature control, five tips, stand, and solder wire.",
+   "used_for": [
+    "soldering electronic components",
+    "repairing wires",
+    "joining small metal parts"
+   ],
+   "shopper_phrases": [
+    "adjustable soldering iron 60w",
+    "soldering kit with tips",
+    "temperature controlled soldering iron",
+    "electronics repair solder iron"
+   ],
+   "local_names": [
+    "سولڈرنگ آئرن",
+    "سولڈر کٹ"
+   ],
+   "text": "A 60 W adjustable soldering iron kit with temperature control, five tips, stand, and solder wire. Used for: soldering electronic components; repairing wires; joining small metal parts. Shoppers say: adjustable soldering iron 60w; soldering kit with tips; temperature controlled soldering iron; electronics repair solder iron. Also called: سولڈرنگ آئرن, سولڈر کٹ."
+  },
+  "TOL-039": {
+   "product_id": "TOL-039",
+   "what_it_is": "A small cordless screwdriver that runs on a 3.6 V Li‑ion battery and includes 10 bits.",
+   "used_for": [
+    "tightening screws in furniture",
+    "assembling flat‑pack items",
+    "installing light fixtures",
+    "quick repairs without a cord"
+   ],
+   "shopper_phrases": [
+    "cordless screwdriver",
+    "battery powered screwdriver",
+    "screwdriver with USB charger",
+    "small electric screwdriver",
+    "DIY screwdriver"
+   ],
+   "local_names": [
+    "بغیر تار کے سکرو ڈرائیور",
+    "cordless screwdriver"
+   ],
+   "text": "A small cordless screwdriver that runs on a 3.6 V Li‑ion battery and includes 10 bits. Used for: tightening screws in furniture; assembling flat‑pack items; installing light fixtures; quick repairs without a cord. Shoppers say: cordless screwdriver; battery powered screwdriver; screwdriver with USB charger; small electric screwdriver; DIY screwdriver. Also called: بغیر تار کے سکرو ڈرائیور, cordless screwdriver."
+  },
+  "TOL-040": {
+   "product_id": "TOL-040",
+   "what_it_is": "A steel heavy‑duty staple gun that holds 600 staples (6‑10 mm).",
+   "used_for": [
+    "securing upholstery fabric",
+    "attaching carpet padding",
+    "fastening insulation material",
+    "stapling wood panels"
+   ],
+   "shopper_phrases": [
+    "heavy duty staple gun",
+    "staple gun 600 staples",
+    "manual staple gun",
+    "steel staple gun",
+    "stapling tool"
+   ],
+   "local_names": [
+    "اسٹیپل گن",
+    "staple gun"
+   ],
+   "text": "A steel heavy‑duty staple gun that holds 600 staples (6‑10 mm). Used for: securing upholstery fabric; attaching carpet padding; fastening insulation material; stapling wood panels. Shoppers say: heavy duty staple gun; staple gun 600 staples; manual staple gun; steel staple gun; stapling tool. Also called: اسٹیپل گن, staple gun."
+  },
+  "TOL-041": {
+   "product_id": "TOL-041",
+   "what_it_is": "PTFE thread seal tape sold in a pack of five 10 m rolls, 12 mm wide.",
+   "used_for": [
+    "sealing pipe threads to prevent leaks",
+    "tightening water connections",
+    "joining gas fittings",
+    "repairing plumbing joints"
+   ],
+   "shopper_phrases": [
+    "PTFE thread seal tape",
+    "plumber's tape",
+    "pipe sealing tape",
+    "Teflon tape pack",
+    "thread seal tape"
+   ],
+   "local_names": [
+    "ٹیفلون ٹیپ",
+    "پلمبر ٹیپ"
+   ],
+   "text": "PTFE thread seal tape sold in a pack of five 10 m rolls, 12 mm wide. Used for: sealing pipe threads to prevent leaks; tightening water connections; joining gas fittings; repairing plumbing joints. Shoppers say: PTFE thread seal tape; plumber's tape; pipe sealing tape; Teflon tape pack; thread seal tape. Also called: ٹیفلون ٹیپ, پلمبر ٹیپ."
+  },
+  "TOL-042": {
+   "product_id": "TOL-042",
+   "what_it_is": "A set of 100 tile levelling clips and 100 wedges for aligning tiles.",
+   "used_for": [
+    "keeping floor tiles level during installation",
+    "preventing tile lippage",
+    "holding tiles in place while grout dries",
+    "ensuring even spacing between tiles"
+   ],
+   "shopper_phrases": [
+    "tile levelling clips",
+    "tile spacers and wedges",
+    "tile leveling system",
+    "tile levelling kit",
+    "tile clips"
+   ],
+   "local_names": [
+    "ٹائل لیولنگ کلپ",
+    "ٹائل سپیسنگ"
+   ],
+   "text": "A set of 100 tile levelling clips and 100 wedges for aligning tiles. Used for: keeping floor tiles level during installation; preventing tile lippage; holding tiles in place while grout dries; ensuring even spacing between tiles. Shoppers say: tile levelling clips; tile spacers and wedges; tile leveling system; tile levelling kit; tile clips. Also called: ٹائل لیولنگ کلپ, ٹائل سپیسنگ."
+  },
+  "TOL-043": {
+   "product_id": "TOL-043",
+   "what_it_is": "Assorted nylon cable ties, 200 pieces in lengths of 10, 15 and 20 cm.",
+   "used_for": [
+    "bundling wires and cables",
+    "organising garden hoses",
+    "securing loose items",
+    "temporary fastening of lightweight objects"
+   ],
+   "shopper_phrases": [
+    "nylon cable ties",
+    "plastic zip ties",
+    "assorted zip ties",
+    "cable ties 200 pcs",
+    "wire ties"
+   ],
+   "local_names": [
+    "کیبل ٹائیز",
+    "zip ties"
+   ],
+   "text": "Assorted nylon cable ties, 200 pieces in lengths of 10, 15 and 20 cm. Used for: bundling wires and cables; organising garden hoses; securing loose items; temporary fastening of lightweight objects. Shoppers say: nylon cable ties; plastic zip ties; assorted zip ties; cable ties 200 pcs; wire ties. Also called: کیبل ٹائیز, zip ties."
+  },
+  "TOL-044": {
+   "product_id": "TOL-044",
+   "what_it_is": "A set of 13 drill bits for drilling into masonry, wood, and metal.",
+   "used_for": [
+    "drilling holes in brick walls",
+    "making holes in wooden furniture",
+    "drilling metal studs"
+   ],
+   "shopper_phrases": [
+    "drill bits set",
+    "masonry drill bits",
+    "wood drilling bits",
+    "metal drill bits",
+    "13 piece drill bit kit"
+   ],
+   "local_names": [],
+   "text": "A set of 13 drill bits for drilling into masonry, wood, and metal. Used for: drilling holes in brick walls; making holes in wooden furniture; drilling metal studs. Shoppers say: drill bits set; masonry drill bits; wood drilling bits; metal drill bits; 13 piece drill bit kit."
+  }
+ }
+}

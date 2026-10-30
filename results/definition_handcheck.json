@@ -1,0 +1,82 @@
+{
+ "KIT-013": {
+  "verdict": "P",
+  "note": "Urdu name 'Chini strainer' is invented."
+ },
+ "KIT-030": {
+  "verdict": "P",
+  "note": "Zest and nutmeg are right, but a fine rasp isn\u2019t really for \u201cshredding carrots\u201d; that\u2019s a box grater."
+ },
+ "KIT-031": {
+  "verdict": "Y",
+  "note": "No issue observed"
+ },
+ "KIT-040": {
+  "verdict": "Y",
+  "note": "No issue observed"
+ },
+ "KIT-041": {
+  "verdict": "P",
+  "note": "Uses fine, but one local name is garbled mixed script:\u0644\u06cc\u0645\u0648\u06ba \u06a9\u0627 \u0633queezer"
+ },
+ "TOL-003": {
+  "verdict": "P",
+  "note": "Uses correct but Urdu name is not commonly used and doesn't imply the same product."
+ },
+ "TOL-015": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "TOL-030": {
+  "verdict": "P",
+  "note": "Uses fine; small spelling slip in the other second Urdu name (not cutter \u06a9\u0679\u0631)"
+ },
+ "TOL-036": {
+  "verdict": "P",
+  "note": "Fixings for drywall: 6/8 mm wall plugs are for brick or concrete walls, which most Pakistani homes have, not drywall. This is a minor issue in use that needs correction."
+ },
+ "TOL-039": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "ORG-003": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "ORG-005": {
+  "verdict": "P",
+  "note": "Uses fine; Urdu should also have tranlation for 'kitchen table' and 'table' as they are more commonly used words."
+ },
+ "ORG-014": {
+  "verdict": "P",
+  "note": "Uses mainly correct but they also state 'Stack items without sliding' even though facts never say they stack. This is a small unsupported claim."
+ },
+ "ORG-020": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "ORG-034": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "FUR-003": {
+  "verdict": "P",
+  "note": "Uses are OK, but 'living room' isn\u2019t where a charpai usually goes; the Urdu spelling \u0686\u064e\u0631\u067e\u0627\u0626\u06cc is off and \u0686\u0627\u0631\u067e\u0627\u0626\u06cc is correct"
+ },
+ "FUR-004": {
+  "verdict": "P",
+  "note": "Uses are correct but Urdu spelling for Ottoman is incorrect; the correct is \u0627\u0648\u0679\u0648\u0645\u0646"
+ },
+ "FUR-016": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "FUR-023": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ },
+ "FUR-039": {
+  "verdict": "Y",
+  "note": "No issue observed."
+ }
+}
