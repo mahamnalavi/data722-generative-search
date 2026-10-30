@@ -13,4 +13,5 @@ A demo online store for household goods (a fictional Pakistani store, all data s
 | `app.py` | The web app and search API (FastAPI), deployed on Vercel |
 | `search/` | The search engine, shared by the app and the notebook |
 | `static/` | Website files (HTML, CSS, JavaScript) |
-| `notebook/` | Google Colab notebook: definitions, embeddings, evaluation *(coming next)* |
+| `notebook/` | Colab notebooks: 01 definitions and embeddings, 02 retrieval evaluation, 03 chat and judge, 04 MCP server |
+| `mcp_server.py` | The catalogue search as an MCP server (tools for other AI assistants) |

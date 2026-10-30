@@ -38,7 +38,8 @@ def embed_query(query: str) -> tuple:
     return tuple(_embedder().embed([query], kind="query", task="embed_live_query", retries=1)[0])
 
 
-def search(query: str, mode: str = "hybrid", context: dict | None = None, k: int = 10) -> dict:
+def search(query: str, mode: str = "hybrid", context: dict | None = None, k: int = 10,
+           constraints: dict | None = None) -> dict:
     """Website entry point. Falls back to keyword search if the AI side is unavailable,
     and says so in the response, so the site never breaks."""
     from . import pipeline
@@ -56,7 +57,7 @@ def search(query: str, mode: str = "hybrid", context: dict | None = None, k: int
                 fallback_reason = f"AI search unavailable ({type(e).__name__})"
         if fallback_reason:
             mode = "keyword"
-    out = pipeline.run(query, mode=mode, query_vec=qvec, context=context, k=k)
+    out = pipeline.run(query, mode=mode, query_vec=qvec, context=context, k=k, constraints=constraints)
     out["version"] = VERSION
     out["fallback"] = fallback_reason
     out["latency_ms"] = round((time.perf_counter() - t0) * 1000, 1)
