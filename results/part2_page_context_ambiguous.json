@@ -1,0 +1,56 @@
+{
+ "word":{
+  "0":"box",
+  "1":"box",
+  "2":"box",
+  "3":"stand",
+  "4":"stand",
+  "5":"cutter",
+  "6":"cutter"
+ },
+ "page":{
+  "0":"Organizers",
+  "1":"Tools",
+  "2":"Kitchenware",
+  "3":"Furniture",
+  "4":"Organizers",
+  "5":"Kitchenware",
+  "6":"Tools"
+ },
+ "fits page in top 3: without page":{
+  "0":true,
+  "1":false,
+  "2":true,
+  "3":true,
+  "4":true,
+  "5":true,
+  "6":true
+ },
+ "top result: without page":{
+  "0":"Cable Management Box, Large",
+  "1":"Cable Management Box, Large",
+  "2":"Cable Management Box, Large",
+  "3":"Plant Stand, 3 Tiers, Metal",
+  "4":"Plant Stand, 3 Tiers, Metal",
+  "5":"8-Blade Apple Slicer and Corer",
+  "6":"8-Blade Apple Slicer and Corer"
+ },
+ "fits page in top 3: with page":{
+  "0":true,
+  "1":false,
+  "2":true,
+  "3":true,
+  "4":true,
+  "5":true,
+  "6":true
+ },
+ "top result: with page":{
+  "0":"Cable Management Box, Large",
+  "1":"Cable Management Box, Large",
+  "2":"Cable Management Box, Large",
+  "3":"Plant Stand, 3 Tiers, Metal",
+  "4":"Plant Stand, 3 Tiers, Metal",
+  "5":"8-Blade Apple Slicer and Corer",
+  "6":"8-Blade Apple Slicer and Corer"
+ }
+}

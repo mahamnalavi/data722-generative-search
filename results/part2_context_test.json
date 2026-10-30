@@ -1,0 +1,12 @@
+{
+ "hit@1_none": 1.0,
+ "hit@5_none": 1.0,
+ "hit@1_helpful": 0.957,
+ "hit@5_helpful": 1.0,
+ "hit@1_misleading": 0.914,
+ "hit@5_misleading": 1.0,
+ "context_override_errors": "0/70",
+ "price_variant_first_none": 0.361,
+ "price_variant_first_helpful": 0.806,
+ "price_variant_queries": 36
+}

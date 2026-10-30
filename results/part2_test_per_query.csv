@@ -1,0 +1,317 @@
+qid,mode,query,style,top5,no_close_match,top_similarity
+Q001,keyword,aluminium pressure cooker,name,KIT-020 | KIT-022 | KIT-021 | KIT-041 | TOL-024,False,
+Q003,keyword,iron karahi with two handles,name,KIT-018 | KIT-019 | FUR-028 | KIT-015 | ORG-047,False,
+Q004,keyword,heavy-duty zinc alloy garlic press,name,KIT-005 | TOL-017 | TOL-014 | TOL-040 | KIT-006,False,
+Q006,keyword,digital kitchen scale,name,KIT-036 | KIT-037 | TOL-008 | KIT-007 | ORG-006,False,
+Q007,keyword,electric hand mixer,name,KIT-054 | KIT-055 | KIT-042 | ORG-007 | TOL-032,False,
+Q010,keyword,aluminium spirit level,name,TOL-002 | TOL-003 | KIT-041 | TOL-024 | KIT-020,False,
+Q011,keyword,measuring tape,name,TOL-010 | TOL-011 | TOL-041 | KIT-051 | ORG-012,False,
+Q012,keyword,digital multimeter,name,TOL-008 | KIT-036 | KIT-037,False,
+Q013,keyword,aluminium step ladder,name,TOL-024 | TOL-025 | FUR-028 | FUR-014 | KIT-041,False,
+Q014,keyword,claw hammer,name,TOL-022 | TOL-005,False,
+Q016,keyword,stackable shoe rack,name,ORG-026 | ORG-027 | FUR-043 | ORG-009 | FUR-009,False,
+Q017,keyword,2-tier dish drying rack with drainboard,name,ORG-033 | ORG-027 | ORG-034 | ORG-026 | ORG-013,False,
+Q018,keyword,velvet hangers,name,ORG-020 | ORG-036 | ORG-018,False,
+Q020,keyword,corner shower caddy,name,ORG-023 | ORG-024 | FUR-029,False,
+Q022,keyword,bookcase,name,FUR-044,False,
+Q023,keyword,tv console,name,FUR-015 | FUR-038,False,
+Q024,keyword,bedside table with 2 drawers,name,FUR-022 | FUR-023 | FUR-040 | FUR-024 | FUR-016,False,
+Q025,keyword,something to separate egg whites from yolks,precise,KIT-002 | ORG-015 | KIT-001,False,
+Q028,keyword,scrape sticky dough off the counter,precise,ORG-021 | FUR-005 | KIT-054 | TOL-030,False,
+Q029,keyword,dry lettuce after washing it,precise,,True,
+Q031,keyword,strain lumps out of a sauce,precise,ORG-001 | ORG-015,False,
+Q032,keyword,flip rotis without burning my fingers,precise,KIT-044 | KIT-047 | FUR-009,False,
+Q033,keyword,grind whole spices at home,precise,ORG-013,False,
+Q034,keyword,zest a lemon for baking,precise,KIT-041 | KIT-050 | KIT-008 | KIT-002 | KIT-047,False,
+Q035,keyword,open a jar lid that is stuck,precise,KIT-024 | ORG-032 | KIT-032 | FUR-023 | KIT-023,False,
+Q037,keyword,cut fresh coriander quickly,precise,TOL-019,False,
+Q039,keyword,stop oil splashing everywhere while frying,precise,KIT-035 | KIT-034,False,
+Q040,keyword,whip cream for a birthday cake,precise,,True,
+Q042,keyword,check that a picture frame is hanging straight,precise,ORG-018 | ORG-019 | KIT-008 | TOL-031 | FUR-003,False,
+Q043,keyword,fix the tiny screws on my phone,precise,TOL-036 | ORG-035 | ORG-013 | KIT-032 | TOL-005,False,
+Q045,keyword,seal the gap around the bathtub,precise,TOL-041 | ORG-031 | ORG-007,False,
+Q046,keyword,protect my TV and fridge from voltage spikes,precise,FUR-015 | ORG-014 | ORG-015 | TOL-009 | TOL-008,False,
+Q047,keyword,hold two pieces of wood together while the glue dries,precise,TOL-013 | KIT-018 | FUR-028 | TOL-044 | FUR-023,False,
+Q049,keyword,stop water leaking from a pipe thread,precise,TOL-015 | TOL-041,False,
+Q051,keyword,keep earrings and necklaces from getting tangled,precise,,True,
+Q052,keyword,remember which tablets to take each day,precise,ORG-045 | ORG-032 | FUR-042,False,
+Q054,keyword,stand to hold the Quran while reading,precise,FUR-034 | FUR-025 | FUR-027 | ORG-046 | ORG-039,False,
+Q055,keyword,raise my computer screen to eye level,precise,KIT-049 | TOL-003 | TOL-002 | KIT-003,False,
+Q056,keyword,use my laptop comfortably in bed,precise,FUR-019 | FUR-020 | FUR-021 | ORG-016 | FUR-042,False,
+Q057,keyword,my rotis go cold before everyone sits down to eat,vague,KIT-044 | FUR-011 | TOL-007 | TOL-021 | ORG-008,False,
+Q059,keyword,milk keeps spilling over on the stove,vague,KIT-053 | FUR-042 | ORG-009 | ORG-010 | ORG-034,False,
+Q060,keyword,my drawers are a jumble of small things,vague,ORG-043 | ORG-004 | FUR-022 | ORG-003 | ORG-037,False,
+Q061,keyword,too many cables tangled behind the TV,vague,FUR-015 | TOL-018 | ORG-012 | TOL-043 | ORG-011,False,
+Q062,keyword,I keep losing my keys at home,vague,TOL-020 | ORG-025,False,
+Q063,keyword,my back hurts after long hours at the computer,vague,FUR-013 | TOL-021 | TOL-027 | FUR-012 | TOL-026,False,
+Q064,keyword,my mother finds it hard to sit on the floor for namaz,vague,FUR-035 | KIT-022 | KIT-020,False,
+Q066,keyword,the kitchen sink drains really slowly,vague,ORG-002 | ORG-001 | ORG-034 | TOL-018 | KIT-036,False,
+Q067,keyword,guests are staying over and we have no spare bed,vague,FUR-042 | FUR-021 | ORG-016 | KIT-053 | FUR-019,False,
+Q069,keyword,plastic shopping bags are piling up in the kitchen,vague,ORG-035 | ORG-034 | KIT-008 | ORG-008 | ORG-016,False,
+Q072,keyword,the kids' room is too small for two beds,vague,FUR-021 | FUR-040 | KIT-018 | FUR-028 | FUR-026,False,
+Q074,keyword,pressure cooker under 5000,constraint,KIT-022,False,
+Q075,keyword,tawa that is in stock,constraint,KIT-017,False,
+Q077,keyword,knife sharpener under 1500,constraint,KIT-058 | TOL-030,False,
+Q079,keyword,"something to dry clothes on the balcony, max 2500",constraint,,True,
+Q080,keyword,kitchen scale 2000 tak,constraint,KIT-036 | KIT-007 | KIT-028 | KIT-048 | ORG-032,False,
+Q082,keyword,"study desk under 10,000",constraint,ORG-029 | FUR-011 | FUR-037 | FUR-034 | ORG-012,False,
+Q083,keyword,"storage for winter blankets under 2000, in stock",constraint,ORG-016 | ORG-032 | ORG-008 | ORG-043 | ORG-018,False,
+Q084,keyword,mortar and pestle under 3000 in stock,constraint,KIT-028,False,
+Q085,keyword,sasta spice box 3000 tak,constraint,ORG-013 | ORG-011 | KIT-031 | KIT-044 | ORG-044,False,
+Q086,keyword,pyaz barik katne wali cheez,urdu,,True,
+Q088,keyword,roti garam rakhne ka dabba,urdu,KIT-044 | KIT-023,False,
+Q089,keyword,lassi banane wali madhani,urdu,KIT-025,False,
+Q092,keyword,namaz ke liye kursi,urdu,,True,
+Q094,keyword,jootay rakhne ki rack,urdu,ORG-027 | ORG-021 | ORG-033 | ORG-026 | ORG-010,False,
+Q095,keyword,chhat ka pankha saaf karne ke liye seedhi,urdu,ORG-029 | ORG-041 | ORG-005 | ORG-025 | ORG-021,False,
+Q096,keyword,پیاز کاٹنے والی مشین,urdu,,True,
+Q097,keyword,دودھ ابلنے سے روکنے والی چیز,urdu,,True,
+Q098,keyword,قرآن رکھنے کا اسٹینڈ,urdu,,True,
+Q099,keyword,refrigerator,no_match,,True,
+Q100,keyword,split air conditioner 1.5 ton,no_match,KIT-036 | TOL-024 | ORG-029 | ORG-012 | TOL-042,False,
+Q102,keyword,prayer mat,no_match,FUR-032 | KIT-050,False,
+Q103,keyword,mosquito net for a bed,no_match,FUR-021 | ORG-016 | FUR-042 | FUR-019 | ORG-017,False,
+Q104,keyword,gas heater for winter,no_match,FUR-017 | FUR-033 | FUR-013,False,
+Q106,keyword,laptop bag,no_match,FUR-019 | FUR-020 | ORG-008 | ORG-016 | FUR-008,False,
+Q107,keyword,scanner for documents,no_match,TOL-001,False,
+Q108,keyword,hair curling tongs,no_match,KIT-027,False,
+Q109,keyword,office chair under Rs 10000,no_match,FUR-032 | FUR-040 | FUR-007 | FUR-018 | ORG-012,False,
+Q112,keyword,separator for my clothes in the drawer,trap,ORG-039 | KIT-002 | KIT-001 | ORG-043 | ORG-004,False,
+Q114,keyword,cover for a bean bag,trap,FUR-008 | FUR-007 | ORG-008 | ORG-016 | ORG-035,False,
+Q001,semantic_catalogue,aluminium pressure cooker,name,KIT-020 | KIT-022 | KIT-021 | KIT-019 | KIT-041,False,0.7722
+Q003,semantic_catalogue,iron karahi with two handles,name,KIT-018 | KIT-015 | KIT-019 | KIT-045 | KIT-026,False,0.7973
+Q004,semantic_catalogue,heavy-duty zinc alloy garlic press,name,KIT-005 | KIT-006 | KIT-041 | KIT-029 | TOL-014,False,0.7969
+Q006,semantic_catalogue,digital kitchen scale,name,KIT-036 | KIT-037 | KIT-051 | KIT-007 | KIT-038,False,0.7407
+Q007,semantic_catalogue,electric hand mixer,name,KIT-054 | KIT-055 | KIT-025 | KIT-040 | KIT-042,False,0.7272
+Q010,semantic_catalogue,aluminium spirit level,name,TOL-002 | TOL-003 | TOL-024 | KIT-041 | TOL-010,False,0.7759
+Q011,semantic_catalogue,measuring tape,name,TOL-011 | TOL-010 | TOL-012 | TOL-003 | KIT-037,False,0.6984
+Q012,semantic_catalogue,digital multimeter,name,TOL-008 | TOL-001 | TOL-009 | TOL-012 | KIT-036,False,0.7283
+Q013,semantic_catalogue,aluminium step ladder,name,TOL-024 | TOL-025 | FUR-028 | TOL-002 | ORG-024,False,0.7459
+Q014,semantic_catalogue,claw hammer,name,TOL-022 | TOL-023 | TOL-015 | TOL-040 | TOL-031,False,0.7446
+Q016,semantic_catalogue,stackable shoe rack,name,ORG-026 | ORG-027 | FUR-009 | ORG-009 | FUR-043,False,0.7547
+Q017,semantic_catalogue,2-tier dish drying rack with drainboard,name,ORG-033 | ORG-034 | ORG-001 | ORG-027 | ORG-006,False,0.7874
+Q018,semantic_catalogue,velvet hangers,name,ORG-020 | ORG-019 | ORG-036 | ORG-018 | ORG-010,False,0.764
+Q020,semantic_catalogue,corner shower caddy,name,ORG-023 | ORG-024 | ORG-045 | ORG-035 | ORG-046,False,0.7639
+Q022,semantic_catalogue,bookcase,name,FUR-044 | FUR-014 | FUR-029 | FUR-009 | FUR-041,False,0.7038
+Q023,semantic_catalogue,tv console,name,FUR-015 | FUR-038 | FUR-043 | FUR-024 | FUR-036,False,0.7046
+Q024,semantic_catalogue,bedside table with 2 drawers,name,FUR-022 | FUR-023 | FUR-024 | FUR-010 | FUR-009,False,0.7564
+Q025,semantic_catalogue,something to separate egg whites from yolks,precise,KIT-002 | KIT-001 | ORG-015 | KIT-041 | KIT-053,False,0.7308
+Q028,semantic_catalogue,scrape sticky dough off the counter,precise,KIT-007 | KIT-008 | ORG-034 | KIT-002 | KIT-033,False,0.6861
+Q029,semantic_catalogue,dry lettuce after washing it,precise,KIT-009 | KIT-010 | ORG-034 | KIT-040 | KIT-039,False,0.6277
+Q031,semantic_catalogue,strain lumps out of a sauce,precise,KIT-013 | KIT-011 | KIT-052 | KIT-014 | KIT-049,False,0.6497
+Q032,semantic_catalogue,flip rotis without burning my fingers,precise,KIT-027 | KIT-044 | KIT-025 | KIT-026 | KIT-053,False,0.6243
+Q033,semantic_catalogue,grind whole spices at home,precise,KIT-023 | KIT-028 | KIT-025 | KIT-024 | KIT-046,False,0.5975
+Q034,semantic_catalogue,zest a lemon for baking,precise,KIT-041 | KIT-002 | KIT-007 | KIT-008 | KIT-042,False,0.5936
+Q035,semantic_catalogue,open a jar lid that is stuck,precise,KIT-032 | KIT-033 | ORG-032 | KIT-034 | ORG-021,False,0.6275
+Q037,semantic_catalogue,cut fresh coriander quickly,precise,KIT-039 | KIT-057 | KIT-056 | KIT-048 | KIT-003,False,0.6606
+Q039,semantic_catalogue,stop oil splashing everywhere while frying,precise,KIT-049 | KIT-053 | KIT-035 | KIT-034 | KIT-027,False,0.6459
+Q040,semantic_catalogue,whip cream for a birthday cake,precise,KIT-008 | KIT-025 | KIT-002 | KIT-055 | KIT-001,True,0.5793
+Q042,semantic_catalogue,check that a picture frame is hanging straight,precise,TOL-002 | TOL-003 | TOL-001 | TOL-031 | ORG-035,False,0.6104
+Q043,semantic_catalogue,fix the tiny screws on my phone,precise,TOL-007 | TOL-006 | TOL-039 | TOL-036 | ORG-012,False,0.6646
+Q045,semantic_catalogue,seal the gap around the bathtub,precise,TOL-041 | TOL-014 | TOL-017 | TOL-016 | ORG-023,False,0.6042
+Q046,semantic_catalogue,protect my TV and fridge from voltage spikes,precise,TOL-028 | TOL-009 | ORG-008 | TOL-026 | TOL-027,False,0.6275
+Q047,semantic_catalogue,hold two pieces of wood together while the glue dries,precise,TOL-032 | ORG-012 | TOL-013 | TOL-042 | KIT-027,False,0.6743
+Q049,semantic_catalogue,stop water leaking from a pipe thread,precise,TOL-041 | TOL-015 | TOL-018 | TOL-016 | TOL-017,False,0.6795
+Q051,semantic_catalogue,keep earrings and necklaces from getting tangled,precise,ORG-018 | ORG-009 | ORG-020 | ORG-004 | ORG-036,False,0.6878
+Q052,semantic_catalogue,remember which tablets to take each day,precise,ORG-045 | ORG-044 | ORG-037 | ORG-015 | ORG-042,False,0.6597
+Q054,semantic_catalogue,stand to hold the Quran while reading,precise,FUR-032 | FUR-036 | ORG-030 | FUR-033 | FUR-019,False,0.6213
+Q055,semantic_catalogue,raise my computer screen to eye level,precise,FUR-034 | FUR-033 | FUR-020 | FUR-019 | FUR-037,False,0.6709
+Q056,semantic_catalogue,use my laptop comfortably in bed,precise,FUR-019 | FUR-020 | FUR-037 | FUR-033 | FUR-012,False,0.7093
+Q057,semantic_catalogue,my rotis go cold before everyone sits down to eat,vague,KIT-044 | KIT-046 | KIT-045 | KIT-017 | KIT-015,False,0.6706
+Q059,semantic_catalogue,milk keeps spilling over on the stove,vague,KIT-053 | KIT-049 | KIT-051 | KIT-034 | KIT-011,False,0.5953
+Q060,semantic_catalogue,my drawers are a jumble of small things,vague,ORG-004 | ORG-043 | ORG-018 | ORG-003 | ORG-029,False,0.6909
+Q061,semantic_catalogue,too many cables tangled behind the TV,vague,ORG-012 | ORG-011 | TOL-043 | ORG-042 | FUR-015,False,0.6354
+Q062,semantic_catalogue,I keep losing my keys at home,vague,ORG-025 | FUR-025 | ORG-010 | ORG-046 | ORG-018,False,0.6271
+Q063,semantic_catalogue,my back hurts after long hours at the computer,vague,FUR-012 | FUR-037 | FUR-013 | FUR-033 | FUR-020,False,0.6498
+Q064,semantic_catalogue,my mother finds it hard to sit on the floor for namaz,vague,FUR-032 | FUR-035 | FUR-002 | FUR-036 | FUR-001,False,0.7131
+Q066,semantic_catalogue,the kitchen sink drains really slowly,vague,TOL-018 | TOL-017 | TOL-016 | ORG-034 | ORG-033,False,0.6069
+Q067,semantic_catalogue,guests are staying over and we have no spare bed,vague,FUR-021 | FUR-042 | FUR-018 | FUR-019 | FUR-007,False,0.6646
+Q069,semantic_catalogue,plastic shopping bags are piling up in the kitchen,vague,ORG-035 | ORG-014 | ORG-034 | ORG-004 | ORG-015,False,0.6625
+Q072,semantic_catalogue,the kids' room is too small for two beds,vague,FUR-042 | FUR-011 | FUR-021 | FUR-040 | FUR-010,False,0.6547
+Q074,semantic_catalogue,pressure cooker under 5000,constraint,KIT-022 | KIT-053 | KIT-019 | KIT-006 | KIT-043,False,0.7062
+Q075,semantic_catalogue,tawa that is in stock,constraint,KIT-017 | KIT-018 | KIT-045 | KIT-026 | KIT-019,False,0.7513
+Q077,semantic_catalogue,knife sharpener under 1500,constraint,KIT-058 | KIT-006 | KIT-039 | KIT-048 | KIT-007,False,0.731
+Q079,semantic_catalogue,"something to dry clothes on the balcony, max 2500",constraint,ORG-040 | ORG-020 | ORG-010 | ORG-036 | ORG-034,False,0.7211
+Q080,semantic_catalogue,kitchen scale 2000 tak,constraint,KIT-036 | KIT-051 | KIT-007 | ORG-038 | KIT-038,False,0.7394
+Q082,semantic_catalogue,"study desk under 10,000",constraint,FUR-019 | FUR-011 | FUR-020 | FUR-034 | FUR-022,False,0.7359
+Q083,semantic_catalogue,"storage for winter blankets under 2000, in stock",constraint,ORG-016 | ORG-008 | ORG-019 | ORG-020 | ORG-018,False,0.6469
+Q084,semantic_catalogue,mortar and pestle under 3000 in stock,constraint,KIT-028 | KIT-006 | KIT-059 | KIT-025 | KIT-046,False,0.7089
+Q085,semantic_catalogue,sasta spice box 3000 tak,constraint,KIT-023 | ORG-013 | KIT-026 | KIT-046 | KIT-035,False,0.7105
+Q086,semantic_catalogue,pyaz barik katne wali cheez,urdu,KIT-057 | KIT-056 | KIT-003 | KIT-048 | KIT-045,False,0.688
+Q088,semantic_catalogue,roti garam rakhne ka dabba,urdu,KIT-044 | KIT-023 | KIT-043 | KIT-024 | KIT-046,False,0.7354
+Q089,semantic_catalogue,lassi banane wali madhani,urdu,KIT-025 | KIT-029 | KIT-023 | FUR-035 | KIT-026,False,0.6945
+Q092,semantic_catalogue,namaz ke liye kursi,urdu,FUR-032 | FUR-035 | FUR-036 | FUR-002 | FUR-001,False,0.7125
+Q094,semantic_catalogue,jootay rakhne ki rack,urdu,ORG-026 | ORG-027 | FUR-043 | ORG-009 | FUR-009,False,0.7165
+Q095,semantic_catalogue,chhat ka pankha saaf karne ke liye seedhi,urdu,TOL-024 | TOL-025 | KIT-026 | KIT-025 | FUR-028,False,0.615
+Q096,semantic_catalogue,پیاز کاٹنے والی مشین,urdu,KIT-057 | KIT-056 | KIT-048 | KIT-003 | KIT-040,False,0.6723
+Q097,semantic_catalogue,دودھ ابلنے سے روکنے والی چیز,urdu,KIT-053 | KIT-025 | KIT-026 | KIT-046 | KIT-006,False,0.6325
+Q098,semantic_catalogue,قرآن رکھنے کا اسٹینڈ,urdu,FUR-036 | FUR-032 | ORG-046 | ORG-030 | KIT-025,False,0.6828
+Q099,semantic_catalogue,refrigerator,no_match,ORG-014 | ORG-015 | KIT-023 | ORG-002 | ORG-045,False,0.6462
+Q100,semantic_catalogue,split air conditioner 1.5 ton,no_match,TOL-024 | FUR-029 | TOL-004 | FUR-026 | KIT-055,True,0.5556
+Q102,semantic_catalogue,prayer mat,no_match,FUR-032 | FUR-036 | FUR-035 | KIT-045 | FUR-003,False,0.6614
+Q103,semantic_catalogue,mosquito net for a bed,no_match,FUR-003 | FUR-042 | FUR-023 | ORG-016 | FUR-019,False,0.6086
+Q104,semantic_catalogue,gas heater for winter,no_match,FUR-017 | FUR-018 | FUR-035 | FUR-013 | FUR-007,True,0.5589
+Q106,semantic_catalogue,laptop bag,no_match,FUR-019 | FUR-020 | ORG-011 | ORG-035 | FUR-007,False,0.5935
+Q107,semantic_catalogue,scanner for documents,no_match,TOL-001 | TOL-012 | ORG-030 | KIT-036 | TOL-008,False,0.6248
+Q108,semantic_catalogue,hair curling tongs,no_match,KIT-027 | TOL-038 | KIT-026 | TOL-021 | TOL-013,False,0.6084
+Q109,semantic_catalogue,office chair under Rs 10000,no_match,FUR-018 | FUR-007 | FUR-037 | FUR-032 | FUR-005,False,0.7042
+Q112,semantic_catalogue,separator for my clothes in the drawer,trap,ORG-043 | ORG-003 | ORG-004 | ORG-019 | ORG-022,False,0.7128
+Q114,semantic_catalogue,cover for a bean bag,trap,FUR-008 | FUR-007 | FUR-005 | FUR-004 | ORG-016,False,0.7368
+Q001,semantic_definitions,aluminium pressure cooker,name,KIT-020 | KIT-022 | KIT-021 | KIT-019 | KIT-041,False,0.7666
+Q003,semantic_definitions,iron karahi with two handles,name,KIT-018 | KIT-019 | KIT-015 | KIT-017 | KIT-016,False,0.8006
+Q004,semantic_definitions,heavy-duty zinc alloy garlic press,name,KIT-005 | KIT-006 | KIT-041 | KIT-029 | KIT-030,False,0.8138
+Q006,semantic_definitions,digital kitchen scale,name,KIT-036 | KIT-037 | KIT-051 | KIT-038 | KIT-007,False,0.7489
+Q007,semantic_definitions,electric hand mixer,name,KIT-054 | KIT-055 | KIT-025 | KIT-042 | KIT-040,False,0.7417
+Q010,semantic_definitions,aluminium spirit level,name,TOL-002 | TOL-003 | TOL-024 | TOL-011 | KIT-041,False,0.7454
+Q011,semantic_definitions,measuring tape,name,TOL-011 | TOL-010 | TOL-012 | TOL-003 | TOL-002,False,0.6881
+Q012,semantic_definitions,digital multimeter,name,TOL-008 | TOL-012 | TOL-009 | TOL-001 | KIT-036,False,0.717
+Q013,semantic_definitions,aluminium step ladder,name,TOL-024 | TOL-025 | FUR-028 | TOL-002 | KIT-020,False,0.734
+Q014,semantic_definitions,claw hammer,name,TOL-022 | TOL-005 | TOL-023 | TOL-031 | TOL-015,False,0.7474
+Q016,semantic_definitions,stackable shoe rack,name,ORG-026 | ORG-009 | ORG-027 | FUR-009 | ORG-019,False,0.7485
+Q017,semantic_definitions,2-tier dish drying rack with drainboard,name,ORG-033 | ORG-034 | ORG-001 | ORG-006 | ORG-023,False,0.7717
+Q018,semantic_definitions,velvet hangers,name,ORG-020 | ORG-019 | ORG-036 | ORG-018 | ORG-010,False,0.7738
+Q020,semantic_definitions,corner shower caddy,name,ORG-023 | ORG-024 | ORG-002 | FUR-029 | ORG-001,False,0.7695
+Q022,semantic_definitions,bookcase,name,FUR-044 | FUR-014 | FUR-029 | FUR-041 | FUR-023,False,0.6882
+Q023,semantic_definitions,tv console,name,FUR-015 | FUR-038 | FUR-044 | FUR-024 | FUR-043,False,0.6843
+Q024,semantic_definitions,bedside table with 2 drawers,name,FUR-022 | FUR-023 | FUR-024 | FUR-006 | FUR-010,False,0.7492
+Q025,semantic_definitions,something to separate egg whites from yolks,precise,KIT-001 | KIT-002 | ORG-015 | KIT-053 | KIT-008,False,0.7633
+Q028,semantic_definitions,scrape sticky dough off the counter,precise,KIT-007 | KIT-008 | ORG-034 | KIT-033 | KIT-002,False,0.7049
+Q029,semantic_definitions,dry lettuce after washing it,precise,KIT-009 | KIT-010 | ORG-034 | KIT-040 | ORG-033,False,0.6651
+Q031,semantic_definitions,strain lumps out of a sauce,precise,KIT-013 | KIT-011 | KIT-014 | KIT-030 | KIT-052,False,0.6715
+Q032,semantic_definitions,flip rotis without burning my fingers,precise,KIT-026 | KIT-027 | KIT-017 | KIT-015 | KIT-044,False,0.6857
+Q033,semantic_definitions,grind whole spices at home,precise,KIT-028 | KIT-029 | KIT-023 | KIT-024 | KIT-025,False,0.6596
+Q034,semantic_definitions,zest a lemon for baking,precise,KIT-030 | KIT-041 | KIT-007 | KIT-008 | KIT-001,False,0.6206
+Q035,semantic_definitions,open a jar lid that is stuck,precise,KIT-033 | KIT-032 | ORG-032 | TOL-016 | ORG-021,False,0.6751
+Q037,semantic_definitions,cut fresh coriander quickly,precise,KIT-039 | KIT-056 | KIT-057 | KIT-003 | KIT-004,False,0.6859
+Q039,semantic_definitions,stop oil splashing everywhere while frying,precise,KIT-049 | KIT-053 | KIT-035 | KIT-034 | KIT-011,False,0.6989
+Q040,semantic_definitions,whip cream for a birthday cake,precise,KIT-054 | KIT-008 | KIT-055 | KIT-035 | KIT-007,True,0.5888
+Q042,semantic_definitions,check that a picture frame is hanging straight,precise,TOL-003 | TOL-002 | TOL-036 | TOL-001 | TOL-042,False,0.7077
+Q043,semantic_definitions,fix the tiny screws on my phone,precise,TOL-006 | TOL-007 | TOL-039 | TOL-036 | TOL-004,False,0.6985
+Q045,semantic_definitions,seal the gap around the bathtub,precise,TOL-014 | TOL-041 | TOL-042 | TOL-017 | KIT-033,False,0.6364
+Q046,semantic_definitions,protect my TV and fridge from voltage spikes,precise,TOL-028 | ORG-011 | TOL-009 | TOL-008 | TOL-026,False,0.6404
+Q047,semantic_definitions,hold two pieces of wood together while the glue dries,precise,TOL-032 | ORG-012 | TOL-013 | TOL-042 | TOL-023,False,0.7117
+Q049,semantic_definitions,stop water leaking from a pipe thread,precise,TOL-041 | TOL-015 | TOL-014 | TOL-031 | TOL-018,False,0.684
+Q051,semantic_definitions,keep earrings and necklaces from getting tangled,precise,ORG-018 | ORG-004 | ORG-020 | ORG-036 | ORG-019,False,0.7057
+Q052,semantic_definitions,remember which tablets to take each day,precise,ORG-045 | ORG-044 | ORG-004 | KIT-033 | ORG-042,False,0.6749
+Q054,semantic_definitions,stand to hold the Quran while reading,precise,FUR-036 | FUR-032 | FUR-019 | ORG-030 | FUR-020,False,0.67
+Q055,semantic_definitions,raise my computer screen to eye level,precise,FUR-034 | FUR-033 | FUR-020 | FUR-037 | FUR-012,False,0.7045
+Q056,semantic_definitions,use my laptop comfortably in bed,precise,FUR-019 | FUR-020 | FUR-033 | FUR-011 | FUR-037,False,0.7388
+Q057,semantic_definitions,my rotis go cold before everyone sits down to eat,vague,KIT-044 | KIT-046 | KIT-015 | KIT-017 | KIT-026,False,0.6575
+Q059,semantic_definitions,milk keeps spilling over on the stove,vague,KIT-053 | KIT-049 | KIT-051 | KIT-001 | KIT-025,False,0.6305
+Q060,semantic_definitions,my drawers are a jumble of small things,vague,ORG-004 | ORG-043 | ORG-029 | ORG-017 | ORG-003,False,0.694
+Q061,semantic_definitions,too many cables tangled behind the TV,vague,ORG-012 | ORG-011 | TOL-043 | FUR-015 | ORG-042,False,0.6472
+Q062,semantic_definitions,I keep losing my keys at home,vague,ORG-025 | ORG-010 | FUR-025 | FUR-038 | ORG-042,False,0.63
+Q063,semantic_definitions,my back hurts after long hours at the computer,vague,FUR-012 | FUR-033 | FUR-037 | FUR-013 | FUR-020,False,0.662
+Q064,semantic_definitions,my mother finds it hard to sit on the floor for namaz,vague,FUR-032 | FUR-035 | FUR-001 | FUR-013 | FUR-028,False,0.7299
+Q066,semantic_definitions,the kitchen sink drains really slowly,vague,TOL-018 | TOL-016 | ORG-001 | ORG-002 | TOL-017,False,0.626
+Q067,semantic_definitions,guests are staying over and we have no spare bed,vague,FUR-021 | FUR-042 | FUR-003 | FUR-018 | FUR-035,False,0.653
+Q069,semantic_definitions,plastic shopping bags are piling up in the kitchen,vague,ORG-035 | ORG-014 | ORG-004 | ORG-002 | ORG-016,False,0.654
+Q072,semantic_definitions,the kids' room is too small for two beds,vague,FUR-042 | FUR-040 | FUR-011 | ORG-017 | ORG-016,False,0.6739
+Q074,semantic_definitions,pressure cooker under 5000,constraint,KIT-022 | KIT-053 | KIT-043 | KIT-005 | KIT-006,False,0.7116
+Q075,semantic_definitions,tawa that is in stock,constraint,KIT-017 | KIT-018 | KIT-019 | KIT-026 | KIT-046,False,0.7609
+Q077,semantic_definitions,knife sharpener under 1500,constraint,KIT-058 | KIT-039 | KIT-006 | KIT-007 | KIT-031,False,0.7365
+Q079,semantic_definitions,"something to dry clothes on the balcony, max 2500",constraint,ORG-040 | ORG-020 | ORG-036 | ORG-041 | ORG-019,False,0.6963
+Q080,semantic_definitions,kitchen scale 2000 tak,constraint,KIT-036 | KIT-038 | KIT-051 | KIT-007 | ORG-038,False,0.74
+Q082,semantic_definitions,"study desk under 10,000",constraint,FUR-011 | FUR-019 | FUR-020 | FUR-022 | FUR-040,False,0.7275
+Q083,semantic_definitions,"storage for winter blankets under 2000, in stock",constraint,ORG-016 | ORG-008 | ORG-019 | ORG-020 | ORG-041,False,0.6561
+Q084,semantic_definitions,mortar and pestle under 3000 in stock,constraint,KIT-028 | KIT-006 | KIT-059 | KIT-025 | KIT-005,False,0.7211
+Q085,semantic_definitions,sasta spice box 3000 tak,constraint,KIT-023 | ORG-013 | ORG-006 | ORG-032 | KIT-028,False,0.7257
+Q086,semantic_definitions,pyaz barik katne wali cheez,urdu,KIT-003 | KIT-056 | KIT-047 | KIT-057 | KIT-004,False,0.7117
+Q088,semantic_definitions,roti garam rakhne ka dabba,urdu,KIT-044 | KIT-043 | KIT-023 | ORG-031 | KIT-046,False,0.7625
+Q089,semantic_definitions,lassi banane wali madhani,urdu,KIT-025 | KIT-029 | KIT-006 | KIT-028 | KIT-023,False,0.7255
+Q092,semantic_definitions,namaz ke liye kursi,urdu,FUR-032 | FUR-002 | FUR-035 | FUR-036 | FUR-013,False,0.7564
+Q094,semantic_definitions,jootay rakhne ki rack,urdu,ORG-026 | ORG-027 | ORG-009 | FUR-043 | FUR-009,False,0.7785
+Q095,semantic_definitions,chhat ka pankha saaf karne ke liye seedhi,urdu,TOL-024 | TOL-025 | FUR-028 | TOL-018 | TOL-016,False,0.6689
+Q096,semantic_definitions,پیاز کاٹنے والی مشین,urdu,KIT-056 | KIT-057 | KIT-048 | KIT-003 | KIT-039,False,0.7048
+Q097,semantic_definitions,دودھ ابلنے سے روکنے والی چیز,urdu,KIT-053 | KIT-025 | KIT-028 | KIT-049 | KIT-006,False,0.6615
+Q098,semantic_definitions,قرآن رکھنے کا اسٹینڈ,urdu,FUR-036 | FUR-025 | ORG-046 | FUR-027 | FUR-014,False,0.7364
+Q099,semantic_definitions,refrigerator,no_match,ORG-014 | ORG-015 | ORG-009 | KIT-023 | KIT-042,False,0.6338
+Q100,semantic_definitions,split air conditioner 1.5 ton,no_match,TOL-024 | FUR-026 | FUR-042 | FUR-044 | ORG-039,True,0.5464
+Q102,semantic_definitions,prayer mat,no_match,FUR-032 | FUR-035 | FUR-036 | KIT-050 | FUR-003,False,0.6576
+Q103,semantic_definitions,mosquito net for a bed,no_match,FUR-042 | FUR-003 | ORG-016 | FUR-008 | ORG-040,False,0.6148
+Q104,semantic_definitions,gas heater for winter,no_match,TOL-027 | FUR-035 | TOL-026 | FUR-025 | TOL-029,True,0.558
+Q106,semantic_definitions,laptop bag,no_match,ORG-007 | FUR-008 | FUR-020 | FUR-019 | ORG-041,True,0.57
+Q107,semantic_definitions,scanner for documents,no_match,TOL-001 | TOL-012 | ORG-030 | FUR-034 | ORG-029,False,0.6081
+Q108,semantic_definitions,hair curling tongs,no_match,KIT-027 | KIT-026 | TOL-021 | TOL-038 | KIT-039,False,0.6232
+Q109,semantic_definitions,office chair under Rs 10000,no_match,FUR-018 | FUR-007 | FUR-037 | FUR-004 | FUR-032,False,0.6869
+Q112,semantic_definitions,separator for my clothes in the drawer,trap,ORG-043 | ORG-004 | ORG-003 | ORG-022 | ORG-029,False,0.7216
+Q114,semantic_definitions,cover for a bean bag,trap,FUR-008 | FUR-007 | FUR-005 | FUR-004 | ORG-016,False,0.7588
+Q001,hybrid,aluminium pressure cooker,name,KIT-020 | KIT-022 | KIT-021 | KIT-019 | KIT-041,False,0.7666
+Q003,hybrid,iron karahi with two handles,name,KIT-018 | KIT-019 | KIT-015 | KIT-017 | KIT-016,False,0.8006
+Q004,hybrid,heavy-duty zinc alloy garlic press,name,KIT-005 | KIT-006 | KIT-041 | TOL-014 | TOL-017,False,0.8138
+Q006,hybrid,digital kitchen scale,name,KIT-036 | KIT-037 | KIT-007 | TOL-008 | ORG-005,False,0.7489
+Q007,hybrid,electric hand mixer,name,KIT-054 | KIT-055 | KIT-025 | KIT-042 | KIT-040,False,0.7417
+Q010,hybrid,aluminium spirit level,name,TOL-002 | TOL-003 | TOL-024 | KIT-041 | TOL-011,False,0.7454
+Q011,hybrid,measuring tape,name,TOL-011 | TOL-010 | TOL-012 | TOL-003 | KIT-007,False,0.6881
+Q012,hybrid,digital multimeter,name,TOL-008 | KIT-036 | KIT-037 | TOL-012 | TOL-009,False,0.717
+Q013,hybrid,aluminium step ladder,name,TOL-024 | TOL-025 | FUR-028 | TOL-002 | FUR-014,False,0.734
+Q014,hybrid,claw hammer,name,TOL-022 | TOL-005 | TOL-023 | TOL-031 | TOL-015,False,0.7474
+Q016,hybrid,stackable shoe rack,name,ORG-026 | ORG-009 | ORG-027 | FUR-009 | FUR-043,False,0.7485
+Q017,hybrid,2-tier dish drying rack with drainboard,name,ORG-033 | ORG-034 | ORG-001 | ORG-006 | ORG-027,False,0.7717
+Q018,hybrid,velvet hangers,name,ORG-020 | ORG-036 | ORG-018 | ORG-019 | ORG-010,False,0.7738
+Q020,hybrid,corner shower caddy,name,ORG-023 | ORG-024 | FUR-029 | ORG-002 | ORG-001,False,0.7695
+Q022,hybrid,bookcase,name,FUR-044 | FUR-014 | FUR-029 | FUR-041 | FUR-023,False,0.6882
+Q023,hybrid,tv console,name,FUR-015 | FUR-038 | FUR-044 | FUR-024 | FUR-043,False,0.6843
+Q024,hybrid,bedside table with 2 drawers,name,FUR-022 | FUR-023 | FUR-024 | FUR-006 | FUR-009,False,0.7492
+Q025,hybrid,something to separate egg whites from yolks,precise,KIT-001 | KIT-002 | ORG-015 | KIT-053 | KIT-008,False,0.7633
+Q028,hybrid,scrape sticky dough off the counter,precise,KIT-007 | KIT-008 | ORG-034 | KIT-033 | KIT-002,False,0.7049
+Q029,hybrid,dry lettuce after washing it,precise,KIT-009 | KIT-010 | ORG-034 | KIT-040 | ORG-033,False,0.6651
+Q031,hybrid,strain lumps out of a sauce,precise,KIT-013 | KIT-011 | KIT-014 | KIT-030 | KIT-052,False,0.6715
+Q032,hybrid,flip rotis without burning my fingers,precise,KIT-044 | KIT-026 | KIT-027 | KIT-017 | KIT-047,False,0.6857
+Q033,hybrid,grind whole spices at home,precise,KIT-028 | KIT-029 | ORG-013 | KIT-023 | KIT-024,False,0.6596
+Q034,hybrid,zest a lemon for baking,precise,KIT-041 | KIT-008 | KIT-007 | KIT-030 | KIT-001,False,0.6206
+Q035,hybrid,open a jar lid that is stuck,precise,KIT-033 | KIT-032 | ORG-032 | ORG-021 | KIT-024,False,0.6751
+Q037,hybrid,cut fresh coriander quickly,precise,KIT-039 | KIT-056 | KIT-057 | KIT-003 | KIT-004,False,0.6859
+Q039,hybrid,stop oil splashing everywhere while frying,precise,KIT-035 | KIT-034 | KIT-049 | KIT-053 | KIT-011,False,0.6989
+Q040,hybrid,whip cream for a birthday cake,precise,KIT-054 | KIT-008 | KIT-055 | KIT-035 | KIT-007,True,0.5888
+Q042,hybrid,check that a picture frame is hanging straight,precise,TOL-003 | TOL-002 | TOL-031 | TOL-036 | ORG-018,False,0.7077
+Q043,hybrid,fix the tiny screws on my phone,precise,TOL-036 | TOL-006 | TOL-007 | TOL-039 | TOL-005,False,0.6985
+Q045,hybrid,seal the gap around the bathtub,precise,TOL-041 | TOL-014 | TOL-042 | TOL-017 | ORG-007,False,0.6364
+Q046,hybrid,protect my TV and fridge from voltage spikes,precise,TOL-009 | TOL-008 | TOL-028 | ORG-014 | ORG-011,False,0.6404
+Q047,hybrid,hold two pieces of wood together while the glue dries,precise,TOL-013 | TOL-032 | ORG-012 | TOL-023 | TOL-042,False,0.7117
+Q049,hybrid,stop water leaking from a pipe thread,precise,TOL-041 | TOL-015 | TOL-014 | TOL-031 | TOL-018,False,0.684
+Q051,hybrid,keep earrings and necklaces from getting tangled,precise,ORG-018 | ORG-004 | ORG-020 | ORG-036 | ORG-019,False,0.7057
+Q052,hybrid,remember which tablets to take each day,precise,ORG-045 | ORG-044 | ORG-004 | KIT-033 | ORG-042,False,0.6749
+Q054,hybrid,stand to hold the Quran while reading,precise,FUR-036 | FUR-025 | FUR-032 | FUR-019 | ORG-039,False,0.67
+Q055,hybrid,raise my computer screen to eye level,precise,FUR-034 | FUR-033 | FUR-020 | FUR-037 | FUR-012,False,0.7045
+Q056,hybrid,use my laptop comfortably in bed,precise,FUR-019 | FUR-020 | FUR-033 | ORG-017 | FUR-021,False,0.7388
+Q057,hybrid,my rotis go cold before everyone sits down to eat,vague,KIT-044 | KIT-046 | KIT-015 | KIT-017 | KIT-043,False,0.6575
+Q059,hybrid,milk keeps spilling over on the stove,vague,KIT-053 | KIT-049 | KIT-051 | KIT-001 | KIT-025,False,0.6305
+Q060,hybrid,my drawers are a jumble of small things,vague,ORG-004 | ORG-043 | ORG-003 | ORG-029 | ORG-017,False,0.694
+Q061,hybrid,too many cables tangled behind the TV,vague,ORG-012 | ORG-011 | FUR-015 | TOL-043 | TOL-018,False,0.6472
+Q062,hybrid,I keep losing my keys at home,vague,ORG-025 | ORG-010 | FUR-025 | FUR-038 | ORG-042,False,0.63
+Q063,hybrid,my back hurts after long hours at the computer,vague,FUR-012 | FUR-013 | FUR-033 | FUR-037 | FUR-020,False,0.662
+Q064,hybrid,my mother finds it hard to sit on the floor for namaz,vague,FUR-035 | FUR-032 | FUR-001 | FUR-013 | FUR-028,False,0.7299
+Q066,hybrid,the kitchen sink drains really slowly,vague,TOL-018 | ORG-001 | ORG-002 | ORG-034 | TOL-016,False,0.626
+Q067,hybrid,guests are staying over and we have no spare bed,vague,FUR-021 | FUR-042 | FUR-003 | FUR-019 | FUR-018,False,0.653
+Q069,hybrid,plastic shopping bags are piling up in the kitchen,vague,ORG-035 | ORG-004 | ORG-014 | ORG-016 | ORG-008,False,0.654
+Q072,hybrid,the kids' room is too small for two beds,vague,FUR-040 | FUR-042 | ORG-017 | ORG-016 | FUR-021,False,0.6739
+Q074,hybrid,pressure cooker under 5000,constraint,KIT-022 | KIT-053 | KIT-043 | KIT-005 | KIT-006,False,0.7116
+Q075,hybrid,tawa that is in stock,constraint,KIT-017 | KIT-018 | KIT-019 | KIT-026 | KIT-046,False,0.7609
+Q077,hybrid,knife sharpener under 1500,constraint,KIT-058 | KIT-039 | TOL-030 | KIT-006 | KIT-007,False,0.7365
+Q079,hybrid,"something to dry clothes on the balcony, max 2500",constraint,ORG-040 | ORG-020 | ORG-036 | ORG-041 | ORG-019,False,0.6963
+Q080,hybrid,kitchen scale 2000 tak,constraint,KIT-036 | KIT-007 | KIT-038 | ORG-005 | KIT-051,False,0.74
+Q082,hybrid,"study desk under 10,000",constraint,FUR-011 | FUR-019 | FUR-020 | ORG-029 | FUR-022,False,0.7275
+Q083,hybrid,"storage for winter blankets under 2000, in stock",constraint,ORG-016 | ORG-008 | ORG-019 | ORG-020 | ORG-032,False,0.6561
+Q084,hybrid,mortar and pestle under 3000 in stock,constraint,KIT-028 | KIT-006 | KIT-059 | KIT-025 | KIT-005,False,0.7211
+Q085,hybrid,sasta spice box 3000 tak,constraint,ORG-013 | KIT-023 | ORG-044 | KIT-044 | ORG-006,False,0.7257
+Q086,hybrid,pyaz barik katne wali cheez,urdu,KIT-003 | KIT-056 | KIT-047 | KIT-057 | KIT-004,False,0.7117
+Q088,hybrid,roti garam rakhne ka dabba,urdu,KIT-044 | KIT-023 | KIT-043 | ORG-031 | KIT-046,False,0.7625
+Q089,hybrid,lassi banane wali madhani,urdu,KIT-025 | KIT-029 | KIT-006 | KIT-028 | KIT-023,False,0.7255
+Q092,hybrid,namaz ke liye kursi,urdu,FUR-032 | FUR-002 | FUR-035 | FUR-036 | FUR-013,False,0.7564
+Q094,hybrid,jootay rakhne ki rack,urdu,ORG-026 | ORG-027 | ORG-010 | ORG-009 | FUR-043,False,0.7785
+Q095,hybrid,chhat ka pankha saaf karne ke liye seedhi,urdu,TOL-024 | TOL-025 | FUR-028 | TOL-018 | TOL-016,False,0.6689
+Q096,hybrid,پیاز کاٹنے والی مشین,urdu,KIT-056 | KIT-057 | KIT-048 | KIT-003 | KIT-039,False,0.7048
+Q097,hybrid,دودھ ابلنے سے روکنے والی چیز,urdu,KIT-053 | KIT-025 | KIT-028 | KIT-049 | KIT-006,False,0.6615
+Q098,hybrid,قرآن رکھنے کا اسٹینڈ,urdu,FUR-036 | FUR-025 | ORG-046 | FUR-027 | FUR-014,False,0.7364
+Q099,hybrid,refrigerator,no_match,ORG-014 | ORG-015 | ORG-009 | KIT-023 | KIT-042,False,0.6338
+Q100,hybrid,split air conditioner 1.5 ton,no_match,TOL-024 | FUR-044 | FUR-026 | FUR-042 | ORG-039,False,0.5464
+Q102,hybrid,prayer mat,no_match,FUR-032 | KIT-050 | FUR-035 | FUR-036 | FUR-003,False,0.6576
+Q103,hybrid,mosquito net for a bed,no_match,FUR-042 | ORG-016 | FUR-003 | FUR-019 | ORG-017,False,0.6148
+Q104,hybrid,gas heater for winter,no_match,TOL-027 | FUR-035 | FUR-033 | TOL-026 | FUR-025,True,0.558
+Q106,hybrid,laptop bag,no_match,ORG-007 | FUR-008 | FUR-020 | FUR-019 | ORG-035,False,0.57
+Q107,hybrid,scanner for documents,no_match,TOL-001 | TOL-012 | ORG-030 | FUR-034 | ORG-029,False,0.6081
+Q108,hybrid,hair curling tongs,no_match,KIT-027 | KIT-026 | TOL-021 | TOL-038 | KIT-039,False,0.6232
+Q109,hybrid,office chair under Rs 10000,no_match,FUR-018 | FUR-007 | FUR-032 | FUR-037 | FUR-004,False,0.6869
+Q112,hybrid,separator for my clothes in the drawer,trap,ORG-043 | ORG-004 | ORG-003 | ORG-022 | ORG-029,False,0.7216
+Q114,hybrid,cover for a bean bag,trap,FUR-008 | FUR-007 | ORG-016 | FUR-035 | ORG-008,False,0.7588

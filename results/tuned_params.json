@@ -1,0 +1,27 @@
+{
+ "keyword": {},
+ "semantic_catalogue": {
+  "no_match_similarity": 0.59,
+  "strong_keyword_score": 6.0
+ },
+ "semantic_definitions": {
+  "no_match_similarity": 0.6,
+  "strong_keyword_score": 6.0
+ },
+ "hybrid": {
+  "rrf_k": 10,
+  "w_semantic": 3.0,
+  "w_keyword": 1.0,
+  "no_match_similarity": 0.6,
+  "strong_keyword_score": 6.0
+ },
+ "live": {
+  "no_match_similarity": 0.6,
+  "strong_keyword_score": 6.0,
+  "ctx_scale": 1.0,
+  "b_page": 0.003,
+  "b_cat_browsed": 0.0015,
+  "b_type": 0.0,
+  "b_price": 0.01
+ }
+}

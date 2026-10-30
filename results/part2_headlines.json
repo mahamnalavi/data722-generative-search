@@ -1,0 +1,10 @@
+{
+ "keyword_miss_rate": {
+  "all_answerable": 0.357,
+  "utility_queries_only": 0.472
+ },
+ "name_hit1": {
+  "keyword": 1.0,
+  "hybrid": 1.0
+ }
+}
