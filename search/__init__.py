@@ -38,11 +38,12 @@ def embed_query(query: str) -> tuple:
     return tuple(_embedder().embed([query], kind="query", task="embed_live_query", retries=1)[0])
 
 
-def search(query: str, mode: str = "hybrid", context: dict | None = None, k: int = 10,
+def search(query: str, mode: str | None = None, context: dict | None = None, k: int = 10,
            constraints: dict | None = None) -> dict:
     """Website entry point. Falls back to keyword search if the AI side is unavailable,
     and says so in the response, so the site never breaks."""
     from . import pipeline
+    mode = mode or pipeline.LIVE_MODE
     t0 = time.perf_counter()
     clean = pipeline.parse_constraints(query)["clean_query"]   # embed without budget/stock words
     fallback_reason = None

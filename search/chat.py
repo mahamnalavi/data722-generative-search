@@ -3,7 +3,8 @@
 One turn = one AI call:
   1. Limits: budget and stock are read by rules from ALL the shopper's messages (a later budget replaces
      an earlier one), so "under 2000" said once still applies to the follow-up "any in stock?".
-  2. Retrieve candidates with the same hybrid search as the search bar, plus page and visit context:
+  2. Retrieve candidates with the same search as the search bar (meaning search on the AI definitions,
+     keyword search if Gemini is unavailable), plus page and visit context:
      once for the latest message and once for the last two shopper messages joined, so both
      follow-ups ("cheaper one?") and topic changes ("now I need a ladder") find candidates.
   3. The chat model (gpt-oss-120b on Groq) picks up to 3 candidates and explains each in one line,
@@ -128,7 +129,7 @@ def respond(messages, context=None, embed_fn=None, llm=None, params=None, k_each
     if embed_fn is not None:
         try:
             vecs = embed_fn([pipeline.parse_constraints(t)["clean_query"].strip().lower() for t in texts])
-            mode = "hybrid"
+            mode = pipeline.LIVE_MODE
         except Exception:
             vecs = None
     candidates, searches = [], []

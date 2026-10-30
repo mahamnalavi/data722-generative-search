@@ -56,6 +56,10 @@ if _LIVE.exists():
 DEF_INDEX = "emb_definitions_v2"
 CAT_INDEX = "emb_catalogue"
 MODES = ("keyword", "semantic_catalogue", "semantic_definitions", "hybrid")
+# The method the website, chat and MCP server use. Switched from "hybrid" on 30 Oct: meaning search on the
+# AI definitions beat the hybrid on dev (Hit@1 0.90 vs 0.84, Hit@5 1.0 vs 0.94) and on test (decision 35).
+# Keyword search remains the automatic backup when Gemini is unavailable.
+LIVE_MODE = "semantic_definitions"
 
 # ---------------- 1. constraints from the query text ----------------
 _NUM = r"(?:rs\.?|pkr)?\s*([\d][\d,]*(?:\.\d+)?)\s*(k)?"

@@ -6,7 +6,7 @@ serverless function. The website files (HTML/CSS/JS) live in static/.
 API endpoints (the "API" concept in this project):
   GET  /api/health     -> is the app up, which search is active, how many products
   GET  /api/catalogue  -> all products (the website draws its pages from this)
-  POST /api/search     -> run a search; body: {"query": "...", "mode": "hybrid", "context": {...}}
+  POST /api/search     -> run a search; body: {"query": "...", "context": {...}} (optional "mode"; default: meaning search on the AI definitions)
   POST /api/chat       -> one "Ask Sahulat" turn; body: {"messages": [{"role": "user", "content": "..."}], "context": {...}}
 
 Secrets (set in Vercel > Settings > Environment Variables, never in code):
@@ -39,7 +39,7 @@ app = FastAPI(title="Sahulat Home search API", version=engine.VERSION)
 
 class SearchRequest(BaseModel):
     query: str = Field(..., min_length=1, max_length=300)
-    mode: str = "hybrid"
+    mode: str | None = None   # default: pipeline.LIVE_MODE (meaning search on the AI definitions)
     context: dict | None = None   # category page + this-visit summary (used from v2)
     k: int = Field(12, ge=1, le=24)
 
@@ -86,7 +86,7 @@ def catalogue():
 
 @app.post("/api/search")
 def run_search(req: SearchRequest):
-    if req.mode not in MODES:
+    if req.mode is not None and req.mode not in MODES:
         raise HTTPException(status_code=400, detail=f"mode must be one of {MODES}")
     return engine.search(req.query, mode=req.mode, context=req.context, k=req.k)
 

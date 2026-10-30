@@ -213,7 +213,7 @@ def context_metrics(rows, ctx_runs, catalogue):
     return m
 
 
-def tune_context(rows, qvecs, catalogue, params,
+def tune_context(rows, qvecs, catalogue, params, mode="hybrid",
                  grid_page=(0.0, 0.003, 0.006), grid_type=(0.0, 0.004, 0.008), grid_price=(0.0, 0.010)):
     """Pick each context weight on DEV. Objective = Hit@1 with a helpful session
     + Hit@5 with a misleading session (help when right, don't lose correct results when wrong)
@@ -223,7 +223,7 @@ def tune_context(rows, qvecs, catalogue, params,
         for bt in grid_type:
             for bpr in grid_price:
                 p = {**params, "ctx_scale": 1.0, "b_page": bp, "b_cat_browsed": bp / 2, "b_type": bt, "b_price": bpr}
-                m = context_metrics(rows, run_with_context(rows, "hybrid", qvecs, catalogue, params=p), catalogue)
+                m = context_metrics(rows, run_with_context(rows, mode, qvecs, catalogue, params=p), catalogue)
                 obj = (m["hit@1_helpful"] or 0) + (m["hit@5_misleading"] or 0) + 0.5 * (m["price_variant_first_helpful"] or 0)
                 table.append({"b_page": bp, "b_type": bt, "b_price": bpr, "objective": round(obj, 3), **m})
     best = max(table, key=lambda t: (t["objective"], -(t["b_page"] + t["b_type"] + t["b_price"])))
@@ -244,7 +244,7 @@ AMBIGUOUS = [
 ]
 
 
-def page_context_check(qvecs_by_word, catalogue, params, k=3):
+def page_context_check(qvecs_by_word, catalogue, params, k=3, mode="hybrid"):
     """For each ambiguous word and page: is a product that fits THAT page in the top k,
     without page context vs with it?"""
     types_of = {}
@@ -256,7 +256,7 @@ def page_context_check(qvecs_by_word, catalogue, params, k=3):
             rel = {pid for t in types for pid in types_of[t]}
             out = {"word": word, "page": page}
             for label, ctx in (("without page", None), ("with page", {"page_category": page, "categories_browsed": {page: 1}})):
-                res = pipeline.run(word, mode="hybrid", query_vec=qvecs_by_word[word], context=ctx, k=k, params=params)
+                res = pipeline.run(word, mode=mode, query_vec=qvecs_by_word[word], context=ctx, k=k, params=params)
                 ids = [r["product_id"] for r in res["results"]]
                 out[f"fits page in top {k}: {label}"] = any(i in rel for i in ids)
                 out[f"top result: {label}"] = res["results"][0]["title"][:40] if res["results"] else "-"

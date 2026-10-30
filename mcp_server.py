@@ -8,7 +8,7 @@ exposes the store's search as two tools:
   get_product(product_id)
 
 Why it is here: an assistant connected to this server can answer shopping questions from
-the store's real catalogue, using the same hybrid search, budget/stock filters and
+the store's real catalogue, using the same meaning search, budget/stock filters and
 "no close match" decision as the website, instead of guessing from its training data.
 The live website does NOT use MCP; its chat calls the search directly as a fixed pipeline
 (decision 3). MCP is the integration layer for other assistants.
@@ -47,7 +47,7 @@ def search_products(query: str, max_price: int | None = None, in_stock: bool = F
     """Find products by name or by what the shopper needs them for.
     max_price (PKR) and in_stock are applied strictly. page_category (Kitchenware, Tools, Organizers,
     Furniture) is an optional soft hint. Returns results, plus no_close_match=true when nothing fits well."""
-    res = search.search(query, mode="hybrid", k=max(1, min(limit, 10)),
+    res = search.search(query, k=max(1, min(limit, 10)),
                         context={"page_category": page_category} if page_category else None,
                         constraints={"max_price": max_price, "in_stock": in_stock})
     return {"results": [_brief(p) for p in res["results"]], "no_close_match": res["no_close_match"],

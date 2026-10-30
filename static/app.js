@@ -219,7 +219,7 @@
     try {
       const res = await fetch("/api/search", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: q, mode: "hybrid", context: visitSummary(from) }),
+        body: JSON.stringify({ query: q, context: visitSummary(from) }),
       });
       if (!res.ok) throw new Error(`The search service replied with error ${res.status}.`);
       data = await res.json();
@@ -230,7 +230,7 @@
     }
     track("searches", { q, from: from || null });
     const n = data.results.length;
-    const how = data.mode === "hybrid" ? "matched by meaning and keywords" : "matched by keywords";
+    const how = data.mode === "keyword" ? "matched by keywords" : data.mode === "hybrid" ? "matched by meaning and keywords" : "matched by meaning";
     document.getElementById("s-meta").textContent =
       `${n} ${n === 1 ? "result" : "results"}, ${how}, in ${data.latency_ms} ms${from ? `. Searched from the ${from} page` : ""}`;
 
