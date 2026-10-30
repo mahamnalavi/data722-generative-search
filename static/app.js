@@ -240,7 +240,7 @@
     const cons = [];
     if (c.max_price) cons.push(`under ${rs(c.max_price)}`);
     if (c.in_stock) cons.push("in stock");
-    if (cons.length) parts.push(`<p class="notice">Showing only items ${cons.join(" and ")}${data.removed_by_constraints ? `. ${data.removed_by_constraints} other matches were left out because they don't fit` : ""}.</p>`);
+    if (cons.length) parts.push(`<p class="notice">Showing only items ${cons.join(" and ")}${data.removed_by_constraints ? ` (${data.removed_by_constraints} other matches left out because they don't fit)` : ""}.</p>`);
     if (!n) {
       parts.push(`<div class="empty"><h2>Nothing in our catalogue fits${cons.length ? " those limits" : ""}</h2><p>Try different words, ${cons.length ? "a higher budget, " : ""}or browse a category.</p></div>`);
     } else if (data.no_close_match) {
