@@ -229,3 +229,35 @@ def tune_context(rows, qvecs, catalogue, params,
     chosen = {"ctx_scale": 1.0, "b_page": best["b_page"], "b_cat_browsed": best["b_page"] / 2,
               "b_type": best["b_type"], "b_price": best["b_price"]}
     return chosen, table
+
+
+# ---------------- page context on ambiguous words ----------------
+# One word, different meaning depending on the page it is searched from. This tests the
+# instructor's "the search knows which category page it was opened from" directly.
+AMBIGUOUS = [
+    ("box", {"Organizers": ["storage_cubes", "under_bed_storage", "medicine_box", "cable_box"],
+             "Tools": ["toolbox"], "Kitchenware": ["masala_dabba", "hot_pot"]}),
+    ("stand", {"Furniture": ["plant_stand", "coat_stand", "rehal"], "Organizers": ["mug_tree", "drying_stand"]}),
+    ("cutter", {"Kitchenware": ["pizza_cutter", "mandoline_slicer", "apple_corer"],
+                "Tools": ["utility_knife", "hacksaw", "wire_stripper"]}),
+]
+
+
+def page_context_check(qvecs_by_word, catalogue, params, k=3):
+    """For each ambiguous word and page: is a product that fits THAT page in the top k,
+    without page context vs with it?"""
+    types_of = {}
+    for p in catalogue:
+        types_of.setdefault(p["product_type"], []).append(p["product_id"])
+    rows = []
+    for word, pages in AMBIGUOUS:
+        for page, types in pages.items():
+            rel = {pid for t in types for pid in types_of[t]}
+            out = {"word": word, "page": page}
+            for label, ctx in (("without page", None), ("with page", {"page_category": page, "categories_browsed": {page: 1}})):
+                res = pipeline.run(word, mode="hybrid", query_vec=qvecs_by_word[word], context=ctx, k=k, params=params)
+                ids = [r["product_id"] for r in res["results"]]
+                out[f"fits page in top {k}: {label}"] = any(i in rel for i in ids)
+                out[f"top result: {label}"] = res["results"][0]["title"][:40] if res["results"] else "-"
+            rows.append(out)
+    return rows
