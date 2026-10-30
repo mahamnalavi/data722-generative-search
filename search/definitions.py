@@ -82,8 +82,19 @@ CLAIM_WORDS = [
 ]
 
 
+def _norm(text: str) -> str:
+    """Lower-case and treat hyphens as spaces, so "Heavy-Duty" in a title matches "heavy duty" in a definition.
+    (Without this, the 30 Oct run flagged 5 false alarms; see decisions log.)"""
+    return re.sub(r"[-_]+", " ", text.lower())
+
+
 def unsupported_claims(defn_text: str, p: dict) -> list[str]:
     """Return claim words in the definition that do not appear in the product's facts."""
-    facts = (p["title"] + " " + json.dumps(p["attributes"]) + " " + p["description"]).lower()
-    text = defn_text.lower()
-    return [w for w in CLAIM_WORDS if re.search(r"\b" + re.escape(w) + r"\b", text) and w not in facts]
+    facts = _norm(p["title"] + " " + json.dumps(p["attributes"]) + " " + p["description"])
+    text = _norm(defn_text)
+    found = []
+    for w in CLAIM_WORDS:
+        w_n = _norm(w)
+        if re.search(r"\b" + re.escape(w_n) + r"\b", text) and w_n not in facts and w_n not in found:
+            found.append(w_n)
+    return found
