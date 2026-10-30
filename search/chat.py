@@ -86,6 +86,9 @@ def describe_context(context: dict | None) -> str:
         visit.append("viewed " + ", ".join(t.replace("_", " ") for t in types[:5]))
     if band:
         visit.append(f"prices viewed Rs {band['min']:,} to Rs {band['max']:,}")
+    searches = [q for q in (context.get("recent_searches") or []) if q][-3:]
+    if searches:
+        visit.append("earlier searches this visit: " + "; ".join(f'"{q[:60]}"' for q in searches))
     return f"PAGE: opened from the {page} page | VISIT: " + ("; ".join(visit) or "nothing yet")
 
 
