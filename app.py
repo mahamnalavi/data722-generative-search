@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parent
 
 # Show the AI "What it's for" box on product pages. Switched on only after the
 # student's hand-check of definition accuracy (Notebook 01, section 5).
-SHOW_WHAT_ITS_FOR = False
+SHOW_WHAT_ITS_FOR = True   # switched on 30 Oct: hand-check 10 Y, 10 P, 0 N; the box shows uses only, never local names
 
 app = FastAPI(title="Sahulat Home search API", version=engine.VERSION)
 
