@@ -49,7 +49,11 @@
       : p.stock_qty <= 5 ? `<span class="stock low">Only ${p.stock_qty} left</span>`
       : '<span class="stock">In stock</span>';
 
-  const art = (p) => (window.illustrationFor && window.illustrationFor(p)) || ICONS[p.category] || "";
+  // AI-generated product photos (fictional products; labelled in the footer). Others keep their illustration.
+  const PHOTOS = new Set(["KIT-017", "KIT-020", "KIT-021", "KIT-022", "KIT-026", "KIT-046", "KIT-049", "KIT-053"]);
+  const art = (p) => PHOTOS.has(p.product_id)
+    ? `<img src="/static/img/products/${esc(p.product_id)}.webp" alt="${esc(p.title)}" loading="lazy">`
+    : (window.illustrationFor && window.illustrationFor(p)) || ICONS[p.category] || "";
 
   function card(p) {
     return `<a class="card" href="#/p/${esc(p.product_id)}">

@@ -233,3 +233,7 @@ select { border: 1px solid var(--line); background: var(--paper); border-radius:
   .chat-panel { right: 0; bottom: 0; width: 100vw; height: 88vh; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
   .ask-btn { right: 14px; bottom: 14px; }
 }
+
+/* AI-generated product photos: shown whole, on a background matching the photos */
+.thumb:has(img) { background: #eee4d6; }
+.thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
