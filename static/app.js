@@ -50,6 +50,8 @@
       : '<span class="stock">In stock</span>';
 
   // AI-generated product photos (fictional products; labelled in the footer). Others keep their illustration.
+  const HERO_PHOTOS = ["KIT-017", "KIT-046", "TOL-026", "ORG-013", "FUR-036", "KIT-021"];
+  const CAT_PHOTO = { Kitchenware: "KIT-022", Tools: "TOL-004", Organizers: "ORG-005", Furniture: "FUR-012" };
   const PHOTOS = new Set(["FUR-012", "FUR-032", "FUR-036", "KIT-001", "KIT-003", "KIT-017", "KIT-020", "KIT-021", "KIT-022", "KIT-026", "KIT-046", "KIT-049", "KIT-053", "KIT-057", "ORG-005", "ORG-013", "ORG-023", "TOL-004", "TOL-016", "TOL-018", "TOL-026", "TOL-027"]);
   const art = (p) => PHOTOS.has(p.product_id)
     ? `<img src="/static/img/products/${esc(p.product_id)}.webp" alt="${esc(p.title)}" loading="lazy">`
@@ -133,15 +135,21 @@
   function renderHome() {
     currentCategory = null;
     const featured = FEATURED_TYPES.map((t) => products.find((p) => p.product_type === t && p.in_stock)).filter(Boolean);
+    const photo = (id) => `<img src="/static/img/products/${id}.webp" alt="" loading="lazy">`;
     main.innerHTML = `
-      <section class="promo">
-        <h1>Everything for the home, from tawa to toolbox.</h1>
-        <p>Kitchenware, tools, storage and furniture for Pakistani homes.</p>
-        <div class="promo-links">${CATEGORIES.map((c) => `<a href="#/c/${c}">${c}</a>`).join("")}</div>
+      <section class="hero">
+        <div class="hero-text">
+          <span class="hero-kicker">Household goods for Pakistani homes</span>
+          <h1>Find it by what it does.</h1>
+          <p>Kitchenware, tools, storage and furniture. Not sure what it's called? Describe what you need, in English, Urdu or Roman Urdu.</p>
+          <div class="hero-cta"><a class="btn" href="#/c/Kitchenware">Shop now</a><button type="button" class="btn-outline" id="hero-ask">Ask Sahulat</button></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">${HERO_PHOTOS.map(photo).join("")}</div>
       </section>
+      <div class="row-head"><h2>Shop by category</h2></div>
       <div class="cat-grid">${CATEGORIES.map((c) => `
-        <a class="cat-tile" href="#/c/${c}">${ICONS[c]}<h3>${c}</h3>
-          <p>${CAT_BLURB[c]}. ${products.filter((p) => p.category === c).length} products.</p></a>`).join("")}
+        <a class="cat-tile" href="#/c/${c}"><div class="cat-photo">${photo(CAT_PHOTO[c])}</div><div class="cat-body"><h3>${c}</h3>
+          <p>${CAT_BLURB[c]}. ${products.filter((p) => p.category === c).length} products.</p></div></a>`).join("")}
       </div>
       <section class="ai-band" aria-labelledby="ai-title">
         <span class="ai-tag">AI search</span>
@@ -154,8 +162,9 @@
         </form>
         <div class="examples"><span>Try:</span>${EXAMPLES.map((e) => `<button type="button" data-q="${esc(e)}">${esc(e)}</button>`).join("")}</div>
       </section>
-      <div class="row-head"><h2>Featured products</h2></div>
+      <div class="row-head"><h2>Popular right now</h2></div>
       <div class="grid">${featured.map(card).join("")}</div>`;
+    document.getElementById("hero-ask").addEventListener("click", () => document.getElementById("ask-btn").click());
     document.getElementById("ai-form").addEventListener("submit", (e) => { e.preventDefault(); go(document.getElementById("ai-q").value); });
     main.querySelectorAll(".examples button").forEach((b) => b.addEventListener("click", () => go(b.dataset.q)));
   }

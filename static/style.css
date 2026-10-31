@@ -1,18 +1,19 @@
 :root {
-  --cobalt: #1f3f8f;
-  --cobalt-deep: #172f6b;
-  --turquoise: #1a8584;
-  --porcelain: #f6f8fb;
+  --cobalt: #c8203a;          /* accent (kept the variable names so nothing else changes) */
+  --cobalt-deep: #9e1528;
+  --turquoise: #c8203a;
+  --porcelain: #faf7f2;
   --paper: #ffffff;
-  --ink: #18212f;
-  --muted: #5a6577;
-  --line: #d8dee8;
+  --ink: #161412;
+  --muted: #625c56;
+  --line: #e8e1d7;
   --amber: #9a5b12;
-  --off: #8a94a6;
-  --tint-kitchen: #e2f1f0;
-  --tint-tools: #f1ead9;
-  --tint-organizers: #e3e9f6;
-  --tint-furniture: #e7eddc;
+  --off: #8a8480;
+  --tint-kitchen: #f3ece2;
+  --tint-tools: #f3ece2;
+  --tint-organizers: #f3ece2;
+  --tint-furniture: #f3ece2;
+  --dark: #161412;
   --radius-sm: 6px;
   --radius-lg: 14px;
   --font: "Schibsted Grotesk", system-ui, sans-serif;
@@ -21,18 +22,18 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --cobalt: #3a62c4; --cobalt-deep: #1a2c5c; --turquoise: #3fb3b1;
-    --porcelain: #10151f; --paper: #171e2b; --ink: #e8ecf3; --muted: #a3adbf;
-    --line: #2b3546; --amber: #e0a050; --off: #6e788b;
-    --tint-kitchen: #16302f; --tint-tools: #2e2a1e; --tint-organizers: #1c2640; --tint-furniture: #232c1b;
+    --cobalt: #e2475a; --cobalt-deep: #b82e40; --turquoise: #e2475a;
+    --porcelain: #141210; --paper: #1d1a17; --ink: #efe9e1; --muted: #b3aaa0;
+    --line: #34302b; --amber: #e0a050; --off: #7d766f; --dark: #0c0b0a;
+    --tint-kitchen: #26221d; --tint-tools: #26221d; --tint-organizers: #26221d; --tint-furniture: #26221d;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --cobalt: #3a62c4; --cobalt-deep: #1a2c5c; --turquoise: #3fb3b1;
-  --porcelain: #10151f; --paper: #171e2b; --ink: #e8ecf3; --muted: #a3adbf;
-  --line: #2b3546; --amber: #e0a050; --off: #6e788b;
-  --tint-kitchen: #16302f; --tint-tools: #2e2a1e; --tint-organizers: #1c2640; --tint-furniture: #232c1b;
+  --cobalt: #e2475a; --cobalt-deep: #b82e40; --turquoise: #e2475a;
+    --porcelain: #141210; --paper: #1d1a17; --ink: #efe9e1; --muted: #b3aaa0;
+    --line: #34302b; --amber: #e0a050; --off: #7d766f; --dark: #0c0b0a;
+    --tint-kitchen: #26221d; --tint-tools: #26221d; --tint-organizers: #26221d; --tint-furniture: #26221d;
   color-scheme: dark;
 }
 
@@ -237,3 +238,62 @@ select { border: 1px solid var(--line); background: var(--paper); border-radius:
 /* AI-generated product photos: shown whole, on a background matching the photos */
 .thumb:has(img) { background: #eee4d6; }
 .thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+/* ---------- Theme refresh (31 Oct): warm white, near-black and a red accent; look only, no behaviour ---------- */
+.site-header { box-shadow: 0 1px 0 var(--line); border-bottom: 0; }
+.wm-en { font-weight: 800; }
+.cats a[aria-current="page"] { color: var(--ink); background: none; box-shadow: inset 0 -2px 0 var(--cobalt); border-radius: 0; }
+.visit-btn { border-color: var(--ink); }
+.btn, .top-search button, .ai-form button { border-radius: 6px; letter-spacing: 0.01em; }
+
+.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 28px; align-items: center; background: var(--dark); color: #fff;
+  border-radius: var(--radius-lg); padding: 44px 40px; margin-bottom: 8px; overflow: hidden; }
+.hero-kicker { display: inline-block; color: #f2b8c0; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 12px; }
+.hero h1 { margin: 0 0 14px; font-size: clamp(34px, 5vw, 56px); line-height: 1.02; letter-spacing: -0.03em; font-weight: 800; }
+.hero p { margin: 0 0 24px; color: #d9d2c8; font-size: 18px; max-width: 46ch; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero-cta .btn { padding: 12px 22px; font-size: 16px; }
+.btn-outline { border: 1px solid rgba(255,255,255,0.7); background: transparent; color: #fff; font-weight: 600; padding: 12px 22px; border-radius: 6px; cursor: pointer; font-size: 16px; }
+.btn-outline:hover { background: rgba(255,255,255,0.1); }
+.hero-art { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.hero-art img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 10px; display: block; background: #eee4d6; }
+.hero-art img:nth-child(2), .hero-art img:nth-child(5) { transform: translateY(14px); }
+
+.cat-tile { padding: 0; overflow: hidden; min-height: 0; display: flex; flex-direction: column; transition: transform .15s ease, box-shadow .15s ease; }
+.cat-tile:hover { border-color: var(--line); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(22, 20, 18, 0.10); }
+.cat-photo { display: block; background: #eee4d6; aspect-ratio: 4 / 3; }
+.cat-photo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.cat-body { display: block; padding: 14px 16px 16px; }
+.cat-tile h3 { margin: 0 0 4px; }
+
+.ai-band { background-color: var(--dark); background-image: none; }
+.ai-tag { background: var(--cobalt); border-color: var(--cobalt); color: #fff; font-weight: 600; }
+.ai-band p { color: #d9d2c8; }
+.examples span { color: #bdb4a9; }
+.ai-form:focus-within { box-shadow: 0 0 0 3px #f2b8c0; }
+
+.card { transition: transform .15s ease, box-shadow .15s ease; }
+.card:hover { border-color: var(--line); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(22, 20, 18, 0.10); }
+.thumb svg { color: #3a3430; }
+.wif { background: var(--tint-kitchen); border-left: 4px solid var(--cobalt); }
+
+.site-footer { background: var(--dark); color: #cfc7bc; border-top: 0; }
+.ask-btn { box-shadow: 0 8px 22px rgba(200, 32, 58, 0.35); }
+
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; padding: 30px 22px; }
+  .hero-art img:nth-child(2), .hero-art img:nth-child(5) { transform: none; }
+}
+
+/* Phone-width fixes: photos must not widen the product page; search bar fits the screen */
+.pdp > * { min-width: 0; }
+.thumb img { max-width: 100%; }
+@media (max-width: 760px) {
+  .top-search { flex: 1 1 100%; min-width: 0; }
+  .top-search button { padding: 10px 14px; }
+}
+/* In stock reads as good news (green), not as the red accent */
+.stock { color: #1f7a4d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stock { color: #5cc08e; } }
+.stock.low { color: var(--amber); }
+.stock.out { color: var(--off); }
