@@ -1,0 +1,254 @@
+{
+ "source": "notebook/03a_chat_first_run.ipynb (first run, 30-31 Oct). Raw answer files were lost when the Colab session ended before they were pushed; these numbers are read from the notebook's printed outputs.",
+ "section4_summary": {
+  "first result correct": {
+   "search bar": 1.0,
+   "Ask Sahulat chat": 0.957
+  },
+  "a correct product among the first 3": {
+   "search bar": 1.0,
+   "Ask Sahulat chat": 0.957
+  },
+  "correct 'no close match'": {
+   "search bar": 0.333,
+   "Ask Sahulat chat": 0.889
+  },
+  "wrongly says 'no close match'": {
+   "search bar": 0.014,
+   "Ask Sahulat chat": 0.029
+  },
+  "confidently wrong": {
+   "search bar": 0.076,
+   "Ask Sahulat chat": 0.025
+  }
+ },
+ "claim_words_in_reasons": {
+  "Q020": {
+   "ORG-023": [
+    "perfect"
+   ]
+  },
+  "Q040": {
+   "KIT-054": [
+    "perfect"
+   ]
+  },
+  "Q056": {
+   "FUR-020": [
+    "perfect"
+   ]
+  },
+  "Q075": {
+   "KIT-017": [
+    "perfect"
+   ]
+  },
+  "Q080": {
+   "KIT-036": [
+    "perfect"
+   ]
+  },
+  "Q084": {
+   "KIT-028": [
+    "perfect"
+   ]
+  },
+  "Q112": {
+   "ORG-043": [
+    "perfect"
+   ]
+  }
+ },
+ "claim_word_answers": 7,
+ "grounding_dropped": 0,
+ "limit_violations": "0/121",
+ "judge_chat": {
+  "first_pick": {
+   "good": 67,
+   "none": 10,
+   "partial": 2
+  },
+  "reasons_supported": {
+   "yes": 69,
+   "n/a": 10
+  },
+  "language_match": {
+   "yes": 79
+  }
+ },
+ "judge_definitions": {
+  "Y": 185,
+  "P": 10,
+  "agree_with_my_handcheck": "11/20"
+ },
+ "section5_conversations": "=== A ===\nSHOPPER: I need something for making rotis at home\nASSISTANT: Here are suitable items:\n   shown: Granite-Coated Flat Tawa, 12 inch, Induction Base (Rs 3,290, in stock); Wooden Chakla Belan Set, 10 inch (Rs 1,290, in stock)\n   limits: {'max_price': None, 'in_stock': False}\n\nSHOPPER: something cheaper, under 2000\nASSISTANT: Here are some affordable options for making rotis:\n   shown: Wooden Chakla Belan Set, 10 inch (Rs 1,290, in stock); Steel Chimta, Flat 14 inch (Rs 390, in stock); Wooden Hand Churner (Madhani), 45 cm (Rs 650, in stock)\n   limits: {'max_price': 2000, 'in_stock': False}\n\nSHOPPER: only ones in stock please\nASSISTANT: Maaf, in items mein roti banane ke liye koi cheez nahi hai. Aap \"tawa\", \"roti maker\" ya \"chapati press\" jaise lafz try karen.\n   shown: (none)\n   limits: {'max_price': 2000, 'in_stock': True}\n\n=== B ===\nSHOPPER: bijli chali jaye to roshni ke liye kuch chahiye\nASSISTANT: بجلی بند ہونے پر فوری روشنی کے لیے دو آپشن ہیں۔\n   shown: Rechargeable LED Emergency Light, 60 LEDs (Rs 2,450, in stock); Rechargeable LED Bulb, 12 W, B22 (Rs 990, in stock)\n   limits: {'max_price': None, 'in_stock': False}\n\nSHOPPER: is se sasta wala?\nASSISTANT: Sab se sasta TOL-027 hai, sirf Rs 990 aur 4 ghante tak chal sakta hai. Dusra option TOL-026 hai, Rs 2,450 aur 8 ghante tak runtime deta hai.\n   shown: Rechargeable LED Bulb, 12 W, B22 (Rs 990, in stock); Rechargeable LED Emergency Light, 60 LEDs (Rs 2,450, in stock)\n   limits: {'max_price': None, 'in_stock': False}\n\n=== C ===\nSHOPPER: my kitchen sink is blocked, water won't drain\nASSISTANT: You can try a drain auger or a plunger to clear the blockage.\n   shown: Drain Auger, 5 m Steel Cable (Rs 1,890, in stock); Flange Plunger, Heavy-Duty (Rs 990, in stock); Rubber Cup Plunger with Wooden Handle (Rs 590, in stock)\n   limits: {'max_price': None, 'in_stock': False}\n\n",
+ "section7_sample": [
+  {
+   "qid": "Q022",
+   "query": "bookcase",
+   "reply": "Here are suitable options:",
+   "suggested": "Corner Shelf Unit, 5 Tiers (Rs 6,950); Floating Wall Shelves, Set of 3 (Rs 2,950)",
+   "reasons": "Fits a corner and provides 5 shelves for books and decor | Wall‑mounted shelves for displaying books and small items",
+   "JUDGE": "first_pick=partial, reasons_supported=yes, language_match=yes  Suggested a corner shelf and floating shelves instead of a standard bookcase.",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q032",
+   "query": "flip rotis without burning my fingers",
+   "reply": "Aap ke liye Steel Chimta sab se behtar hai, kyun ke ye chapati ko asani se ulta karne ke liye design ki gayi hai aur haath ko jalne se bachati hai.",
+   "suggested": "Steel Chimta, Flat 14 inch (Rs 390)",
+   "reasons": "Chapati flip karne ke liye flat stainless steel chimta",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "roman_urdu"
+  },
+  {
+   "qid": "Q039",
+   "query": "stop oil splashing everywhere while frying",
+   "reply": "Aap ke liye sab se behtar hai Splatter Guard Screen, jo tel ke chhidakne se rokta hai.",
+   "suggested": "Splatter Guard Screen, 33 cm (Rs 990); Oil Mister Spray Bottle, 200 ml (Rs 1,150); Glass Oil Dispenser Bottle, 500 ml with Drip-Free Spout (Rs 790)",
+   "reasons": "oil splatter ko rokta hai aur stovetop saaf rakhta hai | fine mist se kam tel istemal hota hai, splatter kam hota hai | drip‑free spout se tel girne ka khatra kam hota hai",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "roman_urdu"
+  },
+  {
+   "qid": "Q047",
+   "query": "hold two pieces of wood together while the glue dries",
+   "reply": "Quick‑Grip Bar Clamps will hold the wood securely while the glue sets.",
+   "suggested": "Quick-Grip Bar Clamps, Set of 2 (Rs 1,350)",
+   "reasons": "designed for holding wood pieces while gluing",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q049",
+   "query": "stop water leaking from a pipe thread",
+   "reply": "Use PTFE Thread Seal Tape to seal the thread and a pipe wrench to tighten the fitting.",
+   "suggested": "PTFE Thread Seal Tape, Pack of 5 (Rs 250); Pipe Wrench, 14 inch (Rs 1,650)",
+   "reasons": "seals pipe threads to prevent leaks | tightens pipe fittings",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q056",
+   "query": "use my laptop comfortably in bed",
+   "reply": "Here are some options for using your laptop comfortably in bed:",
+   "suggested": "Laptop Bed Table with Foldable Legs (Rs 2,950); Adjustable Laptop Table with Tilting Top (Rs 4,950); Under-Desk Footrest, Adjustable Angle (Rs 2,450)",
+   "reasons": "Foldable legs and flat MDF top make it ideal for a stable bedside laptop surface | Adjustable height and tilting top let you set the perfect viewing angle while lying down | Provides foot support to reduce fatigue when working from bed",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q066",
+   "query": "the kitchen sink drains really slowly",
+   "reply": "Your sink can be cleared with a drain auger or a plunger. Here are the best options:",
+   "suggested": "Drain Auger, 5 m Steel Cable (Rs 1,890); Rubber Cup Plunger with Wooden Handle (Rs 590); Flange Plunger, Heavy-Duty (Rs 990)",
+   "reasons": "5 m steel cable easily reaches and removes kitchen sink blockages | Rubber cup plunger clears minor sink clogs quickly | Heavy‑duty flange plunger works on stubborn drain blockages",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q067",
+   "query": "guests are staying over and we have no spare bed",
+   "reply": "Here are some options for a spare bed:",
+   "suggested": "Sofa Cum Bed, 3-Seater, Fabric (Rs 64,500); Woven Rope Charpai, Sheesham Frame (Rs 18,500); Metal Bunk Bed, Single over Single (Rs 46,500)",
+   "reasons": "Sofa that converts to a 180 x 120 cm guest bed | Charpai provides a simple sleeping area at a low price | Metal bunk gives two beds if you need extra space",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q069",
+   "query": "plastic shopping bags are piling up in the kitchen",
+   "reply": "Aap ke liye sab se behtar hai Wall‑Mounted Plastic Bag Holder, phir Plastic Drawer Organizer Trays aur Expandable Under‑Sink Shelf.",
+   "suggested": "Wall-Mounted Plastic Bag Holder (Rs 590); Plastic Drawer Organizer Trays, 8 Pieces (Rs 1,490); Expandable Under-Sink Shelf (Rs 2,650)",
+   "reasons": "Bag holder se zip‑lock aur freezer bags ko asani se organize aur drawer space bacha sakte hain | Drawer trays se choti shopping bags ko alag alag sections mein rakh sakte hain | Under‑sink shelf extra storage deta hai, jahan bags ko neatly rakh sakte hain",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "roman_urdu"
+  },
+  {
+   "qid": "Q077",
+   "query": "knife sharpener under 1500",
+   "reply": "Here is a suitable option:",
+   "suggested": "3-Stage Manual Knife Sharpener (Rs 990)",
+   "reasons": "Three sharpening stages (diamond, ceramic, tungsten) for quick blade restoration",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q083",
+   "query": "storage for winter blankets under 2000, in stock",
+   "reply": "Here are three options under Rs 2,000:",
+   "suggested": "Jumbo Vacuum Bags, Set of 3 (Rs 1,390); Under-Bed Storage Bag with Zip, Set of 2 (Rs 1,590); Hanging Closet Shelves, 6 Sections (Rs 1,350)",
+   "reasons": "Vacuum bags compress quilts and coats to save space | Under‑bed bags keep extra blankets hidden and organized | Shelves let you fold and stack blankets neatly",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q094",
+   "query": "jootay rakhne ki rack",
+   "reply": "Aap ke liye ye teen options behtar hain:",
+   "suggested": "Over-the-Door Shoe Organizer, 24 Pockets (Rs 1,450); Stackable Shoe Rack, 4 Tiers (Rs 2,450); Bamboo Shoe Rack, 2 Tiers (Rs 2,950)",
+   "reasons": "24 clear pockets se jootay asani se dikhte aur floor space bachaata hai | 4 tiers ka steel rack 12 joote tak rakh sakta hai aur vertical stacking se jagah bachat hai | Bamboo ka 2-tier rack natural look deta hai aur 6 joote tak sambhal sakta hai",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "roman_urdu",
+   "reply_language": "roman_urdu"
+  },
+  {
+   "qid": "Q103",
+   "query": "mosquito net for a bed",
+   "reply": "Sorry, we don’t have a mosquito net in the current list. Try searching for \"mosquito net\" or \"bed net\".",
+   "suggested": "(none)",
+   "reasons": "(none)",
+   "JUDGE": "first_pick=none, reasons_supported=n/a, language_match=yes  No products suggested.",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q108",
+   "query": "hair curling tongs",
+   "reply": "Sorry, none of the listed items are hair curling tongs. Try searching for \"curling iron\" or \"hair tongs\".",
+   "suggested": "(none)",
+   "reasons": "(none)",
+   "JUDGE": "first_pick=none, reasons_supported=n/a, language_match=yes  No hair curling tongs available in the inventory.",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q109",
+   "query": "office chair under Rs 10000",
+   "reply": "Sorry, none of the listed items are office chairs within your budget. Try searching with terms like “office chair” or “desk chair”.",
+   "suggested": "(none)",
+   "reasons": "(none)",
+   "JUDGE": "first_pick=none, reasons_supported=n/a, language_match=yes  No office chairs available within the specified budget.",
+   "question_language": "english",
+   "reply_language": "english"
+  },
+  {
+   "qid": "Q114",
+   "query": "cover for a bean bag",
+   "reply": "Aap ke liye Bean Bag Cover Only, Large best hai.",
+   "suggested": "Bean Bag Cover Only, Large (Rs 3,950)",
+   "reasons": "Large cotton canvas cover for replacing or customizing a bean bag",
+   "JUDGE": "first_pick=good, reasons_supported=yes, language_match=yes",
+   "question_language": "english",
+   "reply_language": "roman_urdu"
+  }
+ ],
+ "section7_language_mismatches": [
+  "Q032",
+  "Q039",
+  "Q069",
+  "Q114"
+ ],
+ "section7_product_codes_in_replies": []
+}
