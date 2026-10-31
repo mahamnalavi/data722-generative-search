@@ -140,7 +140,7 @@
       <section class="hero">
         <div class="hero-text">
           <span class="hero-kicker">Household goods for Pakistani homes</span>
-          <h1>Find it by what it does.</h1>
+          <h1>Smart essentials for every corner of your home.</h1>
           <p>Kitchenware, tools, storage and furniture. Not sure what it's called? Describe what you need, in English, Urdu or Roman Urdu.</p>
           <div class="hero-cta"><a class="btn" href="#/c/Kitchenware">Shop now</a><button type="button" class="btn-outline" id="hero-ask">Ask Sahulat</button></div>
         </div>
