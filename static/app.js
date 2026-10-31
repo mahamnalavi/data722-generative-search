@@ -50,7 +50,7 @@
       : '<span class="stock">In stock</span>';
 
   // AI-generated product photos (fictional products; labelled in the footer). Others keep their illustration.
-  const PHOTOS = new Set(["FUR-036", "KIT-003", "KIT-017", "KIT-020", "KIT-021", "KIT-022", "KIT-026", "KIT-046", "KIT-049", "KIT-053", "KIT-057", "ORG-005", "TOL-016", "TOL-018", "TOL-026", "TOL-027"]);
+  const PHOTOS = new Set(["FUR-012", "FUR-032", "FUR-036", "KIT-001", "KIT-003", "KIT-017", "KIT-020", "KIT-021", "KIT-022", "KIT-026", "KIT-046", "KIT-049", "KIT-053", "KIT-057", "ORG-005", "ORG-013", "ORG-023", "TOL-004", "TOL-016", "TOL-018", "TOL-026", "TOL-027"]);
   const art = (p) => PHOTOS.has(p.product_id)
     ? `<img src="/static/img/products/${esc(p.product_id)}.webp" alt="${esc(p.title)}" loading="lazy">`
     : (window.illustrationFor && window.illustrationFor(p)) || ICONS[p.category] || "";
