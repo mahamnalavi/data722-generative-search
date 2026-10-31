@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Sahulat Home: honesty page</title>
+<style>
+@page { size: A4; margin: 9mm 11mm; }
+body { font-family: "Liberation Sans", Arial, "DejaVu Sans", sans-serif; font-size: 8.2pt; line-height: 1.25; color: #161412; margin: 0; }
+h1 { font-size: 14pt; margin: 0 0 1px; }
+.by { color: #625c56; margin: 0 0 5px; }
+h2 { font-size: 9.6pt; margin: 6px 0 2px; color: #9e1528; }
+p { margin: 0 0 4px; }
+table { width: 100%; border-collapse: collapse; margin: 2px 0 4px; }
+th, td { text-align: left; vertical-align: top; border-bottom: 1px solid #e3dccf; padding: 2px 5px 2px 0; }
+th { font-size: 8.2pt; color: #625c56; border-bottom: 1px solid #b9b0a3; }
+td:first-child { width: 33%; font-weight: 600; }
+ul { margin: 0 0 4px; padding-left: 14px; }
+li { margin: 0 0 1.5px; }
+.src { color: #625c56; font-size: 7.8pt; }
+a { color: inherit; }
+.cost td:first-child { font-weight: 400; width: 45%; }
+</style></head><body>
+<h1>Sahulat Home: honesty page</h1>
+<p class="by">Maham Naseem Alavi · DATA722 Phase 2 · 31 October 2026</p>
+<p>Sahulat Home finds the right product far more often than keyword search, but it still gets some things wrong, and my own evaluation flatters it in places.</p>
+
+<h2>What it gets wrong</h2>
+<table><tr><th>Weakness</th><th>Evidence</th></tr>
+<tr><td>The search bar rarely admits the store doesn't sell something</td><td>Flagged "no close match" for 3 of 9 out-of-catalogue test questions; "prayer mat" shows the prayer chair with no warning. The chat is better (8 of 9) but sometimes over-cautious (3 of 70 answerable questions)</td></tr>
+<tr><td>AI-written Urdu and Roman Urdu names are unreliable</td><td>6 of my 20 hand-checked definitions had invented or misspelt local names (e.g. "<span lang="ur">چینی سٹرینر</span>" for a chinois). They are used only as hidden search text</td></tr>
+<tr><td>Some AI-written uses are wrong, and the errors reach the chat</td><td>A fine rasp "for shredding carrots", wall plugs "for drywall", the madhani called "hand-crank"; the bag holder's wrong "zip-lock bags" use reappeared in a chat answer</td></tr>
+<tr><td>Page context is weak</td><td>"box" searched from the Tools page never shows the toolbox; a stronger setting broke the rule that context never overrides the shopper</td></tr>
+<tr><td>The price boost can push a correct product down</td><td>With visit context, 3 of 70 (helpful visit) and 6 of 70 (misleading visit) correct first results dropped to second place; none left the top 5</td></tr>
+<tr><td>The marketing-word filter is a fixed list</td><td>"affordable" and "safely" still reached replies, because they are not on the list</td></tr>
+</table>
+
+<h2>What I would not show a customer yet</h2>
+<ul>
+<li><b>The search bar's results for things the store doesn't sell, without a warning.</b> A real store needs a visible "we may not have this" notice, or the chat's check of whether a product does the job, before anyone acts on those results.</li>
+<li><b>The "What it's for" box on every product without a human review.</b> My check found 0 wrong but 10 of 20 only partly right, and that was a sample. Before a real launch, a person should read all 195.</li>
+<li><b>The local Urdu names.</b> They stay hidden until replaced by a short hand-made glossary of names Pakistani shoppers actually use.</li>
+<li><b>Chat reasons as product claims.</b> Under the Competition Commission of Pakistan's deceptive-marketing guidelines, a claim the store can't back up is a risk; the code blocks the words I listed, not every unsupported phrase.</li>
+<li><b>The store's own product descriptions.</b> 124 of the 195 end with generic claims nothing backs up ("Durable build and easy to clean", "Sturdy construction with a neat finish", "Quality checked before dispatch"), filler from my synthetic catalogue generator. My claim checker treats the store's text as fact, so a definition repeating "durable" would pass.</li>
+<li><b>The product images.</b> None show a real product: 22 products have AI-generated photos (labelled as such on the site) and the other 173 have simple code-drawn sketches. A real store needs photos of the actual items it sells.</li>
+</ul>
+
+<h2>Cost to run</h2>
+<p>The whole project ran for $0 on free tiers. At published paid prices it stays cheap; the real constraint is the free tiers' limits.</p>
+<table class="cost"><tr><th>Item</th><th>Cost at paid prices</th></tr>
+<tr><td>Chat turn (Groq gpt-oss-120b, $0.15 / $0.60 per million input / output tokens; about 806 in + 115 out per turn)</td><td>about $0.19 per 1,000 turns</td></tr>
+<tr><td>Search (one Gemini embedding call per new query, about 12 tokens)</td><td>about $0.0018 per 1,000 searches</td></tr>
+<tr><td>Writing all 195 definitions once, plus embeddings</td><td>about $0.023 in total</td></tr>
+<tr><td>Hosting (Vercel)</td><td>$0 on Hobby, which allows personal, non-commercial use only; a real store needs Pro, $20 per developer seat per month</td></tr>
+</table>
+<p>Free-tier limits: Groq allows about 8 chat turns a minute (8,000 tokens per minute) and 1,000 requests a day. When a limit is hit, the chat falls back to plain search results instead of failing. A store with 10,000 chat turns and 100,000 searches a month would pay about $2 for the AI, before hosting.</p>
+<p class="src">Sources: Groq pricing (morphllm.com/groq-pricing) · Vercel Hobby plan (vercel.com/docs/plans/hobby)</p>
+
+<h2>Limits of my own evaluation</h2>
+<ul>
+<li><b>Everything is synthetic.</b> The catalogue, the 114 test questions and the visit sessions were all generated for this project. The store's own listings were deliberately kept to features, with uses only in the separate AI definitions. Real stores often mention uses in their listings, so keyword search may do better there than the 47% miss rate here suggests.</li>
+<li><b>The questions were written by Claude, which also helped build the search.</b> They may suit the system better than real shoppers' wording would, so Hit@1 of 1.00 on test is a ceiling, not an expected result.</li>
+<li><b>I chose the live method after seeing test results.</b> Dev already favoured meaning search on the definitions, but the switch came after test, so its test numbers are slightly optimistic.</li>
+<li><b>Small samples.</b> Only 9 out-of-catalogue test questions, 4 in dev to set the threshold, 20 hand-checked definitions, 16 hand-checked chat verdicts, and one run of each chat evaluation.</li>
+<li><b>My metrics have blind spots.</b> They don't count wrong products in places 2 and 3 (an under-bed bag for a budget question, before the fix), and they scored the chat's honest "the bookcase is out of stock" as an error.</li>
+<li><b>The first chat run's raw answers were lost.</b> The Colab session ended before they were saved, so that run's numbers are read from the notebook's printed outputs.</li>
+<li><b>The AI judge is lenient.</b> It agreed with my definition check on 11 of 20 and missed every language and marketing-word problem in the first chat run, so its scores are an upper bound.</li>
+<li><b>Privacy holds by design, not by test.</b> Visit data stays in the browser tab and is cleared when it closes; I did not audit this against a real privacy review.</li>
+</ul>
+</body></html>
