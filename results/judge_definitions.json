@@ -1,0 +1,977 @@
+{
+ "FUR-001": {
+  "id": "FUR-001",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-002": {
+  "id": "FUR-002",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-003": {
+  "id": "FUR-003",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-004": {
+  "id": "FUR-004",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-005": {
+  "id": "FUR-005",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-006": {
+  "id": "FUR-006",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-007": {
+  "id": "FUR-007",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-008": {
+  "id": "FUR-008",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-009": {
+  "id": "FUR-009",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-010": {
+  "id": "FUR-010",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-011": {
+  "id": "FUR-011",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-012": {
+  "id": "FUR-012",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-013": {
+  "id": "FUR-013",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-014": {
+  "id": "FUR-014",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-015": {
+  "id": "FUR-015",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-016": {
+  "id": "FUR-016",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-017": {
+  "id": "FUR-017",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-018": {
+  "id": "FUR-018",
+  "verdict": "P",
+  "note": "Facts do not state that the chair is stackable."
+ },
+ "FUR-019": {
+  "id": "FUR-019",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-020": {
+  "id": "FUR-020",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-021": {
+  "id": "FUR-021",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-022": {
+  "id": "FUR-022",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-023": {
+  "id": "FUR-023",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-024": {
+  "id": "FUR-024",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-025": {
+  "id": "FUR-025",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-026": {
+  "id": "FUR-026",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-027": {
+  "id": "FUR-027",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-028": {
+  "id": "FUR-028",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-029": {
+  "id": "FUR-029",
+  "verdict": "P",
+  "note": "Called wall shelf in shoppers say, but facts specify corner unit."
+ },
+ "FUR-030": {
+  "id": "FUR-030",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-031": {
+  "id": "FUR-031",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-032": {
+  "id": "FUR-032",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-033": {
+  "id": "FUR-033",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-034": {
+  "id": "FUR-034",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-035": {
+  "id": "FUR-035",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-036": {
+  "id": "FUR-036",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-037": {
+  "id": "FUR-037",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-038": {
+  "id": "FUR-038",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-039": {
+  "id": "FUR-039",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-040": {
+  "id": "FUR-040",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-041": {
+  "id": "FUR-041",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-042": {
+  "id": "FUR-042",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-043": {
+  "id": "FUR-043",
+  "verdict": "Y",
+  "note": ""
+ },
+ "FUR-044": {
+  "id": "FUR-044",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-001": {
+  "id": "KIT-001",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-002": {
+  "id": "KIT-002",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-003": {
+  "id": "KIT-003",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-004": {
+  "id": "KIT-004",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-005": {
+  "id": "KIT-005",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-006": {
+  "id": "KIT-006",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-007": {
+  "id": "KIT-007",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-008": {
+  "id": "KIT-008",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-009": {
+  "id": "KIT-009",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-010": {
+  "id": "KIT-010",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-011": {
+  "id": "KIT-011",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-012": {
+  "id": "KIT-012",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-013": {
+  "id": "KIT-013",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-014": {
+  "id": "KIT-014",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-015": {
+  "id": "KIT-015",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-016": {
+  "id": "KIT-016",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-017": {
+  "id": "KIT-017",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-018": {
+  "id": "KIT-018",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-019": {
+  "id": "KIT-019",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-020": {
+  "id": "KIT-020",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-021": {
+  "id": "KIT-021",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-022": {
+  "id": "KIT-022",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-023": {
+  "id": "KIT-023",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-024": {
+  "id": "KIT-024",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-025": {
+  "id": "KIT-025",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-026": {
+  "id": "KIT-026",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-027": {
+  "id": "KIT-027",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-028": {
+  "id": "KIT-028",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-029": {
+  "id": "KIT-029",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-030": {
+  "id": "KIT-030",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-031": {
+  "id": "KIT-031",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-032": {
+  "id": "KIT-032",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-033": {
+  "id": "KIT-033",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-034": {
+  "id": "KIT-034",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-035": {
+  "id": "KIT-035",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-036": {
+  "id": "KIT-036",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-037": {
+  "id": "KIT-037",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-038": {
+  "id": "KIT-038",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-039": {
+  "id": "KIT-039",
+  "verdict": "P",
+  "note": "Snipping garlic cloves is not appropriate for herb scissors."
+ },
+ "KIT-040": {
+  "id": "KIT-040",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-041": {
+  "id": "KIT-041",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-042": {
+  "id": "KIT-042",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-043": {
+  "id": "KIT-043",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-044": {
+  "id": "KIT-044",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-045": {
+  "id": "KIT-045",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-046": {
+  "id": "KIT-046",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-047": {
+  "id": "KIT-047",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-048": {
+  "id": "KIT-048",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-049": {
+  "id": "KIT-049",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-050": {
+  "id": "KIT-050",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-051": {
+  "id": "KIT-051",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-052": {
+  "id": "KIT-052",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-053": {
+  "id": "KIT-053",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-054": {
+  "id": "KIT-054",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-055": {
+  "id": "KIT-055",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-056": {
+  "id": "KIT-056",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-057": {
+  "id": "KIT-057",
+  "verdict": "P",
+  "note": "Grating soft fruits is not supported by facts."
+ },
+ "KIT-058": {
+  "id": "KIT-058",
+  "verdict": "Y",
+  "note": ""
+ },
+ "KIT-059": {
+  "id": "KIT-059",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-001": {
+  "id": "ORG-001",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-002": {
+  "id": "ORG-002",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-003": {
+  "id": "ORG-003",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-004": {
+  "id": "ORG-004",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-005": {
+  "id": "ORG-005",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-006": {
+  "id": "ORG-006",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-007": {
+  "id": "ORG-007",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-008": {
+  "id": "ORG-008",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-009": {
+  "id": "ORG-009",
+  "verdict": "P",
+  "note": "Mentions organizing boots, which rarely fit shoe pockets."
+ },
+ "ORG-010": {
+  "id": "ORG-010",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-011": {
+  "id": "ORG-011",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-012": {
+  "id": "ORG-012",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-013": {
+  "id": "ORG-013",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-014": {
+  "id": "ORG-014",
+  "verdict": "P",
+  "note": "Mentions stacking, but facts do not state these bins stack."
+ },
+ "ORG-015": {
+  "id": "ORG-015",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-016": {
+  "id": "ORG-016",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-017": {
+  "id": "ORG-017",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-018": {
+  "id": "ORG-018",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-019": {
+  "id": "ORG-019",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-020": {
+  "id": "ORG-020",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-021": {
+  "id": "ORG-021",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-022": {
+  "id": "ORG-022",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-023": {
+  "id": "ORG-023",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-024": {
+  "id": "ORG-024",
+  "verdict": "P",
+  "note": "Facts do not mention holding towels."
+ },
+ "ORG-025": {
+  "id": "ORG-025",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-026": {
+  "id": "ORG-026",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-027": {
+  "id": "ORG-027",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-028": {
+  "id": "ORG-028",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-029": {
+  "id": "ORG-029",
+  "verdict": "P",
+  "note": "Facts state 5 compartments and a drawer, not just 5."
+ },
+ "ORG-030": {
+  "id": "ORG-030",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-031": {
+  "id": "ORG-031",
+  "verdict": "P",
+  "note": "Preventing spills in bags is incorrect for pantry containers."
+ },
+ "ORG-032": {
+  "id": "ORG-032",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-033": {
+  "id": "ORG-033",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-034": {
+  "id": "ORG-034",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-035": {
+  "id": "ORG-035",
+  "verdict": "P",
+  "note": "Mentions zip-lock and freezer bags; facts only state plastic bags."
+ },
+ "ORG-036": {
+  "id": "ORG-036",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-037": {
+  "id": "ORG-037",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-038": {
+  "id": "ORG-038",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-039": {
+  "id": "ORG-039",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-040": {
+  "id": "ORG-040",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-041": {
+  "id": "ORG-041",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-042": {
+  "id": "ORG-042",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-043": {
+  "id": "ORG-043",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-044": {
+  "id": "ORG-044",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-045": {
+  "id": "ORG-045",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-046": {
+  "id": "ORG-046",
+  "verdict": "P",
+  "note": "Shoppers say mentions wall mug rack, but facts do not state wall mounting."
+ },
+ "ORG-047": {
+  "id": "ORG-047",
+  "verdict": "Y",
+  "note": ""
+ },
+ "ORG-048": {
+  "id": "ORG-048",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-001": {
+  "id": "TOL-001",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-002": {
+  "id": "TOL-002",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-003": {
+  "id": "TOL-003",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-004": {
+  "id": "TOL-004",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-005": {
+  "id": "TOL-005",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-006": {
+  "id": "TOL-006",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-007": {
+  "id": "TOL-007",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-008": {
+  "id": "TOL-008",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-009": {
+  "id": "TOL-009",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-010": {
+  "id": "TOL-010",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-011": {
+  "id": "TOL-011",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-012": {
+  "id": "TOL-012",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-013": {
+  "id": "TOL-013",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-014": {
+  "id": "TOL-014",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-015": {
+  "id": "TOL-015",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-016": {
+  "id": "TOL-016",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-017": {
+  "id": "TOL-017",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-018": {
+  "id": "TOL-018",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-019": {
+  "id": "TOL-019",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-020": {
+  "id": "TOL-020",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-021": {
+  "id": "TOL-021",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-022": {
+  "id": "TOL-022",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-023": {
+  "id": "TOL-023",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-024": {
+  "id": "TOL-024",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-025": {
+  "id": "TOL-025",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-026": {
+  "id": "TOL-026",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-027": {
+  "id": "TOL-027",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-028": {
+  "id": "TOL-028",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-029": {
+  "id": "TOL-029",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-030": {
+  "id": "TOL-030",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-031": {
+  "id": "TOL-031",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-032": {
+  "id": "TOL-032",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-033": {
+  "id": "TOL-033",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-034": {
+  "id": "TOL-034",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-035": {
+  "id": "TOL-035",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-036": {
+  "id": "TOL-036",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-037": {
+  "id": "TOL-037",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-038": {
+  "id": "TOL-038",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-039": {
+  "id": "TOL-039",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-040": {
+  "id": "TOL-040",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-041": {
+  "id": "TOL-041",
+  "verdict": "P",
+  "note": "Mentioning gas fittings may be dangerous without specific product certification."
+ },
+ "TOL-042": {
+  "id": "TOL-042",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-043": {
+  "id": "TOL-043",
+  "verdict": "Y",
+  "note": ""
+ },
+ "TOL-044": {
+  "id": "TOL-044",
+  "verdict": "Y",
+  "note": ""
+ }
+}

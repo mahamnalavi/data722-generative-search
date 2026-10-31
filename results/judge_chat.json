@@ -1,0 +1,555 @@
+{
+ "Q001": {
+  "id": "Q001",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q003": {
+  "id": "Q003",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q004": {
+  "id": "Q004",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q006": {
+  "id": "Q006",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q007": {
+  "id": "Q007",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q010": {
+  "id": "Q010",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q011": {
+  "id": "Q011",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q012": {
+  "id": "Q012",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q013": {
+  "id": "Q013",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q014": {
+  "id": "Q014",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q016": {
+  "id": "Q016",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q017": {
+  "id": "Q017",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q018": {
+  "id": "Q018",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q020": {
+  "id": "Q020",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q022": {
+  "id": "Q022",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No bookcases in stock."
+ },
+ "Q023": {
+  "id": "Q023",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q024": {
+  "id": "Q024",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q025": {
+  "id": "Q025",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q028": {
+  "id": "Q028",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q029": {
+  "id": "Q029",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q031": {
+  "id": "Q031",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q032": {
+  "id": "Q032",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q033": {
+  "id": "Q033",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q034": {
+  "id": "Q034",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q035": {
+  "id": "Q035",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q037": {
+  "id": "Q037",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q039": {
+  "id": "Q039",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q040": {
+  "id": "Q040",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q042": {
+  "id": "Q042",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q043": {
+  "id": "Q043",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q045": {
+  "id": "Q045",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q046": {
+  "id": "Q046",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q047": {
+  "id": "Q047",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q049": {
+  "id": "Q049",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q051": {
+  "id": "Q051",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q052": {
+  "id": "Q052",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q054": {
+  "id": "Q054",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q055": {
+  "id": "Q055",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q056": {
+  "id": "Q056",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q057": {
+  "id": "Q057",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products were suggested."
+ },
+ "Q059": {
+  "id": "Q059",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q060": {
+  "id": "Q060",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q061": {
+  "id": "Q061",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q062": {
+  "id": "Q062",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q063": {
+  "id": "Q063",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q064": {
+  "id": "Q064",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q066": {
+  "id": "Q066",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q067": {
+  "id": "Q067",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q069": {
+  "id": "Q069",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q072": {
+  "id": "Q072",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q074": {
+  "id": "Q074",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q075": {
+  "id": "Q075",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q077": {
+  "id": "Q077",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q079": {
+  "id": "Q079",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q080": {
+  "id": "Q080",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q082": {
+  "id": "Q082",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q083": {
+  "id": "Q083",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q084": {
+  "id": "Q084",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q085": {
+  "id": "Q085",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q086": {
+  "id": "Q086",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q088": {
+  "id": "Q088",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No product was suggested."
+ },
+ "Q089": {
+  "id": "Q089",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q092": {
+  "id": "Q092",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q094": {
+  "id": "Q094",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q095": {
+  "id": "Q095",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q096": {
+  "id": "Q096",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q097": {
+  "id": "Q097",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q098": {
+  "id": "Q098",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q099": {
+  "id": "Q099",
+  "first_pick": "partial",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": "Shopper asked for a refrigerator, but got a fridge accessory."
+ },
+ "Q100": {
+  "id": "Q100",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products available for this request."
+ },
+ "Q102": {
+  "id": "Q102",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products available for this request."
+ },
+ "Q103": {
+  "id": "Q103",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products available for this request."
+ },
+ "Q104": {
+  "id": "Q104",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products were suggested in the catalog."
+ },
+ "Q106": {
+  "id": "Q106",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products were suggested in the catalog."
+ },
+ "Q107": {
+  "id": "Q107",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products were suggested in the catalog."
+ },
+ "Q108": {
+  "id": "Q108",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products were suggested in the catalog."
+ },
+ "Q109": {
+  "id": "Q109",
+  "first_pick": "none",
+  "reasons_supported": "n/a",
+  "language_match": "yes",
+  "note": "No products were suggested in the catalog."
+ },
+ "Q112": {
+  "id": "Q112",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ },
+ "Q114": {
+  "id": "Q114",
+  "first_pick": "good",
+  "reasons_supported": "yes",
+  "language_match": "yes",
+  "note": ""
+ }
+}

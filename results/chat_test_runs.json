@@ -1,0 +1,2311 @@
+{
+ "Q001": {
+  "reply": "Here are some aluminium pressure cookers you might like:",
+  "picks": [
+   "KIT-020",
+   "KIT-022"
+  ],
+  "whys": [
+   "5 L capacity and hard aluminium body for cooking rice, stews, beans and soups quickly",
+   "Smaller 3 L size, also hard aluminium, good for single‑serve soups or small batches"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-020",
+   "KIT-022",
+   "KIT-021",
+   "KIT-019",
+   "KIT-041",
+   "KIT-016"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 798,
+  "tokens_out": 158,
+  "fallback": null,
+  "latency_ms": 664.4
+ },
+ "Q003": {
+  "reply": "The Iron Karahi with Two Handles, 10 inch fits your request for a karahi with two handles.",
+  "picks": [
+   "KIT-018"
+  ],
+  "whys": [
+   "It has two riveted handles and is made of black iron, suitable for deep frying and curries."
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-018",
+   "KIT-019",
+   "KIT-015",
+   "KIT-017",
+   "KIT-016",
+   "KIT-043"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 824,
+  "tokens_out": 101,
+  "fallback": null,
+  "latency_ms": 569.7
+ },
+ "Q004": {
+  "reply": "The Heavy‑Duty Zinc Alloy Garlic Press matches your request for a sturdy garlic press.",
+  "picks": [
+   "KIT-005"
+  ],
+  "whys": [
+   "Zinc‑alloy construction and heavy‑duty design for pressing garlic cloves into paste"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-005",
+   "KIT-006",
+   "KIT-041",
+   "KIT-029",
+   "KIT-030",
+   "KIT-039"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 766,
+  "tokens_out": 105,
+  "fallback": null,
+  "latency_ms": 405.1
+ },
+ "Q006": {
+  "reply": "Here are two digital kitchen scales you might like:",
+  "picks": [
+   "KIT-036",
+   "KIT-037"
+  ],
+  "whys": [
+   "5 kg capacity with 1 g accuracy, suitable for flour, fruit and meat weighing",
+   "10 kg capacity and tare function, good for large batches and bulk ingredients"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-036",
+   "KIT-037",
+   "KIT-051",
+   "KIT-038",
+   "KIT-007",
+   "ORG-005"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [
+   "ideal"
+  ],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 824,
+  "tokens_out": 134,
+  "fallback": null,
+  "latency_ms": 632.4
+ },
+ "Q007": {
+  "reply": "Here are two options: the Electric Hand Mixer with 5 speeds for versatile mixing, and the Compact Hand Mixer for lighter tasks.",
+  "picks": [
+   "KIT-054",
+   "KIT-055"
+  ],
+  "whys": [
+   "5 speeds and 250 W handle whipping cream, batter and small dough",
+   "3 speeds and 150 W suit light mixing and quick stirring"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-054",
+   "KIT-055",
+   "KIT-025",
+   "KIT-042",
+   "KIT-040",
+   "KIT-008"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 808,
+  "tokens_out": 142,
+  "fallback": null,
+  "latency_ms": 632.3
+ },
+ "Q010": {
+  "reply": "The Aluminium Spirit Level, 24 inch, 3 Vials will let you check if surfaces are level and align shelves or pictures.",
+  "picks": [
+   "TOL-002"
+  ],
+  "whys": [
+   "It is an aluminium spirit level with 3 vials for leveling tasks"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-002",
+   "TOL-003",
+   "TOL-024",
+   "TOL-011",
+   "KIT-041",
+   "TOL-042"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 783,
+  "tokens_out": 114,
+  "fallback": null,
+  "latency_ms": 550.1
+ },
+ "Q011": {
+  "reply": "We have a 10 m rubber‑cased tape for longer outdoor or construction measurements and a 5 m auto‑lock tape for furniture and room sizing.",
+  "picks": [
+   "TOL-011",
+   "TOL-010"
+  ],
+  "whys": [
+   "10 m length suits outdoor and construction layout work",
+   "5 m auto‑lock design is handy for furniture and room measurements"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-011",
+   "TOL-010",
+   "TOL-012",
+   "TOL-003",
+   "TOL-002",
+   "KIT-007"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 799,
+  "tokens_out": 129,
+  "fallback": null,
+  "latency_ms": 489.6
+ },
+ "Q012": {
+  "reply": "The Digital Multimeter, Auto‑Ranging can check live sockets, test batteries, measure resistance and verify continuity.",
+  "picks": [
+   "TOL-008"
+  ],
+  "whys": [
+   "covers all typical multimeter uses you need"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-008",
+   "TOL-012",
+   "TOL-009",
+   "TOL-001",
+   "KIT-036",
+   "KIT-037"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 825,
+  "tokens_out": 82,
+  "fallback": null,
+  "latency_ms": 57768.7
+ },
+ "Q013": {
+  "reply": "The Aluminium Step Ladder, 5 Steps fits your request.",
+  "picks": [
+   "TOL-024"
+  ],
+  "whys": [
+   "Aluminium construction with 5 steps for reaching high places"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-024",
+   "TOL-025",
+   "FUR-028",
+   "TOL-002",
+   "KIT-020",
+   "FUR-014"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 800,
+  "tokens_out": 100,
+  "fallback": null,
+  "latency_ms": 336.3
+ },
+ "Q014": {
+  "reply": "The Claw Hammer with a 16 oz forged steel head and fibreglass handle fits your request for a claw hammer.",
+  "picks": [
+   "TOL-022"
+  ],
+  "whys": [
+   "It has a 16 oz forged steel head and fibreglass handle for driving and pulling nails."
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-022",
+   "TOL-005",
+   "TOL-023",
+   "TOL-031",
+   "TOL-015",
+   "TOL-021"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 780,
+  "tokens_out": 104,
+  "fallback": null,
+  "latency_ms": 579.2
+ },
+ "Q016": {
+  "reply": "The Stackable Shoe Rack, 4 Tiers fits your need for a stackable shoe storage solution.",
+  "picks": [
+   "ORG-026"
+  ],
+  "whys": [
+   "stores up to 12 pairs and stacks vertically to save floor space"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-026",
+   "ORG-009",
+   "ORG-027",
+   "FUR-009",
+   "ORG-019",
+   "FUR-043"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 813,
+  "tokens_out": 98,
+  "fallback": null,
+  "latency_ms": 464.4
+ },
+ "Q017": {
+  "reply": "The 2‑Tier Dish Drying Rack with Drainboard fits your request, offering two tiers for dishes and a built‑in drainboard to keep the countertop tidy.",
+  "picks": [
+   "ORG-033"
+  ],
+  "whys": [
+   "Provides two drying tiers plus a drainboard to hold cutlery and direct water away"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-033",
+   "ORG-034",
+   "ORG-001",
+   "ORG-006",
+   "ORG-023",
+   "ORG-039"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 823,
+  "tokens_out": 98,
+  "fallback": null,
+  "latency_ms": 400.6
+ },
+ "Q018": {
+  "reply": "Velvet Hangers, Pack of 20 will keep shirts, dresses and trousers from slipping while organizing your closet.",
+  "picks": [
+   "ORG-020"
+  ],
+  "whys": [
+   "uses include hanging shirts, keeping dresses from slipping, organizing coats and storing trousers"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-020",
+   "ORG-019",
+   "ORG-036",
+   "ORG-018",
+   "ORG-010",
+   "ORG-007"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 781,
+  "tokens_out": 94,
+  "fallback": null,
+  "latency_ms": 529.7
+ },
+ "Q020": {
+  "reply": "The Corner Shower Caddy, 2 Tiers, Adhesive fits your need for a corner shower organizer.",
+  "picks": [
+   "ORG-023"
+  ],
+  "whys": [
+   "It holds shampoo bottles, soap and razors in a corner without drilling"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-023",
+   "ORG-024",
+   "ORG-002",
+   "FUR-029",
+   "ORG-001",
+   "ORG-035"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 802,
+  "tokens_out": 92,
+  "fallback": null,
+  "latency_ms": 307.1
+ },
+ "Q022": {
+  "reply": "We don’t have any in‑stock bookcases right now. Try searching for “shelf unit” or “wall shelves”.",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-044",
+   "FUR-014",
+   "FUR-029",
+   "FUR-041",
+   "FUR-023",
+   "FUR-030"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 800,
+  "tokens_out": 174,
+  "fallback": null,
+  "latency_ms": 58659.5
+ },
+ "Q023": {
+  "reply": "The TV Console (140 cm, 2 doors) holds up to a 60‑inch TV and provides storage for media devices and cables.",
+  "picks": [
+   "FUR-015"
+  ],
+  "whys": [
+   "holds a TV up to 60‑inch and stores media devices"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-015",
+   "FUR-038",
+   "FUR-044",
+   "FUR-024",
+   "FUR-043",
+   "FUR-023"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 814,
+  "tokens_out": 103,
+  "fallback": null,
+  "latency_ms": 504.4
+ },
+ "Q024": {
+  "reply": "The Bedside Table with 2 Drawers matches your request.",
+  "picks": [
+   "FUR-022"
+  ],
+  "whys": [
+   "It has exactly two drawers for bedside storage."
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-022",
+   "FUR-023",
+   "FUR-024",
+   "FUR-006",
+   "FUR-010",
+   "FUR-009"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 817,
+  "tokens_out": 84,
+  "fallback": null,
+  "latency_ms": 380.7
+ },
+ "Q025": {
+  "reply": "You could use the 3‑Piece Stainless Steel Egg Separator Set for sturdy, dishwasher‑safe separation, or the Silicone Egg Yolk Separator for easy cleanup and flexible use. Both are designed for separating whites from yolks.",
+  "picks": [
+   "KIT-001"
+  ],
+  "whys": [
+   "Stainless steel set separates whites for meringues and low‑fat recipes"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-001",
+   "KIT-002",
+   "ORG-015",
+   "KIT-053",
+   "KIT-008",
+   "KIT-013"
+  ],
+  "dropped_ids": [
+   "KIT‑002"
+  ],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 810,
+  "tokens_out": 138,
+  "fallback": null,
+  "latency_ms": 516.5
+ },
+ "Q028": {
+  "reply": "Try the Flexible Plastic Bowl Scraper, Set of 2 – it’s designed for removing dough from containers and work surfaces.",
+  "picks": [
+   "KIT-008"
+  ],
+  "whys": [
+   "suitable for scraping dough off the counter"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-007",
+   "KIT-008",
+   "ORG-034",
+   "KIT-033",
+   "KIT-002",
+   "KIT-050"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 814,
+  "tokens_out": 143,
+  "fallback": null,
+  "latency_ms": 487.7
+ },
+ "Q029": {
+  "reply": "A salad spinner will dry your lettuce quickly after washing.",
+  "picks": [
+   "KIT-009",
+   "KIT-010"
+  ],
+  "whys": [
+   "5 L capacity and push‑pump mechanism removes excess water from salad greens",
+   "Side crank handle works for drying small batches of lettuce"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-009",
+   "KIT-010",
+   "ORG-034",
+   "KIT-040",
+   "ORG-033",
+   "KIT-039"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 794,
+  "tokens_out": 129,
+  "fallback": null,
+  "latency_ms": 523.5
+ },
+ "Q031": {
+  "reply": "The Fine Mesh Conical Strainer will sieve out lumps from your sauce.",
+  "picks": [
+   "KIT-013"
+  ],
+  "whys": [
+   "extra‑fine 20 cm mesh is made for sieving fine sauces"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-013",
+   "KIT-011",
+   "KIT-014",
+   "KIT-030",
+   "KIT-052",
+   "KIT-053"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 798,
+  "tokens_out": 108,
+  "fallback": null,
+  "latency_ms": 405.0
+ },
+ "Q032": {
+  "reply": "Try the Steel Chimta, Flat 14 inch—it lets you flip chapatis safely without touching the hot surface.",
+  "picks": [
+   "KIT-026"
+  ],
+  "whys": [
+   "designed for flipping chapati and turning fried items, keeping your fingers away from heat"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-026",
+   "KIT-027",
+   "KIT-017",
+   "KIT-015",
+   "KIT-044",
+   "KIT-046"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 798,
+  "tokens_out": 115,
+  "fallback": null,
+  "latency_ms": 58222.2
+ },
+ "Q033": {
+  "reply": "You can try the Marble Mortar and Pestle for grinding spices, or the Brass Hamam Dasta which also grinds masala well.",
+  "picks": [
+   "KIT-028",
+   "KIT-029"
+  ],
+  "whys": [
+   "grind whole spices",
+   "grind masala"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-028",
+   "KIT-029",
+   "KIT-023",
+   "KIT-024",
+   "KIT-025",
+   "KIT-006"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 795,
+  "tokens_out": 130,
+  "fallback": null,
+  "latency_ms": 492.8
+ },
+ "Q034": {
+  "reply": "The Fine Rasp Grater with Soft Grip can zest lemons for your baking needs.",
+  "picks": [
+   "KIT-030"
+  ],
+  "whys": [
+   "listed uses include making zest"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-030",
+   "KIT-041",
+   "KIT-007",
+   "KIT-008",
+   "KIT-001",
+   "KIT-002"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 792,
+  "tokens_out": 97,
+  "fallback": null,
+  "latency_ms": 554.1
+ },
+ "Q035": {
+  "reply": "You could try the Under‑Cabinet Jar Opener, Adjustable—it’s designed for tight jar lids. Another option is the Rubber Grip Lid Opener Pads, which give extra grip for stubborn lids.",
+  "picks": [
+   "KIT-032",
+   "KIT-033"
+  ],
+  "whys": [
+   "adjustable opener for tight jar lids",
+   "silicone pads improve grip on stuck lids"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-033",
+   "KIT-032",
+   "ORG-032",
+   "TOL-016",
+   "ORG-021",
+   "TOL-017"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 784,
+  "tokens_out": 160,
+  "fallback": null,
+  "latency_ms": 628.0
+ },
+ "Q037": {
+  "reply": "The 5‑Blade Herb Scissors cut fresh coriander quickly and also handle garlic and chives.",
+  "picks": [
+   "KIT-039"
+  ],
+  "whys": [
+   "cuts fresh herbs quickly with 5 stainless steel blades"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-039",
+   "KIT-056",
+   "KIT-057",
+   "KIT-003",
+   "KIT-004",
+   "KIT-048"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 780,
+  "tokens_out": 96,
+  "fallback": null,
+  "latency_ms": 689.2
+ },
+ "Q039": {
+  "reply": "The Splatter Guard Screen stops oil from splashing while frying.",
+  "picks": [
+   "KIT-049"
+  ],
+  "whys": [
+   "prevents oil splatter while frying"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-049",
+   "KIT-053",
+   "KIT-035",
+   "KIT-034",
+   "KIT-011",
+   "KIT-038"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 787,
+  "tokens_out": 102,
+  "fallback": null,
+  "latency_ms": 420.7
+ },
+ "Q040": {
+  "reply": "You can use the Electric Hand Mixer to whip the cream quickly, and the Compact Hand Mixer works for smaller amounts.",
+  "picks": [
+   "KIT-054",
+   "KIT-055"
+  ],
+  "whys": [
+   "5 speeds and 250 W handle larger batches easily",
+   "150 W and 3 speeds suitable for small amounts"
+  ],
+  "no_match": false,
+  "search_no_close_match": true,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-054",
+   "KIT-008",
+   "KIT-055",
+   "KIT-035",
+   "KIT-007",
+   "KIT-025"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 824,
+  "tokens_out": 142,
+  "fallback": null,
+  "latency_ms": 498.8
+ },
+ "Q042": {
+  "reply": "A magnetic torpedo level will let you quickly check if the frame is straight, and an aluminium spirit level works too if you need a longer tool.",
+  "picks": [
+   "TOL-003",
+   "TOL-002"
+  ],
+  "whys": [
+   "magnetic base and 9‑inch size for easy picture‑frame leveling",
+   "longer 24‑inch level for checking larger surfaces"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-003",
+   "TOL-002",
+   "TOL-036",
+   "TOL-001",
+   "TOL-042",
+   "ORG-025"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 794,
+  "tokens_out": 158,
+  "fallback": null,
+  "latency_ms": 57836.4
+ },
+ "Q043": {
+  "reply": "The Precision Screwdriver Set works well for tiny phone screws.",
+  "picks": [
+   "TOL-006"
+  ],
+  "whys": [
+   "includes many tiny bits like Pentalobe and Tri‑wing for phone repairs"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-006",
+   "TOL-007",
+   "TOL-039",
+   "TOL-036",
+   "TOL-004",
+   "TOL-020"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 806,
+  "tokens_out": 96,
+  "fallback": null,
+  "latency_ms": 470.5
+ },
+ "Q045": {
+  "reply": "A Heavy-Duty Caulking Gun can help you seal the bathtub gap with silicone.",
+  "picks": [
+   "TOL-014"
+  ],
+  "whys": [
+   "It’s used for applying silicone in bathrooms to seal gaps."
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-014",
+   "TOL-041",
+   "TOL-042",
+   "TOL-017",
+   "KIT-033",
+   "TOL-023"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 797,
+  "tokens_out": 84,
+  "fallback": null,
+  "latency_ms": 416.2
+ },
+ "Q046": {
+  "reply": "The Extension Board with Surge Protector will safeguard your TV and fridge from voltage spikes while giving extra sockets.",
+  "picks": [
+   "TOL-028"
+  ],
+  "whys": [
+   "protects electronics from power spikes and adds multiple outlets"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-028",
+   "ORG-011",
+   "TOL-009",
+   "TOL-008",
+   "TOL-026",
+   "TOL-027"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 831,
+  "tokens_out": 90,
+  "fallback": null,
+  "latency_ms": 366.2
+ },
+ "Q047": {
+  "reply": "The Quick‑Grip Bar Clamps hold wood pieces securely while the glue sets.",
+  "picks": [
+   "TOL-032"
+  ],
+  "whys": [
+   "designed for holding wood pieces while gluing"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-032",
+   "ORG-012",
+   "TOL-013",
+   "TOL-042",
+   "TOL-023",
+   "TOL-043"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 818,
+  "tokens_out": 93,
+  "fallback": null,
+  "latency_ms": 474.0
+ },
+ "Q049": {
+  "reply": "Use PTFE Thread Seal Tape to stop the leak; it seals pipe threads effectively. A pipe wrench can help tighten the joint if needed.",
+  "picks": [
+   "TOL-041",
+   "TOL-015"
+  ],
+  "whys": [
+   "seals pipe threads to prevent leaks",
+   "tightens pipe fittings for a secure connection"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-041",
+   "TOL-015",
+   "TOL-014",
+   "TOL-031",
+   "TOL-018",
+   "TOL-016"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 782,
+  "tokens_out": 111,
+  "fallback": null,
+  "latency_ms": 474.5
+ },
+ "Q051": {
+  "reply": "The Hanging Jewellery Organizer stores necklaces and keeps earrings sorted, preventing tangles.",
+  "picks": [
+   "ORG-018"
+  ],
+  "whys": [
+   "stores necklaces and keeps earrings sorted"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-018",
+   "ORG-004",
+   "ORG-020",
+   "ORG-036",
+   "ORG-019",
+   "ORG-037"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 778,
+  "tokens_out": 97,
+  "fallback": null,
+  "latency_ms": 448.7
+ },
+ "Q052": {
+  "reply": "The Weekly Pill Organizer, 7 Days x 2 can help you sort daily doses and keep morning and evening pills separate.",
+  "picks": [
+   "ORG-045"
+  ],
+  "whys": [
+   "has 14 compartments for AM/PM dosing each day"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-045",
+   "ORG-044",
+   "ORG-004",
+   "KIT-033",
+   "ORG-042",
+   "ORG-015"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 805,
+  "tokens_out": 86,
+  "fallback": null,
+  "latency_ms": 58338.8
+ },
+ "Q054": {
+  "reply": "The Wooden Folding Rehal can hold the Quran while you read.",
+  "picks": [
+   "FUR-036"
+  ],
+  "whys": [
+   "It’s a prayer stand suitable for displaying books like the Quran"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-036",
+   "FUR-032",
+   "FUR-019",
+   "ORG-030",
+   "FUR-020",
+   "FUR-014"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 802,
+  "tokens_out": 78,
+  "fallback": null,
+  "latency_ms": 409.8
+ },
+ "Q055": {
+  "reply": "A Monitor Riser Stand with Drawer will raise your screen to eye level and free up desk space.",
+  "picks": [
+   "FUR-034"
+  ],
+  "whys": [
+   "Raises monitor to eye level"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-034",
+   "FUR-033",
+   "FUR-020",
+   "FUR-037",
+   "FUR-012",
+   "FUR-019"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 817,
+  "tokens_out": 68,
+  "fallback": null,
+  "latency_ms": 861.8
+ },
+ "Q056": {
+  "reply": "A Laptop Bed Table with Foldable Legs lets you work comfortably in bed, and its size fits well for a laptop. The Adjustable Laptop Table with Tilting Top also offers height flexibility and a tilting surface for better viewing. Both are in stock and affordable.",
+  "picks": [
+   "FUR-019",
+   "FUR-020"
+  ],
+  "whys": [
+   "Foldable legs make it easy to use on a bed",
+   "Adjustable height and tilting top improve comfort while in bed"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-019",
+   "FUR-020",
+   "FUR-033",
+   "FUR-011",
+   "FUR-037",
+   "FUR-034"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 813,
+  "tokens_out": 150,
+  "fallback": null,
+  "latency_ms": 720.4
+ },
+ "Q057": {
+  "reply": "I’m sorry, none of the available items can keep your rotis warm until everyone sits down. Try searching for “insulated food container” or “thermal roti box”.",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-044",
+   "KIT-046",
+   "KIT-015",
+   "KIT-017",
+   "KIT-026",
+   "KIT-043"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 814,
+  "tokens_out": 132,
+  "fallback": null,
+  "latency_ms": 646.3
+ },
+ "Q059": {
+  "reply": "Try the Glass Boil‑Over Preventer Disc to stop milk from spilling over while heating, and the Splatter Guard Screen can also catch any overflow.",
+  "picks": [
+   "KIT-053",
+   "KIT-049"
+  ],
+  "whys": [
+   "prevents boil‑over and keeps stovetop clean",
+   "catches splatter and overflow while cooking"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-053",
+   "KIT-049",
+   "KIT-051",
+   "KIT-001",
+   "KIT-025",
+   "KIT-011"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 814,
+  "tokens_out": 143,
+  "fallback": null,
+  "latency_ms": 510.7
+ },
+ "Q060": {
+  "reply": "Try the Plastic Drawer Organizer Trays for mixed small items, the Foldable Drawer Organizer for many tiny pieces, or the Mesh Desk Organizer for a sturdy metal option.",
+  "picks": [
+   "ORG-004",
+   "ORG-043",
+   "ORG-029"
+  ],
+  "whys": [
+   "8 mixed‑size trays sort small kitchen tools, office stationery, and jewelry",
+   "24 fabric cells handle socks, underwear, cutlery and other tiny items",
+   "Steel mesh compartments keep pens, clips and small tools neatly separated"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-004",
+   "ORG-043",
+   "ORG-029",
+   "ORG-017",
+   "ORG-003",
+   "ORG-022"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 801,
+  "tokens_out": 212,
+  "fallback": null,
+  "latency_ms": 846.4
+ },
+ "Q061": {
+  "reply": "You can use Adhesive Cable Clips to attach and bundle the cables behind the TV, or Nylon Cable Ties to tie them neatly together.",
+  "picks": [
+   "ORG-012",
+   "TOL-043"
+  ],
+  "whys": [
+   "clips stick to the back of the monitor and hold multiple cables",
+   "ties bundle wires securely and are inexpensive"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-012",
+   "ORG-011",
+   "TOL-043",
+   "FUR-015",
+   "ORG-042",
+   "ORG-019"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 827,
+  "tokens_out": 117,
+  "fallback": null,
+  "latency_ms": 56889.6
+ },
+ "Q062": {
+  "reply": "A Wall Key Holder with Mail Shelf will give you dedicated hooks for keys and a slot for mail, keeping them in one spot.",
+  "picks": [
+   "ORG-025"
+  ],
+  "whys": [
+   "has 5 hooks for keys and a shelf to keep entryway tidy"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-025",
+   "ORG-010",
+   "FUR-025",
+   "FUR-038",
+   "ORG-042",
+   "ORG-021"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 771,
+  "tokens_out": 85,
+  "fallback": null,
+  "latency_ms": 505.0
+ },
+ "Q063": {
+  "reply": "The Ergonomic Mesh Office Chair offers adjustable lumbar support for long computer sessions. The Under‑Desk Footrest helps improve posture and reduce leg fatigue while you work.",
+  "picks": [
+   "FUR-012",
+   "FUR-037"
+  ],
+  "whys": [
+   "adjustable lumbar support for back comfort",
+   "helps improve posture and reduce fatigue"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-012",
+   "FUR-033",
+   "FUR-037",
+   "FUR-013",
+   "FUR-020",
+   "FUR-034"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 820,
+  "tokens_out": 139,
+  "fallback": null,
+  "latency_ms": 481.0
+ },
+ "Q064": {
+  "reply": "A foldable prayer chair with backrest will help her sit comfortably while praying. A floor cushion gaddi set also works if she prefers floor seating.",
+  "picks": [
+   "FUR-032",
+   "FUR-035"
+  ],
+  "whys": [
+   "provides back support for sitting during prayer",
+   "offers a cushioned floor seat for prayer"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-032",
+   "FUR-035",
+   "FUR-001",
+   "FUR-013",
+   "FUR-028",
+   "FUR-002"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 808,
+  "tokens_out": 127,
+  "fallback": null,
+  "latency_ms": 1580.0
+ },
+ "Q066": {
+  "reply": "Try a Drain Auger to reach deep clogs, or a Rubber Cup Plunger for quick surface blockages.",
+  "picks": [
+   "TOL-018",
+   "TOL-016"
+  ],
+  "whys": [
+   "clears kitchen sink clogs with a 5 m steel cable",
+   "removes minor pipe blockages in sink drains"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-018",
+   "TOL-016",
+   "ORG-001",
+   "ORG-002",
+   "TOL-017",
+   "ORG-034"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 803,
+  "tokens_out": 133,
+  "fallback": null,
+  "latency_ms": 638.1
+ },
+ "Q067": {
+  "reply": "You could use the Sofa Cum Bed, which turns into a guest bed; the Metal Bunk Bed gives two sleeping spots while saving floor space; or the Woven Rope Charpai, which works as a simple guest sleeping area.",
+  "picks": [
+   "FUR-021",
+   "FUR-042",
+   "FUR-003"
+  ],
+  "whys": [
+   "turns into a guest bed",
+   "provides two sleeping spots and saves floor space",
+   "can be used as a guest sleeping area"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-021",
+   "FUR-042",
+   "FUR-003",
+   "FUR-018",
+   "FUR-035",
+   "FUR-016"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 819,
+  "tokens_out": 190,
+  "fallback": null,
+  "latency_ms": 963.2
+ },
+ "Q069": {
+  "reply": "A wall‑mounted plastic bag holder can keep your zip‑lock and freezer bags organized and free up drawer space.",
+  "picks": [
+   "ORG-035"
+  ],
+  "whys": [
+   "stores zip‑lock bags and keeps them easily reachable"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-035",
+   "ORG-014",
+   "ORG-004",
+   "ORG-002",
+   "ORG-016",
+   "ORG-008"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 791,
+  "tokens_out": 105,
+  "fallback": null,
+  "latency_ms": 520.4
+ },
+ "Q072": {
+  "reply": "A metal bunk bed gives two sleeping spots while freeing floor space, fitting a small kids' room.",
+  "picks": [
+   "FUR-042"
+  ],
+  "whys": [
+   "Saving floor space and providing two beds in one unit"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-042",
+   "FUR-040",
+   "FUR-011",
+   "ORG-017",
+   "ORG-016",
+   "FUR-010"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 822,
+  "tokens_out": 89,
+  "fallback": null,
+  "latency_ms": 56331.2
+ },
+ "Q074": {
+  "reply": "The Mini Pressure Cooker, 3 Litre fits your budget and cooks small portions quickly.",
+  "picks": [
+   "KIT-022"
+  ],
+  "whys": [
+   "price Rs 4,350 and suitable for quick small‑portion cooking"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-022",
+   "KIT-053",
+   "KIT-043",
+   "KIT-005",
+   "KIT-006",
+   "KIT-019"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 809,
+  "tokens_out": 84,
+  "fallback": null,
+  "latency_ms": 279.1
+ },
+ "Q075": {
+  "reply": "The Granite‑Coated Flat Tawa, 12 inch, works for chapati, kebabs, paratha and more and is in stock.",
+  "picks": [
+   "KIT-017"
+  ],
+  "whys": [
+   "Granite‑coated flat tawa suitable for chapati, kebabs, paratha"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-017",
+   "KIT-018",
+   "KIT-019",
+   "KIT-026",
+   "KIT-046",
+   "KIT-029"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 792,
+  "tokens_out": 111,
+  "fallback": null,
+  "latency_ms": 697.6
+ },
+ "Q077": {
+  "reply": "The 3‑Stage Manual Knife Sharpener fits your budget and sharpens kitchen knives.",
+  "picks": [
+   "KIT-058"
+  ],
+  "whys": [
+   "Sharpens kitchen knives with diamond, ceramic, and tungsten stages"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-058",
+   "KIT-039",
+   "KIT-006",
+   "KIT-007",
+   "KIT-031",
+   "KIT-048"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 779,
+  "tokens_out": 82,
+  "fallback": null,
+  "latency_ms": 1330.3
+ },
+ "Q079": {
+  "reply": "The Wall‑Mounted Retractable Clothesline fits your balcony drying need and is under Rs 2,500.",
+  "picks": [
+   "ORG-040"
+  ],
+  "whys": [
+   "Provides 4 lines up to 4 m for outdoor drying while saving space"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-040",
+   "ORG-020",
+   "ORG-036",
+   "ORG-041",
+   "ORG-019",
+   "ORG-034"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 819,
+  "tokens_out": 87,
+  "fallback": null,
+  "latency_ms": 550.2
+ },
+ "Q080": {
+  "reply": "Aap ke liye Digital Kitchen Scale, 5 kg / 1 g sahi rahegi.",
+  "picks": [
+   "KIT-036"
+  ],
+  "whys": [
+   "5 kg tak weigh kar sakti hai aur 1 g ki accuracy hai, aur Rs 1,650 mein hai"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-036",
+   "KIT-038",
+   "KIT-051",
+   "KIT-007",
+   "ORG-038",
+   "ORG-005"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 844,
+  "tokens_out": 101,
+  "fallback": null,
+  "latency_ms": 1114.9
+ },
+ "Q082": {
+  "reply": "Here are some options under Rs 10,000:",
+  "picks": [
+   "FUR-011",
+   "FUR-020"
+  ],
+  "whys": [
+   "Wall‑mounted fold‑down desk saves space and provides a study surface.",
+   "Adjustable height and tilting top make it comfortable for studying on a couch or floor."
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-011",
+   "FUR-019",
+   "FUR-020",
+   "FUR-022",
+   "FUR-040",
+   "ORG-029"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 810,
+  "tokens_out": 184,
+  "fallback": null,
+  "latency_ms": 682.4
+ },
+ "Q083": {
+  "reply": "Here are some options for storing winter blankets within your budget:",
+  "picks": [
+   "ORG-008",
+   "ORG-016",
+   "ORG-019"
+  ],
+  "whys": [
+   "Jumbo vacuum bags compress quilts and blankets to save space",
+   "Under‑bed storage bags keep extra bedding hidden and organized",
+   "Hanging closet shelves provide easy access for folded blankets"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-016",
+   "ORG-008",
+   "ORG-019",
+   "ORG-020",
+   "ORG-041",
+   "ORG-035"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 801,
+  "tokens_out": 175,
+  "fallback": null,
+  "latency_ms": 56363.0
+ },
+ "Q084": {
+  "reply": "The Marble Mortar and Pestle fits your budget and is in stock.",
+  "picks": [
+   "KIT-028"
+  ],
+  "whys": [
+   "It grinds spices, makes pastes and crushes herbs, and costs Rs 1,950."
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-028",
+   "KIT-006",
+   "KIT-059",
+   "KIT-025",
+   "KIT-005",
+   "KIT-051"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 828,
+  "tokens_out": 89,
+  "fallback": null,
+  "latency_ms": 543.2
+ },
+ "Q085": {
+  "reply": "Aap ke liye ye saste aur kaam ke options hain:",
+  "picks": [
+   "KIT-023",
+   "ORG-013",
+   "ORG-032"
+  ],
+  "whys": [
+   "7 stainless steel bowls aur spoon se masale organise kar sakte hain",
+   "3 tier wall‑mounted rack se countertop khali hota hai aur masale asani se milte hain",
+   "3 glass jars with bamboo lids se masale fresh aur dikhne mein achhe lagte hain"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-023",
+   "ORG-013",
+   "ORG-006",
+   "ORG-032",
+   "KIT-028",
+   "ORG-038"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 829,
+  "tokens_out": 157,
+  "fallback": null,
+  "latency_ms": 495.1
+ },
+ "Q086": {
+  "reply": "Aap ke liye Adjustable Mandoline behtar hai, kyun ke ye patle patle pyaz aur sabziyan slice kar sakta hai.",
+  "picks": [
+   "KIT-003"
+  ],
+  "whys": [
+   "5 thickness settings aur julienne insert se pyaz barik katne mein asani"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-003",
+   "KIT-056",
+   "KIT-047",
+   "KIT-057",
+   "KIT-004",
+   "KIT-040"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 801,
+  "tokens_out": 164,
+  "fallback": null,
+  "latency_ms": 1912.8
+ },
+ "Q088": {
+  "reply": "Aap ke liye koi matching product nahi mil raha. Shayd \"insulated roti box\" ya \"roti warmer\" try karein.",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-044",
+   "KIT-043",
+   "KIT-023",
+   "ORG-031",
+   "KIT-046",
+   "KIT-024"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 851,
+  "tokens_out": 142,
+  "fallback": null,
+  "latency_ms": 930.1
+ },
+ "Q089": {
+  "reply": "Aap ke liye Wooden Hand Churner (Madhani) behtar hai, kyun ke ye lassi aur dahi ghar par banane ke liye istemal hoti hai.",
+  "picks": [
+   "KIT-025"
+  ],
+  "whys": [
+   "hand‑churn se fresh lassi banane mein madad karti hai"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-025",
+   "KIT-029",
+   "KIT-006",
+   "KIT-028",
+   "KIT-023",
+   "FUR-035"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 820,
+  "tokens_out": 117,
+  "fallback": null,
+  "latency_ms": 500.5
+ },
+ "Q092": {
+  "reply": "Namaz ke liye Foldable Prayer Chair aur Floor Cushion Gaddi Set dono munasib hain.",
+  "picks": [
+   "FUR-032",
+   "FUR-035"
+  ],
+  "whys": [
+   "Backrest aur padded seat se lambi namaz mein rahat milti hai",
+   "Floor cushion se zameen par seedha baith kar namaz ada ki ja sakti hai"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-032",
+   "FUR-002",
+   "FUR-035",
+   "FUR-036",
+   "FUR-013",
+   "FUR-012"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 821,
+  "tokens_out": 159,
+  "fallback": null,
+  "latency_ms": 56885.9
+ },
+ "Q094": {
+  "reply": "Aap ke liye ye shoe rack munasib hain:",
+  "picks": [
+   "ORG-026",
+   "ORG-027",
+   "ORG-009"
+  ],
+  "whys": [
+   "4 tiers se 12 joote rakh sakte hain aur floor space bachata hai",
+   "Bamboo ka natural look aur 2 tiers se 6 joote organize karte hain",
+   "24 pockets ke saath over-the-door lagta hai, floor space bilkul bachata"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-026",
+   "ORG-027",
+   "ORG-009",
+   "FUR-043",
+   "FUR-009",
+   "FUR-025"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 833,
+  "tokens_out": 174,
+  "fallback": null,
+  "latency_ms": 792.3
+ },
+ "Q095": {
+  "reply": "Aap ke liye Steel Step Ladder, 3 Steps, Foldable sahi rahega, kyunke ye chhat ke pankhe tak asani se pohanchne mein madad karta hai.",
+  "picks": [
+   "TOL-025"
+  ],
+  "whys": [
+   "3 steps aur foldable design se chhat tak pohanchna asaan"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-024",
+   "TOL-025",
+   "FUR-028",
+   "TOL-018",
+   "TOL-016",
+   "ORG-039"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "roman_urdu",
+  "language_retry": false,
+  "tokens_in": 832,
+  "tokens_out": 131,
+  "fallback": null,
+  "latency_ms": 518.5
+ },
+ "Q096": {
+  "reply": "پیاز کٹنے کے لیے Pull‑String Manual Chopper مناسب ہے۔",
+  "picks": [
+   "KIT-056",
+   "KIT-057"
+  ],
+  "whys": [
+   "500 ml کی گنجائش اور 3 سٹینلیس سٹیل بلیڈز سے چھوٹے مقدار میں سبزیاں جیسے پیاز آسانی سے کٹتے ہیں",
+   "900 ml کی گنجائش اور 5 بلیڈز سے بڑی مقدار میں پیاز اور دیگر سبزیاں جلدی کٹتی ہیں"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-056",
+   "KIT-057",
+   "KIT-048",
+   "KIT-003",
+   "KIT-039",
+   "KIT-040"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "urdu_script",
+  "language_retry": false,
+  "tokens_in": 783,
+  "tokens_out": 194,
+  "fallback": null,
+  "latency_ms": 1533.5
+ },
+ "Q097": {
+  "reply": "یہ گلاس بوائل‑اوور پریوینٹر ڈسک دودھ کے اوپر ابلنے سے روکنے میں مدد دیتی ہے۔",
+  "picks": [
+   "KIT-053"
+  ],
+  "whys": [
+   "دودھ اور چاول کے بوائل‑اوور کو روکنے کے لیے ڈیزائن کیا گیا"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-053",
+   "KIT-025",
+   "KIT-028",
+   "KIT-049",
+   "KIT-006",
+   "KIT-013"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "urdu_script",
+  "language_retry": false,
+  "tokens_in": 801,
+  "tokens_out": 103,
+  "fallback": null,
+  "latency_ms": 340.0
+ },
+ "Q098": {
+  "reply": "یہ لکڑی کا فولڈنگ رہل قرآن رکھنے اور پڑھنے کے لیے موزوں ہے۔",
+  "picks": [
+   "FUR-036"
+  ],
+  "whys": [
+   "prayer stand اور کتابوں کی نمائش کے لیے استعمال"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-036",
+   "FUR-025",
+   "ORG-046",
+   "FUR-027",
+   "FUR-014",
+   "ORG-030"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "urdu_script",
+  "language_retry": false,
+  "tokens_in": 780,
+  "tokens_out": 99,
+  "fallback": null,
+  "latency_ms": 407.0
+ },
+ "Q099": {
+  "reply": "The Egg Holder Drawer fits inside your fridge and keeps eggs organized and safe.",
+  "picks": [
+   "ORG-015"
+  ],
+  "whys": [
+   "stores eggs safely and saves shelf space"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-014",
+   "ORG-015",
+   "ORG-009",
+   "KIT-023",
+   "KIT-042",
+   "ORG-005"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 799,
+  "tokens_out": 112,
+  "fallback": null,
+  "latency_ms": 387.7
+ },
+ "Q100": {
+  "reply": "We don’t have a split air conditioner in our list. Try searching for \"air conditioner\" or \"cooling\".",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": true,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-024",
+   "FUR-026",
+   "FUR-042",
+   "FUR-044",
+   "ORG-039",
+   "KIT-044"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 818,
+  "tokens_out": 70,
+  "fallback": null,
+  "latency_ms": 56816.7
+ },
+ "Q102": {
+  "reply": "Sorry, none of our listed items are prayer mats. Try searching for \"prayer mat\" or \"sajjadah\".",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-032",
+   "FUR-035",
+   "FUR-036",
+   "KIT-050",
+   "FUR-003",
+   "FUR-018"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 803,
+  "tokens_out": 69,
+  "fallback": null,
+  "latency_ms": 353.5
+ },
+ "Q103": {
+  "reply": "Sorry, we don’t have a mosquito net in our current list. Try searching for \"mosquito net\" or \"bed net\".",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-042",
+   "FUR-003",
+   "ORG-016",
+   "FUR-008",
+   "ORG-040",
+   "FUR-023"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 826,
+  "tokens_out": 62,
+  "fallback": null,
+  "latency_ms": 1050.0
+ },
+ "Q104": {
+  "reply": "We don’t have a gas heater in our catalog. Try searching for \"heater\" or \"warmers\".",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": true,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-027",
+   "FUR-035",
+   "TOL-026",
+   "FUR-025",
+   "TOL-029",
+   "FUR-002"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 811,
+  "tokens_out": 58,
+  "fallback": null,
+  "latency_ms": 1414.3
+ },
+ "Q106": {
+  "reply": "Sorry, we don’t have a laptop bag in the current list. Try searching for \"laptop sleeve\" or \"laptop case\".",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": true,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-007",
+   "FUR-008",
+   "FUR-020",
+   "FUR-019",
+   "ORG-041",
+   "ORG-035"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 818,
+  "tokens_out": 73,
+  "fallback": null,
+  "latency_ms": 560.2
+ },
+ "Q107": {
+  "reply": "I’m sorry, none of the listed items are suitable for scanning documents. Try searching for \"document scanner\" or \"flatbed scanner\".",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "TOL-001",
+   "TOL-012",
+   "ORG-030",
+   "FUR-034",
+   "ORG-029",
+   "KIT-037"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 816,
+  "tokens_out": 77,
+  "fallback": null,
+  "latency_ms": 1165.1
+ },
+ "Q108": {
+  "reply": "We don’t have hair curling tongs in our catalog. Try searching for “curling iron” or “hair styling tools”.",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "KIT-027",
+   "KIT-026",
+   "TOL-021",
+   "TOL-038",
+   "KIT-039",
+   "KIT-040"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 773,
+  "tokens_out": 64,
+  "fallback": null,
+  "latency_ms": 279.5
+ },
+ "Q109": {
+  "reply": "Sorry, none of the listed items match an office chair under Rs 10,000. Try searching with terms like “office chair” or “desk chair”.",
+  "picks": [],
+  "whys": [],
+  "no_match": true,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-018",
+   "FUR-007",
+   "FUR-037",
+   "FUR-004",
+   "FUR-032",
+   "FUR-005"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 790,
+  "tokens_out": 109,
+  "fallback": null,
+  "latency_ms": 56136.5
+ },
+ "Q112": {
+  "reply": "The Foldable Drawer Organizer with 24 cells can separate your clothes like socks and underwear in the drawer.",
+  "picks": [
+   "ORG-043"
+  ],
+  "whys": [
+   "24 cells are designed for sorting socks and underwear"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "ORG-043",
+   "ORG-004",
+   "ORG-003",
+   "ORG-022",
+   "ORG-029",
+   "ORG-017"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 799,
+  "tokens_out": 130,
+  "fallback": null,
+  "latency_ms": 563.5
+ },
+ "Q114": {
+  "reply": "The Bean Bag Cover Only, Large will replace your worn cover or let you add a new breathable cover.",
+  "picks": [
+   "FUR-008"
+  ],
+  "whys": [
+   "fits a bean bag and is a replaceable cotton canvas cover"
+  ],
+  "no_match": false,
+  "search_no_close_match": false,
+  "mode": "semantic_definitions",
+  "candidates": [
+   "FUR-008",
+   "FUR-007",
+   "FUR-005",
+   "FUR-004",
+   "ORG-016",
+   "FUR-035"
+  ],
+  "dropped_ids": [],
+  "claim_flags": {},
+  "cleaned": [],
+  "language": "english",
+  "language_retry": false,
+  "tokens_in": 798,
+  "tokens_out": 88,
+  "fallback": null,
+  "latency_ms": 397.9
+ }
+}

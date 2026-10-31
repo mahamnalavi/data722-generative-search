@@ -1,0 +1,16 @@
+{
+ "search bar":{
+  "first result correct":1.0,
+  "a correct product among the first 3":1.0,
+  "correct 'no close match'":0.333,
+  "wrongly says 'no close match'":0.014,
+  "confidently wrong":0.076
+ },
+ "Ask Sahulat chat":{
+  "first result correct":0.957,
+  "a correct product among the first 3":0.957,
+  "correct 'no close match'":0.889,
+  "wrongly says 'no close match'":0.043,
+  "confidently wrong":0.013
+ }
+}

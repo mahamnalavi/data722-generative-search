@@ -1,0 +1,66 @@
+{
+ "Q022": {
+  "my_view": "agree",
+  "note": "Correct to suggest nothing: the store's only bookcase is out of stock, and the reply says so and suggests other words. The automatic score counts this as 'wrongly says no close match', which is unfair here"
+ },
+ "Q032": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q039": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q047": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q049": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q056": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q066": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q067": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q069": {
+  "my_view": "agree",
+  "note": "Right product, but the reason talks about zip-lock and freezer bags, not shopping bags. It comes from an error in this product's AI definition (the judge flagged that definition in section 7), so definition errors carry through into chat answers"
+ },
+ "Q077": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q083": {
+  "my_view": "agree",
+  "note": ""
+ },
+ "Q094": {
+  "my_view": "agree",
+  "note": "Roman Urdu question, Roman Urdu reply; all three capacities match the specs"
+ },
+ "Q103": {
+  "my_view": "agree",
+  "note": "Correctly said the store has no mosquito net"
+ },
+ "Q108": {
+  "my_view": "agree",
+  "note": "Correctly said the store has no hair curling tongs"
+ },
+ "Q109": {
+  "my_view": "agree",
+  "note": "Correctly said no office chair within budget"
+ },
+ "Q114": {
+  "my_view": "agree",
+  "note": ""
+ }
+}

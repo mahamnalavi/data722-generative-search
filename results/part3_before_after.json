@@ -1,0 +1,20 @@
+{
+ "first run": {
+  "first result correct (70 answerable)": "0.957",
+  "correct 'no close match' (9)": "0.889",
+  "wrongly says 'no close match'": "0.029",
+  "confidently wrong (79)": "0.025",
+  "answers with a claim word written by the model": "7",
+  "answers with a claim word shown to the shopper": "7",
+  "wrong reply language, same 16 questions": "4/16"
+ },
+ "second run (fixed)": {
+  "first result correct (70 answerable)": "0.957",
+  "correct 'no close match' (9)": "0.889",
+  "wrongly says 'no close match'": "0.043",
+  "confidently wrong (79)": "0.013",
+  "answers with a claim word written by the model": "0",
+  "answers with a claim word shown to the shopper": "0",
+  "wrong reply language, same 16 questions": "0/16"
+ }
+}

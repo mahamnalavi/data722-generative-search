@@ -1,0 +1,7 @@
+{
+ "avg_tokens_in": 805.6962025316456,
+ "avg_tokens_out": 115.44303797468355,
+ "median_latency_s": 0.5502,
+ "usd_per_1000_chat_turns": 0.19012025316455697,
+ "usd_per_1000_searches": 0.0018
+}
